@@ -2916,7 +2916,7 @@ aftercure.
 afterdate.
 afterdated.
 afterdeal.
-afterdeath.
+afterdeath!
 aftereffect.
 aftereffects.
 afterend.
@@ -41605,7 +41605,6 @@ deadheaded!
 deadheading.
 deadheadism.
 deadheads!
-deadhearted.
 deadhouse.
 deading.
 deadish.
@@ -48411,7 +48410,7 @@ dragsman.
 dragstaff.
 dragster.
 dragsters.
-drahthaar.
+drahthaar!
 drail.
 drailed.
 drailing.
@@ -57962,7 +57961,6 @@ fates.
 fathead.
 fatheaded.
 fatheads.
-fathearted.
 father.
 fathercraft.
 fathered.
@@ -58198,12 +58196,12 @@ feateous.
 feater.
 featest.
 feather.
-feathered.
+feathered!
 featherer.
 featherers.
 featherfew.
-featherhead.
-featherheaded.
+featherhead!
+featherheaded!
 featherier.
 featherleaf.
 featherlet.
@@ -62716,7 +62714,7 @@ freefd.
 freeform.
 freehand.
 freehanded.
-freehearted.
+freehearted!
 freehold.
 freeholder.
 freeing.
@@ -71651,7 +71649,7 @@ hardhandednesses.
 hardhat.
 hardhats.
 hardhead.
-hardheaded.
+hardheaded!
 hardheadedly.
 hardheadedness.
 hardheadednesses.
@@ -71702,7 +71700,7 @@ hared.
 hareem.
 hareems.
 harefoot.
-harehearted.
+harehearted!
 hareld.
 harelda.
 harelike.
@@ -130490,7 +130488,7 @@ redfoot.
 redhandedness.
 redhandednesses.
 redhead.
-redheaded.
+redheaded!
 redheadedly.
 redheadedness.
 redheadednesses.
@@ -130947,7 +130945,6 @@ refalls.
 refan.
 refasten.
 refastens.
-refathered.
 refavor.
 refect.
 refected.
