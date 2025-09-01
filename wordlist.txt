@@ -35995,7 +35995,6 @@ convenienced.
 conveniences!
 conveniencies!
 conveniency.
-conveniens.
 convenient.
 convening.
 convent.
@@ -36043,7 +36042,7 @@ convite.
 convito.
 convival.
 convive.
-convives.
+convives!
 convivial.
 convivio.
 convocant.
