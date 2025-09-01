@@ -29132,7 +29132,8 @@ cessible.
 cessing.
 cessio.
 cession.
-cessionee.
+cessionee!
+cessionees!
 cessions.
 cessment.
 cessor.
@@ -35360,6 +35361,7 @@ conepate.
 coner.
 cones.
 conessine.
+conessines!
 coney.
 coneys.
 confab.
@@ -35502,7 +35504,8 @@ conic.
 conical.
 conically.
 conicein.
-coniceine.
+coniceine!
+coniceines!
 conicine.
 conicities.
 conicity.
@@ -35680,6 +35683,7 @@ conscive.
 consecute.
 consence.
 consenescence!
+consenescences!
 consenescency.
 consension.
 consensus.
@@ -36174,8 +36178,8 @@ coonhounds.
 coonier.
 cooniest.
 coonily.
-cooniness.
-cooninesses.
+cooniness!
+cooninesses!
 coonjine.
 coonroot.
 coons.
@@ -55890,7 +55894,7 @@ evenminded.
 evenmindedness.
 evenmindednesses.
 evenness.
-evennesses.
+evennesses!
 evenoo.
 evens.
 evensong.
@@ -79650,7 +79654,7 @@ innkeepers.
 innless.
 innobedient.
 innocence.
-innocencies.
+innocencies!
 innocency.
 innocent.
 innocenter.
@@ -104039,6 +104043,7 @@ nervures.
 nervus.
 nervy.
 nescience.
+nesciences!
 nescient.
 nescients.
 nese.
@@ -106382,6 +106387,7 @@ nonsawing.
 nonscented.
 nonsciatic.
 nonscience.
+nonsciences!
 nonscientist.
 nonscoring.
 nonseasonable.
@@ -142423,7 +142429,9 @@ senecas.
 senecio.
 senecioid.
 senecionine.
+senecionines!
 senecios.
+senecioses!
 senectude.
 senectuous.
 senega.
@@ -146361,7 +146369,7 @@ sissinesses!
 sissing.
 sissone.
 sissonne.
-sissonnes.
+sissonnes!
 sissoo.
 sissu.
 sissy.
