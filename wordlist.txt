@@ -53258,7 +53258,6 @@ enrolled.
 enrollee.
 enrollees.
 enroller.
-enrollers.
 enrolles.
 enrolling.
 enrollment.
@@ -85013,7 +85012,6 @@ kerneled.
 kerneling.
 kernella.
 kernelled.
-kernelless.
 kernelling.
 kernelly.
 kernels.
@@ -86139,7 +86137,6 @@ knoit.
 knoll.
 knolled.
 knoller.
-knollers.
 knolling.
 knolls.
 knolly.
@@ -88921,7 +88918,7 @@ leering.
 leeringly.
 leerish.
 leerness.
-leernesses.
+leernesses!
 leeroway.
 leers.
 leersia.
@@ -91791,7 +91788,7 @@ loosened.
 loosener.
 looseners.
 looseness.
-loosenesses.
+loosenesses!
 loosening.
 loosens.
 looser.
@@ -105076,7 +105073,6 @@ noegenesis.
 noegenetic.
 noels.
 noemi.
-noerror.
 noesis.
 noesises.
 noetian.
@@ -106876,8 +106872,8 @@ noseherb.
 nosehole.
 noseless.
 noselessly.
-noselessness.
-noselessnesses.
+noselessness!
+noselessnesses!
 noselike.
 noselite.
 nosema.
@@ -109185,7 +109181,7 @@ onliness.
 onlinesses.
 onlook.
 onlooker.
-onlookers.
+onlookers!
 onlooking.
 onmarch.
 onmun.
@@ -110177,7 +110173,7 @@ oronasal.
 oronasally.
 oronoco.
 oronoko.
-oronooko.
+oronooko!
 orontium.
 orotinan.
 orotund.
@@ -147322,7 +147318,7 @@ sleeking.
 sleekit.
 sleekly.
 sleekness.
-sleeknesses.
+sleeknesses!
 sleeks.
 sleeky.
 sleep.
@@ -148729,8 +148725,8 @@ snores.
 snoring.
 snork.
 snorkel.
-snorkeler.
-snorkels.
+snorkeler!
+snorkels!
 snorker.
 snort.
 snorted.
