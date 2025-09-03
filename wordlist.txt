@@ -12086,8 +12086,7 @@ attentiveness.
 attentivenesses.
 attently.
 attenuable.
-attenuant.
-attenuate.
+attenuate!
 attenuated.
 attenuates.
 attenuating.
@@ -12200,7 +12199,7 @@ attry.
 attune.
 attuned.
 attunely.
-attunement.
+attunement!
 attunes.
 attuning.
 atturn.
@@ -12311,7 +12310,7 @@ augite.
 augites.
 augitic.
 augitite.
-augment.
+augment!
 augrim.
 augur.
 augural.
@@ -52799,7 +52798,7 @@ engagedly.
 engagedness.
 engagednesses.
 engagee.
-engagement.
+engagement!
 engagements.
 engager.
 engagers.
@@ -64561,7 +64560,6 @@ gamester.
 gamesters.
 gamestress.
 gametal.
-gametange.
 gametangia.
 gamete.
 gametes.
@@ -94061,7 +94059,7 @@ manageable.
 managed.
 managee.
 manageless.
-management.
+management!
 managemental.
 managements.
 manager.
@@ -95323,7 +95321,7 @@ matagasse.
 matagory.
 matai.
 matalan.
-matamata.
+matamata!
 matambala.
 matamoro.
 matanza.
@@ -96113,7 +96111,7 @@ megaera.
 megaerg.
 megafarad.
 megafog.
-megagamete.
+megagamete!
 megalaema.
 megalaemidae.
 megalania.
@@ -102229,7 +102227,7 @@ mutabilia.
 mutable.
 mutably.
 mutage.
-mutagen.
+mutagen!
 mutant.
 mutants.
 mutarotate.
@@ -107317,7 +107315,6 @@ nudniks.
 nudum.
 nudzh.
 nugae.
-nugament.
 nugator.
 nuggar.
 nugget.
@@ -160247,7 +160244,7 @@ tegmen.
 tegment.
 tegmenta.
 tegmental.
-tegmentum.
+tegmentum!
 tegmina.
 tegmine.
 tegua.
@@ -160261,9 +160258,7 @@ tegular.
 tegulated.
 tegumen.
 tegument.
-tegumenta.
 teguments.
-tegumentum.
 teguria.
 tegurium.
 tehee.
@@ -160741,7 +160736,6 @@ tenemented.
 tenementer.
 tenementize.
 tenements.
-tenementum.
 tenenda.
 tenendas.
 tenendum.
@@ -168111,7 +168105,6 @@ tutelary.
 tutele.
 tutelo.
 tutenag.
-tutenague.
 tuth.
 tutin.
 tutiorism.
@@ -171450,11 +171443,9 @@ unguarding.
 unguards.
 ungueal.
 unguent.
-unguenta.
 unguento.
 unguentous.
 unguents.
-unguentum.
 unguerdoned.
 ungues.
 unguessed.
@@ -172592,7 +172583,6 @@ unmusing.
 unmusked.
 unmussed.
 unmusted.
-unmutant.
 unmutated.
 unmutation.
 unmuted.
