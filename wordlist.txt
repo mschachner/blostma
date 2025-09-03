@@ -12311,6 +12311,7 @@ augites.
 augitic.
 augitite.
 augment!
+augmentee!
 augrim.
 augur.
 augural.
@@ -94220,7 +94221,7 @@ mangabey.
 mangaby.
 mangal.
 mangana.
-manganate.
+manganate!
 manganeisen.
 manganese.
 manganesian.
@@ -160257,7 +160258,7 @@ tegulae.
 tegular.
 tegulated.
 tegumen.
-tegument.
+tegument!
 teguments.
 teguria.
 tegurium.
@@ -160916,7 +160917,7 @@ tentless.
 tentlet.
 tentlike.
 tentmaker.
-tentmate.
+tentmate!
 tentor.
 tentoria.
 tentortoria.
