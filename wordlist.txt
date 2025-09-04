@@ -65495,7 +65495,8 @@ gemara.
 gemaric.
 gematria.
 gemauve.
-gemeinde.
+gemeinde!
+gemeinden!
 gemel.
 gemeled.
 gemelled.
@@ -77608,6 +77609,7 @@ imids.
 imine.
 imines.
 imino.
+imipenem!
 imipramine.
 imit.
 imitability.
@@ -95999,7 +96001,8 @@ medieval.
 medifixed.
 medii.
 medille.
-medimn.
+medimn!
+medimni!
 medimno.
 medimnos.
 medimnus.
