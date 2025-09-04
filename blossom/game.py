@@ -3,7 +3,7 @@ import subprocess
 from datetime import datetime
 
 from .utils import _tprint, condMsg, dispWord, getResponse, getResponseBy, sevenUniques
-from .wordlist import loadDict, updateWordlist
+from .wordlist import loadDict, searchWords, updateWordlist
 
 
 def scoreWord(bank, specialLetter, word):
@@ -75,7 +75,7 @@ def addGameScore(bank, score):
             if score == scoreRecord:
                 rank = i + 1
                 break
-        print(f"{'New high score!' if rank == 1 else f'Rank: {rank}'}")
+        print(f"{'New high score!' if rank == 1 else f'Rank: {rank}/{len(scores)}'}")
         f.seek(0)
         f.truncate()
         f.write(f"{highestWordScore[0]} {highestWordScore[1]} {highestWordScore[2]}\n")
@@ -199,7 +199,7 @@ def playBlossom(bank=None, fast=False):
             wordScore = scoreWord(bank, specialLetter, word)
             addWordScore(word, wordScore, specialLetter)
             score += wordScore
-            tprint(f"{condMsg(not dictionary[word], 'Great! ')}We scored {wordScore} {condMsg(i != 0, 'additional ')}points{condMsg(i > 0, f', for a total of {score} points.')}")
+            tprint(f"{condMsg(not dictionary[word], 'Great! ')}We scored {wordScore} {condMsg(i != 0, 'additional ')}points{condMsg(i > 0, f', for a total of {score} points')}.")
         tprint(
             f"\n🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸\n\nGame over! We scored {score} points."
         )
@@ -208,4 +208,6 @@ def playBlossom(bank=None, fast=False):
         bank = None
     updateWordlist(wordsToValidate, wordsToRemove)
     updateScores()
+    if getResponse("Go to search? (yes/no)", ["yes", "no"]) == "yes":
+        searchWords()
     return
