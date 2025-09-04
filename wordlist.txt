@@ -42349,7 +42349,7 @@ deepen.
 deepened.
 deepener.
 deepeners.
-deepening.
+deepening!
 deepens.
 deeper.
 deepest.
@@ -43506,7 +43506,7 @@ dependent.
 dependently.
 dependents.
 depender.
-depending.
+depending!
 depends.
 depeople.
 depeopled.
@@ -52846,7 +52846,7 @@ engineery.
 engineless.
 enginelike.
 engineman.
-enginemen.
+enginemen!
 engineries.
 enginery.
 engines.
@@ -66261,7 +66261,7 @@ gibus.
 gibuses.
 giddap.
 giddea.
-giddied.
+giddied!
 giddier.
 giddies.
 giddiest.
@@ -77867,7 +77867,7 @@ impedes.
 impedible.
 impedient.
 impediment.
-impeding.
+impeding!
 impedit.
 impedite.
 impeditive.
@@ -77886,7 +77886,7 @@ impend.
 impended.
 impendence.
 impendent.
-impending.
+impending!
 impends.
 impenitence.
 impenitent.
@@ -77937,13 +77937,13 @@ impieties.
 impiety.
 imping.
 impinge.
-impinged.
+impinged!
 impingement.
 impingence.
 impingent.
 impinger.
 impinges.
-impinging.
+impinging!
 impings.
 impious.
 impis.
@@ -78641,7 +78641,7 @@ independencies.
 independency.
 independent.
 independents.
-independing.
+independing!
 inderite.
 indesert.
 indesinent.
@@ -116755,7 +116755,7 @@ peppily.
 peppin.
 peppiness!
 peppinesses!
-pepping.
+pepping!
 peppy.
 peps.
 pepsi.
@@ -119524,7 +119524,7 @@ pippiest.
 pippin.
 pippiner.
 pippinface.
-pipping.
+pipping!
 pippins.
 pippirees!
 pipple.
