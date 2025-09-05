@@ -51239,7 +51239,6 @@ elegious.
 elegise.
 elegised.
 elegises.
-elegising.
 elegist.
 elegists.
 elegit.
@@ -51277,8 +51276,6 @@ elenctic.
 elenctical.
 elenge.
 elengely.
-elengeness.
-elengenesses.
 eleoblast.
 eleolite.
 eleometer.
@@ -52843,7 +52840,7 @@ engineering.
 engineeringly.
 engineers.
 engineery.
-engineless.
+engineless!
 enginelike.
 engineman.
 enginemen!
@@ -66496,7 +66493,6 @@ gingals.
 gingeley.
 gingeleys.
 gingeli.
-gingelies.
 gingelis.
 gingellies!
 gingelly.
@@ -66521,7 +66517,6 @@ gingery.
 gingham.
 ginghams!
 gingili.
-gingilis.
 gingiva.
 gingivae.
 gingival.
@@ -66974,7 +66969,6 @@ gleety.
 gleg.
 glegly.
 glegness.
-glegnesses.
 gleir.
 gleit.
 glendale.
@@ -83172,8 +83166,6 @@ jiggerer.
 jiggers.
 jigget.
 jiggety.
-jigginess.
-jigginesses.
 jigging.
 jiggish.
 jiggit.
@@ -83183,7 +83175,7 @@ jiggler.
 jiggles.
 jigglier.
 jiggliest.
-jiggling.
+jiggling!
 jiggly.
 jiggumbob.
 jiggy.
@@ -83251,7 +83243,7 @@ jingle.
 jingled.
 jinglejangle.
 jingler.
-jingles.
+jingles!
 jinglet.
 jinglier.
 jingling.
@@ -89021,7 +89013,7 @@ leggier.
 leggiero.
 leggiest.
 leggin.
-legginess.
+legginess!
 legginesses!
 legging.
 legginged.
@@ -89913,7 +89905,6 @@ liege.
 liegedom.
 liegeful.
 liegefully.
-liegeless.
 liegely.
 liegeman.
 liegemen.
@@ -141679,8 +141670,6 @@ seedy.
 seege.
 seeing.
 seeingly.
-seeingness.
-seeingnesses.
 seeings.
 seek.
 seeker.
@@ -146076,7 +146065,7 @@ singingly.
 singkamas.
 single.
 singled.
-singleness.
+singleness!
 singlenesses!
 singler.
 singles.
@@ -146162,7 +146151,7 @@ sinnet.
 sinning.
 sinningia!
 sinningly.
-sinningness.
+sinningness!
 sinningnesses!
 sinnowed.
 sinoidal.
