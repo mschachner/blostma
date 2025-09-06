@@ -8697,7 +8697,7 @@ apocopation.
 apocope.
 apocopes.
 apocopic.
-apocrita.
+apocrita!
 apocryph.
 apocrypha.
 apocynaceae.
@@ -27373,7 +27373,7 @@ carroter.
 carrotier.
 carrotin.
 carrots.
-carrottop.
+carrottop!
 carrotwood.
 carroty.
 carrow.
@@ -36964,6 +36964,7 @@ corticium.
 corticoid.
 corticole.
 corticose.
+corticotropic!
 corticotropin.
 corticous.
 cortile.
@@ -114575,6 +114576,8 @@ parapodial.
 parapphyllia.
 parapraxia.
 parapraxis.
+paraproct!
+paraproctia!
 paraprostatitis.
 parapsida.
 parapsidal.
@@ -124434,6 +124437,7 @@ proal.
 proamnion.
 proanaphora.
 proanaphoral.
+proapoptotic!
 proappropriation.
 proapproval.
 proarctic.
@@ -125184,7 +125188,7 @@ protarsus.
 protases.
 protasis.
 protaspis.
-protatic.
+protatic!
 protax.
 prote.
 protea.
@@ -125299,6 +125303,7 @@ protonym.
 protopapas.
 protopappas.
 protoparent.
+protoparia!
 protopathia.
 protopathy.
 protopattern.
@@ -136508,7 +136513,7 @@ rotative.
 rotatodentate.
 rotator.
 rotatores.
-rotatoria.
+rotatoria!
 rotatorian.
 rotators.
 rotatory.
@@ -167005,6 +167010,7 @@ tropophil.
 tropophyte.
 troposphere.
 tropostereoscope.
+tropotactic!
 tropoyl.
 troppaia.
 troppo.
