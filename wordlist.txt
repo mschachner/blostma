@@ -3794,7 +3794,6 @@ aitesis.
 aithochroi.
 aitiology.
 aition.
-aitiotropic.
 aitis.
 aitkenite.
 aitutakian.
@@ -8855,7 +8854,7 @@ apotheose.
 apotheoses.
 apothgm.
 apotome.
-apotropaic.
+apotropaic!
 apotropaion.
 apotropous.
 apotype.
@@ -9120,7 +9119,7 @@ approof.
 appropre.
 appropriate.
 appropriation.
-appropriator.
+appropriator!
 appropriators.
 approval.
 approvals.
@@ -10372,7 +10371,6 @@ arricciati.
 arricciato.
 arricciatos.
 arriccio.
-arriccioci.
 arriccios.
 arride.
 arrided.
@@ -24831,7 +24829,6 @@ caccabis.
 caccagogue.
 caccia.
 caccias.
-cacciatora.
 cacciatore.
 cace.
 cacei.
@@ -24941,7 +24938,6 @@ cacophonia.
 cacophonic.
 cacophony.
 cacoplasia.
-cacoproctia.
 cacorrhachis.
 cacorrhinia.
 cacosmia.
@@ -26492,7 +26488,6 @@ capacitates.
 capacitating.
 capacitation.
 capacitative.
-capacitator.
 capacities.
 capacitive.
 capacitor.
@@ -27840,7 +27835,7 @@ catacombs.
 catacorner.
 catacorolla.
 catacoustics.
-catacrotic.
+catacrotic!
 catacumba.
 catacumbal.
 catadicrotic.
@@ -28152,7 +28147,7 @@ catogene.
 catoism.
 catonian.
 catonic.
-catoptric.
+catoptric!
 catostomus.
 catouse.
 catpiece.
@@ -36828,7 +36823,7 @@ corporally.
 corporals.
 corporas.
 corporate.
-corporator.
+corporator!
 corpore.
 corporeal.
 corporeous.
@@ -107981,7 +107976,6 @@ occipiputs.
 occipita.
 occipital.
 occipitoiliac.
-occipitootic.
 occiput.
 occiputs.
 occision.
@@ -114921,7 +114915,7 @@ parotia.
 parotic.
 parotid.
 parotis.
-parotitic.
+parotitic!
 parotitis.
 parotoid.
 parous.
@@ -115030,7 +115024,7 @@ partiary.
 particate.
 participant.
 participate.
-participator.
+participator!
 participial.
 partie.
 partied.
@@ -115464,7 +115458,7 @@ patrilateral.
 patrin.
 patriot.
 patrioteer.
-patriotic.
+patriotic!
 patriots.
 patripassian.
 patripassianist.
@@ -124487,7 +124481,7 @@ procanal.
 procarp.
 procarps.
 procarrier.
-procatarctic.
+procatarctic!
 procavia.
 procbal.
 procedendo.
@@ -124857,7 +124851,6 @@ propargyl.
 proparia.
 proparian.
 propassion.
-propatriotic.
 propel.
 propellable.
 propelled.
@@ -124927,7 +124920,7 @@ propionyl.
 propitial.
 propitiate.
 propitiation.
-propitiator.
+propitiator!
 propitiatory.
 propitious.
 propjet.
@@ -125340,7 +125333,6 @@ protostele.
 protostome.
 prototheme.
 protothere.
-prototraitor.
 prototroch.
 prototroph.
 prototrophic.
@@ -128882,7 +128874,7 @@ rattails.
 rattan.
 rattans.
 rattaree.
-rattattoo.
+rattattoo!
 ratted.
 ratteen.
 ratteens.
@@ -164569,7 +164561,6 @@ toponymy.
 topophobia.
 topophone.
 topos.
-topotactic.
 topotaxis.
 topotype.
 topotypes.
