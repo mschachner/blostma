@@ -32135,6 +32135,7 @@ clads.
 cladus.
 claes.
 clagged.
+claggier!
 clagging.
 claggum.
 claggy.
@@ -32562,6 +32563,7 @@ clepsine.
 clept.
 clerete.
 clergess.
+clergical!
 clergies.
 clergy.
 cleric.
@@ -51221,7 +51223,7 @@ elegante.
 eleganter.
 elegantly.
 elegiac.
-elegiacal.
+elegiacal!
 elegiacally.
 elegiacs.
 elegiast.
@@ -66311,7 +66313,8 @@ gigavolt.
 gigawatt.
 gigawatts.
 gigback.
-gigelira.
+gigelira!
+gigelire!
 gigeria.
 gigerium.
 gigful.
@@ -129234,7 +129237,7 @@ realized.
 realizer.
 realizers.
 realizes.
-reallege.
+reallege!
 realleged.
 realleging.
 realliance.
