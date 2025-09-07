@@ -4150,7 +4150,6 @@ alcae.
 alcahest.
 alcahests.
 alcaic.
-alcaiceria.
 alcaics.
 alcaid.
 alcaide.
@@ -4827,7 +4826,7 @@ aller.
 allergen.
 allergens.
 allergia.
-allergic.
+allergic!
 allergies.
 allergin.
 allergology.
@@ -4855,7 +4854,7 @@ allheal.
 allheals.
 alliable.
 alliably.
-alliaceae.
+alliaceae!
 alliage.
 alliance.
 allianced.
@@ -9363,7 +9362,7 @@ arake.
 araks.
 arales.
 aralia.
-araliaceae.
+araliaceae!
 araliad.
 aralie.
 aralkyl.
@@ -25076,7 +25075,6 @@ caecally.
 caecectomy.
 caecias.
 caecilia.
-caeciliae.
 caecilian.
 caeciliidae.
 caecitis.
@@ -26917,7 +26915,7 @@ carceag.
 carcel.
 carcels.
 carcer.
-carceral.
+carceral!
 carcerated.
 carcerist.
 carcharias.
@@ -28608,8 +28606,6 @@ celestite.
 celeusma.
 celia.
 celiac.
-celiagra.
-celialgia.
 celibacies.
 celibacy.
 celibate.
@@ -28936,10 +28932,10 @@ cerberus.
 cercal.
 cercaria.
 cercariae.
-cercarial.
+cercarial!
 cercarian.
 cercarias.
-cercelee.
+cercelee!
 cerci.
 cercis.
 cercises.
@@ -64172,7 +64168,6 @@ galabeah.
 galabia.
 galabieh.
 galabiya.
-galacaceae.
 galactagog.
 galactan.
 galactase.
@@ -64183,7 +64178,6 @@ galactin.
 galactite.
 galactocele.
 galactoma.
-galagala.
 galaginae.
 galago.
 galagos.
@@ -66336,7 +66330,7 @@ giggler.
 gigglers.
 giggles.
 gigglesome.
-gigglier.
+gigglier!
 giggliest.
 giggling.
 gigglingly!
@@ -66734,7 +66728,6 @@ glacialism.
 glacialist.
 glacialize.
 glacially.
-glaciaria.
 glaciate.
 glaciating.
 glacier.
@@ -68372,7 +68365,7 @@ graceless.
 gracer.
 graces.
 gracias.
-gracilaria.
+gracilaria!
 gracilariid.
 gracile.
 gracilis.
@@ -77258,7 +77251,7 @@ iliahi.
 ilial.
 ilian.
 iliau.
-ilicaceae.
+ilicaceae!
 ilicic.
 ilicin.
 ilima.
@@ -87915,7 +87908,6 @@ laqueus.
 laralia.
 laramide.
 laramie.
-larararia.
 lararia.
 lararium.
 larboard.
@@ -90121,7 +90113,7 @@ lilas.
 lilburne.
 lile.
 liles.
-liliaceae.
+liliaceae!
 lilial.
 liliales.
 lilian.
@@ -129850,8 +129842,7 @@ receptive.
 receptor.
 receptors.
 recepts.
-recercele.
-recercelee.
+recercelee!
 recertificate.
 recertified.
 recertify.
@@ -133072,7 +133063,7 @@ reradiate.
 reradiated.
 reradiates.
 rerail.
-rerailer.
+rerailer!
 reraise.
 rerake.
 reran.
