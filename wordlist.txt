@@ -6477,6 +6477,7 @@ analogy.
 analysable.
 analysand.
 analysands.
+analysans!
 analyse.
 analysed.
 analyser.
@@ -8017,7 +8018,7 @@ antilles.
 antilog.
 antiluetin.
 antilysin!
-antilysis.
+antilysis!
 antilytic.
 antimalaria.
 antimalarial.
@@ -82041,6 +82042,7 @@ italianiron.
 italianish.
 italianism.
 italianist!
+italianists!
 italianity!
 italianization.
 italianize.
@@ -103138,7 +103140,7 @@ nasalises.
 nasalising.
 nasalism.
 nasalities.
-nasality.
+nasality!
 nasalize.
 nasalizes!
 nasalizing.
@@ -103219,7 +103221,7 @@ natalian.
 natalie.
 natalism.
 natalist.
-natalitial.
+natalitial!
 natalities.
 natality.
 natally.
@@ -107616,7 +107618,8 @@ nyoro.
 nyroca.
 nyssa.
 nyssaceae.
-nystatin.
+nystatin!
+nystatins!
 nytril.
 nyxis.
 oadal.
@@ -138731,9 +138734,10 @@ sannop.
 sannops.
 sannup.
 sannups.
-sannyasi.
-sannyasin.
-sannyasis.
+sannyasi!
+sannyasin!
+sannyasins!
+sannyasis!
 sanoserous.
 sanpoil.
 sans.
@@ -146313,6 +146317,7 @@ sirventes.
 siryan.
 sisal.
 sisalana.
+sisalanas!
 sisals.
 siscowet.
 sise.
@@ -159012,7 +159017,7 @@ tantadlin.
 tantafflin.
 tantalate.
 tantalean.
-tantalian.
+tantalian!
 tantalic.
 tantalisation.
 tantalise.
@@ -163629,6 +163634,7 @@ titanoniobate.
 titanous.
 titans.
 titanyl.
+titanyls!
 titar.
 titbit.
 titbits.
