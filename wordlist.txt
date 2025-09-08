@@ -4755,7 +4755,6 @@ allanerly!
 allanite.
 allanites.
 allanitic.
-allantiasis.
 allantoic.
 allantoid.
 allantoidal.
@@ -6607,11 +6606,9 @@ anaspalin.
 anaspid.
 anaspida.
 anaspides.
-anastalsis.
+anastalsis!
 anastaltic.
 anastases.
-anastasia.
-anastasian.
 anastasimon.
 anastasimos.
 anastasis.
@@ -8019,7 +8016,7 @@ antillean.
 antilles.
 antilog.
 antiluetin.
-antilysin.
+antilysin!
 antilysis.
 antilytic.
 antimalaria.
@@ -8202,7 +8199,7 @@ antistate.
 antistater.
 antistatic.
 antistatism.
-antistatist.
+antistatist!
 antistatists!
 antisteapsin.
 antistes.
@@ -11170,8 +11167,7 @@ assassinations!
 assassinative.
 assassinator.
 assassinatress.
-assassinist.
-assassins.
+assassins!
 assate.
 assation.
 assault.
@@ -11323,7 +11319,7 @@ assistance.
 assistances.
 assistant.
 assistanted.
-assistants.
+assistants!
 assistantship.
 assistantships.
 assisted.
@@ -79443,7 +79439,6 @@ initialing.
 initialisation.
 initialise.
 initialism.
-initialist.
 initialization.
 initialize.
 initializing.
@@ -80045,7 +80040,7 @@ inspoke.
 inspoken.
 instal.
 install.
-installant.
+installant!
 installation.
 installations.
 installing.
@@ -82045,8 +82040,8 @@ italianately.
 italianiron.
 italianish.
 italianism.
-italianist.
-italianity.
+italianist!
+italianity!
 italianization.
 italianize.
 italianly.
@@ -137948,7 +137943,7 @@ saintish.
 saintism.
 saintless.
 saintliest.
-saintlily.
+saintlily!
 saintliness.
 saintlinesses.
 saintling.
@@ -157826,7 +157821,7 @@ syntactician.
 syntactics.
 syntagm.
 syntagma.
-syntality.
+syntality!
 syntan.
 syntasis.
 syntax.
