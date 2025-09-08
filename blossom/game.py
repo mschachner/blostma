@@ -113,6 +113,7 @@ def showStats():
         print(
             f"{i+1}.{'  ' if i < 9 else ' '}{bk}: {sc.rjust(pad)} points, {dt}"
         )
+    print(f"Median score: {scores[len(scores)//2].split(' ')[1].rjust(pad)} points")
     print(f"Lowest score: {scores[-1].split(' ')[0]}, {scores[-1].split(' ')[1].rjust(pad)} points")
 
 
