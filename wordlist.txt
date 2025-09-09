@@ -795,7 +795,7 @@ acaridae.
 acaridan.
 acaridans.
 acaridea.
-acaridean.
+acaridean!
 acarids.
 acariform.
 acarina.
@@ -1082,7 +1082,7 @@ acephalia.
 acepots.
 acequia.
 acequias.
-aceraceae.
+aceraceae!
 aceraceous.
 acerae.
 acerata.
@@ -6339,7 +6339,7 @@ anacanthine.
 anacanthini.
 anacara.
 anacard.
-anacardiaceae.
+anacardiaceae!
 anacardic.
 anacathartic.
 anaces.
@@ -6806,7 +6806,6 @@ andrarchy.
 andre.
 andrea.
 andreaea.
-andreaeaceae.
 andreaeales.
 andreas.
 andrena.
@@ -9779,7 +9778,6 @@ areca.
 arecaceae.
 arecaceous.
 arecaidin.
-arecaidine.
 arecain.
 arecaine.
 arecales.
@@ -26946,7 +26944,7 @@ cardia.
 cardiac.
 cardiacal.
 cardiacea.
-cardiacean.
+cardiacean!
 cardiacle.
 cardiacs.
 cardiae.
@@ -27076,7 +27074,7 @@ caribing.
 caribisi.
 caribou.
 carica.
-caricaceae.
+caricaceae!
 caricatura.
 caricatural.
 caricature.
@@ -31815,7 +31813,6 @@ circ.
 circa.
 circadian.
 circaea.
-circaeaceae.
 circar.
 circassian.
 circassic.
@@ -41907,7 +41904,6 @@ decanally.
 decanate.
 decancellate.
 decancellated.
-decandria.
 decane.
 decanery.
 decanes.
@@ -43252,7 +43248,6 @@ denar.
 denari.
 denaries.
 denarii.
-denarinarii.
 denaro.
 denary.
 denat.
@@ -44955,7 +44950,6 @@ dicolon.
 dicot.
 dicots.
 dicotyl.
-dicranaceae.
 dicranoid.
 dicrotic.
 dicruridae.
@@ -48316,7 +48310,6 @@ drabness.
 drabnesses.
 drabs.
 dracaena.
-dracaenaceae.
 dracaenas.
 drachen.
 drachm.
@@ -52277,7 +52270,7 @@ encamped.
 encampment.
 encamps.
 encanker.
-encarnadine.
+encarnadine!
 encarpa.
 encarpi.
 encase.
@@ -52422,7 +52415,6 @@ encrease.
 encreel.
 encrinal.
 encrinic.
-encrinidae.
 encrinite.
 encrinitic.
 encrinoid.
@@ -52481,7 +52473,6 @@ enddamaged.
 enddamaging.
 ende.
 endear.
-endearance.
 endeared.
 endearedly.
 endearedness.
@@ -53102,7 +53093,6 @@ enneahedra.
 enneahedral.
 enneahedria.
 enneahedron.
-enneandrian.
 enneasemic.
 enneastyle.
 enneateric.
@@ -54645,7 +54635,6 @@ erigerons.
 erigible.
 erika.
 erikite.
-erinaceidae.
 erineum.
 eringo.
 eringoes.
@@ -78233,8 +78222,8 @@ incapacity.
 incarcerate.
 incarial.
 incarn.
-incarnadine.
-incarnadined.
+incarnadine!
+incarnadined!
 incarnadining.
 incarnant.
 incarnate.
@@ -81402,7 +81391,7 @@ iroquoian.
 iroquois.
 irous.
 irpex.
-irradiance.
+irradiance!
 irradiancy.
 irradiant.
 irradiate.
@@ -102925,7 +102914,7 @@ nanking.
 nankingese.
 nankins.
 nanmu.
-nannander.
+nannander!
 nannandrium.
 nannandrous.
 nannette.
@@ -129801,7 +129790,7 @@ recco.
 reccy.
 recede.
 receded.
-recedence.
+recedence!
 recedent.
 receder.
 recedes.
@@ -131631,11 +131620,9 @@ reimposes.
 reimprint.
 reimprove.
 reina.
-reincarnadine.
 reincarnate.
 reincense.
 reincentive.
-reincidence.
 reincidency.
 reincite.
 reincited.
@@ -132428,7 +132415,6 @@ renforce.
 renga.
 rengue.
 renguera.
-renicardiac.
 renickel.
 renidify.
 reniform.
