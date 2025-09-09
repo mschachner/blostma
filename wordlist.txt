@@ -799,6 +799,7 @@ acaridean!
 acarids.
 acariform.
 acarina.
+acarinaria!
 acarine.
 acarines.
 acarinosis.
@@ -1372,6 +1373,7 @@ acned.
 acnemia.
 acnes.
 acnida.
+acnidaria!
 acnodal.
 acnode.
 acnodes.
@@ -1460,7 +1462,7 @@ acquittal.
 acrab.
 acracy.
 acraein.
-acraeinae.
+acraeinae!
 acrania.
 acranial.
 acraniate.
@@ -1490,15 +1492,15 @@ acres.
 acrestaff.
 acrid.
 acridan.
-acridane.
+acridane!
 acrider.
 acridian.
 acridic.
 acridid.
-acrididae.
-acridiidae.
+acrididae!
+acridiidae!
 acridin.
-acridine.
+acridine!
 acridinic.
 acridity.
 acridium.
@@ -6339,6 +6341,7 @@ anacanthine.
 anacanthini.
 anacara.
 anacard.
+anacardia!
 anacardiaceae!
 anacardic.
 anacathartic.
@@ -6810,7 +6813,7 @@ andreaeales.
 andreas.
 andrena.
 andrenid.
-andrenidae.
+andrenidae!
 andrew.
 andria.
 andriana.
@@ -9337,7 +9340,7 @@ arachnida.
 arachnidan.
 arad.
 aradid.
-aradidae.
+aradidae!
 arado.
 araeometer.
 araeotic.
@@ -9379,12 +9382,13 @@ aramus.
 aranea.
 araneae.
 araneid.
-araneida.
+araneida!
+araneidae!
 araneidal.
-araneidan.
+araneidan!
 araneids.
 aranein.
-araneina.
+araneina!
 araneoidea.
 araneose.
 araneous.
@@ -9729,7 +9733,7 @@ ardeae.
 ardeb.
 ardebs.
 ardeid.
-ardeidae.
+ardeidae!
 ardelia.
 ardelio.
 ardella.
@@ -9775,7 +9779,7 @@ areaway.
 areaways.
 areawide.
 areca.
-arecaceae.
+arecaceae!
 arecaceous.
 arecaidin.
 arecain.
@@ -10278,7 +10282,7 @@ arquebuses.
 arquerite.
 arracach.
 arracacha.
-arracacia.
+arracacia!
 arrace.
 arrach.
 arrack.
@@ -25183,7 +25187,7 @@ cahuapana.
 cahuilla.
 cahuita.
 cahuy.
-caiarara.
+caiarara!
 caic.
 caickle.
 caids.
@@ -25215,7 +25219,7 @@ caird.
 cairds.
 cairene.
 cairn.
-cairned.
+cairned!
 cairns.
 cairny.
 cairo.
@@ -26072,6 +26076,7 @@ cancionero.
 canciones.
 cancri.
 cancrid.
+cancridae!
 cancrine.
 cancrinite.
 cancrizans.
@@ -26079,7 +26084,7 @@ cancroid.
 cancrum.
 cancrums.
 candace.
-candareen.
+candareen!
 candela.
 candelas.
 candelilla.
@@ -26096,7 +26101,7 @@ candidate.
 candidated.
 candidating.
 candide.
-candider.
+candider!
 candidiasis.
 candidly.
 candidness.
@@ -26943,7 +26948,7 @@ carders.
 cardia.
 cardiac.
 cardiacal.
-cardiacea.
+cardiacea!
 cardiacean!
 cardiacle.
 cardiacs.
@@ -26958,7 +26963,7 @@ cardiarctia.
 cardias.
 cardiataxia.
 cardigan.
-cardiidae.
+cardiidae!
 cardin.
 cardinal.
 cardinalic.
@@ -27085,7 +27090,7 @@ caricous.
 carid.
 carida.
 caridea.
-caridean.
+caridean!
 carideer.
 caridoid.
 caried.
@@ -27097,13 +27102,13 @@ carillon.
 carina.
 carinae.
 carinal.
-carinaria.
+carinaria!
 carinas.
 carinatae.
 carinate.
 carination.
 caring.
-cariniana.
+cariniana!
 carinthian.
 carinula.
 carioca.
@@ -27315,7 +27320,7 @@ carrageenan.
 carrageenin.
 carragheen.
 carrara.
-carraran.
+carraran!
 carrat.
 carraway.
 carraways.
@@ -28925,8 +28930,9 @@ cerberean.
 cerberic.
 cerberus.
 cercal.
-cercaria.
-cercariae.
+cercaria!
+cercariae!
+cercariaea!
 cercarial!
 cercarian.
 cercarias.
@@ -31600,7 +31606,7 @@ cicurate.
 cicuta.
 cicutoxin.
 cidarid.
-cidaridae.
+cidaridae!
 cidaris.
 cidaroida.
 cider.
@@ -31747,7 +31753,7 @@ cineols.
 cinephone.
 cinerama.
 cinerararia.
-cineraria.
+cineraria!
 cinerarias.
 cinerary.
 cinerea.
@@ -37906,7 +37912,7 @@ cranky.
 crannage.
 crannel.
 crannia.
-crannied.
+crannied!
 crannies.
 crannock.
 crannog.
@@ -45545,7 +45551,7 @@ dimyaric.
 dimyary.
 dinah.
 dinamode.
-dinanderie.
+dinanderie!
 dinantian!
 dinar.
 dinaric.
@@ -50523,6 +50529,7 @@ edgingly.
 edgings.
 edgrew.
 edgrow.
+ediacaran!
 edibile.
 edibility.
 edible.
@@ -54616,7 +54623,7 @@ ergots.
 ergusia.
 erian.
 erica.
-ericaceae.
+ericaceae!
 ericad.
 erical.
 ericales.
@@ -102915,6 +102922,7 @@ nankingese.
 nankins.
 nanmu.
 nannander!
+nannandria!
 nannandrium.
 nannandrous.
 nannette.
@@ -128481,6 +128489,7 @@ ranina.
 raninae.
 ranine.
 raninian.
+raninidae!
 ranis.
 ranjit.
 ranked.
@@ -135008,7 +135017,7 @@ ribwork.
 ribwort.
 ribworts.
 ribzuba.
-ricardian.
+ricardian!
 ricardo.
 ricasso.
 riccia.
@@ -135022,8 +135031,8 @@ riced.
 ricegrass.
 ricer.
 ricercar.
-ricercare.
-ricercari.
+ricercare!
+ricercari!
 ricercars.
 ricercata.
 ricers.
@@ -135056,6 +135065,7 @@ ricin.
 ricine.
 ricing.
 ricinic.
+ricinidae!
 ricinine.
 ricininic.
 ricinium.
