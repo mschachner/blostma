@@ -2149,7 +2149,7 @@ admeasure.
 admeasured.
 admeasurer.
 admedial.
-admedian.
+admedian!
 admen.
 admetus.
 admin.
@@ -3026,7 +3026,7 @@ agamian.
 agamic.
 agamically.
 agamid.
-agamidae.
+agamidae!
 agamis.
 agamist.
 agamobia.
@@ -5514,7 +5514,7 @@ amampondo.
 amanda.
 amande.
 amandin.
-amandine.
+amandine!
 amandus.
 amang.
 amani.
@@ -6522,6 +6522,7 @@ ananaples.
 ananas.
 ananastasia!
 ananda.
+anandamide!
 anandria.
 anandrous.
 ananepionic.
@@ -41618,6 +41619,8 @@ deadly.
 deadman.
 deadmelt.
 deadmen.
+deadnamed!
+deadnaming!
 deadness.
 deadnesses!
 deadpan.
@@ -44701,6 +44704,7 @@ diambic.
 diameter.
 diamide.
 diamides.
+diamidine!
 diamido.
 diamin.
 diamine.
@@ -52445,8 +52449,8 @@ encystment.
 encystments.
 encysts.
 endable.
-endamage.
-endamaged.
+endamage!
+endamaged!
 endamagement.
 endamages.
 endamaging!
@@ -78634,7 +78638,7 @@ indexlessness.
 indexlessnesses.
 india.
 indiadem.
-indiaman.
+indiaman!
 indian.
 indiana.
 indianaite.
@@ -93177,7 +93181,7 @@ maenadism.
 maenads.
 maenaite.
 maenalus.
-maenidae.
+maenidae!
 maeonian.
 maestive.
 maestoso.
@@ -93227,6 +93231,7 @@ magenta.
 magentas.
 mages.
 magged.
+maggidim!
 maggie.
 magging.
 maggiore.
@@ -96126,6 +96131,7 @@ megilp.
 megilph.
 megilps.
 megmho.
+megninia!
 megohm.
 megohmit.
 megohmmeter.
@@ -102765,6 +102771,7 @@ naiades.
 naiads.
 naiant.
 naias.
+naididae!
 naifly.
 naifs.
 naigie.
@@ -102885,6 +102892,7 @@ nances.
 nancy.
 nanda.
 nandi.
+nandidae!
 nandin.
 nandina.
 nandine.
