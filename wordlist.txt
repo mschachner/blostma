@@ -1937,7 +1937,6 @@ addy.
 adead.
 adeem.
 adeemed.
-adeeming.
 adeems.
 adeep.
 adela.
@@ -3569,7 +3568,6 @@ aidful.
 aiding.
 aidless.
 aidman.
-aidmanmen.
 aidmen.
 aiery.
 aiger.
@@ -5760,7 +5758,7 @@ amende.
 amended.
 amender.
 amenders.
-amending.
+amending!
 amendment.
 amendments.
 amends.
@@ -41582,7 +41580,7 @@ deadbeats.
 deadborn.
 deadcenter.
 deaden.
-deadened.
+deadened!
 deadener.
 deadeners.
 deadening.
@@ -43053,7 +43051,7 @@ demandant.
 demanded.
 demander.
 demanders.
-demanding.
+demanding!
 demands.
 demarcate.
 demarcated.
@@ -43069,8 +43067,8 @@ demasts.
 dematiaceae.
 deme.
 demean.
-demeaned.
-demeaning.
+demeaned!
+demeaning!
 demeanor.
 demeanored.
 demeans.
@@ -44601,7 +44599,6 @@ diadem.
 diadema.
 diadematoida.
 diademed.
-diademing.
 diadems.
 diaderm.
 diadermic.
@@ -44709,7 +44706,6 @@ diamin.
 diamine.
 diamines.
 diamins.
-diammine.
 diammonium.
 diamond.
 diamonded.
@@ -52453,7 +52449,7 @@ endamage.
 endamaged.
 endamagement.
 endamages.
-endamaging.
+endamaging!
 endamask.
 endameba.
 endamebae.
@@ -52476,8 +52472,6 @@ endball.
 endboard.
 endbrain.
 enddamage.
-enddamaged.
-enddamaging.
 ende.
 endear.
 endeared.
@@ -52831,7 +52825,7 @@ engineers.
 engineery.
 engineless!
 enginelike.
-engineman.
+engineman!
 enginemen!
 engineries.
 enginery.
@@ -64566,7 +64560,7 @@ gamins.
 gamma.
 gammacism.
 gammacismus.
-gammadia.
+gammadia!
 gammadion.
 gammarid.
 gammaridae.
@@ -65516,7 +65510,6 @@ gemmily.
 gemminess.
 gemminesses.
 gemming.
-gemmingia.
 gemmipara.
 gemmoid.
 gemmology.
@@ -77464,11 +77457,11 @@ imaginate.
 imaginating.
 imagination.
 imagine.
-imagined.
+imagined!
 imaginer.
 imagines.
 imaging.
-imagining.
+imagining!
 imaginings!
 imaginist.
 imagism.
@@ -78544,7 +78537,6 @@ indagate.
 indagated.
 indagating.
 indagation.
-indamage.
 indamin.
 indamine.
 indamines.
@@ -78642,7 +78634,6 @@ indexlessness.
 indexlessnesses.
 india.
 indiadem.
-indiademed.
 indiaman.
 indian.
 indiana.
@@ -78651,7 +78642,6 @@ indianan.
 indianans.
 indianeer.
 indianhood.
-indianian.
 indianians.
 indianism.
 indianist.
@@ -93098,7 +93088,7 @@ madcaps.
 madded.
 madden.
 maddened.
-maddening.
+maddening!
 maddens.
 madder.
 madders.
@@ -93277,7 +93267,6 @@ magna.
 magnale.
 magnalium.
 magnanerie.
-magnanime.
 magnanimity.
 magnate.
 magnates.
