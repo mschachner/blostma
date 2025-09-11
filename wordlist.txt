@@ -41823,7 +41823,7 @@ debouched.
 debout.
 debowel.
 debride.
-debrided.
+debrided!
 debriding.
 debrief.
 debriefed.
@@ -43764,7 +43764,7 @@ derricks.
 derrid.
 derride.
 derriere.
-derrieres.
+derrieres!
 derries.
 derringer.
 derringers.
@@ -45307,7 +45307,7 @@ digredient.
 digress.
 digressed.
 digresser.
-digresses.
+digresses!
 digressing.
 digressive.
 diguanide.
@@ -46635,7 +46635,7 @@ dissects.
 disseise.
 disseised.
 disseisee.
-disseises.
+disseises!
 disseisin!
 disseisins!
 disseisor.
@@ -48590,7 +48590,7 @@ dreepiness.
 dreepinesses.
 dreepy.
 drees.
-dreggier.
+dreggier!
 dreggiest.
 dreggily.
 dregginess.
@@ -48608,7 +48608,6 @@ dreigh.
 dreiling.
 dreint.
 dreissensia.
-dreissiger.
 dreks.
 drench.
 drenched.
@@ -50815,7 +50814,7 @@ eggar.
 eggars.
 eggbeater.
 eggbeaters.
-eggberries.
+eggberries!
 eggberry.
 eggcrate.
 eggcup.
@@ -129576,7 +129575,6 @@ rebending.
 rebenefit.
 rebent.
 rebeset.
-rebesiege.
 rebestow.
 rebetake.
 rebetray.
