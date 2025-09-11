@@ -16266,6 +16266,7 @@ bedfellow.
 bedfoot.
 bedford.
 bedframe.
+bedgeries!
 bedgery.
 bedgoer.
 bedgown.
@@ -16714,7 +16715,7 @@ begirded.
 begirding.
 begirdle.
 begirdled.
-begirds.
+begirds!
 begirt.
 beglad.
 begladded.
@@ -17840,7 +17841,7 @@ besides.
 besiege.
 besieged.
 besieger.
-besiegers.
+besiegers!
 besieges.
 besieging.
 besigh.
@@ -19236,6 +19237,7 @@ birchism.
 birdbander.
 birdbanding.
 birdbath.
+birdberries!
 birdberry.
 birdbrain.
 birdbrained.
@@ -22654,6 +22656,7 @@ bridally.
 bridals.
 bride.
 bridebed.
+bridebeds!
 bridegod.
 bridehead.
 bridehood.
@@ -42362,6 +42365,7 @@ deeps.
 deepsome.
 deepwater.
 deer.
+deerberries!
 deerberry.
 deerdog.
 deerdrive!
@@ -46634,7 +46638,7 @@ dissective.
 dissects.
 disseise.
 disseised.
-disseisee.
+disseisee!
 disseises!
 disseisin!
 disseisins!
@@ -130505,6 +130509,8 @@ redispose.
 redisposed.
 redissect.
 redisseise!
+redisseised!
+redisseises!
 redisseisin.
 redisseisor.
 redisseize.
@@ -135124,6 +135130,7 @@ rident.
 rider.
 ridered.
 rideress.
+rideresses!
 riderless.
 riders.
 ridership.
@@ -145284,6 +145291,8 @@ sided.
 sidedness.
 sidednesses.
 sidedress.
+sidedressed!
+sidedresses!
 sidehead.
 sidehill.
 sidehills.
