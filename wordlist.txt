@@ -2503,6 +2503,7 @@ aenigma.
 aenigmatite.
 aeolia.
 aeolian.
+aeolianite!
 aeolic.
 aeolid.
 aeolidae.
@@ -4535,7 +4536,7 @@ alienate.
 alienated.
 alienates.
 alienating.
-alienation.
+alienation!
 aliency.
 aliene.
 aliened.
@@ -4586,7 +4587,7 @@ alimental.
 alimony.
 alinasal.
 aline.
-alineation.
+alineation!
 alined.
 alinement.
 aliner.
@@ -4596,7 +4597,7 @@ alingual.
 alining.
 alinit.
 alinota.
-alintatao.
+alintatao!
 aliofar.
 alioth.
 alipata.
@@ -5141,7 +5142,7 @@ alnico.
 alnilam.
 alnitak.
 alnitham.
-alnoite.
+alnoite!
 alnuin.
 alnus.
 aloadae.
@@ -53825,9 +53826,10 @@ eohippus.
 eohippuses.
 eoith.
 eoiths.
-eolation.
+eolation!
 eole.
 eolian.
+eolianite!
 eolienne.
 eolipile.
 eolipiles.
@@ -87209,7 +87211,7 @@ ladytide.
 laelia.
 laender.
 laertes.
-laetation.
+laetation!
 laeti.
 laetic.
 laetrile.
@@ -88131,6 +88133,7 @@ latenesses.
 latening.
 latens.
 latent.
+latentiation!
 latentize.
 latently.
 latentness.
@@ -90383,7 +90386,7 @@ lineary.
 lineas.
 lineate.
 lineated.
-lineation.
+lineation!
 linebred.
 linebreed.
 linecut.
@@ -90521,7 +90524,7 @@ linn.
 linnaea.
 linnaean.
 linnaeanism.
-linnaeite.
+linnaeite!
 linne.
 linneon.
 linnet.
@@ -158239,6 +158242,7 @@ taeniodonta.
 taeniodontia.
 taeniodontidae.
 taenioid.
+taenioinei!
 taeniola.
 taenite.
 taennin.
@@ -158410,6 +158414,7 @@ tailzied.
 taimen.
 taimyrite.
 tainan.
+tainiolite!
 taino.
 tainos.
 tains.
@@ -160616,7 +160621,7 @@ tenai.
 tenail.
 tenaille.
 tenailles.
-tenaillon.
+tenaillon!
 tenails.
 tenaim.
 tenaktak.
@@ -160748,7 +160753,7 @@ tenio.
 tenla.
 tenline.
 tenmantale.
-tennantite.
+tennantite!
 tenne.
 tenner.
 tenners.
@@ -164227,7 +164232,7 @@ tonada.
 tonal.
 tonalamatl.
 tonalist.
-tonalite.
+tonalite!
 tonality.
 tonally.
 tonalmatl.
