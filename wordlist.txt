@@ -4745,7 +4745,6 @@ allabuta.
 allactite.
 allagite.
 allah.
-allalinite.
 allamanda!
 allamonti.
 allamoth.
@@ -4878,7 +4877,7 @@ alligating.
 alligation.
 alligator.
 allineate.
-allineation.
+allineation!
 allionia.
 allioniaceae.
 allis.
@@ -4939,7 +4938,6 @@ allogamy.
 allogene.
 allograft.
 allograph.
-allolalia.
 allolalic.
 allomorph.
 allomucic.
@@ -7728,7 +7726,6 @@ antemortem.
 antemundane.
 antenarial.
 antenatal.
-antenatalitial.
 antenatally!
 antenati.
 antenatus.
@@ -12074,7 +12071,7 @@ attent.
 attentat.
 attentate!
 attention.
-attentional.
+attentional!
 attentions.
 attentive.
 attentiveness.
@@ -55448,7 +55445,7 @@ etiogenic.
 etiolate.
 etiolated.
 etiolates.
-etiolation.
+etiolation!
 etiolin.
 etiolize.
 etiologic.
@@ -80273,7 +80270,7 @@ intent.
 intentation.
 intented.
 intention.
-intentional.
+intentional!
 intentioned.
 intentionless.
 intentions.
@@ -90118,7 +90115,7 @@ liliiflorae.
 lilith.
 lilium.
 lill.
-lillianite.
+lillianite!
 lillibullero.
 lilliput.
 lilliputian.
@@ -90408,7 +90405,7 @@ linenizer.
 linenman.
 linens.
 lineny.
-lineolate.
+lineolate!
 lineprinter.
 liner.
 linerange.
@@ -90532,10 +90529,10 @@ linnets.
 linns.
 linocut.
 linolate.
-linoleate.
+linoleate!
 linoleic.
 linolein.
-linolenate.
+linolenate!
 linolenic.
 linolenin.
 linoleum.
@@ -105221,7 +105218,6 @@ nonair.
 nonalcohol.
 nonalcoholic.
 nonalien.
-nonalienation.
 nonalined.
 nonalkaloid.
 nonalkaloidal.
@@ -105294,7 +105290,6 @@ nonatonement.
 nonattainment.
 nonattendance.
 nonattendant.
-nonattention.
 nonattestation.
 nonautonomous.
 nonbailable.
