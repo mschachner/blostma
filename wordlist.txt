@@ -2031,7 +2031,7 @@ adhere.
 adhered.
 adherence.
 adherend.
-adherends.
+adherends!
 adherent.
 adherer.
 adherers.
@@ -71380,6 +71380,7 @@ handoffs.
 handout.
 handrail.
 handreader.
+handreaders!
 hands.
 handsale.
 handsaw.
@@ -71641,7 +71642,7 @@ harding.
 hardish.
 hardly.
 hardness.
-hardnesses.
+hardnesses!
 hardock.
 hardpan.
 hardpans.
@@ -72284,6 +72285,7 @@ headdresses.
 headed.
 headend.
 headender.
+headenders!
 headends.
 header.
 headers.
@@ -102918,6 +102920,7 @@ nankingese.
 nankins.
 nanmu.
 nannander!
+nannanders!
 nannandria!
 nannandrium.
 nannandrous.
@@ -133327,6 +133330,7 @@ reshave.
 reshaved.
 reshear.
 reshearer.
+reshearers!
 resheathe.
 reshelve.
 reshes.
@@ -141635,7 +141639,7 @@ seedlip.
 seedman.
 seedmen.
 seedness.
-seednesses.
+seednesses!
 seedpod.
 seedpods.
 seeds.
@@ -144035,7 +144039,7 @@ sheering.
 sheerlegs.
 sheerly.
 sheerness.
-sheernesses.
+sheernesses!
 sheers.
 sheet.
 sheetage.
@@ -144874,6 +144878,7 @@ shrape.
 shrave.
 shravey.
 shreadhead.
+shreadheads!
 shred.
 shredded.
 shredder.
