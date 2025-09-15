@@ -13578,7 +13578,7 @@ backblow.
 backboard.
 backbone.
 backbrand.
-backbreaker.
+backbreaker!
 backcap.
 backcast.
 backcasts.
@@ -13644,9 +13644,7 @@ backstays.
 backstick.
 backtack.
 backtalk.
-backtrace.
-backtrack.
-backtracker.
+backtrack!
 backtracks.
 backtrick.
 backup.
@@ -15067,7 +15065,7 @@ barracan.
 barrace.
 barrack.
 barracked.
-barracker.
+barracker!
 barracks.
 barraclade.
 barracoon.
@@ -15590,7 +15588,7 @@ battening.
 battens.
 batter.
 batterable.
-battercake.
+battercake!
 battered.
 batterer.
 batterie.
@@ -22430,7 +22428,7 @@ breakages.
 breakaway.
 breakax.
 breakaxe.
-breakback.
+breakback!
 breakbone.
 breaker.
 breakerman.
@@ -37761,7 +37759,7 @@ cracinae.
 crack.
 crackable.
 crackajack.
-crackback.
+crackback!
 crackbrain.
 cracked.
 cracker.
@@ -50141,7 +50139,7 @@ ebonizes.
 ebonizing.
 ebons.
 ebony.
-ebracteate.
+ebracteate!
 ebraick.
 ebriate.
 ebriated.
@@ -127784,7 +127782,7 @@ racers.
 racerunner.
 races.
 racetrack.
-racetracker.
+racetracker!
 racetracks.
 racette.
 raceway.
@@ -161153,7 +161151,7 @@ terraced.
 terraceless.
 terracer.
 terraces.
-terracette.
+terracette!
 terraculture.
 terrae.
 terraefilial.
@@ -165264,7 +165262,6 @@ tracasserie.
 tracasseries.
 trace.
 traceable.
-traceback.
 traced.
 traceless.
 tracer.
