@@ -15124,7 +15124,7 @@ barretry.
 barrets.
 barrett.
 barrette.
-barretter.
+barretter!
 barrettes.
 barricade.
 barricaded.
@@ -22029,7 +22029,7 @@ bracozzo.
 bract.
 bractea.
 bracteal.
-bracteate.
+bracteate!
 bracted.
 bractlet.
 bracts.
@@ -22429,6 +22429,7 @@ breakaway.
 breakax.
 breakaxe.
 breakback!
+breakbeat!
 breakbone.
 breaker.
 breakerman.
@@ -161452,6 +161453,7 @@ teton.
 tetotum.
 tetotums.
 tetra.
+tetraacetate!
 tetraborate.
 tetrabrach.
 tetrabromo.
