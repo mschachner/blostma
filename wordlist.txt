@@ -43503,7 +43503,6 @@ depender.
 depending!
 depends.
 depeople.
-depeopled.
 deperdit.
 deperdite.
 deperm.
@@ -47255,7 +47254,7 @@ doddies.
 dodding.
 doddle.
 doddy.
-doddypoll.
+doddypoll!
 dode.
 dodecade.
 dodecafid.
@@ -49850,7 +49849,7 @@ dysorexy.
 dyspathy.
 dyspepsia.
 dyspepsies.
-dyspepsy.
+dyspepsy!
 dysphasia.
 dysplasia.
 dyspnea.
@@ -91541,7 +91540,7 @@ lollingly.
 lollipop.
 lollipops.
 lollop.
-lolloped.
+lolloped!
 lolloping.
 lollops.
 lollopy.
@@ -91552,8 +91551,8 @@ lollygag.
 lollygagged.
 lollygagging.
 lollygags.
-lollypop.
-lollypops.
+lollypop!
+lollypops!
 lolo.
 lomastome.
 lomata.
@@ -109600,7 +109599,7 @@ opposable.
 opposal.
 oppose.
 opposed.
-opposeless.
+opposeless!
 opposer.
 opposers.
 opposes.
@@ -115971,7 +115970,7 @@ pedatipartite.
 pedder.
 peddlar.
 peddle.
-peddled.
+peddled!
 peddler.
 peddleress.
 peddleries.
@@ -116663,7 +116662,7 @@ peopled.
 peopledom.
 peoplehood.
 peopleize.
-peopleless.
+peopleless!
 peoplement.
 peopler.
 peoplers.
@@ -121039,7 +121038,6 @@ polaxis.
 poldavy.
 polder.
 polders.
-poldoody.
 poldron.
 polearm.
 poleax.
@@ -121299,7 +121297,6 @@ polyonymy.
 polyopia.
 polyopic.
 polyopsia.
-polyopsy.
 polyorama.
 polyose.
 polyp.
@@ -121342,7 +121339,7 @@ polypoda.
 polypodia.
 polypodous.
 polypods.
-polypody.
+polypody!
 polypoid.
 polypoidal.
 polypore.
@@ -122049,10 +122046,10 @@ posses.
 possess.
 possessable.
 possessed.
-possessedly.
+possessedly!
 possessedness.
 possessednesses.
-possesses.
+possesses!
 possessible.
 possessing.
 possessingness.
@@ -143122,7 +143119,6 @@ session.
 sessional.
 sessions.
 sesspool.
-sesspools.
 sesterce.
 sesterces.
 sesterii!
@@ -147317,7 +147313,7 @@ sleepings.
 sleepish.
 sleepland.
 sleepless.
-sleeplessly.
+sleeplessly!
 sleeplessness.
 sleeplessnesses.
 sleeplike.
