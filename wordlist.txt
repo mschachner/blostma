@@ -47255,6 +47255,7 @@ dodding.
 doddle.
 doddy.
 doddypoll!
+doddypolls!
 dode.
 dodecade.
 dodecafid.
@@ -121306,6 +121307,7 @@ polyparia.
 polypary.
 polypean.
 polyped.
+polypeds!
 polypetal.
 polypetalae.
 polypetaly.
@@ -121347,7 +121349,8 @@ polypores.
 polyporoid.
 polyporous.
 polyporus.
-polypose.
+polypose!
+polyposes!
 polyposis.
 polypotome.
 polypous.
@@ -121369,6 +121372,7 @@ polysomes.
 polysomous.
 polysomy.
 polyspast.
+polyspeed!
 polyspondyly.
 polyspora.
 polyspore.
@@ -151335,6 +151339,7 @@ spode.
 spodes.
 spodiosite.
 spodium.
+spodosols!
 spoffish.
 spoffle.
 spoffy.
@@ -157533,7 +157538,7 @@ syllabub.
 syllabubs.
 syllabus.
 syllabuses.
-syllepses.
+syllepses!
 syllepsis.
 syllid.
 syllidae.
