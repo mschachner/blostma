@@ -28728,7 +28728,6 @@ cenacles.
 cenaculum.
 cenanthy.
 cenation.
-cencerro.
 cencerros.
 cenchrus.
 cendre.
@@ -33615,7 +33614,7 @@ coconuco.
 coconut.
 coconuts.
 cocoon.
-cocooned.
+cocooned!
 cocooneries.
 cocoonery.
 cocooning.
@@ -35094,7 +35093,7 @@ conception.
 concepts.
 concern.
 concernancy.
-concerned.
+concerned!
 concerning.
 concernment.
 concerns.
@@ -35212,7 +35211,6 @@ concordancer.
 concordancy.
 concordant.
 concordat.
-concorder.
 concordly.
 concords.
 concours.
@@ -36661,8 +36659,7 @@ cornels.
 corneous.
 corner.
 cornercap.
-cornered.
-cornerer.
+cornered!
 cornering.
 cornerman.
 cornerpiece.
@@ -38894,7 +38891,7 @@ crowkeeper.
 crowl.
 crown.
 crownal.
-crowned.
+crowned!
 crowner.
 crowners.
 crownet.
@@ -42229,8 +42226,7 @@ decried.
 decrier.
 decriers.
 decries.
-decrown.
-decrowned.
+decrown!
 decrudescence.
 decry.
 decrypt.
@@ -48247,7 +48243,6 @@ downwards.
 downwarp.
 downwash.
 downway.
-downweed.
 downwind.
 downwith.
 downy.
@@ -48910,7 +48905,7 @@ droving.
 drovy.
 drown.
 drownd.
-drownded.
+drownded!
 drownding.
 drownds.
 drowned.
@@ -105443,7 +105438,7 @@ noncon.
 nonconceiving.
 nonconcentric.
 nonconception.
-nonconcern.
+nonconcern!
 nonconcision.
 nonconclusion.
 nonconcordant.
@@ -106128,7 +106123,6 @@ nonoptic.
 nonoral.
 nonorally.
 nonordained.
-nonordered.
 nonordination.
 nonorganic.
 nonorientation.
@@ -110145,7 +110139,7 @@ orometry.
 oromo.
 oronasal.
 oronasally.
-oronoco.
+oronoco!
 oronoko.
 oronooko!
 oronookos!
@@ -130033,7 +130027,6 @@ recomposes.
 recompress.
 recon.
 reconceal.
-reconcede.
 reconceive.
 reconcentrate.
 reconcert.
@@ -130165,7 +130158,6 @@ recrossed.
 recrosses.
 recrowd.
 recrown.
-recrowned.
 recrowns.
 recrucify.
 recrudency.
@@ -130317,7 +130309,7 @@ redd.
 redded.
 redden.
 reddenda.
-reddendo.
+reddendo!
 reddendum.
 reddened.
 reddening.
@@ -130797,7 +130789,7 @@ reencounter.
 reendorse.
 reendorsed.
 reendow.
-reendowed.
+reendowed!
 reendows.
 reenergize.
 reenergized.
@@ -132365,7 +132357,7 @@ rendement.
 render.
 renderable.
 rendered.
-renderer.
+renderer!
 renderers.
 rendering.
 renderings.
@@ -182431,7 +182423,6 @@ wommerala.
 wommeras.
 womplit.
 wonder.
-wonderdeed.
 wondered.
 wonderer.
 wonderers.
