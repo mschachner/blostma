@@ -36713,6 +36713,7 @@ cornpipe.
 cornrick.
 cornroot.
 cornrow.
+cornrowed!
 cornrows.
 corns.
 cornsack.
@@ -36774,7 +36775,7 @@ coronation.
 corone.
 coronel.
 coronels.
-coronene.
+coronene!
 coroner.
 coroners.
 coronet.
@@ -47692,7 +47693,7 @@ donned.
 donnee.
 donnees.
 donnerd.
-donnered.
+donnered!
 donnert.
 donnick.
 donnie.
@@ -52535,7 +52536,7 @@ endnote.
 endnotes.
 endocline.
 endocoele.
-endocone.
+endocone!
 endoconidia.
 endocrin.
 endocrine.
@@ -106132,7 +106133,7 @@ nonoscine.
 nonosmotic.
 nonostensive.
 nonostentation.
-nonowner.
+nonowner!
 nonowners.
 nonowning.
 nonoxidation.
@@ -130311,7 +130312,7 @@ redden.
 reddenda.
 reddendo!
 reddendum.
-reddened.
+reddened!
 reddening.
 reddens.
 redder.
@@ -182484,7 +182485,7 @@ woodcuts.
 wooded.
 wooden.
 woodendite.
-woodener.
+woodener!
 woodenest.
 woodenhead.
 woodenheaded.
