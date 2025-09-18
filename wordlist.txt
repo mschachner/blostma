@@ -3766,6 +3766,7 @@ airtimes.
 airting.
 airts.
 airview.
+airviews!
 airward.
 airwards.
 airwash.
@@ -129371,6 +129372,8 @@ rearrests.
 rearrival.
 rearrive.
 rears.
+rearview!
+rearviews!
 rearward.
 rearwardly.
 rearwardness.
@@ -133078,6 +133081,8 @@ reremouse.
 rerent.
 rerental.
 reresupper.
+rereview!
+rereviews!
 rereward.
 rerewards.
 rerig.
@@ -134407,7 +134412,8 @@ reverdi.
 reverdure.
 revere.
 revered.
-reveree.
+reveree!
+reverees!
 reverence.
 reverenced.
 reverencer.
@@ -145413,7 +145419,7 @@ sievelike.
 sievelikeness.
 sievelikenesses.
 siever.
-sieversia.
+sieversia!
 sieves.
 sieving.
 sievings.
@@ -157140,6 +157146,7 @@ sweered.
 sweert.
 sweese.
 sweeswee!
+sweeswees!
 sweet.
 sweetbells.
 sweetberry.
@@ -182041,6 +182048,7 @@ wisdom.
 wisdoms.
 wiseacre.
 wiseacres.
+wiseasses!
 wised.
 wiseguy.
 wisehead.
