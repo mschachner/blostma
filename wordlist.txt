@@ -3770,7 +3770,7 @@ airward.
 airwards.
 airwash.
 airwave.
-airwaves.
+airwaves!
 airway.
 airwaybill.
 airwayman.
@@ -10381,7 +10381,7 @@ arris.
 arrises.
 arrish.
 arrisways.
-arriswise.
+arriswise!
 arrivage.
 arrival.
 arrivals.
@@ -12811,7 +12811,7 @@ averse.
 aversely.
 averseness.
 aversenesses.
-aversive.
+aversive!
 avert.
 avertable.
 averted.
@@ -12833,7 +12833,6 @@ avianized.
 avianizes.
 avianizing.
 avians.
-aviararies.
 aviaries.
 aviarist.
 aviarists.
@@ -133276,7 +133275,7 @@ reservee.
 reserveful.
 reserveless.
 reserver.
-reservers.
+reservers!
 reservery.
 reserves.
 reservice.
@@ -134444,10 +134443,9 @@ reverseless.
 reversely.
 reversement.
 reverser.
-reversers.
+reversers!
 reverses.
 reverseways.
-reversewise.
 reversi.
 reversible.
 reversifier.
@@ -134494,7 +134492,6 @@ reviewage.
 reviewal.
 reviewed.
 reviewer.
-revieweress.
 reviewers.
 reviewing.
 reviewish.
@@ -157142,7 +157139,7 @@ sweer.
 sweered.
 sweert.
 sweese.
-sweeswee.
+sweeswee!
 sweet.
 sweetbells.
 sweetberry.
@@ -179144,7 +179141,7 @@ waivatua.
 waive.
 waived.
 waiver.
-waivers.
+waivers!
 waivery.
 waives.
 waiving.
@@ -179987,7 +179984,6 @@ waves.
 waveshape.
 waveson.
 waveward.
-wavewise.
 wavey.
 waveys.
 waviata.
