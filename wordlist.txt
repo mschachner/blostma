@@ -4117,8 +4117,8 @@ albitical.
 albitite.
 albizia.
 albizias.
-albizzia.
-albizzias.
+albizzia!
+albizzias!
 albocarbon.
 albococcus.
 albocracy.
@@ -11243,7 +11243,7 @@ assertum.
 asserve.
 asses.
 assess.
-assessable.
+assessable!
 assessably.
 assessed.
 assessee!
@@ -13408,7 +13408,7 @@ babes.
 babeship.
 babesia.
 babesias.
-babesiasis.
+babesiasis!
 babesiosis.
 babhan.
 babi.
@@ -15227,7 +15227,7 @@ bascules.
 bascunan.
 baseball.
 baseballer.
-baseballs.
+baseballs!
 baseband.
 baseboard.
 baseboards.
@@ -15322,7 +15322,6 @@ basiliscan.
 basiliscus.
 basilisk.
 basilisks.
-basilissa.
 basils.
 basilysis.
 basilyst.
@@ -18334,7 +18333,6 @@ bezantee.
 bezants.
 bezanty.
 bezazz.
-bezazzes.
 bezel.
 bezels.
 bezesteen.
@@ -18802,7 +18800,7 @@ bikukulla.
 bilaan.
 bilabe.
 bilabial.
-bilabials.
+bilabials!
 bilabiate.
 bilalo.
 bilamellar.
@@ -88713,7 +88711,7 @@ leaseback.
 leased.
 leasehold.
 leaseholds.
-leaseless.
+leaseless!
 leaseman.
 leasemen.
 leaser.
@@ -138206,7 +138204,7 @@ salsifies.
 salsifis.
 salsify.
 salsilla.
-salsillas.
+salsillas!
 salsoda.
 salsola.
 salsolaceae.
@@ -141830,7 +141828,7 @@ seisures.
 seity.
 seiurus.
 seiyukai.
-seizable.
+seizable!
 seize.
 seized.
 seizer.
@@ -146501,7 +146499,7 @@ sizal.
 sizar.
 sizars.
 sizarship.
-sizeable.
+sizeable!
 sized.
 sizeine.
 sizeman.
