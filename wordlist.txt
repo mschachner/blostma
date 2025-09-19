@@ -11136,7 +11136,7 @@ assahy.
 assai.
 assail.
 assailability.
-assailable.
+assailable!
 assailableness.
 assailablenesses.
 assailant.
@@ -13342,6 +13342,7 @@ baalist.
 baalite.
 baalitical.
 baalize.
+baalizes!
 baals.
 baalshem.
 baar.
@@ -13402,13 +13403,16 @@ babelike.
 babelish.
 babelism.
 babelize.
+babelizes!
 babels.
 babery.
 babes.
 babeship.
 babesia.
 babesias.
+babesiases!
 babesiasis!
+babesiella!
 babesiosis.
 babhan.
 babi.
@@ -14196,6 +14200,8 @@ balkline.
 balks.
 balky.
 ball.
+ballabile!
+ballabiles!
 ballad.
 ballade.
 balladeer.
@@ -86894,8 +86900,9 @@ labialising.
 labialism.
 labialismus.
 labiality.
-labialize.
+labialize!
 labialized.
+labializes!
 labializing.
 labially.
 labials.
@@ -86906,6 +86913,7 @@ labiates.
 labibia.
 labidura.
 labiella.
+labiellae!
 labile.
 labilities.
 lability.
@@ -139094,7 +139102,7 @@ sasine.
 sasins.
 saskatoon.
 sass.
-sassabies.
+sassabies!
 sassaby.
 sassafac.
 sassafrack.
@@ -146493,7 +146501,7 @@ sixtine.
 sixtowns.
 sixtus.
 sixty.
-sizable.
+sizable!
 sizably.
 sizal.
 sizar.
@@ -147252,6 +147260,8 @@ sleathy.
 sleave.
 sleaved.
 sleaves.
+sleazeball!
+sleazeballs!
 sleazier.
 sleaziest.
 sleazily.
