@@ -69361,7 +69361,6 @@ groggiest.
 groggily.
 grogginess.
 grogginesses.
-grogging.
 groggy.
 grognard.
 grogram.
@@ -80704,8 +80703,7 @@ intoothed.
 intorsion.
 intort.
 intorted.
-intorting.
-intortion.
+intortion!
 intorts.
 intortus.
 intourist.
@@ -80788,7 +80786,7 @@ intromit.
 intromits.
 intromittent.
 intromitter.
-intromitting.
+intromitting!
 introrse.
 intros.
 introsentient.
@@ -98577,7 +98575,7 @@ mirliton.
 mirly.
 mirror.
 mirrored.
-mirroring.
+mirroring!
 mirrorize.
 mirrorlike.
 mirrors.
@@ -100099,7 +100097,7 @@ monition.
 monitions.
 monitive.
 monitor.
-monitoring.
+monitoring!
 monitors.
 monitory.
 monitrix.
@@ -100359,7 +100357,6 @@ monotony.
 monotremata.
 monotremate.
 monotreme.
-monotron.
 monotropa.
 monotropy.
 monotype.
@@ -101121,7 +101118,7 @@ motordrome.
 motored.
 motorial.
 motoric.
-motoring.
+motoring!
 motorise.
 motorises.
 motorism.
@@ -105834,7 +105831,6 @@ nongray.
 nongreen.
 nongrey.
 nongrieving.
-nongrooming.
 nongrounded.
 nongrounding.
 nonguard.
@@ -106032,7 +106028,6 @@ nonmortal.
 nonmotile.
 nonmotility.
 nonmotivation.
-nonmotoring.
 nonmotorist.
 nonmucous.
 nonmutinous.
@@ -106319,7 +106314,7 @@ nonrhythm.
 nonriding.
 nonrigid.
 nonrioter.
-nonrioting.
+nonrioting!
 nonriparian.
 nonrival.
 nonrotating.
@@ -164978,7 +164973,7 @@ totterish.
 totters.
 tottery.
 tottie.
-totting.
+totting!
 tottle.
 tottlish.
 tottum.
@@ -166298,7 +166293,7 @@ triggering.
 triggerless.
 triggers.
 triggest.
-trigging.
+trigging!
 trigintal.
 trigla.
 triglid.
@@ -166429,7 +166424,7 @@ trimmed.
 trimmer.
 trimmers.
 trimmest.
-trimming.
+trimming!
 trimmings.
 trimness.
 trimnesses.
@@ -166478,7 +166473,7 @@ trinitrate.
 trinitration.
 trinitrid.
 trinitride.
-trinitrin.
+trinitrin!
 trinitro.
 trinitrotoluol.
 trinity.
@@ -167031,7 +167026,7 @@ trotter!
 trotters!
 trotteur.
 trottie.
-trotting.
+trotting!
 trottles.
 trottoir.
 trottoired.
