@@ -63254,7 +63254,7 @@ fruitfuller.
 fruitfully.
 fruitier.
 fruitiest.
-fruiting.
+fruiting!
 fruition.
 fruitist.
 fruitive.
@@ -70194,7 +70194,7 @@ gunrack.
 gunroom.
 gunrooms.
 gunrunner.
-gunrunning.
+gunrunning!
 gunsel.
 gunsels.
 gunship.
@@ -79780,7 +79780,6 @@ inrolling.
 inrooted.
 inrub.
 inrun.
-inrunning.
 inruption.
 inrush.
 inrushes.
@@ -80765,7 +80764,7 @@ intrigo.
 intriguant.
 intrigue.
 intriguer.
-intriguing.
+intriguing!
 intrince.
 intrine.
 intrinse.
@@ -80817,7 +80816,7 @@ intuent.
 intuicity.
 intuit.
 intuited.
-intuiting.
+intuiting!
 intuition.
 intuitional.
 intuitionism.
@@ -80835,7 +80834,6 @@ intuits.
 intune.
 inturn.
 inturned.
-inturning.
 inturns.
 intuse.
 intwine.
@@ -107425,7 +107423,7 @@ nunneries.
 nunnery.
 nunni.
 nunnify.
-nunning.
+nunning!
 nunnish.
 nunnishness.
 nunnishnesses.
@@ -107475,7 +107473,7 @@ nurtureless.
 nurturer.
 nurturers.
 nurtures.
-nurturing.
+nurturing!
 nusairis.
 nusakan.
 nusfiah.
@@ -162982,7 +162980,6 @@ tiffie.
 tiffin.
 tiffined.
 tiffing.
-tiffining.
 tiffins.
 tiffish.
 tiffle.
@@ -171067,7 +171064,7 @@ unfitnesses.
 unfits.
 unfitted.
 unfitten.
-unfitting.
+unfitting!
 unfitty.
 unfix.
 unfixed.
@@ -171178,7 +171175,6 @@ unfrigid.
 unfrill.
 unfrilly.
 unfringe.
-unfringing.
 unfrizz.
 unfrizzy.
 unfrock.
@@ -171860,7 +171856,6 @@ uninterred.
 unintimate.
 unintitled.
 unintoned.
-unintriguing.
 unintruded.
 unintruding.
 unintuitional.
@@ -173306,7 +173301,7 @@ unridged.
 unrife.
 unrig.
 unrigged.
-unrigging.
+unrigging!
 unright.
 unrigid.
 unrigorous.
@@ -173315,7 +173310,6 @@ unrimed.
 unrind.
 unring.
 unringed.
-unringing.
 unrinsed.
 unrioting.
 unriotous.
@@ -174530,7 +174524,6 @@ unturfed.
 unturgid.
 unturn.
 unturned.
-unturning.
 unturreted.
 untusked.
 untutelar.
