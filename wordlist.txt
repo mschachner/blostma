@@ -1276,7 +1276,7 @@ aciculas.
 aciculate.
 aciculum.
 aciculums.
-acidaemia.
+acidaemia!
 acidaspis.
 acidemia.
 acidemias.
@@ -25072,6 +25072,7 @@ caecal.
 caecally.
 caecectomy.
 caecias.
+caecidae!
 caecilia.
 caecilian.
 caeciliidae.
@@ -31545,7 +31546,7 @@ cicadae.
 cicadas.
 cicadellidae.
 cicadid.
-cicadidae.
+cicadidae!
 cicala.
 cicalas.
 cicale.
@@ -41668,7 +41669,8 @@ deallocated.
 deals.
 dealt.
 deamidase.
-deamidate.
+deamidate!
+deamidated!
 deamidize.
 deaminase.
 deaminate.
@@ -44883,7 +44885,7 @@ dibromide.
 dibutyl.
 dicacity.
 dicacodyl.
-dicaeidae.
+dicaeidae!
 dicalcic.
 dicalcium.
 dicast.
@@ -97288,6 +97290,7 @@ methylate.
 methylene.
 methylol.
 methyls.
+metiamide!
 metic.
 metier.
 metiers.
