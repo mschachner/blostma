@@ -722,7 +722,6 @@ academies.
 academise.
 academised.
 academism.
-academite.
 academize.
 academized.
 academus.
@@ -1128,8 +1127,7 @@ acetal.
 acetaldol.
 acetalize.
 acetals.
-acetamid.
-acetamide.
+acetamide!
 acetanion.
 acetannin.
 acetars.
@@ -2440,7 +2438,6 @@ aeaean.
 aecia.
 aecial.
 aecidia.
-aecidiaceae.
 aecidial.
 aecidium.
 aeciotelia.
@@ -5833,7 +5830,6 @@ amice.
 amiced.
 amices.
 amici.
-amicicide.
 amicous.
 amicrobic.
 amicron.
@@ -27896,7 +27892,6 @@ catamarcan.
 catamarenan.
 catamenia.
 catamite.
-catamited.
 catamites.
 catamiting.
 catamneses.
@@ -31671,7 +31666,7 @@ cimeter.
 cimex.
 cimices.
 cimicid.
-cimicidae.
+cimicidae!
 cimicide.
 cimiciform.
 cimicifuga.
@@ -42072,8 +42067,8 @@ decilitre.
 decillion.
 decima.
 decimal.
-decimate.
-decimated.
+decimate!
+decimated!
 decime.
 decimeter.
 decimetre.
@@ -43069,7 +43064,7 @@ demarks.
 demast.
 demasted.
 demasts.
-dematiaceae.
+dematiaceae!
 deme.
 demean.
 demeaned!
@@ -44563,8 +44558,7 @@ diabolonian.
 diabolos.
 diabrosis.
 diacaustic.
-diacetamide.
-diacetate.
+diacetate!
 diacetic.
 diacetin.
 diacetine.
@@ -44618,7 +44612,6 @@ diaene.
 diaereses.
 diaeresis.
 diaeretic.
-diaetetae.
 diagenesis.
 diagnosing!
 diagnosis!
@@ -45486,7 +45479,7 @@ dimetria.
 dimetric.
 dimetry.
 dimidiate.
-dimidiated.
+dimidiated!
 dimidiating.
 dimidiation.
 dimin.
@@ -51556,7 +51549,7 @@ elzevir.
 emacerate.
 emacerated.
 emaciate.
-emaciated.
+emaciated!
 emaciates.
 emaculate.
 emagram.
@@ -77636,7 +77629,7 @@ immaturity.
 immediacies.
 immediacy.
 immedial.
-immediate.
+immediate!
 immediatism.
 immediatist.
 immelmann.
@@ -92897,9 +92890,8 @@ macacos.
 macacus.
 macadam.
 macadamer.
-macadamia.
+macadamia!
 macadamise.
-macadamite.
 macadamize.
 macadamized.
 macadams.
@@ -95953,7 +95945,7 @@ medicaids.
 medical.
 medicare.
 medicate.
-medicated.
+medicated!
 medicean.
 medici.
 medicine.
@@ -95989,7 +95981,7 @@ medish.
 medism.
 meditant.
 meditate.
-meditated.
+meditated!
 meditater.
 meditates.
 meditatio.
