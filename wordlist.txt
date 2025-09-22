@@ -35219,8 +35219,8 @@ concourses.
 concreate.
 concrement.
 concresce.
-concrescence.
-concrescences.
+concrescence!
+concrescences!
 concrescent.
 concrete.
 concreted.
@@ -35449,7 +35449,7 @@ congees.
 congeing.
 congener.
 congeneric.
-congeners.
+congeners!
 congenetic.
 congenite.
 congeon.
@@ -35478,9 +35478,7 @@ congree.
 congreet.
 congreso.
 congress.
-congresser.
-congresses.
-congresso.
+congresses!
 congreve.
 congrid.
 congrio.
@@ -38786,7 +38784,7 @@ crosslets.
 crossley.
 crossly.
 crossness.
-crossnesses.
+crossnesses!
 crossopt.
 crossosoma.
 crossover.
@@ -68912,8 +68910,8 @@ greeney.
 greenfly.
 greengage.
 greengill.
-greengrocer.
-greengrocers.
+greengrocer!
+greengrocers!
 greengrocery.
 greenhead.
 greenheaded.
@@ -69435,7 +69433,7 @@ grossing.
 grossirete.
 grossly.
 grossness.
-grossnesses.
+grossnesses!
 grosso.
 grossular.
 grosz.
@@ -129980,7 +129978,7 @@ recode.
 recoded.
 recodes.
 recodified.
-recognosce.
+recognosce!
 recoil.
 recoiled.
 recoiler.
@@ -149616,7 +149614,6 @@ sonoran.
 sonorant.
 sonorants.
 sonores.
-sonorescence.
 sonorescent.
 sonoric.
 sonorific.
