@@ -28741,6 +28741,7 @@ cenobies.
 cenobite.
 cenobitic.
 cenoby.
+cenogeneses!
 cenogenesis.
 cenogenetic.
 cenogonous.
@@ -33830,6 +33831,7 @@ coenocytic.
 coenoecial.
 coenoecic.
 coenoecium.
+coenogeneses!
 coenogenesis.
 coenogenetic.
 coenomonoecism.
@@ -35455,6 +35457,7 @@ congenite.
 congeon.
 conger.
 congeree.
+congerees!
 congerie.
 congers.
 congery.
@@ -50810,6 +50813,7 @@ eggbeater.
 eggbeaters.
 eggberries!
 eggberry.
+eggcorns!
 eggcrate.
 eggcup.
 eggcupful.
@@ -52918,7 +52922,7 @@ engroove.
 engross.
 engrossed.
 engrosser.
-engrossers.
+engrossers!
 engrosses.
 engrossing.
 engrossingness.
@@ -54685,6 +54689,7 @@ erodible.
 eroding.
 erodium.
 erogate.
+erogeneses!
 erogenesis.
 erogenic.
 erogenous.
@@ -67808,7 +67813,7 @@ gondola.
 gondolas.
 gondolet.
 goneness.
-gonenesses.
+gonenesses!
 goneoclinic.
 gonepoiesis.
 goner.
@@ -67873,6 +67878,7 @@ gonocoele.
 gonocyte.
 gonof.
 gonofs.
+gonogeneses!
 gonogenesis.
 gonolobus.
 gonomere.
@@ -68940,7 +68946,7 @@ greenlets.
 greenling.
 greenly.
 greenness.
-greennesses.
+greennesses!
 greenroom.
 greenrooms.
 greens.
@@ -103820,6 +103826,7 @@ neogaea.
 neogaean.
 neogamy.
 neogene.
+neogeneses!
 neogenesis.
 neogenetic.
 neognathae.
@@ -105039,6 +105046,7 @@ nodulus.
 nodus.
 noebcd.
 noecho.
+noegeneses!
 noegenesis.
 noegenetic.
 noels.
@@ -105437,6 +105445,7 @@ nonconceiving.
 nonconcentric.
 nonconception.
 nonconcern!
+nonconcerns!
 nonconcision.
 nonconclusion.
 nonconcordant.
@@ -109048,6 +109057,7 @@ onchocerca.
 oncia.
 oncidium.
 oncin.
+oncogeneses!
 oncogenesis.
 oncogenic.
 oncologic.
@@ -129979,6 +129989,7 @@ recoded.
 recodes.
 recodified.
 recognosce!
+recognosces!
 recoil.
 recoiled.
 recoiler.
