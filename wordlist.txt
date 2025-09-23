@@ -48570,6 +48570,7 @@ dreary.
 dreche.
 dreck.
 drecks.
+dreddour!
 dredge.
 dredged.
 dredgeful.
@@ -58539,7 +58540,7 @@ fencings.
 fendable.
 fended.
 fender.
-fendered.
+fendered!
 fendering.
 fenderless.
 fenders.
@@ -61734,7 +61735,7 @@ foredoomed.
 foredoomer.
 foredooms.
 foredoor!
-foredune.
+foredune!
 foreface.
 forefaces.
 forefather.
@@ -63125,7 +63126,7 @@ frond.
 fronde.
 fronded.
 frondent.
-frondeur.
+frondeur!
 frondiform.
 frondose.
 frondous.
@@ -108355,7 +108356,7 @@ odorproof.
 odors.
 odostemon.
 odour.
-odoured.
+odoured!
 odourful.
 odourless.
 odours.
@@ -109932,7 +109933,7 @@ oremus.
 orenda.
 orendite.
 oreocarya.
-oreodon.
+oreodon!
 oreodont.
 oreodontine.
 oreodontoid.
@@ -130562,7 +130563,7 @@ redoubler.
 redoubt.
 redoubted.
 redound.
-redounded.
+redounded!
 redounds.
 redout.
 redoute.
@@ -136648,13 +136649,13 @@ roundness.
 roundnesses.
 roundnose.
 roundnosed.
-roundoff.
+roundoff!
 rounds.
 roundtop.
 roundtree.
 roundup.
 roundups.
-roundure.
+roundure!
 roundwood.
 roundworm.
 roundy.
@@ -137217,7 +137218,7 @@ runover.
 runovers.
 runproof.
 runrig.
-runround.
+runround!
 runrounds.
 runsy.
 runted.
@@ -170236,7 +170237,7 @@ underdo.
 underdoer.
 underdoes.
 underdog.
-underdone.
+underdone!
 underdose.
 underdosed.
 underdot.
@@ -170267,7 +170268,7 @@ underer.
 undereye.
 undereyed.
 underfed.
-underfeed.
+underfeed!
 underfeeds.
 underfeel.
 underfeet.
@@ -170277,6 +170278,7 @@ underfind.
 underfire.
 underfired.
 underfo.
+underfunded!
 underfur.
 underfurs.
 undergage.
@@ -170400,7 +170402,11 @@ underroller.
 underroom.
 underroot.
 underrooted.
+underround!
+underrounded!
 underrower.
+underruff!
+underruffed!
 underrule.
 underruled.
 underruler.
@@ -172771,7 +172777,7 @@ unorally.
 unorbed.
 unordain.
 unorder.
-unordered.
+unordered!
 unorn.
 unornate.
 unornly.
