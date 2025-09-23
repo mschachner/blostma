@@ -61744,7 +61744,7 @@ forefeet.
 forefelt.
 forefence.
 forefend.
-forefended.
+forefended!
 forefends.
 foreffelt.
 forefield.
@@ -61867,7 +61867,7 @@ forerigging.
 foreroom.
 foreroyal.
 forerun.
-forerunner.
+forerunner!
 forerunners.
 foreruns.
 fores.
@@ -62343,7 +62343,7 @@ founce.
 found.
 founded.
 founder.
-foundered.
+foundered!
 founding.
 foundrous.
 foundry.
@@ -104148,7 +104148,7 @@ neurocele.
 neurocoel.
 neurocoele.
 neurocrine.
-neurodendron.
+neurodendron!
 neurogenous.
 neurohormone.
 neurohumor.
@@ -106103,7 +106103,6 @@ nonodorous.
 nonodorousness.
 nonodorousnesses.
 nonoecumenic.
-nonoffender.
 nonoffensive.
 nonoffensiveness.
 nonoffensivenesses.
@@ -131125,8 +131124,8 @@ refortified.
 refortifies.
 refortify.
 refound.
-refounded.
-refounder.
+refounded!
+refounder!
 refr.
 refract.
 refractary.
@@ -170131,7 +170130,6 @@ undefended.
 undefending.
 undefense.
 undefensed.
-undeferred.
 undefied.
 undefiled.
 undefine.
@@ -170270,7 +170268,6 @@ undereye.
 undereyed.
 underfed.
 underfeed.
-underfeeder.
 underfeeds.
 underfeel.
 underfeet.
@@ -170400,7 +170397,6 @@ underrobe.
 underrogue.
 underroll.
 underroller.
-underroof.
 underroom.
 underroot.
 underrooted.
@@ -170799,7 +170795,6 @@ unendly.
 unendorsed.
 unendowed.
 unendued.
-unendured.
 unenduring.
 unenfeebled.
 unengaged.
@@ -171019,7 +171014,6 @@ unfenced.
 unfences.
 unfencing.
 unfended.
-unfendered.
 unfeoffed.
 unferreted.
 unferried.
@@ -171154,7 +171148,6 @@ unfound.
 unfounded.
 unfoundedness.
 unfoundednesses.
-unfoundered.
 unfoxed.
 unfoxy.
 unfragrant.
@@ -172736,8 +172729,7 @@ unodorousness.
 unodorousnesses.
 unoecumenic.
 unoffended.
-unoffender.
-unoffered.
+unoffered!
 unofficious.
 unoffset.
 unoften.
@@ -173199,11 +173191,9 @@ unreeved.
 unreeves.
 unreeving.
 unreferenced.
-unreferred.
 unrefine.
 unrefined.
 unrefining.
-unrefunded.
 unrefused.
 unrefuted.
 unregal.
@@ -173226,7 +173216,6 @@ unremembered.
 unreminded.
 unremittent.
 unremote.
-unrendered.
 unrenewed.
 unrenounced.
 unrenowned.
@@ -173357,7 +173346,7 @@ unroller.
 unrolling.
 unrolls.
 unroof.
-unroofed.
+unroofed!
 unroofing.
 unroofs.
 unroomy.
@@ -173378,7 +173367,7 @@ unrotund.
 unrouged.
 unrough.
 unround.
-unrounded.
+unrounded!
 unrounding.
 unrounds.
 unroused.
@@ -173399,7 +173388,6 @@ unrra.
 unrrove.
 unrubbed.
 unrubbish.
-unruddered.
 unruddled.
 unrude.
 unrudely.
