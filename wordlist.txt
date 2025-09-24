@@ -42319,7 +42319,6 @@ deedier.
 deediest.
 deedily.
 deediness.
-deedinesses.
 deeding.
 deedless.
 deeds.
@@ -46340,8 +46339,8 @@ disker.
 diskery.
 diskette.
 diskettes.
-diskindness.
-diskindnesses.
+diskindness!
+diskindnesses!
 disking.
 diskless.
 disklike.
@@ -46360,8 +46359,6 @@ dislicense.
 dislike.
 disliked.
 disliken.
-dislikeness.
-dislikenesses.
 disliker.
 dislikers.
 dislikes.
@@ -85532,8 +85529,8 @@ kindles.
 kindless.
 kindlier.
 kindlily.
-kindliness.
-kindlinesses.
+kindliness!
+kindlinesses!
 kindling.
 kindlings.
 kindly.
@@ -85620,7 +85617,7 @@ kinkier.
 kinkiest.
 kinkily.
 kinkiness.
-kinkinesses.
+kinkinesses!
 kinking.
 kinkle.
 kinkled!
@@ -90065,7 +90062,7 @@ likeliest.
 likelihead.
 likelihood.
 likeliness.
-likelinesses.
+likelinesses!
 likely.
 likeminded.
 liken.
@@ -90500,8 +90497,6 @@ linked.
 linkedit.
 linkedited.
 linkeditted.
-linkedness.
-linkednesses.
 linker.
 linkers.
 linkier.
@@ -103614,7 +103609,7 @@ needier.
 neediest.
 needily.
 neediness.
-needinesses.
+needinesses!
 needing.
 needle.
 needlebill.
@@ -146772,8 +146767,7 @@ skill.
 skillagalee.
 skilled.
 skilless.
-skillessness.
-skillessnesses.
+skillessness!
 skillet.
 skillets.
 skillful.
@@ -146836,7 +146830,7 @@ skinnery.
 skinnier.
 skinniest.
 skinniness.
-skinninesses.
+skinninesses!
 skinning.
 skinny.
 skins.
@@ -147495,7 +147489,7 @@ slinkier.
 slinkiest.
 slinkily.
 slinkiness.
-slinkinesses.
+slinkinesses!
 slinking.
 slinkingly.
 slinks.
