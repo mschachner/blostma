@@ -45024,6 +45024,7 @@ diddies.
 diddikai.
 diddle!
 diddled!
+diddledees!
 diddler.
 diddlers.
 diddles.
@@ -46182,6 +46183,7 @@ disegno.
 diselder.
 diselenid.
 diselenide.
+diselenides!
 disematism.
 disembed.
 disembodied.
@@ -46358,7 +46360,7 @@ disli.
 dislicense.
 dislike.
 disliked.
-disliken.
+disliken!
 disliker.
 dislikers.
 dislikes.
@@ -53002,7 +53004,7 @@ enkidu.
 enkindle.
 enkindled!
 enkindler.
-enkindles.
+enkindles!
 enkindling.
 enkolpion.
 enkraal.
@@ -77022,7 +77024,7 @@ idleman.
 idlemen.
 idlement.
 idleness.
-idlenesses.
+idlenesses!
 idler.
 idlers.
 idles.
@@ -85525,8 +85527,8 @@ kindjal.
 kindle.
 kindled.
 kindler.
-kindles.
-kindless.
+kindles!
+kindless!
 kindlier.
 kindlily.
 kindliness!
@@ -145281,7 +145283,7 @@ sidecars.
 sidecheck.
 sided.
 sidedness.
-sidednesses.
+sidednesses!
 sidedress.
 sidedressed!
 sidedresses!
@@ -145602,6 +145604,7 @@ sikhra.
 sikhs.
 sikimi.
 sikinnis.
+sikinnises!
 sikkim.
 sikkimese.
 sikra.
@@ -145702,9 +145705,10 @@ silkiest.
 silkily.
 silkine.
 silkiness.
-silkinesses.
+silkinesses!
 silking.
 silklike.
+silklined!
 silkman.
 silkmen.
 silkness.
@@ -146819,6 +146823,7 @@ skinker.
 skinkers.
 skinking.
 skinkle.
+skinkled!
 skinks.
 skinless.
 skinlike.
@@ -147484,6 +147489,7 @@ slings.
 slingsman.
 slingsmen.
 slink.
+slinked!
 slinker.
 slinkier.
 slinkiest.
@@ -148489,7 +148495,7 @@ sniddle.
 snide.
 snidely.
 snideness.
-snidenesses.
+snidenesses!
 snider.
 snidery.
 snidest.
