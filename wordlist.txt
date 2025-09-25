@@ -3173,7 +3173,7 @@ aggrace.
 aggrade.
 aggraded.
 aggrades.
-aggrading.
+aggrading!
 aggrammatism.
 aggrandising.
 aggrandizing.
@@ -6907,7 +6907,7 @@ angara.
 angareb.
 angareeb.
 angarep.
-angaria.
+angaria!
 angarias.
 angariation.
 angaries.
@@ -178979,7 +178979,7 @@ wafture.
 wafty.
 waganda.
 wagang.
-waganging.
+waganging!
 wagati.
 wagaun.
 wagbeard.
@@ -179396,7 +179396,7 @@ wanner.
 wanness.
 wannesses.
 wannest.
-wannigan.
+wannigan!
 wannigans.
 wanning.
 wannish.
@@ -179542,7 +179542,7 @@ warine.
 wariness.
 warinesses.
 waring.
-waringin.
+waringin!
 warish.
 warison.
 warisons.
@@ -181859,7 +181859,7 @@ wingate.
 wingbow.
 wingbows.
 wingcut.
-wingding.
+wingding!
 wingdings.
 winged.
 wingedness.
