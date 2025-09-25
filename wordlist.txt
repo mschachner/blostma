@@ -2996,7 +2996,6 @@ againbuy.
 againsay.
 against.
 againstand.
-againward.
 agal.
 agalactia.
 agalactic.
@@ -12989,7 +12988,7 @@ awardee.
 awardees.
 awarder.
 awarders.
-awarding.
+awarding!
 awards.
 aware.
 awaredom.
@@ -48354,7 +48353,7 @@ drafts.
 drafty.
 dragade.
 dragaded.
-dragading.
+dragading!
 dragbar.
 dragboat.
 dragee.
@@ -48493,7 +48492,7 @@ drawers.
 drawgate.
 drawgear.
 drawhead.
-drawing.
+drawing!
 drawk.
 drawl.
 drawled.
@@ -64140,7 +64139,6 @@ gainst.
 gainstand.
 gainturn.
 gaintwist.
-gainward.
 gairfish.
 gaisling.
 gaist.
@@ -68383,8 +68381,8 @@ grademark.
 grader.
 graders.
 grades.
-gradgrind.
-gradgrindian.
+gradgrind!
+gradgrindian!
 gradin.
 gradine.
 grading.
@@ -68521,8 +68519,7 @@ grandame.
 grandams.
 grandaunt.
 grandbaby.
-granddad.
-granddada.
+granddad!
 granddaddy.
 granddads.
 granddam.
@@ -78830,7 +78827,7 @@ indra.
 indraft.
 indrape.
 indrawal.
-indrawing.
+indrawing!
 indrawn.
 indrench.
 indri.
@@ -81075,7 +81072,6 @@ inweight.
 inwheel.
 inwick.
 inwind.
-inwinding.
 inwinds.
 inwit.
 inwith.
@@ -104548,7 +104544,7 @@ nigerian.
 nigerians.
 niggard.
 niggarded.
-niggarding.
+niggarding!
 niggardising.
 niggardizing.
 niggardling.
@@ -181562,7 +181558,7 @@ wigtail.
 wigwag.
 wigwagged.
 wigwagger.
-wigwagging.
+wigwagging!
 wigwags.
 wigwam.
 wigwams.
