@@ -14466,6 +14466,7 @@ bandel.
 bandelet.
 bandelette.
 bandeng.
+bandengs!
 bander.
 banderma.
 banders.
@@ -15229,6 +15230,7 @@ baseball.
 baseballer.
 baseballs!
 baseband.
+basebands!
 baseboard.
 baseboards.
 baseborn.
@@ -40668,6 +40670,7 @@ dagame.
 dagassa.
 dagbamba.
 dagbane.
+dagbanes!
 dagesh.
 dagestan.
 dagga.
@@ -41681,7 +41684,7 @@ deaner.
 deaneries.
 deanery.
 deaness.
-deanesses.
+deanesses!
 deaning.
 deans.
 dearborn.
@@ -141606,6 +141609,7 @@ seedcase.
 seedcases.
 seedeater.
 seeded.
+seedees!
 seeder.
 seeders.
 seedful.
