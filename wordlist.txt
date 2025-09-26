@@ -89,7 +89,6 @@ abase.
 abased.
 abasedly.
 abasedness.
-abasednesses.
 abasement.
 abasements.
 abaser.
@@ -3105,7 +3104,7 @@ agdistis.
 ageable.
 agedly.
 agedness.
-agednesses.
+agednesses!
 agee.
 ageing.
 ageings.
@@ -14442,7 +14441,7 @@ banda.
 bandage.
 bandaged.
 bandager.
-bandages.
+bandages!
 bandaging.
 bandaid.
 bandaite.
@@ -14451,9 +14450,9 @@ bandala.
 bandana.
 bandanaed.
 bandanas.
-bandanna.
-bandannaed.
-bandannas.
+bandanna!
+bandannaed!
+bandannas!
 bandar.
 bandbox.
 bandboxy.
@@ -41733,7 +41732,6 @@ debacle.
 debacles.
 debadge.
 debag.
-debagged.
 debagging.
 debar.
 debarbarize.
@@ -41748,8 +41746,8 @@ debarred.
 debars.
 debase.
 debased.
-debasedness.
-debasednesses.
+debasedness!
+debasednesses!
 debaser.
 debasers.
 debases.
@@ -52772,10 +52770,8 @@ enfuddle.
 enfume.
 enfurrow.
 engage.
-engaged.
+engaged!
 engagedly.
-engagedness.
-engagednesses.
 engagee.
 engagement!
 engagements.
@@ -137715,7 +137711,7 @@ sadite.
 sadleir.
 sadly.
 sadness.
-sadnesses.
+sadnesses!
 sadware.
 saebeins.
 saecula.
@@ -138534,7 +138530,7 @@ sandastra.
 sandastros.
 sandawe.
 sandbag.
-sandbagged.
+sandbagged!
 sandbagging.
 sandbags.
 sandbank.
