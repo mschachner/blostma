@@ -126870,7 +126870,7 @@ quader.
 quadi.
 quadle.
 quadra.
-quadrae.
+quadrae!
 quadral.
 quadrans.
 quadrant.
