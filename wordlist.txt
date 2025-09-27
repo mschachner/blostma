@@ -41123,7 +41123,7 @@ dapico.
 dapifer.
 dapped.
 dapper.
-dapperer.
+dapperer!
 dapperest.
 dapperly.
 dapperness.
@@ -116838,7 +116838,7 @@ perdu.
 perdue.
 perdues.
 perdure.
-perdured.
+perdured!
 perdus.
 perdy.
 pere.
@@ -123562,6 +123562,7 @@ prepping.
 preppy.
 prepractice.
 prepreference.
+preprepared!
 preprice.
 prepriced.
 prepricing.
@@ -123597,7 +123598,8 @@ prepuce.
 prepuces.
 prepueblo.
 prepunch.
-prepupa.
+prepupa!
+prepupae!
 prepupal.
 prepurpose.
 prepurposed.
@@ -128593,7 +128595,7 @@ rapists.
 raploch.
 raport.
 rappage.
-rapparee.
+rapparee!
 rapparees.
 rappe.
 rapped.
@@ -130565,6 +130567,7 @@ redrafted.
 redrafts.
 redrag.
 redrape.
+redraped!
 redraw.
 redrawer.
 redrawers.
@@ -175202,7 +175205,7 @@ upraises.
 upraught.
 upreach.
 uprear.
-upreared.
+upreared!
 uprears.
 uprein.
 uprend.
