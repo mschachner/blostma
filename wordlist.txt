@@ -8915,7 +8915,7 @@ appear.
 appearance.
 appearanced.
 appearances.
-appeared.
+appeared!
 appearer.
 appearers.
 appearing.
@@ -42311,7 +42311,6 @@ deed.
 deedbote.
 deedbox.
 deeded.
-deedeed.
 deedful.
 deedfully.
 deedholder.
@@ -43632,8 +43631,6 @@ deputize.
 deputized.
 deputy.
 dequeen.
-dequeue.
-dequeued.
 dequeues.
 dequeuing.
 deracine.
@@ -48524,7 +48521,7 @@ drays.
 drazel.
 dread.
 dreadable.
-dreaded.
+dreaded!
 dreader.
 dreadful.
 dreading.
@@ -115550,7 +115547,7 @@ pauperiser.
 pauperize.
 pauperizer.
 paupers.
-pauraque.
+pauraque!
 pauropod.
 pauropoda.
 pauropodous.
@@ -116698,8 +116695,8 @@ pepperbox.
 peppercorn.
 peppercorns.
 peppercorny.
-peppered.
-pepperer.
+peppered!
+pepperer!
 pepperers.
 peppergrass.
 pepperidge.
@@ -117279,7 +117276,6 @@ perplexed.
 perplexedly.
 perplexer.
 perplexes.
-perqueer.
 perqueerly.
 perqueir.
 perquest.
@@ -117295,7 +117291,7 @@ perrons.
 perroquet.
 perruche.
 perrukery.
-perruque.
+perruque!
 perruquier.
 perruquiers.
 perry.
@@ -123485,7 +123481,7 @@ preparedly.
 preparedness.
 preparednesses.
 preparental.
-preparer.
+preparer!
 preparers.
 prepares.
 preparietal.
@@ -125779,7 +125775,7 @@ puerile.
 puerilely.
 puerman.
 puerpera.
-puerperae.
+puerperae!
 puerperal.
 puerperant.
 puerperia.
@@ -126294,7 +126290,6 @@ puquinan.
 purana.
 puranas.
 puranic.
-puraque.
 purasati.
 purau.
 purbeck.
@@ -126401,7 +126396,7 @@ purprision.
 purpura.
 purpuras.
 purpurate!
-purpure.
+purpure!
 purpureal.
 purpurean.
 purpureous.
@@ -126866,7 +126861,7 @@ quacked.
 quackle.
 quacks.
 quacky.
-quadded.
+quadded!
 quadding.
 quaddle.
 quader.
@@ -126901,10 +126896,9 @@ quadrual.
 quadrula.
 quadrum.
 quadrumana.
-quadruped.
+quadruped!
 quads.
 quaedam.
-quaequae.
 quaere.
 quaeres.
 quaesita.
@@ -129296,7 +129290,7 @@ reappeal.
 reappear.
 reappearance.
 reappearances.
-reappeared.
+reappeared!
 reappearing.
 reappears.
 reappease.
@@ -132573,7 +132567,6 @@ repacked.
 repacker.
 repacks.
 repad.
-repadded.
 repage.
 repaid.
 repaint.
@@ -132591,7 +132584,6 @@ repand.
 repanel.
 repaneled.
 repaper.
-repapered.
 repapering.
 repapers.
 reparable.
@@ -132870,7 +132862,6 @@ reprehender.
 reprehends.
 repremise.
 repremised.
-reprepare.
 repreparing.
 represcribe.
 represent.
@@ -133019,7 +133010,6 @@ requesters.
 requestor.
 requestors.
 requests.
-requeued.
 requiem.
 requiems.
 requienia.
