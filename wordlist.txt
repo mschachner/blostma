@@ -45824,6 +45824,7 @@ dipper.
 dippers.
 dippier.
 dippiest.
+dippinesses!
 dipping.
 dippings.
 dipppier.
@@ -50514,7 +50515,7 @@ edgier.
 edgiest.
 edgily.
 edginess.
-edginesses.
+edginesses!
 edging.
 edgingly.
 edgings.
@@ -54077,7 +54078,8 @@ epigean.
 epigee.
 epigeic.
 epigene.
-epigenesis.
+epigeneses!
+epigenesis!
 epigenesist.
 epigenetic.
 epigenic.
@@ -66237,7 +66239,7 @@ giddiest.
 giddify.
 giddily.
 giddiness.
-giddinesses.
+giddinesses!
 giddy.
 giddyberry.
 giddyhead.
@@ -118696,7 +118698,7 @@ piecing.
 piecings.
 piedly.
 piedness.
-piednesses.
+piednesses!
 piedra.
 piedroit.
 piefort.
@@ -141131,6 +141133,7 @@ scythic.
 scytitis.
 sdeath.
 sdeign.
+sdeigning!
 sdump.
 seabag.
 seabags.
