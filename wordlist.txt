@@ -43886,8 +43886,6 @@ desidious.
 desight.
 design.
 designed.
-designedness.
-designednesses.
 designee.
 designees.
 designer.
@@ -43987,8 +43985,8 @@ despin.
 despisal.
 despise.
 despised.
-despisedness.
-despisednesses.
+despisedness!
+despisednesses!
 despiser.
 despisers.
 despises.
@@ -46471,14 +46469,14 @@ dispence.
 dispend.
 dispended.
 dispender.
-dispending.
+dispending!
 dispends.
 dispense.
 dispensed.
 dispenser.
 dispensers.
 dispenses.
-dispensing.
+dispensing!
 dispensive.
 dispeople.
 dispeopled.
@@ -79937,7 +79935,7 @@ insipidities.
 insipidity.
 insipidly.
 insipidness.
-insipidnesses.
+insipidnesses!
 insipience.
 insipient.
 insist.
@@ -119470,7 +119468,7 @@ pipilo.
 piping.
 pipingly.
 pipingness.
-pipingnesses.
+pipingnesses!
 pipings.
 pipiri.
 pipistrel.
@@ -150662,10 +150660,8 @@ speedier.
 speediest.
 speedily.
 speediness.
-speedinesses.
+speedinesses!
 speeding.
-speedingness.
-speedingnesses.
 speedings.
 speedless.
 speedly.
