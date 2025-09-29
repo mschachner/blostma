@@ -7925,6 +7925,7 @@ anticness.
 anticnesses.
 anticodon!
 anticolic.
+anticolonial!
 anticontagion.
 anticor.
 anticorn.
@@ -25387,7 +25388,7 @@ calcimine.
 calcimining.
 calcinable.
 calcinate.
-calcination.
+calcination!
 calcine.
 calcined.
 calciner.
@@ -25403,7 +25404,7 @@ calciprivic.
 calcite.
 calcites.
 calcitic.
-calcitonin.
+calcitonin!
 calcitrant.
 calcitrate.
 calcium.
@@ -32733,7 +32734,7 @@ clinology.
 clint.
 clinting.
 clinton.
-clintonia.
+clintonia!
 clintonite.
 clints.
 clinty.
@@ -33204,7 +33205,7 @@ coalify.
 coaling.
 coalite.
 coalition.
-coalitional.
+coalitional!
 coalize.
 coalless.
 coalpit.
@@ -87016,7 +87017,7 @@ lacing.
 lacings.
 lacinia.
 laciniate.
-laciniation.
+laciniation!
 laciniola.
 lacinula.
 lacinulas.
@@ -87069,7 +87070,7 @@ lactated.
 lactates.
 lactating.
 lactation.
-lactational.
+lactational!
 lacteal.
 lacteally.
 lacteals.
@@ -87580,7 +87581,7 @@ lancha.
 lanchara.
 lancinate.
 lancinating.
-lancination.
+lancination!
 lancing.
 landage.
 landau.
@@ -89823,7 +89824,7 @@ lichtly.
 lichts.
 licinian.
 licit.
-licitation.
+licitation!
 licitly.
 licitness.
 licitnesses.
@@ -90334,7 +90335,7 @@ linchpins.
 lincloth.
 lincoln.
 lincolnian.
-lincolniana.
+lincolniana!
 lincolnlike.
 lincomycin.
 linctus.
@@ -105352,7 +105353,7 @@ noncaloric.
 noncancelable.
 noncancellable.
 noncandescence.
-noncanonical.
+noncanonical!
 noncanonization.
 noncarbon.
 noncareer.
@@ -110630,7 +110631,7 @@ otoantritis.
 otocariasis.
 otocleisis.
 otoconia!
-otoconial.
+otoconial!
 otoconite.
 otoconium.
 otocrane.
@@ -164273,7 +164274,7 @@ tonicities.
 tonicity.
 tonicize.
 tonicking.
-tonicoclonic.
+tonicoclonic!
 tonics.
 tonier.
 tonies.
