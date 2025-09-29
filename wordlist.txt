@@ -812,7 +812,6 @@ acast.
 acastus.
 acatalectic.
 acataleptic.
-acatallactic.
 acataphasia.
 acataposis.
 acatastasia.
@@ -6452,7 +6451,7 @@ analgize.
 analities.
 anality.
 analkalinity.
-anallantoic.
+anallantoic!
 anally.
 analog.
 analoga.
@@ -26389,7 +26388,7 @@ cantilena.
 cantilene.
 cantillate.
 cantillating.
-cantillation.
+cantillation!
 cantily.
 cantina.
 cantinas.
@@ -32892,7 +32891,7 @@ clones.
 clong.
 clonic.
 clonicity.
-clonicotonic.
+clonicotonic!
 cloning.
 clonism.
 clonisms.
@@ -34088,7 +34087,6 @@ coincident.
 coincider.
 coincides.
 coinciding.
-coinclination.
 coincline.
 coindication!
 coined.
@@ -34274,7 +34272,7 @@ collatee.
 collateral.
 collates.
 collation.
-collational.
+collational!
 collator.
 collators.
 collaud.
@@ -34356,8 +34354,8 @@ collocalia.
 collocate.
 collocated.
 collocates.
-collocation.
-collocational.
+collocation!
+collocational!
 collocatory.
 collock.
 collocution.
@@ -35157,7 +35155,7 @@ conciator.
 concierge.
 concile.
 conciliar.
-conciliation.
+conciliation!
 concilium.
 concinnate.
 concinnating.
@@ -35614,7 +35612,7 @@ connixation.
 connoissance.
 connotate.
 connotation!
-connotational.
+connotational!
 connotations.
 connote.
 connoted.
@@ -37287,7 +37285,7 @@ cottonocracy.
 cottons.
 cottonseed.
 cottonseeds.
-cottontail.
+cottontail!
 cottontop.
 cottonweed.
 cottonwick.
@@ -78206,7 +78204,7 @@ incanescent.
 incanous.
 incant.
 incantation!
-incantational.
+incantational!
 incantations.
 incantator.
 incanton.
@@ -78357,7 +78355,7 @@ inclemency.
 inclement.
 inclinable.
 inclination.
-inclinational.
+inclinational!
 incline.
 inclined.
 incliner.
@@ -105354,7 +105352,6 @@ noncaloric.
 noncancelable.
 noncancellable.
 noncandescence.
-noncannonical.
 noncanonical.
 noncanonization.
 noncarbon.
@@ -105870,8 +105867,6 @@ nonimmunity.
 nonimposition.
 nonincident.
 nonincitement.
-noninclination.
-noninclinational.
 noninclusion.
 nonindependent.
 nonindexed.
@@ -105964,7 +105959,6 @@ nonliving.
 nonlocal.
 nonlocally.
 nonlocals.
-nonlocation.
 nonlogic.
 nonlogical.
 nonlosable.
