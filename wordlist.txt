@@ -34666,7 +34666,6 @@ comdia.
 comdr.
 comdt.
 comeback.
-comecrudo.
 comeddle.
 comedia.
 comedic.
@@ -34771,10 +34770,9 @@ commentate.
 commented.
 commenter.
 comments.
-commerce.
-commerced.
+commerce!
+commerced!
 commerceless.
-commercer.
 commerces.
 commercia.
 commercium.
@@ -34826,7 +34824,7 @@ commode.
 commodes.
 commodious.
 commodity.
-commodore.
+commodore!
 commodores.
 commoigne.
 commolition.
@@ -35016,7 +35014,6 @@ comtesses.
 comtian.
 comtism.
 comtist.
-comurmurer.
 comus.
 comvia.
 conable.
@@ -36543,8 +36540,6 @@ corectomy.
 corector.
 cored.
 coredeem.
-coredeemed.
-coredeemer.
 coredeems.
 coree.
 coregence.
@@ -42305,7 +42300,6 @@ deductio.
 deductive.
 deducts.
 deduit.
-deecodder.
 deed.
 deedbote.
 deedbox.
@@ -49359,8 +49353,6 @@ dumfounds.
 dumka.
 dumky.
 dummel.
-dummered.
-dummerer.
 dummied.
 dummies.
 dumminess.
@@ -100809,7 +100801,7 @@ moroc.
 morocain.
 moroccan.
 moroccans.
-morocco.
+morocco!
 moroccos.
 morocota.
 morology.
@@ -101920,8 +101912,8 @@ murly.
 murmi.
 murmur.
 murmurator.
-murmured.
-murmurer.
+murmured!
+murmurer!
 murmurers.
 murmuring.
 murmurish.
@@ -101966,7 +101958,7 @@ murthered.
 murtherer.
 murthers.
 murthy.
-murumuru.
+murumuru!
 murut.
 muruxi.
 murva.
@@ -130356,7 +130348,7 @@ rededuct.
 redeed.
 redeem.
 redeemable.
-redeemed.
+redeemed!
 redeemedness.
 redeemednesses.
 redeemer.
@@ -132500,7 +132492,7 @@ reobserve.
 reobserved.
 reoccupy.
 reoccur.
-reoccurred.
+reoccurred!
 reoccurrence.
 reoccurrences.
 reoccurs.
@@ -133049,7 +133041,7 @@ rereading.
 rereads.
 rerebrace.
 rerecord.
-rerecorded.
+rerecorded!
 rerecords.
 reredos.
 reredoses.
