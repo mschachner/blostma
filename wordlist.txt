@@ -36065,6 +36065,7 @@ cooba.
 coobah.
 cooboo.
 cooboos.
+cooccurred!
 cooch.
 cooches.
 coodle.
@@ -36539,7 +36540,7 @@ corectome.
 corectomy.
 corector.
 cored.
-coredeem.
+coredeem!
 coredeems.
 coree.
 coregence.
@@ -38138,7 +38139,7 @@ creedite.
 creedless.
 creedlessness.
 creedlessnesses.
-creedmore.
+creedmore!
 creeds.
 creek.
 creeker.
@@ -39890,6 +39891,7 @@ curuba.
 curucaneca.
 curucanecan.
 curucui.
+curucuru!
 curule.
 curuminaca.
 curuminacan.
@@ -43237,8 +43239,8 @@ demurer.
 demurest.
 demurrage.
 demurral.
-demurred.
-demurrer.
+demurred!
+demurrer!
 demurrers.
 demurs.
 dename.
@@ -47872,7 +47874,7 @@ dorlach.
 dorlot.
 dormant.
 dormer.
-dormered.
+dormered!
 dormers.
 dormette.
 dormeuse.
@@ -132310,7 +132312,8 @@ remuda.
 remudas.
 remue.
 remunerate.
-remurmur.
+remurmur!
+remurmured!
 remus.
 remuster.
 renable.
@@ -137102,8 +137105,8 @@ rumorous.
 rumorproof.
 rumors.
 rumour.
-rumoured.
-rumourer.
+rumoured!
+rumourer!
 rumouring.
 rumourmonger.
 rumours.
