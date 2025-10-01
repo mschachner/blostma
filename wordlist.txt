@@ -3190,7 +3190,7 @@ aggregated.
 aggregately.
 aggregateness.
 aggregatenesses.
-aggregates.
+aggregates!
 aggregating.
 aggregative.
 aggregator.
@@ -10320,7 +10320,7 @@ arrayment.
 arrays.
 arrear.
 arrearage!
-arrearages.
+arrearages!
 arrears.
 arrect.
 arrectary.
@@ -12100,7 +12100,7 @@ attestative.
 attestator.
 attested.
 attester.
-attesters.
+attesters!
 attesting.
 attestive.
 attestor.
@@ -56057,7 +56057,7 @@ exacum.
 exaestuate.
 exaggerate.
 exaggerated.
-exaggerates.
+exaggerates!
 exaggerator.
 exagitate.
 exairesis.
@@ -56296,7 +56296,7 @@ exedent.
 exedra.
 exedrae.
 exedral.
-exegeses.
+exegeses!
 exegesis.
 exegesist.
 exegete.
@@ -56857,7 +56857,6 @@ extraovate.
 extrared.
 extrarenal.
 extras.
-extrastate.
 extratarsal.
 extraterrene.
 extravagate.
@@ -131383,7 +131382,6 @@ regrater.
 regrates.
 regrating.
 regrator.
-regratress.
 regravel.
 regrease.
 regreased.
@@ -131415,7 +131413,7 @@ regrets.
 regrettable.
 regretted.
 regretter.
-regretters.
+regretters!
 regretting.
 regrew.
 regrind.
@@ -133200,7 +133198,7 @@ reseeks.
 reseen.
 resees.
 resegment.
-resegregate.
+resegregate!
 resegregated.
 reseise.
 reseiser.
@@ -141744,7 +141742,7 @@ segregate.
 segregated.
 segregateness.
 segregatenesses.
-segregates.
+segregates!
 segregator.
 segue.
 segued.
@@ -143173,7 +143171,7 @@ settecento.
 settee.
 settees.
 setter.
-settergrass.
+settergrass!
 setters.
 setterwort.
 settima.
@@ -143336,7 +143334,6 @@ sextern.
 sextet.
 sextets.
 sextette.
-sextettes.
 sextic.
 sextile.
 sextiles.
@@ -152227,7 +152224,7 @@ stagged.
 stagger.
 staggered.
 staggerer.
-staggerers.
+staggerers!
 staggers.
 staggery.
 staggie.
@@ -159960,7 +159957,7 @@ tearful.
 teargas.
 teargases.
 teargassed.
-teargasses.
+teargasses!
 tearier.
 teariest.
 tearily.
