@@ -65045,7 +65045,7 @@ gastraea.
 gastraead.
 gastraeadae.
 gastraeal.
-gastraeas.
+gastraeas!
 gastral.
 gastralgia.
 gastralgy.
@@ -129165,6 +129165,7 @@ reagents.
 reaggravate.
 reaggregate!
 reaggregated.
+reaggregates!
 reaggregating.
 reaggressive.
 reagin.
@@ -133200,6 +133201,7 @@ resees.
 resegment.
 resegregate!
 resegregated.
+resegregates!
 reseise.
 reseiser.
 reseize.
@@ -143172,6 +143174,7 @@ settee.
 settees.
 setter.
 settergrass!
+settergrasses!
 setters.
 setterwort.
 settima.
@@ -158254,7 +158257,8 @@ tagalog.
 tagalogs.
 tagalong.
 tagalongs.
-tagasaste.
+tagasaste!
+tagasastes!
 tagassu.
 tagatose.
 tagaur.
@@ -160016,6 +160020,7 @@ teaspoons.
 teasy.
 teat.
 teataster.
+teatasters!
 teated.
 teatfish.
 teathe.
@@ -161297,7 +161302,7 @@ tesseraic.
 tesseral.
 tesserants.
 tesserarian.
-tesserate.
+tesserate!
 tesserated.
 tessitura.
 tessituras.
@@ -161520,6 +161525,7 @@ tetraskele.
 tetrasome.
 tetraspore.
 tetraster.
+tetrasters!
 tetrastoon.
 tetrastyle.
 tetrasymmetry.
