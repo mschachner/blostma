@@ -42468,7 +42468,7 @@ defendants.
 defended.
 defender.
 defenders.
-defending.
+defending!
 defendress.
 defends.
 defense.
@@ -42594,7 +42594,7 @@ defog.
 defogged.
 defogger.
 defoggers.
-defogging.
+defogging!
 defogs.
 defoil.
 deforce.
@@ -42784,7 +42784,7 @@ deils.
 deimos.
 deink.
 deino.
-deinodon.
+deinodon!
 deinodontidae.
 deinos.
 deionize.
@@ -45163,12 +45163,12 @@ difficile.
 difficult.
 diffidation.
 diffide.
-diffided.
+diffided!
 diffidence.
 diffident.
 diffidentness.
 diffidentnesses.
-diffiding.
+diffiding!
 diffinity.
 difflugia.
 difform.
@@ -45566,7 +45566,6 @@ dineuric.
 dingar.
 dingbat.
 dingdong.
-dingdonged.
 dinge.
 dinged.
 dingee.
@@ -52698,7 +52697,7 @@ enfeebling.
 enfelon.
 enfeoff.
 enfeoffed.
-enfeoffing.
+enfeoffing!
 enfeoffment.
 enfeoffs.
 enfester.
@@ -52816,7 +52815,7 @@ enginemen!
 engineries.
 enginery.
 engines.
-engining.
+engining!
 enginous.
 engird.
 engirded.
@@ -58580,7 +58579,6 @@ feoffees.
 feoffeeship.
 feoffer!
 feoffers.
-feoffing.
 feoffment.
 feoffor!
 feoffors.
@@ -78707,7 +78705,6 @@ indignance.
 indignancy.
 indignant.
 indignation.
-indignified.
 indignify.
 indignifying.
 indignities.
@@ -78775,7 +78772,7 @@ indocile.
 indogaea.
 indogaean.
 indogen.
-indogenide.
+indogenide!
 indoin.
 indol.
 indole.
@@ -79032,8 +79029,6 @@ infeminine.
 infenible.
 infeof.
 infeoff.
-infeoffed.
-infeoffing.
 infeoffment.
 infeoffs.
 infer.
@@ -79663,7 +79658,6 @@ inocyte.
 inodes.
 inodiate.
 inodorous.
-inoffending.
 inoffensive.
 inoffensiveness.
 inoffensivenesses.
@@ -105522,9 +105516,7 @@ nondefendant.
 nondefense.
 nondeference.
 nondeferent.
-nondefined.
 nondefiner.
-nondefining.
 nondefinite.
 nondefinition.
 nondeformed.
@@ -105600,7 +105592,6 @@ nonecumenic.
 nonedible.
 nonedibness.
 nonedibnesses.
-nonedified.
 noneditor.
 noneffete.
 noneffetely.
@@ -105731,7 +105722,7 @@ nonfeeble.
 nonfeebleness.
 nonfeeblenesses.
 nonfeebly.
-nonfeeding.
+nonfeeding!
 nonfeeling.
 nonfelony.
 nonferrous.
@@ -105739,7 +105730,6 @@ nonfervent.
 nonfiction.
 nonfilial.
 nonfinancial.
-nonfinding.
 nonfinishing.
 nonfinite.
 nonfiniteness.
@@ -108448,7 +108438,7 @@ offendedness.
 offendednesses.
 offender.
 offenders.
-offending.
+offending!
 offendress.
 offends.
 offense.
