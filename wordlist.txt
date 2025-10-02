@@ -45319,7 +45319,7 @@ dihydroxy.
 diiamb.
 diiambus.
 diiodid.
-diiodide.
+diiodide!
 diiodo.
 diiodoform.
 diipolia.
@@ -65364,7 +65364,7 @@ geez.
 geezer.
 geezers.
 gefilte.
-gegenion.
+gegenion!
 gegenschein.
 gegg.
 geggee.
@@ -66226,6 +66226,7 @@ giddied!
 giddier.
 giddies.
 giddiest.
+giddified!
 giddify.
 giddily.
 giddiness.
