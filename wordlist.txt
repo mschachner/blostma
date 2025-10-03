@@ -53710,8 +53710,8 @@ envelop.
 envelope.
 enveloped.
 enveloper.
-envelopes.
-envelops.
+envelopes!
+envelops!
 envenom.
 envenomed.
 envenoming.
@@ -91564,7 +91564,7 @@ loneliness.
 lonelinesses.
 lonely.
 loneness.
-lonenesses.
+lonenesses!
 loner.
 loners.
 lonesome.
@@ -92030,8 +92030,8 @@ lovehood.
 lovelass.
 loveless.
 lovelessly.
-lovelessness.
-lovelessnesses.
+lovelessness!
+lovelessnesses!
 lovelier.
 lovelies.
 loveliest.
@@ -106343,7 +106343,7 @@ nonselling.
 nonsensate.
 nonsensation.
 nonsense.
-nonsenses.
+nonsenses!
 nonsensible.
 nonsensibleness.
 nonsensiblenesses.
@@ -107071,7 +107071,6 @@ novelless.
 novellike.
 novelly.
 novelness.
-novelnesses.
 novelry.
 novels.
 novelty.
@@ -121107,7 +121106,6 @@ pollenate.
 pollened.
 pollening.
 pollenite.
-pollenless.
 pollenlike.
 pollenosis.
 pollenproof.
@@ -121718,7 +121716,7 @@ poppin.
 popping.
 popple.
 poppled.
-popples.
+popples!
 poppling.
 popply.
 poppy.
@@ -147617,7 +147615,6 @@ slope.
 sloped.
 slopely.
 slopeness.
-slopenesses.
 sloper.
 slopers.
 slopes.
