@@ -91734,7 +91734,7 @@ loosen.
 loosened.
 loosener.
 looseners.
-looseness.
+looseness!
 loosenesses!
 loosening.
 loosens.
@@ -109405,7 +109405,7 @@ opening.
 openings.
 openly.
 openness.
-opennesses.
+opennesses!
 opens.
 openside.
 openwork.
@@ -121107,6 +121107,7 @@ pollened.
 pollening.
 pollenite.
 pollenlike.
+pollenoses!
 pollenosis.
 pollenproof.
 pollens.
@@ -147680,6 +147681,8 @@ slovene.
 slovenliness.
 slovenlinesses.
 slovenly.
+slovenness!
+slovennesses!
 slovens.
 slowbellies.
 slowbelly.
@@ -178632,6 +178635,7 @@ volvas.
 volvate.
 volvell.
 volvelle!
+volvelles!
 volvent.
 volvocaceae.
 volvox.
