@@ -116406,7 +116406,6 @@ penible.
 penicil.
 penicillia.
 penicillin.
-penicillinic.
 penicils.
 penide.
 penile.
@@ -116463,8 +116462,8 @@ pennied.
 pennies.
 penniless.
 pennilessly.
-pennilessness.
-pennilessnesses.
+pennilessness!
+pennilessnesses!
 pennill.
 pennine.
 penninerved.
@@ -147291,8 +147290,8 @@ sleepish.
 sleepland.
 sleepless.
 sleeplessly!
-sleeplessness.
-sleeplessnesses.
+sleeplessness!
+sleeplessnesses!
 sleeplike.
 sleepproof.
 sleepry.
@@ -147499,7 +147498,6 @@ slippery.
 slippier.
 slippiest.
 slippiness.
-slippinesses.
 slipping.
 slippingly.
 slipproof.
@@ -151007,7 +151005,7 @@ spinel.
 spineless.
 spinelessly.
 spinelessness.
-spinelessnesses.
+spinelessnesses!
 spinelet.
 spinelike.
 spinelle.
