@@ -32558,7 +32558,7 @@ clepe.
 cleped.
 clepes.
 cleping.
-clepsine.
+clepsine!
 clept.
 clerete.
 clergess.
@@ -116406,6 +116406,7 @@ penible.
 penicil.
 penicillia.
 penicillin.
+penicillins!
 penicils.
 penide.
 penile.
@@ -147283,7 +147284,7 @@ sleepiest.
 sleepify.
 sleepily.
 sleepiness.
-sleepinesses.
+sleepinesses!
 sleeping.
 sleepings.
 sleepish.
@@ -151222,6 +151223,7 @@ splays.
 spleen.
 spleened.
 spleenful.
+spleenic!
 spleenier.
 spleeniest.
 spleening.
