@@ -43852,7 +43852,7 @@ desertness.
 desertnesses.
 desertrice.
 deserts.
-desertward.
+desertward!
 deserve.
 deserved.
 deservedly.
@@ -129339,7 +129339,7 @@ rearranges.
 rearranging.
 rearray.
 rearrest.
-rearrested.
+rearrested!
 rearrests.
 rearrival.
 rearrive.
@@ -153246,8 +153246,8 @@ stevia.
 stewable.
 steward.
 stewarded.
-stewardess.
-stewardesses.
+stewardess!
+stewardesses!
 stewards.
 stewart.
 stewartia.
@@ -154174,7 +154174,7 @@ streetlike.
 streets.
 streetscape.
 streetside.
-streetward.
+streetward!
 streetway.
 streetwise!
 streit.
@@ -179866,10 +179866,10 @@ waterpower.
 waterrug.
 waters.
 watersmeet.
-waterstead.
+waterstead!
 waterwall.
 waterward.
-waterwards.
+waterwards!
 waterway!
 waterways.
 waterweed.
@@ -180611,7 +180611,6 @@ westerners.
 westernise.
 westerns.
 westers.
-westerwards.
 westham.
 westing.
 westings.
@@ -180626,7 +180625,7 @@ westness.
 westnesses.
 wests.
 westward.
-westwards.
+westwards!
 westwork.
 westy.
 wetback.
