@@ -44393,6 +44393,7 @@ dewata.
 dewater.
 dewatered.
 dewaterer.
+dewaterers!
 dewaters.
 dewax.
 dewaxed.
@@ -44435,6 +44436,7 @@ deworm.
 dewormed.
 deworms.
 dewret.
+dewretted!
 dewrot.
 dewtry.
 dewworm.
@@ -50062,7 +50064,7 @@ eastnesses.
 eastre.
 easts.
 eastward.
-eastwards.
+eastwards!
 easylike.
 eatability.
 eatable.
@@ -127938,6 +127940,7 @@ radulae.
 radular.
 radulas.
 radulate.
+radwastes!
 radzimir.
 rafael.
 rafale.
@@ -133701,6 +133704,7 @@ restream.
 restrengthen.
 restrengthens.
 restress.
+restresses!
 restretch.
 restrict.
 restricted.
@@ -133734,7 +133738,7 @@ restuffed.
 restuffs.
 restung.
 restward.
-restwards.
+restwards!
 resty.
 restyle.
 restyled.
@@ -139491,6 +139495,7 @@ sawny.
 sawpit.
 saws.
 sawsetter.
+sawsetters!
 sawsharper.
 sawsmith.
 sawteeth.
@@ -153210,6 +153215,7 @@ steroids.
 sterol.
 sterols.
 sterope.
+sterrasters!
 sterrettite!
 sterrettites!
 stert.
@@ -157078,6 +157084,8 @@ swearword.
 sweat.
 sweated.
 sweater.
+sweaterdress!
+sweaterdresses!
 sweaters.
 sweath.
 sweatier.
@@ -157087,6 +157095,7 @@ sweatinesses.
 sweatless.
 sweats.
 sweatweed.
+sweatweeds!
 sweaty.
 swede.
 sweden.
@@ -160144,6 +160153,7 @@ teerer.
 tees.
 teest.
 teeswater.
+teeswaters!
 teet.
 teetaller.
 teetan.
@@ -178915,6 +178925,7 @@ wadset.
 wadsets.
 wadsetted.
 wadsetter.
+wadsetters!
 waefu.
 waeful.
 waeness.
@@ -179475,7 +179486,7 @@ wardmaid.
 wardman.
 wardmen.
 wardress.
-wardresses.
+wardresses!
 wardrobe.
 wardrober.
 wardroom.
@@ -179663,6 +179674,7 @@ wartlet.
 wartproof.
 warts.
 wartweed.
+wartweeds!
 wartwort.
 warty.
 warua.
@@ -179790,7 +179802,8 @@ wastern.
 wasters.
 wastery.
 wastes.
-wastewater.
+wastewater!
+wastewaters!
 wasteway.
 wasteways.
 wasteweir.
@@ -179867,12 +179880,14 @@ waterrug.
 waters.
 watersmeet.
 waterstead!
+watersteads!
 waterwall.
 waterward.
 waterwards!
 waterway!
 waterways.
 waterweed.
+waterweeds!
 waterwheel.
 waterwise.
 waterwood.
