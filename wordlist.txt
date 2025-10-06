@@ -43730,7 +43730,6 @@ dermochrome.
 dermoid.
 dermol.
 dermoosseous.
-dermotherm.
 derms.
 derned.
 derner.
@@ -48787,7 +48786,6 @@ dromicia.
 dromioid.
 dromoi.
 dromomania.
-dromometer.
 dromon.
 dromond.
 dromonds.
@@ -73101,8 +73099,6 @@ hemocoels.
 hemocry.
 hemocyte.
 hemodia.
-hemodrometer.
-hemodromometer.
 hemogram.
 hemoid.
 hemol.
@@ -74436,7 +74432,6 @@ hodman.
 hodmandod.
 hodmen.
 hodograph.
-hodometer.
 hodophobia.
 hodoscope.
 hodure.
@@ -74767,7 +74762,7 @@ homeopath.
 homeophony.
 homeosis.
 homeostases.
-homeotherm.
+homeotherm!
 homeothermy.
 homeotic.
 homeotype.
@@ -74941,7 +74936,7 @@ homotactic.
 homotatic.
 homotaxia.
 homotaxy.
-homotherm.
+homotherm!
 homothermy.
 homothetic.
 homothety.
@@ -97221,7 +97216,6 @@ meteorogram.
 meteoroid.
 meteorol.
 meteorolite.
-meteorometer.
 meteorous.
 meteors.
 metepa.
@@ -97344,7 +97338,6 @@ metrized.
 metro.
 metrocarat.
 metrocele.
-metrometer.
 metron.
 metronome.
 metronomes.
@@ -100571,7 +100564,7 @@ moors.
 moorship.
 moorsman.
 moorstone.
-moortetter.
+moortetter!
 mooruk.
 moorup.
 moorwort.
@@ -101026,11 +101019,10 @@ motey.
 mothball.
 mothed.
 mother.
-motherdom.
-mothered.
+mothered!
 motherer.
 motherers.
-motherhood.
+motherhood!
 mothers.
 mothersome.
 motherwort.
@@ -101093,7 +101085,7 @@ motorcar.
 motorcars.
 motorcoach.
 motordom.
-motordrome.
+motordrome!
 motored.
 motorial.
 motoric.
@@ -108315,7 +108307,7 @@ odorless.
 odorlessly.
 odorlessness.
 odorlessnesses.
-odorometer.
+odorometer!
 odorosity.
 odorous.
 odorously.
@@ -110185,7 +110177,7 @@ orthoborate.
 orthocenter.
 orthocentre.
 orthocym.
-orthodome.
+orthodome!
 orthodox.
 orthodoxy.
 orthodromy.
@@ -110573,7 +110565,6 @@ othematomata.
 othemorrhea.
 otheoscope.
 other.
-otherdom.
 otherest.
 otherhow.
 otherist.
@@ -160160,7 +160151,7 @@ teetan.
 teetee.
 teeter.
 teeterboard.
-teetered.
+teetered!
 teeterer.
 teetering.
 teeters.
@@ -162027,10 +162018,10 @@ thermits.
 thermo.
 thermoammeter.
 thermoform.
-thermometer.
+thermometer!
 thermometers.
 thermometry.
-thermomotor.
+thermomotor!
 thermophore.
 thermos.
 thermoses.
@@ -166903,7 +166894,7 @@ trombone.
 trombony.
 trommel.
 trommels.
-tromometer.
+tromometer!
 tromometric.
 tromometry.
 tromp.
