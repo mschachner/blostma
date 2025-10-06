@@ -43729,6 +43729,7 @@ dermititis.
 dermochrome.
 dermoid.
 dermol.
+dermometer!
 dermoosseous.
 derms.
 derned.
@@ -43745,7 +43746,7 @@ derogator.
 derotrema.
 derotremata.
 derotremate.
-derotreme.
+derotreme!
 derout.
 derri.
 derrick.
@@ -73105,7 +73106,7 @@ hemol.
 hemology.
 hemolymph.
 hemolyze.
-hemometer.
+hemometer!
 hemometry.
 hemophage.
 hemophile.
@@ -73605,6 +73606,7 @@ heterosex.
 heterosis.
 heterosome.
 heterosphere.
+heterotherm!
 heterotic.
 heterotopy.
 heterotrich.
@@ -97411,7 +97413,7 @@ mezzo.
 mezzos.
 mezzotint.
 mezzotinto.
-mhometer.
+mhometer!
 mhorr.
 miacis.
 miami.
@@ -101084,7 +101086,7 @@ motorcab.
 motorcar.
 motorcars.
 motorcoach.
-motordom.
+motordom!
 motordrome!
 motored.
 motorial.
@@ -108590,7 +108592,7 @@ ohioans.
 ohmage.
 ohmages.
 ohmic.
-ohmmeter.
+ohmmeter!
 ohmmeters.
 ohone.
 ohoy.
@@ -136488,7 +136490,7 @@ roto.
 rotocraft.
 rotodyne.
 rotograph.
-rotometer.
+rotometer!
 rotonda.
 rotonde.
 rotor.
