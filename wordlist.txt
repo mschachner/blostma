@@ -9729,7 +9729,7 @@ ardeidae!
 ardelia.
 ardelio.
 ardella.
-ardellae.
+ardellae!
 ardency.
 ardennite.
 ardent.
@@ -41157,7 +41157,7 @@ dardistan.
 dareall.
 dared.
 daredevil.
-dareful.
+dareful!
 daren.
 darer.
 darers.
@@ -41404,6 +41404,7 @@ dauded.
 dauding.
 daudit.
 dauerlauf!
+dauerlaufe!
 dauke.
 daukin.
 daulias.
@@ -42867,6 +42868,7 @@ dele.
 delead.
 deleading.
 deleads.
+deleafed!
 deleatur.
 deleble.
 delectable.
@@ -57405,7 +57407,7 @@ falculate.
 falcunculus.
 falda.
 faldage.
-falderal.
+falderal!
 falderals.
 falderol.
 faldetta.
@@ -58129,6 +58131,7 @@ fearednesses.
 fearer.
 fearers.
 fearful.
+fearfuler!
 fearfully.
 fearing.
 fearless.
@@ -58388,7 +58391,7 @@ fellen.
 feller.
 fellers.
 fellest.
-fellfare.
+fellfare!
 fellic.
 fellies.
 fellifluous.
@@ -63348,6 +63351,7 @@ fuerte.
 fuff.
 fuffit.
 fuffle.
+fuffled!
 fuffy.
 fugacy.
 fugal.
@@ -88310,7 +88314,7 @@ laureated.
 laureates.
 laurel.
 laureled.
-laurelled.
+laurelled!
 laurellike.
 laurels.
 laurence.
@@ -127826,7 +127830,7 @@ radars.
 radded.
 radding.
 raddle.
-raddled.
+raddled!
 raddleman.
 raddlemen.
 raddles.
@@ -136885,7 +136889,7 @@ ruddiness.
 ruddinesses.
 ruddish.
 ruddle.
-ruddled.
+ruddled!
 ruddlemen.
 ruddles.
 ruddling.
