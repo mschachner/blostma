@@ -40617,7 +40617,7 @@ dads.
 dadu.
 daduchus.
 daedal.
-daedalea.
+daedalea!
 daedalean!
 daedaleous.
 daedalian.
@@ -41403,7 +41403,7 @@ daud.
 dauded.
 dauding.
 daudit.
-dauerlauf.
+dauerlauf!
 dauke.
 daukin.
 daulias.
@@ -42566,7 +42566,6 @@ deflated.
 deflater.
 deflates.
 deflea.
-defleaed.
 defleas.
 deflect.
 deflected.
@@ -48518,7 +48517,7 @@ dread.
 dreadable.
 dreaded!
 dreader.
-dreadful.
+dreadful!
 dreading.
 dreadless.
 dreadlessly.
@@ -58130,7 +58129,6 @@ fearednesses.
 fearer.
 fearers.
 fearful.
-fearfuller.
 fearfully.
 fearing.
 fearless.
@@ -58698,9 +58696,7 @@ ferratin.
 ferrean.
 ferreiro.
 ferrel.
-ferreled.
 ferreling.
-ferrelled.
 ferrelling.
 ferrels.
 ferren.
@@ -58742,7 +58738,6 @@ ferrous.
 ferrugo.
 ferrule.
 ferruled.
-ferruler.
 ferrules.
 ferrum.
 ferrums.
@@ -60035,7 +60030,7 @@ flacks.
 flacon.
 flacons.
 flaff.
-flaffer.
+flaffer!
 flagarie.
 flagboat.
 flagella.
@@ -60901,7 +60896,7 @@ flueric.
 flues.
 fluey.
 fluff.
-fluffed.
+fluffed!
 fluffer.
 fluffier.
 fluffiest.
@@ -62598,7 +62593,7 @@ fratry.
 frats.
 fraud.
 frauder.
-fraudful.
+fraudful!
 fraudfully.
 fraudproof.
 frauds.
@@ -63412,7 +63407,6 @@ fulfilling.
 fulfills.
 fulfils.
 fulful.
-fulfulde.
 fulfullment.
 fulgence.
 fulgent.
@@ -63656,7 +63650,7 @@ furdel.
 furdle.
 furfooz.
 furfur.
-furfural.
+furfural!
 furfurals.
 furfuramid.
 furfuran.
@@ -87113,7 +87107,7 @@ ladang.
 ladanum.
 ladanums.
 ladder.
-laddered.
+laddered!
 ladderless.
 ladderlike.
 ladderman.
@@ -87892,8 +87886,7 @@ larcinry.
 larded.
 larder.
 larderellite.
-larderer.
-larderful.
+larderer!
 larderie.
 larderlike.
 larders.
@@ -88275,7 +88268,6 @@ laudator.
 laude.
 lauded.
 lauder.
-lauderdale.
 lauders.
 laudes.
 laudian.
@@ -130897,7 +130889,7 @@ refeeling.
 refeign.
 refel.
 refell.
-refelled.
+refelled!
 refelling.
 refels.
 refelt.
@@ -130925,7 +130917,7 @@ referently.
 referents.
 referment.
 referrable.
-referral.
+referral!
 referrals.
 referred.
 referrer.
@@ -131144,7 +131136,7 @@ refry.
 refrying.
 refuel.
 refueled.
-refuelled.
+refuelled!
 refuels.
 refuge.
 refuged.
