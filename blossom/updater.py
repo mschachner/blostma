@@ -27,17 +27,20 @@ def setWordHighScore(wordHighScore):
         json.dump({"wordHighScore": wordHighScore, "allScores": allScores}, f)
 
 def validateWords(words):
+    fD = fullDictionary()
     for word in words:
-        fullDictionary[word] = True
+        fD[word] = True
+    fD = dict(sorted(fD.items(), key=lambda item: item[0]))
     with open(metadata["wordsToValidate"]["location"], "w", encoding="utf-8") as outfile:
-        json.dump(fullDictionary, outfile)
+        json.dump(fD, outfile)
     return
 
 def removeWords(words):
+    fD = fullDictionary()
     for word in words:
-        del fullDictionary[word]
+        del fD[word]
     with open(metadata["wordsToRemove"]["location"], "w", encoding="utf-8") as outfile:
-        json.dump(fullDictionary, outfile)
+        json.dump(fD, outfile)
     return
 
 # ========================== Load the data files ==========================
@@ -52,10 +55,10 @@ def loadDict(bank=None):
         if any(c == bank[0] for c in word) and all(c in bank for c in word):
             output[word] = dictionary[word]
     return output
-
 # ========================== Functions accessing the data files ==========================
 
 def searchWords(queries=None, fast=False):
+    fD = fullDictionary()
     tprint = print if fast else _tprint
     if not queries:
         response = input("Enter words to search (comma or space separated):\n > ")
@@ -68,28 +71,29 @@ def searchWords(queries=None, fast=False):
         dword = dispWord(word)
         msg = (
             ": Not found"
-            if word not in fullDictionary
+            if word not in fD
             else ": Validated"
-            if fullDictionary[word]
+            if fD[word]
             else ": Present, not validated"
         )
         tprint(dword + (padding - len(dword)) * " " + msg)
 
-    if any(word not in fullDictionary or not fullDictionary[word] for word in queries) and getResponseMenu(
+    if any(word not in fD or not fD[word] for word in queries) and getResponseMenu(
         "Add/validate all words? (yes/no)", ["yes", "no"]
     ) == "yes":
-        validateWords(queries)
-    return
+        return True
+    return False
 
 def dispWord(word):
+    fD = fullDictionary()
     color = (
-        "red" if word not in fullDictionary else "yellow" if not fullDictionary[word] else "green"
+        "red" if word not in fD else "yellow" if not fD[word] else "green"
     )
     icon = (
         "❌ "
-        if word not in fullDictionary
+        if word not in fD
         else "🟡 "
-        if not fullDictionary[word]
+        if not fD[word]
         else "🌸 "
         if len(set(word)) == 7
         else "✅ "
@@ -100,12 +104,13 @@ def dispWords(words):
     return "\n ".join(dispWord(word) for word in words)
 
 def showStats(fast=False):
+    fD = fullDictionary()
     tprint = print if fast else _tprint
-    longestWord = max((word for word in fullDictionary if fullDictionary[word]), key=len)
-    totalWords = len(fullDictionary)
-    validatedWords = sum(1 for word in fullDictionary if fullDictionary[word])
-    totalPangrams = sum(1 for word in fullDictionary if len(set(word)) == 7)
-    validatedPangrams = sum(1 for word in fullDictionary if fullDictionary[word] and len(set(word)) == 7)
+    longestWord = max((word for word in fD if fD[word]), key=len)
+    totalWords = len(fD)
+    validatedWords = sum(1 for word in fD if fD[word])
+    totalPangrams = sum(1 for word in fD if len(set(word)) == 7)
+    validatedPangrams = sum(1 for word in fD if fD[word] and len(set(word)) == 7)
     pad = 25  # Width for the first column
     tprint(f"{'Banks played:':<{pad}} {len(allScores)}")
     tprint(f"{'Total words:':<{pad}} {totalWords}")
@@ -139,18 +144,32 @@ def pushFiles(files, body):
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )
-    subprocess.run(
+    # If nothing is staged, skip committing to avoid a non-zero exit from git.
+    staged_check = subprocess.run(["git", "diff", "--cached", "--quiet"], check=False)
+    if staged_check.returncode == 0:
+        print("Nothing to commit.")
+        return
+
+    commit = subprocess.run(
         ["git", "commit", "-m", summary, "-m", body],
-        check=True,
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.PIPE,
+        check=False,
+        capture_output=True,
+        text=True,
     )
-    subprocess.run(
+    if commit.returncode != 0:
+        # Surface the real git error instead of hiding it
+        print((commit.stderr or "git commit failed.").strip())
+        raise subprocess.CalledProcessError(commit.returncode, commit.args, output=commit.stdout, stderr=commit.stderr)
+
+    push = subprocess.run(
         ["git", "push", "origin", "main"],
-        check=True,
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL,
+        check=False,
+        capture_output=True,
+        text=True,
     )
+    if push.returncode != 0:
+        print((push.stderr or "git push failed.").strip())
+        raise subprocess.CalledProcessError(push.returncode, push.args, output=push.stdout, stderr=push.stderr)
     return
 
 def submit(newData):
@@ -173,7 +192,7 @@ def submit(newData):
         if approved[d]:
             md["update"](approved[d])
             filesToSubmit.append(md["location"])
-            body += f"{md["name"]}: {approved[d]}\n"
+            body += f"{md["name"]}:\n {md["format"](approved[d])}\n"
     if filesToSubmit:
         pushFiles(filesToSubmit, body)
     return
@@ -212,6 +231,10 @@ with open(metadata["gameScores"]["location"], "r") as f:
 
 wordHighScore = scores["wordHighScore"]
 allScores = scores["allScores"]
-fullDictionary = loadDict()
+
+def fullDictionary():
+    with open(metadata["wordsToValidate"]["location"], "r") as infile:
+        dictionary = json.load(infile)
+    return dictionary
 
 

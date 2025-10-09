@@ -1,7 +1,7 @@
 import argparse
 
 from .game import playBlossom
-from .updater import showStats, searchWords
+from .updater import showStats, searchWords, submit
 from .utils import sevenUniques
 
 
@@ -30,4 +30,10 @@ def main():
         case "stats":
             showStats()
         case "search":
-            searchWords(args.queries)
+            if searchWords(args.queries):
+                submit({
+                    "wordScoreRecord": {},
+                    "gameScores": [],
+                    "wordsToValidate": args.queries,
+                    "wordsToRemove": []
+                })
