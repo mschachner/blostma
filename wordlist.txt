@@ -13736,7 +13736,7 @@ badnesses.
 badon.
 badrans.
 baduhenna.
-baedeker.
+baedeker!
 baedekers.
 baeria.
 baetuli.
@@ -14789,7 +14789,7 @@ barberish.
 barberite.
 barbero.
 barberries.
-barberry.
+barberry!
 barbers.
 barbery.
 barbes.
@@ -16413,7 +16413,7 @@ beearn.
 beeball.
 beebee.
 beebees.
-beebread.
+beebread!
 beebreads!
 beech.
 beechen.
@@ -22037,7 +22037,7 @@ bradawl.
 bradawls.
 bradbury.
 bradburya.
-bradded.
+bradded!
 bradding.
 bradenhead.
 bradford.
@@ -22402,7 +22402,6 @@ breachers.
 breaches.
 breachy.
 bread.
-breadberry.
 breadboard.
 breadboards.
 breadbox.
@@ -41486,19 +41485,18 @@ dawts.
 dawut.
 dayabhaga.
 dayak.
-dayakker.
 dayal.
 dayan.
 dayanim.
 daybeam.
 daybed.
 daybeds.
-dayberry.
+dayberry!
 daybill.
 daybook.
 daybooks.
 dayboy.
-daybreak.
+daybreak!
 daydawn.
 daydream.
 daydreamed.
@@ -84580,7 +84578,7 @@ kawaka.
 kawakawa.
 kawika.
 kayak.
-kayaker.
+kayaker!
 kayakers.
 kayaks.
 kayan.
