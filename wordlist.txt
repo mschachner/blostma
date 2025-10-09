@@ -14783,7 +14783,7 @@ barbeque.
 barbequed.
 barber.
 barbera.
-barbered.
+barbered!
 barbering.
 barberish.
 barberite.
@@ -15115,7 +15115,7 @@ barrenness.
 barrennesses.
 barrens.
 barrer.
-barrera.
+barrera!
 barres.
 barret.
 barretor.
@@ -15722,7 +15722,7 @@ baxtone.
 baya.
 bayadeer.
 bayadeers.
-bayadere.
+bayadere!
 bayaderes.
 bayal.
 bayamo.
@@ -41736,13 +41736,14 @@ debagging.
 debar.
 debarbarize.
 debark.
-debarked.
+debarked!
+debarker!
 debarks.
 debarrance.
 debarrass.
 debarrassed!
 debarrasses!
-debarred.
+debarred!
 debars.
 debase.
 debased.
@@ -41771,7 +41772,9 @@ debby.
 debcle.
 debe.
 debeak.
+debeaked!
 debeaker.
+debearded!
 debeige.
 debel.
 debell.
@@ -84013,7 +84016,7 @@ kaas.
 kabab.
 kababish.
 kababs.
-kabaka.
+kabaka!
 kabakas.
 kabala.
 kabalas.
@@ -129330,6 +129333,7 @@ rearranger.
 rearranges.
 rearranging.
 rearray.
+rearrayed!
 rearrest.
 rearrested!
 rearrests.
@@ -183355,7 +183359,7 @@ xystum.
 xystus.
 yaba.
 yabber.
-yabbered.
+yabbered!
 yabbers.
 yabbi.
 yabbie.
