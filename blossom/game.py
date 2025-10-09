@@ -44,6 +44,7 @@ def blossomBetter(bank, dictionary, prevPlayed, round, sL, score):
 
 
 def playBlossom(bank=None, fast=False):
+    os.system("clear")
     newData = {
         "wordScoreRecord": {},
         "gameScores": [],
@@ -51,10 +52,8 @@ def playBlossom(bank=None, fast=False):
         "wordsToValidate": []
     }
     timestamp = datetime.now().strftime("%Y-%m-%d")
-    playAgain = True
     tprint = print if fast else _tprint
-    while playAgain:
-        os.system("clear")
+    while True:
         print(
             r"""
 ,-----.  ,--.
@@ -67,74 +66,63 @@ def playBlossom(bank=None, fast=False):
         )
         prevPlayed = []
         score = 0
-        if bank:
-            tprint(f"Bank: {bank.upper()}.")
-            bank = bank[0] + "".join(sorted(list(bank[1:])))
-        else:
-            match getResponseMenu("", ["Play", "Search", "Stats", "Quit"]):
-                case "Search":
-                    searchWords()
-                case "Stats":
-                    showStats()
-                case "Quit":
-                    return
-                case "Play":
+        choice = "play" if bank else getResponseMenu(
+            "What do you want to do?", 
+            ["play", "search", "stats", "submit and quit", "quit without submitting"]
+            )
+        match choice:
+            case "search":
+                searchWords()
+                continue
+            case "stats":
+                showStats()
+                continue
+            case "quit without submitting":
+                return
+            case "submit and quit":
+                submit(newData)
+                return
+            case "play":
+                tprint("Okay, let's play!")
+                if bank:
+                    tprint(f"Bank: {bank.upper()}.")
+                    bank = bank[0] + "".join(sorted(list(bank[1:])))
+                else:
                     match getResponseBy(
-                        "What's the bank? (Center letter first)",
-                        lambda b: sevenUniques(b) or b == "quit",
-                        "Please enter seven unique letters, or \"quit\".",
+                    "What's the bank? (Center letter first)",
+                    lambda b: sevenUniques(b) or b == "quit",
+                    "Please enter seven unique letters, or \"quit\".",
                     ).lower():
                         case "quit":
                             return
                         case bk:
                             bank = bk[0] + "".join(sorted(list(bk)[1:]))
-                    tprint("Okay, let's play!")
-                    dictionary = loadDict(bank)
-                    for round in range(12):
-                        prefix = ""
-                        sL = advanceSL(bank, sL, prevPlayed[-1]) if round > 0 else bank[1]
-                        tprint(f"---\nRound {round+1}. Special letter: {sL.upper()}.\n")
-                        while True:
-                            word = blossomBetter(bank, dictionary, prevPlayed, round, sL, score)
-                            prevPlayed.append(word)
-                            tprint(f"{prefix}I play: {dispWord(word)}{condMsg(dictionary[word], ', a validated word!')}")
-                            if dictionary[word]:
+                dictionary = loadDict(bank)
+                for round in range(12):
+                    prefix = ""
+                    sL = advanceSL(bank, sL, prevPlayed[-1]) if round > 0 else bank[1]
+                    tprint(f"---\nRound {round+1}. Special letter: {sL.upper()}.\n")
+                    while True:
+                        word = blossomBetter(bank, dictionary, prevPlayed, round, sL, score)
+                        prevPlayed.append(word)
+                        tprint(f"{prefix}I play: {dispWord(word)}{condMsg(dictionary[word], ', a validated word!')}")
+                        if dictionary[word]:
+                            break
+                        match getResponseMenu("Is that valid?", ["yes", "no", "quit"]):
+                            case "yes":
+                                newData["wordsToValidate"].append(word)
                                 break
-                            match getResponseMenu("Is that valid?", ["yes", "no", "quit"]):
-                                case "yes":
-                                    newData["wordsToValidate"].append(word)
-                                    break
-                                case "no":
-                                    newData["wordsToRemove"].append(word)
-                                    prefix = "Okay, then instead "
-                                case "quit":
-                                    return
-                        wordScore = scoreWord(bank, sL, word)
-                        if wordScore > wordHighScore["score"]:
-                            tprint("That's a new word high score!")
-                            newData["wordScoreRecord"] = {"word": word, "specialLetter": sL, "score": wordScore}
-                        score += wordScore
-                        tprint(f"{condMsg(not dictionary[word], 'Great! ')}We scored {wordScore} {condMsg(round != 0, 'additional ')}points{condMsg(round > 0, f', for a total of {score} points')}.")
-                    newData["gameScores"].append({"bank": bank, "score": score, "date": timestamp})
-                    bank = None
-        tprint(
-            f"\n🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸\n\nGame over! We scored {score} points."
-        )
-        while True:
-            match getResponseMenu(
-                "What do you want to do next?",
-                ["play again", "search", "stats", "submit and quit", "quit without submitting"]
-            ):
-                case "play again":
-                    playAgain = True
-                    break
-                case "search":
-                    searchWords(fast=fast)
-                case "stats":
-                    showStats(fast=fast)
-                case "submit and quit":
-                    submit(newData)
-                    return
-                case "quit without submitting":
-                    return
-    return
+                            case "no":
+                                newData["wordsToRemove"].append(word)
+                                prefix = "Okay, then instead "
+                            case "quit":
+                                return
+                    wordScore = scoreWord(bank, sL, word)
+                    if wordScore > wordHighScore["score"]:
+                        tprint("That's a new word high score!")
+                        newData["wordScoreRecord"] = {"word": word, "specialLetter": sL, "score": wordScore}
+                    score += wordScore
+                    tprint(f"{condMsg(not dictionary[word], 'Great! ')}We scored {wordScore} {condMsg(round != 0, 'additional ')}points{condMsg(round > 0, f', for a total of {score} points')}.")
+                newData["gameScores"].append({"bank": bank, "score": score, "date": timestamp})
+                bank = None
+                tprint(f"\nGame over! We scored {score} points.")

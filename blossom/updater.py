@@ -81,8 +81,8 @@ def searchWords(queries=None, fast=False):
     if any(word not in fD or not fD[word] for word in queries) and getResponseMenu(
         "Add/validate all words? (yes/no)", ["yes", "no"]
     ) == "yes":
-        return True
-    return False
+        return queries
+    return None
 
 def dispWord(word):
     fD = fullDictionary()
@@ -173,6 +173,8 @@ def pushFiles(files, body):
     return
 
 def submit(newData):
+    if newData == None:
+        return
     filesToSubmit = []
     approved = {data: None for data in metadata}
     body = ""
@@ -186,7 +188,8 @@ def submit(newData):
         case "Submit none":
             return
         case "Submit some":
-            for choice in selectMultiple("Submit which?", metadata):
+            md = {data: metadata[data] for data in metadata if newData[data]}
+            for choice in selectMultiple("Submit which?", md):
                 approved[choice] = newData[choice]
     for d, md in metadata.items():
         if approved[d]:
