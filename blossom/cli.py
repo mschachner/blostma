@@ -1,7 +1,7 @@
 import argparse
 
-from .game import playBlossom, showStats
-from .wordlist import searchWords
+from .game import playBlossom
+from .updater import showStats, searchWords
 from .utils import sevenUniques
 
 

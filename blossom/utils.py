@@ -1,5 +1,6 @@
 import sys
 import time
+import simple_term_menu
 
 STYLES = {
     "reset": "\033[0m",
@@ -7,23 +8,6 @@ STYLES = {
     "boldgreen": "\033[1;32m",
     "boldyellow": "\033[1;33m",
 }
-
-
-def dispWord(word, dictionary):
-    color = (
-        "red" if word not in dictionary else "yellow" if not dictionary[word] else "green"
-    )
-    icon = (
-        "❌ "
-        if word not in dictionary
-        else "🟡 "
-        if not dictionary[word]
-        else "🌸 "
-        if len(set(word)) == 7
-        else "✅ "
-    )
-    return icon + f"{STYLES['bold' + color]}{word.upper()}{STYLES['reset']}"
-
 
 def _tprint(*objects, sep=" ", end="\n", file=sys.stdout, flush=False):
     text = sep.join(map(str, objects)) + end
@@ -51,7 +35,6 @@ def _tprint(*objects, sep=" ", end="\n", file=sys.stdout, flush=False):
         else:
             time.sleep(base)
 
-
 def getResponseBy(msg, cond, invalidMsg):
     while True:
         attempt = input(msg + "\n > ")
@@ -59,10 +42,20 @@ def getResponseBy(msg, cond, invalidMsg):
             return attempt
         print(invalidMsg)
 
-
 def getResponse(msg, valids):
     return getResponseBy(msg, lambda r: r in valids, f"Valid responses: {', '.join(valids)}.")
 
+def getResponseMenu(msg, options):
+    menu = simple_term_menu.TerminalMenu(options, title=msg)
+    return options[menu.show()]
+
+def selectMultiple(msg, options):
+    menu = simple_term_menu.TerminalMenu(
+        [option["name"] for option in options.values()],
+        title=msg,
+        multi_select=True,
+    )
+    return [list(options.keys())[i] for i in menu.show()]
 
 def sevenUniques(s):
     return len(s) == 7 and len(set(s)) == 7 and s.isalpha()
@@ -72,3 +65,12 @@ def condMsg(cond, msg, elseMsg=""):
 
 def plural(l):
     return condMsg(len(l) != 1, "s")
+
+def formatScore(score):
+    return f"{score["bank"].upper()}: {score["score"]} points, {score["date"]}"
+
+def formatScores(scores):
+    return "\n ".join(formatScore(score) for score in scores)
+
+def formatWordScore(word, specialLetter, score):
+    return f"{word.upper()}, special letter {specialLetter.upper()}, {score} points"
