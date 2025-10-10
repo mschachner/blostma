@@ -2,7 +2,7 @@ import json
 import subprocess
 from datetime import datetime
 
-from .utils import selectMultiple, getResponseMenu, _tprint, STYLES, formatScore, formatWordScore, formatScores
+from .utils import selectMultiple, getResponseMenu, _tprint, STYLES, formatScore, formatWordScore, formatScores, pending
 
 # All effectful functions go in this file, as well as everything that accesses the data files.
 
@@ -77,12 +77,7 @@ def searchWords(queries=None, fast=False):
             else ": Present, not validated"
         )
         tprint(dword + (padding - len(dword)) * " " + msg)
-
-    if any(word not in fD or not fD[word] for word in queries) and getResponseMenu(
-        "Add/validate all words? (yes/no)", ["yes", "no"]
-    ) == "yes":
-        return queries
-    return None
+    return queries if getResponseMenu("Validate these words?", ["[y] yes", "[n] no"]) == "[y] yes" else []
 
 def dispWord(word):
     fD = fullDictionary()
@@ -173,7 +168,8 @@ def pushFiles(files, body):
     return
 
 def submit(newData):
-    if newData == None:
+    if not pending(newData):
+        print("Nothing to submit.")
         return
     filesToSubmit = []
     approved = {data: None for data in metadata}
@@ -182,12 +178,13 @@ def submit(newData):
     for d, md in metadata.items():
         if newData[d]:
             print(f"{md["name"]}:\n {md["format"](newData[d])}")
-    match getResponseMenu("What do you want to submit?", ["Submit all", "Submit none", "Submit some"]):
-        case "Submit all":
+    match getResponseMenu("What do you want to submit?", ["[a] all", "[n] none", "[s] some"]):
+        case "[a] all":
             approved = newData
-        case "Submit none":
+        case "[n] none":
+            print("Nothing submitted.")
             return
-        case "Submit some":
+        case "[s] some":
             md = {data: metadata[data] for data in metadata if newData[data]}
             for choice in selectMultiple("Submit which?", md):
                 approved[choice] = newData[choice]
@@ -198,6 +195,7 @@ def submit(newData):
             body += f"{md["name"]}:\n {md["format"](approved[d])}\n"
     if filesToSubmit:
         pushFiles(filesToSubmit, body)
+    print("Submitted.")
     return
 
 # ========================== Package it up ==========================

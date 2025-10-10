@@ -46,7 +46,7 @@ def getResponse(msg, valids):
     return getResponseBy(msg, lambda r: r in valids, f"Valid responses: {', '.join(valids)}.")
 
 def getResponseMenu(msg, options):
-    menu = simple_term_menu.TerminalMenu(options, title=msg)
+    menu = simple_term_menu.TerminalMenu(options, title=msg, menu_cursor_style=(("fg_purple", "bold")), menu_cursor="🌸 > ")
     return options[menu.show()]
 
 def selectMultiple(msg, options):
@@ -54,11 +54,26 @@ def selectMultiple(msg, options):
         [option["name"] for option in options.values()],
         title=msg,
         multi_select=True,
+        menu_cursor_style=(("fg_purple", "bold")),
+        menu_cursor="🌸 > ",
+        multi_select_cursor_brackets_style=(("fg_gray", "bold")),
+        multi_select_cursor="[🌸] ",
     )
     return [list(options.keys())[i] for i in menu.show()]
 
 def sevenUniques(s):
     return len(s) == 7 and len(set(s)) == 7 and s.isalpha()
+
+def scoreWord(bank, sL, word):
+    baseScore = 2 * len(word) - 6 if len(word) < 7 else 3 * len(word) - 9
+    specialLetterScore = 5 * word.count(sL)
+    pangramScore = 7 if all(c in word for c in bank) else 0
+    return baseScore + specialLetterScore + pangramScore
+
+def advanceSL(bank, sL, lastWord=None):
+    if not lastWord or sL in lastWord:
+        return bank[(bank.index(sL) % 6) + 1]
+    return sL
 
 def condMsg(cond, msg, elseMsg=""):
     return msg if cond else elseMsg
@@ -74,3 +89,6 @@ def formatScores(scores):
 
 def formatWordScore(word, specialLetter, score):
     return f"{word.upper()}, special letter {specialLetter.upper()}, {score} points"
+
+def pending(data):
+    return any(len(v) > 0 for v in data.values())
