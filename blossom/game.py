@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 from .utils import _tprint, condMsg, getResponseBy, getResponseMenu, sevenUniques, pending, scoreWord, advanceSL
-from .updater import wordHighScore, loadDict, submit, showStats, searchWords, dispWord
+from .updater import wordHighScore, settings, loadDict, submit, showStats, searchWords, dispWord, showRank, setSettings
 
 def blossomBetter(bank, dictionary, prevPlayed, round, sL, score):
     allPlays = []
@@ -54,18 +54,28 @@ def playBlossom(bank=None, fast=False):
         )
     while True:
         msg = "What do you want to do?" if not menued else "What do you want to do next?"
-        choices = ["play", "search", "stats", "quit"] if not pending(newData) else ["play", "search", "stats", "submit and quit","quit without submitting"]
+        choices = [
+            "play", "search", "stats", "settings", "quit"
+            ] if not pending(newData) else [
+            "play", "search", "stats", "settings", "submit and quit","quit without submitting"
+            ]
         choice = "play" if bank else getResponseMenu(msg, choices)
         match choice:
             case "search":
                 menued = True
-                newData["wordsToValidate"].extend(searchWords())
-                if newData["wordsToValidate"]:
-                    tprint("Words will be validated.")
+                newWordsToValidate, newWordsToRemove = searchWords()
+                if newWordsToValidate or newWordsToRemove:
+                    newData["wordsToValidate"].extend(newWordsToValidate)
+                    newData["wordsToRemove"].extend(newWordsToRemove)
+                    tprint("Wordlist will be updated.")
                 continue
             case "stats":
                 menued = True
-                showStats()
+                showStats(fast=fast, topCount=settings["numScores"])
+                continue
+            case "settings":
+                menued = True
+                setSettings(fast=fast)
                 continue
             case "quit without submitting":
                 return
@@ -78,20 +88,19 @@ def playBlossom(bank=None, fast=False):
         menued = True
         prevPlayed = []
         score = 0
-        tprint("Okay, let's play!")
-        if bank:
-            tprint(f"Bank: {bank.upper()}.")
-            bank = bank[0] + "".join(sorted(list(bank[1:])))
-        else:
+        if not bank:
             match getResponseBy(
-            "What's the bank? (Center letter first)",
-            lambda b: sevenUniques(b) or b == "quit",
-            "Please enter seven unique letters, or \"quit\".",
+                "What's the bank? (Center letter first)",
+                lambda b: sevenUniques(b) or b == "quit",
+                "Please enter seven unique letters, or \"quit\".",
             ).lower():
                 case "quit":
                     return
                 case bk:
-                    bank = bk[0] + "".join(sorted(list(bk)[1:]))
+                    bank = bk
+        tprint("Okay, let's play!")
+        tprint(f"Bank: {bank.upper()}.")
+        bank = bank[0] + "".join(sorted(list(bank[1:])))
         dictionary = loadDict(bank)
         for round in range(12):
             prefix = ""
@@ -117,7 +126,10 @@ def playBlossom(bank=None, fast=False):
                 tprint("That's a new word high score!")
                 newData["wordScoreRecord"] = {"word": word, "specialLetter": sL, "score": wordScore}
             score += wordScore
-            tprint(f"{condMsg(not dictionary[word], 'Great! ')}We scored {wordScore} {condMsg(round != 0, 'additional ')}points{condMsg(round > 0, f', for a total of {score} points')}.")
+            tprint(
+                f"{condMsg(not dictionary[word], 'Great! ')}We scored {wordScore} {condMsg(round != 0, 'additional ')}points{condMsg(round > 0, f', for a total of {score} points')}."
+                )
         newData["gameScores"].append({"bank": bank, "score": score, "date": timestamp})
         bank = None
-        tprint(f"\n\n🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸\nGame over! We scored {score} points.")
+        tprint(f"\n🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸\n\nGame over! We scored {score} points.")
+        showRank(score)

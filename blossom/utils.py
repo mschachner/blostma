@@ -7,6 +7,7 @@ STYLES = {
     "boldred": "\033[1;31m",
     "boldgreen": "\033[1;32m",
     "boldyellow": "\033[1;33m",
+    "boldpink": "\033[1;35m",
 }
 
 def _tprint(*objects, sep=" ", end="\n", file=sys.stdout, flush=False):
@@ -51,15 +52,19 @@ def getResponseMenu(msg, options):
 
 def selectMultiple(msg, options):
     menu = simple_term_menu.TerminalMenu(
-        [option["name"] for option in options.values()],
+        options,
         title=msg,
-        multi_select=True,
         menu_cursor_style=(("fg_purple", "bold")),
         menu_cursor="🌸 > ",
+        multi_select=True,
         multi_select_cursor_brackets_style=(("fg_gray", "bold")),
         multi_select_cursor="[🌸] ",
     )
-    return [list(options.keys())[i] for i in menu.show()]
+    return [list(options)[i] for i in menu.show()]
+
+def selectMultipleMD(msg, options):
+    choices = selectMultiple(msg, [option["name"] for option in options.values()])
+    return {k: v for k, v in options.items() if k in choices}
 
 def sevenUniques(s):
     return len(s) == 7 and len(set(s)) == 7 and s.isalpha()
@@ -81,14 +86,21 @@ def condMsg(cond, msg, elseMsg=""):
 def plural(l):
     return condMsg(len(l) != 1, "s")
 
+def colorBold(color, text):
+    return f"{STYLES['bold' + color]}{text}{STYLES['reset']}"
+
 def formatScore(score):
-    return f"{score["bank"].upper()}: {score["score"]} points, {score["date"]}"
+    bk = colorBold("pink", score["bank"].upper())
+    return f"{bk} | {score["score"]} points, {score["date"]}"
 
 def formatScores(scores):
     return "\n ".join(formatScore(score) for score in scores)
 
 def formatWordScore(word, specialLetter, score):
     return f"{word.upper()}, special letter {specialLetter.upper()}, {score} points"
+
+def formatSettings():
+    return
 
 def pending(data):
     return any(len(v) > 0 for v in data.values())

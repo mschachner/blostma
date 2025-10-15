@@ -2,7 +2,7 @@ import json
 import subprocess
 from datetime import datetime
 
-from .utils import selectMultiple, getResponseMenu, _tprint, STYLES, formatScore, formatWordScore, formatScores, pending
+from .utils import selectMultiple, selectMultipleMD, getResponseMenu, _tprint, STYLES, formatScore, formatWordScore, formatScores, pending, colorBold, formatSettings
 
 # All effectful functions go in this file, as well as everything that accesses the data files.
 
@@ -55,19 +55,38 @@ def loadDict(bank=None):
         if any(c == bank[0] for c in word) and all(c in bank for c in word):
             output[word] = dictionary[word]
     return output
+
+def loadSettings():
+    with open("data/settings.json", "r") as infile:
+        settings = json.load(infile)
+    return settings
+
 # ========================== Functions accessing the data files ==========================
 
 def searchWords(queries=None, fast=False):
     fD = fullDictionary()
+    wordsToValidate = []
+    wordsToRemove = []
+    showValidate = False
+    showRemove = False
+    opts = ["back"]
     tprint = print if fast else _tprint
     if not queries:
         response = input("Enter words to search (comma or space separated):\n > ")
         queries = [w.strip() for w in response.replace(',', ' ').split() if w.strip()]
     queries = set(queries)
+    if not queries:
+        return [], []
     padding = 5 + max(len(dispWord(word)) for word in queries)
 
     tprint("Search results:")
     for word in queries:
+        if not showValidate and not fD[word]:
+            showValidate = True
+            opts.append("validate all")
+        if not showRemove and fD[word]:
+            showRemove = True
+            opts.append("remove")
         dword = dispWord(word)
         msg = (
             ": Not found"
@@ -77,7 +96,14 @@ def searchWords(queries=None, fast=False):
             else ": Present, not validated"
         )
         tprint(dword + (padding - len(dword)) * " " + msg)
-    return queries if getResponseMenu("Validate these words?", ["[y] yes", "[n] no"]) == "[y] yes" else []
+    match getResponseMenu("What would you like to do?", opts):
+        case "validate all":
+            wordsToValidate = list(filter(lambda x: not fD[x], queries))
+        case "remove":
+            wordsToRemove = selectMultiple("Remove which?", queries)
+        case "back":
+            pass
+    return wordsToValidate, wordsToRemove
 
 def dispWord(word):
     fD = fullDictionary()
@@ -93,12 +119,24 @@ def dispWord(word):
         if len(set(word)) == 7
         else "✅ "
     )
-    return icon + f"{STYLES['bold' + color]}{word.upper()}{STYLES['reset']}"
+    return icon + colorBold(color, word.upper())
 
 def dispWords(words):
     return "\n ".join(dispWord(word) for word in words)
 
-def showStats(fast=False):
+def showRank(score, fast=False):
+    tprint = print if fast else _tprint
+    rk = 1
+    for sc in allScores:
+        if score > sc["score"]:
+            break
+        rk += 1
+    tprint(f"Rank: {rk}/{len(allScores)}")
+    if rk == 1:
+        tprint("That's a new high score!")
+    return
+
+def showStats(fast=False, topCount=10):
     fD = fullDictionary()
     tprint = print if fast else _tprint
     longestWord = max((word for word in fD if fD[word]), key=len)
@@ -118,15 +156,24 @@ def showStats(fast=False):
     tprint(
         f"{'Highest word score:':<{pad}} {dispWord(wordHighScore["word"])} ({wordHighScore["specialLetter"].upper()}), {wordHighScore["score"]} points"
     )
+    medianIndex = len(allScores)//2
     tprint("Top scores:")
     pad = max(len(formatScore(sc)) for sc in allScores)
-    for i in range(min(10, len(allScores))):
+    for i in range(min(topCount, len(allScores))):
+        note = "" if i != medianIndex else " (median)"
         sc = allScores[i]   
         tprint(
-            f"{i+1}.{'  ' if i < 9 else ' '}{formatScore(sc).rjust(pad)}"
+            f"{i+1}.{'  ' if i < 9 else ' '}{formatScore(sc).rjust(pad)}{note}"
         )
-    tprint(f"Median score: {formatScore(allScores[len(allScores)//2]).rjust(pad)}")
-    tprint(f"Lowest score: {formatScore(allScores[-1]).rjust(pad)}")
+    if topCount < medianIndex:
+        tprint("⋮")
+        tprint(f"{medianIndex+1}.{'  ' if medianIndex < 9 else ' '}{formatScore(allScores[medianIndex]).rjust(pad)} (median)")
+        tprint("⋮")
+    tprint(f"{len(allScores)}. {formatScore(allScores[-1]).rjust(pad)} (lowest)")
+
+def setSettings(fast=False):
+    tprint = print if fast else _tprint
+    print("Settings")
 
 # ========================== Git functions ==========================
 
@@ -186,7 +233,7 @@ def submit(newData):
             return
         case "[s] some":
             md = {data: metadata[data] for data in metadata if newData[data]}
-            for choice in selectMultiple("Submit which?", md):
+            for choice in selectMultipleMD("Submit which?", md):
                 approved[choice] = newData[choice]
     for d, md in metadata.items():
         if approved[d]:
@@ -232,6 +279,7 @@ with open(metadata["gameScores"]["location"], "r") as f:
 
 wordHighScore = scores["wordHighScore"]
 allScores = scores["allScores"]
+settings = loadSettings()
 
 def fullDictionary():
     with open(metadata["wordsToValidate"]["location"], "r") as infile:
