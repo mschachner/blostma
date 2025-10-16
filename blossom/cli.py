@@ -30,10 +30,6 @@ def main():
         case "stats":
             showStats()
         case "search":
-            wordsToValidate = args.queries if args.queries else searchWords()
-            submit({
-                "wordScoreRecord": {},
-                "gameScores": [],
-                "wordsToValidate": wordsToValidate,
-                "wordsToRemove": []
-            })
+            wordsToValidate, wordsToRemove = searchWords(queries=args.queries)
+            if wordsToValidate or wordsToRemove:
+                submit({"wordsToValidate": wordsToValidate, "wordsToRemove": wordsToRemove})

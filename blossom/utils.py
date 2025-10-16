@@ -89,14 +89,14 @@ def plural(l):
 def colorBold(color, text):
     return f"{STYLES['bold' + color]}{text}{STYLES['reset']}"
 
-def formatScore(score):
-    bk = colorBold("pink", score["bank"].upper())
+def formatScore(score, forGit=False):
+    bk = colorBold("pink", score["bank"].upper()) if not forGit else score["bank"].upper()
     return f"{bk} | {score["score"]} points, {score["date"]}"
 
-def formatScores(scores):
-    return "\n ".join(formatScore(score) for score in scores)
+def formatScores(scores, forGit=False):
+    return "\n ".join(formatScore(score, forGit) for score in scores)
 
-def formatWordScore(word, specialLetter, score):
+def formatWordScore(word, specialLetter, score, forGit=False):
     return f"{word.upper()}, special letter {specialLetter.upper()}, {score} points"
 
 def formatSettings():

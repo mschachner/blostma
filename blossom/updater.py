@@ -37,7 +37,7 @@ def validateWords(words):
 
 def removeWords(words):
     fD = fullDictionary()
-    for word in words:
+    for word in [w for w in words if w in fD]:
         del fD[word]
     with open(metadata["wordsToRemove"]["location"], "w", encoding="utf-8") as outfile:
         json.dump(fD, outfile)
@@ -69,7 +69,7 @@ def searchWords(queries=None, fast=False):
     wordsToRemove = []
     showValidate = False
     showRemove = False
-    opts = ["back"]
+    opts = ["done"]
     tprint = print if fast else _tprint
     if not queries:
         response = input("Enter words to search (comma or space separated):\n > ")
@@ -81,12 +81,12 @@ def searchWords(queries=None, fast=False):
 
     tprint("Search results:")
     for word in queries:
-        if not showValidate and not fD[word]:
-            showValidate = True
-            opts.append("validate all")
-        if not showRemove and fD[word]:
+        if not showRemove and word in fD:
             showRemove = True
-            opts.append("remove")
+            opts.insert(0, "remove")
+        if not showValidate and word not in fD:
+            showValidate = True
+            opts.insert(0, "validate all")
         dword = dispWord(word)
         msg = (
             ": Not found"
@@ -98,14 +98,14 @@ def searchWords(queries=None, fast=False):
         tprint(dword + (padding - len(dword)) * " " + msg)
     match getResponseMenu("What would you like to do?", opts):
         case "validate all":
-            wordsToValidate = list(filter(lambda x: not fD[x], queries))
+            wordsToValidate = [x for x in queries if x not in fD or not fD[x]]
         case "remove":
             wordsToRemove = selectMultiple("Remove which?", queries)
-        case "back":
+        case "done":
             pass
     return wordsToValidate, wordsToRemove
 
-def dispWord(word):
+def dispWord(word, forGit=False):
     fD = fullDictionary()
     color = (
         "red" if word not in fD else "yellow" if not fD[word] else "green"
@@ -119,10 +119,12 @@ def dispWord(word):
         if len(set(word)) == 7
         else "✅ "
     )
+    if forGit:
+        return icon + word.upper()
     return icon + colorBold(color, word.upper())
 
-def dispWords(words):
-    return "\n ".join(dispWord(word) for word in words)
+def dispWords(words, forGit=False):
+    return "\n ".join(dispWord(word, forGit) for word in words)
 
 def showRank(score, fast=False):
     tprint = print if fast else _tprint
@@ -223,7 +225,7 @@ def submit(newData):
     body = ""
     print("To be submitted:")
     for d, md in metadata.items():
-        if newData[d]:
+        if d in newData and newData[d]:
             print(f"{md["name"]}:\n {md["format"](newData[d])}")
     match getResponseMenu("What do you want to submit?", ["[a] all", "[n] none", "[s] some"]):
         case "[a] all":
@@ -236,10 +238,10 @@ def submit(newData):
             for choice in selectMultipleMD("Submit which?", md):
                 approved[choice] = newData[choice]
     for d, md in metadata.items():
-        if approved[d]:
+        if d in approved and approved[d]:
             md["update"](approved[d])
             filesToSubmit.append(md["location"])
-            body += f"{md["name"]}:\n {md["format"](approved[d])}\n"
+            body += f"{md["name"]}:\n {md["format"](approved[d], forGit=True)}\n"
     if filesToSubmit:
         pushFiles(filesToSubmit, body)
     print("Submitted.")
