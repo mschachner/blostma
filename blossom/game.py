@@ -1,8 +1,8 @@
 import os
 from datetime import datetime
 
-from .utils import _tprint, condMsg, getResponseBy, getResponseMenu, sevenUniques, pending, scoreWord, advanceSL
-from .updater import wordHighScore, settings, loadDict, submit, showStats, searchWords, dispWord, showRank, setSettings
+from .utils import _tprint, condMsg, getResponseBy, getResponseMenu, sevenUniques, pending, scoreWord, advanceSL, blankData, mergeInto
+from .updater import wordHighScore, settings, loadDict, updateData, showStats, searchWords, dispWord, showRank, setSettings, pushData
 
 def blossomBetter(bank, dictionary, prevPlayed, round, sL, score):
     allPlays = []
@@ -31,14 +31,9 @@ def blossomBetter(bank, dictionary, prevPlayed, round, sL, score):
     return chosenPlays[sL][0]
 
 
-def playBlossom(bank=None, fast=False):
+def playBlossom(bank=None, fast=False, choice=None, queries=None):
     os.system("clear")
-    newData = {
-        "wordScoreRecord": {},
-        "gameScores": [],
-        "wordsToRemove": [],
-        "wordsToValidate": []
-    }
+    dataToSubmit = blankData()
     timestamp = datetime.now().strftime("%Y-%m-%d")
     menued = False
     tprint = print if fast else _tprint
@@ -53,55 +48,73 @@ def playBlossom(bank=None, fast=False):
             """
         )
     while True:
-        msg = "What do you want to do?" if not menued else "What do you want to do next?"
-        choices = [
-            "play", "search", "stats", "settings", "quit"
-            ] if not pending(newData) else [
-            "play", "search", "stats", "settings", "submit and quit","quit without submitting"
-            ]
-        choice = "play" if bank else getResponseMenu(msg, choices)
+        if not choice:
+            msg = "What do you want to do?" if not menued else "What do you want to do next?"
+            choices = [
+                "play", "search", "stats", "settings", "quit"
+                ] if not pending(dataToSubmit) else [
+                "play", "search", "stats", "settings", "submit data","quit"
+                ]
+            choice = getResponseMenu(msg, choices)
         match choice:
             case "search":
+                choice = None
                 menued = True
-                newWordsToValidate, newWordsToRemove = searchWords()
+                newWordsToValidate, newWordsToRemove = searchWords(queries=queries)
                 if newWordsToValidate or newWordsToRemove:
-                    newData["wordsToValidate"].extend(newWordsToValidate)
-                    newData["wordsToRemove"].extend(newWordsToRemove)
-                    tprint("Wordlist will be updated.")
+                    d = {
+                        "wordsToValidate": newWordsToValidate,
+                        "wordsToRemove": newWordsToRemove,
+                        "gameScores": None,
+                        "wordScoreRecord": None,
+                    }
+                    updateData(d, fast=fast)
+                    mergeInto(dataToSubmit, d)
                 continue
             case "stats":
+                choice = None
                 menued = True
                 showStats(fast=fast, topCount=settings["numScores"])
                 continue
             case "settings":
+                choice = None
                 menued = True
                 setSettings(fast=fast)
                 continue
-            case "quit without submitting":
-                return
+            case "submit data":
+                choice = None
+                menued = True
+                pushData(dataToSubmit)
+                dataToSubmit = blankData()
+                continue
             case "quit":
-                return
-            case "submit and quit":
-                submit(newData)
+                if pending(dataToSubmit) and getResponseMenu(
+                    "Submit data first?", ["[s] submit data", "[q] quit without submitting"]
+                    ) == "[s] submit data":
+                    pushData(dataToSubmit)
+                    dataToSubmit = blankData()
+                tprint("Quitting.")
                 return
         # Otherwise, it's game on
+        choice = None
         menued = True
         prevPlayed = []
         score = 0
-        if not bank:
-            match getResponseBy(
-                "What's the bank? (Center letter first)",
-                lambda b: sevenUniques(b) or b == "quit",
-                "Please enter seven unique letters, or \"quit\".",
-            ).lower():
-                case "quit":
-                    return
-                case bk:
-                    bank = bk
+        match getResponseBy(
+            "What's the bank? (Center letter first)",
+            lambda b: sevenUniques(b) or b == "quit",
+            "Please enter seven unique letters, or \"quit\".",
+            firstChoice = bank
+        ).lower():
+            case "quit":
+                return
+            case bk:
+                bank = bk
         tprint("Okay, let's play!")
         tprint(f"Bank: {bank.upper()}.")
         bank = bank[0] + "".join(sorted(list(bank[1:])))
         dictionary = loadDict(bank)
+        newData = blankData()
         for round in range(12):
             prefix = ""
             sL = advanceSL(bank, sL, prevPlayed[-1]) if round > 0 else bank[1]
@@ -133,3 +146,6 @@ def playBlossom(bank=None, fast=False):
         bank = None
         tprint(f"\n🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸\n\nGame over! We scored {score} points.")
         showRank(score)
+        updateData(newData, fast=fast)
+        mergeInto(dataToSubmit, newData)
+        newData = blankData()

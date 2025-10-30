@@ -36,7 +36,12 @@ def _tprint(*objects, sep=" ", end="\n", file=sys.stdout, flush=False):
         else:
             time.sleep(base)
 
-def getResponseBy(msg, cond, invalidMsg):
+def getResponseBy(msg, cond, invalidMsg, firstChoice = None):
+    if firstChoice:
+        if cond(firstChoice):
+            return firstChoice
+        else:
+            print(invalidMsg)
     while True:
         attempt = input(msg + "\n > ")
         if cond(attempt):
@@ -90,8 +95,11 @@ def colorBold(color, text):
     return f"{STYLES['bold' + color]}{text}{STYLES['reset']}"
 
 def formatScore(score, forGit=False):
-    bk = colorBold("pink", score["bank"].upper()) if not forGit else score["bank"].upper()
-    return f"{bk} | {score["score"]} points, {score["date"]}"
+    if not forGit:
+        specialLetter = colorBold("yellow", score["bank"][0].upper())
+        restOfBank = colorBold("pink", score["bank"][1:].upper())
+        return f"{specialLetter + restOfBank} | {score["score"]} points, {score["date"]}"
+    return f"{score["bank"].upper()} | {score["score"]} points, {score["date"]}"
 
 def formatScores(scores, forGit=False):
     return "\n ".join(formatScore(score, forGit) for score in scores)
@@ -102,5 +110,19 @@ def formatWordScore(word, specialLetter, score, forGit=False):
 def formatSettings():
     return
 
+def blankData():
+    return {
+        "wordScoreRecord": [],
+        "gameScores": [],
+        "wordsToRemove": [],
+        "wordsToValidate": []
+    }
 def pending(data):
-    return any(len(v) > 0 for v in data.values())
+    return any(v for v in data.values())
+
+def mergeInto(data1, data2):
+    for k, v in data2.items():
+        if k in data1:
+            data1[k].extend(v)
+        else:
+            data1[k] = v

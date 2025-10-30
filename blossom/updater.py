@@ -2,7 +2,7 @@ import json
 import subprocess
 from datetime import datetime
 
-from .utils import selectMultiple, selectMultipleMD, getResponseMenu, _tprint, STYLES, formatScore, formatWordScore, formatScores, pending, colorBold, formatSettings
+from .utils import selectMultiple, selectMultipleMD, getResponseMenu, _tprint, formatScore, formatWordScore, formatScores, pending, colorBold, blankData
 
 # All effectful functions go in this file, as well as everything that accesses the data files.
 
@@ -19,12 +19,14 @@ def addGameScores(gameScores):
             allScores.append(gameScore)
     allScores.sort(key=lambda x: x["score"], reverse=True)
     with open(metadata["gameScores"]["location"], "w") as f:
-        json.dump({"wordHighScore": wordHighScore, "allScores": allScores}, f)
+        json.dump({"wordHighScore": wordHighScore, "allScores": allScores}, f, indent=2)
     return
 
 def setWordHighScore(wordHighScore):
+    if not wordHighScore:
+        return
     with open(metadata["gameScores"]["location"], "w") as f:
-        json.dump({"wordHighScore": wordHighScore, "allScores": allScores}, f)
+        json.dump({"wordHighScore": wordHighScore, "allScores": allScores}, f, indent=2)
 
 def validateWords(words):
     fD = fullDictionary()
@@ -32,7 +34,7 @@ def validateWords(words):
         fD[word] = True
     fD = dict(sorted(fD.items(), key=lambda item: item[0]))
     with open(metadata["wordsToValidate"]["location"], "w", encoding="utf-8") as outfile:
-        json.dump(fD, outfile)
+        json.dump(fD, outfile, indent=2)
     return
 
 def removeWords(words):
@@ -40,7 +42,7 @@ def removeWords(words):
     for word in [w for w in words if w in fD]:
         del fD[word]
     with open(metadata["wordsToRemove"]["location"], "w", encoding="utf-8") as outfile:
-        json.dump(fD, outfile)
+        json.dump(fD, outfile, indent=2)
     return
 
 # ========================== Load the data files ==========================
@@ -84,6 +86,8 @@ def searchWords(queries=None, fast=False):
         if not showRemove and word in fD:
             showRemove = True
             opts.insert(0, "remove")
+            if not fD[word]:
+                opts.insert(0, "validate all")
         if not showValidate and word not in fD:
             showValidate = True
             opts.insert(0, "validate all")
@@ -179,9 +183,25 @@ def setSettings(fast=False):
 
 # ========================== Git functions ==========================
 
-def pushFiles(files, body):
+def pushData(data):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     summary = f"auto: submitted at {timestamp}"
+    body = formatData(data, forGit=True)
+    files = ["data/settings.json", "data/wordlist.json", "data/scores.json"]
+
+    if not pending(data):
+        print("Nothing to submit.")
+        return
+    if data["gameScores"]:
+        body += f"Game scores: {formatScores(data['gameScores'])}\n"
+    if data["wordScoreRecord"]:
+        body += f"Word score record: {formatWordScore(data['wordScoreRecord'])}\n"
+    if data["wordsToValidate"]:
+        body += f"Words validated: {dispWords(data['wordsToValidate'], forGit=True)}\n"
+    if data["wordsToRemove"]:
+        body += f"Words removed: {dispWords(data['wordsToRemove'], forGit=True)}\n"
+
+    
     subprocess.run(
         ["git", "add", *files],
         check=True,
@@ -214,37 +234,49 @@ def pushFiles(files, body):
     if push.returncode != 0:
         print((push.stderr or "git push failed.").strip())
         raise subprocess.CalledProcessError(push.returncode, push.args, output=push.stdout, stderr=push.stderr)
+    print("Data submitted.")
     return
 
-def submit(newData):
-    if not pending(newData):
-        print("Nothing to submit.")
-        return
-    filesToSubmit = []
-    approved = {data: None for data in metadata}
-    body = ""
-    print("To be submitted:")
-    for d, md in metadata.items():
-        if d in newData and newData[d]:
-            print(f"{md["name"]}:\n {md["format"](newData[d])}")
-    match getResponseMenu("What do you want to submit?", ["[a] all", "[n] none", "[s] some"]):
+def formatData(data, forGit=False):
+    formatted = ""
+    if data["gameScores"]:
+        formatted += f"Game scores: {formatScores(data['gameScores'])}\n"
+    if data["wordScoreRecord"]:
+        formatted += f"Word score record: {formatWordScore(data['wordScoreRecord'])}\n"
+    if data["wordsToValidate"]:
+        formatted += f"Words validated: {dispWords(data['wordsToValidate'], forGit=forGit)}\n"
+    if data["wordsToRemove"]:
+        formatted += f"Words removed: {dispWords(data['wordsToRemove'], forGit=forGit)}\n"
+    return formatted
+
+
+def approveData(data, fast=False):
+    tprint = print if fast else _tprint
+    if not pending(data):
+        tprint("Nothing to update.")
+        return data
+    approved = {}
+    tprint("To be updated:")
+    tprint(formatData(data, forGit=False))
+    match getResponseMenu("What do you want to update?", ["[a] all", "[n] none", "[s] some"]):
         case "[a] all":
-            approved = newData
+            approved = data
         case "[n] none":
-            print("Nothing submitted.")
-            return
+            tprint("Nothing updated.")
+            return data
         case "[s] some":
-            md = {data: metadata[data] for data in metadata if newData[data]}
-            for choice in selectMultipleMD("Submit which?", md):
-                approved[choice] = newData[choice]
-    for d, md in metadata.items():
-        if d in approved and approved[d]:
-            md["update"](approved[d])
-            filesToSubmit.append(md["location"])
-            body += f"{md["name"]}:\n {md["format"](approved[d], forGit=True)}\n"
-    if filesToSubmit:
-        pushFiles(filesToSubmit, body)
-    print("Submitted.")
+            md = {d: metadata[d] for d in metadata if data[d]}
+            for choice in selectMultipleMD("Update which?", md):
+                approved[choice] = data[choice]
+    return approved
+
+def updateData(dataToUpdate, fast=False):
+    tprint = print if fast else _tprint
+    approved = approveData(dataToUpdate, fast=fast)
+    for d in metadata:
+        if d in approved:
+            metadata[d]["update"](approved[d])
+    tprint("Updated.")
     return
 
 # ========================== Package it up ==========================
@@ -280,6 +312,7 @@ with open(metadata["gameScores"]["location"], "r") as f:
     scores = json.load(f)
 
 wordHighScore = scores["wordHighScore"]
+print(scores.keys())
 allScores = scores["allScores"]
 settings = loadSettings()
 
