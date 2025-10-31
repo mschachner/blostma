@@ -116,7 +116,7 @@
       "date": "2025-08-16"
     },
     {
-      "bank": "nacegis",
+      "bank": "NACEGIS",
       "score": 481,
       "date": "2025-10-09"
     },
@@ -126,12 +126,17 @@
       "date": "2025-08-26"
     },
     {
-      "bank": "ekoprst",
+      "bank": "IEFNSTY",
+      "score": 479,
+      "date": "2025-10-31"
+    },
+    {
+      "bank": "EKOPRST",
       "score": 478,
       "date": "2025-10-30"
     },
     {
-      "bank": "rdefisv",
+      "bank": "RDEFISV",
       "score": 469,
       "date": "2025-10-23"
     },
@@ -151,7 +156,7 @@
       "date": "2025-08-22"
     },
     {
-      "bank": "eahrstu",
+      "bank": "EAHRSTU",
       "score": 461,
       "date": "2025-10-21"
     },
@@ -176,12 +181,12 @@
       "date": "2025-08-31"
     },
     {
-      "bank": "nagiotv",
+      "bank": "NAGIOTV",
       "score": 448,
       "date": "2025-10-26"
     },
     {
-      "bank": "lacegin",
+      "bank": "LACEGIN",
       "score": 445,
       "date": "2025-10-20"
     },
@@ -196,7 +201,7 @@
       "date": "2025-08-15"
     },
     {
-      "bank": "acdeitv",
+      "bank": "ACDEITV",
       "score": 424,
       "date": "2025-10-12"
     },
@@ -211,7 +216,7 @@
       "date": "2025-09-26"
     },
     {
-      "bank": "teinrvw",
+      "bank": "TEINRVW",
       "score": 421,
       "date": "2025-10-13"
     },
@@ -231,7 +236,7 @@
       "date": "2025-09-23"
     },
     {
-      "bank": "oamnstu",
+      "bank": "OAMNSTU",
       "score": 417,
       "date": "2025-10-17"
     },
@@ -246,7 +251,7 @@
       "date": "2025-09-19"
     },
     {
-      "bank": "echimst",
+      "bank": "ECHIMST",
       "score": 413,
       "date": "2025-10-14"
     },
@@ -271,7 +276,7 @@
       "date": "2025-10-06"
     },
     {
-      "bank": "madepst",
+      "bank": "MADEPST",
       "score": 400,
       "date": "2025-10-24"
     },
@@ -281,7 +286,7 @@
       "date": "2025-09-10"
     },
     {
-      "bank": "rcdehip",
+      "bank": "RCDEHIP",
       "score": 398,
       "date": "2025-10-30"
     },
@@ -301,12 +306,12 @@
       "date": "2025-09-21"
     },
     {
-      "bank": "taenory",
+      "bank": "TAENORY",
       "score": 393,
       "date": "2025-10-18"
     },
     {
-      "bank": "ecdlrtu",
+      "bank": "ECDLRTU",
       "score": 393,
       "date": "2025-10-27"
     },
@@ -316,7 +321,7 @@
       "date": "2025-09-30"
     },
     {
-      "bank": "eagilnp",
+      "bank": "EAGILNP",
       "score": 390,
       "date": "2025-10-11"
     },
@@ -351,7 +356,7 @@
       "date": "2025-08-16"
     },
     {
-      "bank": "taeilsz",
+      "bank": "TAEILSZ",
       "score": 381,
       "date": "2025-10-10"
     },
@@ -371,7 +376,7 @@
       "date": "2025-10-01"
     },
     {
-      "bank": "dceikrt",
+      "bank": "DCEIKRT",
       "score": 369,
       "date": "2025-10-22"
     },
@@ -391,7 +396,7 @@
       "date": "2025-10-07"
     },
     {
-      "bank": "aelmpsx",
+      "bank": "AELMPSX",
       "score": 362,
       "date": "2025-10-29"
     },
