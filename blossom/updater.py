@@ -103,7 +103,7 @@ def dispWord(word, forGit=False):
         if len(set(word)) == 7
         else "✅ " # Validated non-pangram
     )
-    return icon + word.upper() if forGit else colorBold(color, word.upper())
+    return icon + (word.upper() if forGit else colorBold(color, word.upper()))
 
 def dispWords(words, forGit=False):
     return "\n ".join(dispWord(word, forGit) for word in words)
@@ -293,7 +293,6 @@ with open(metadata["gameScores"]["location"], "r") as f:
     scores = json.load(f)
 
 wordHighScore = scores["wordHighScore"]
-print(scores.keys())
 allScores = scores["allScores"]
 settings = loadSettings()
 
