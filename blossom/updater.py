@@ -2,7 +2,7 @@ import json
 import subprocess
 from datetime import datetime
 
-from .utils import selectMultiple, selectMultipleMD, getResponseMenu, _tprint, formatScore, formatWordScore, formatScores, pending, colorBold, blankData
+from .utils import selectMultipleMD, getResponseMenu, _tprint, formatScore, formatWordScore, formatScores, pending, colorBold
 
 # All effectful functions go in this file, as well as everything that accesses the data files.
 
@@ -66,28 +66,26 @@ def loadSettings():
 # ========================== Functions accessing the data files ==========================
 
 def searchWords(queries=None, fast=False):
-    fD = fullDictionary()
-    anyFound = False
-    anyNotValidated = False
     tprint = print if fast else _tprint
+    fD = fullDictionary()
+    anyFound, anyNotValidated = False, False
     if not queries:
-        return False, False
+        return anyFound, anyNotValidated
     padding = 5 + max(len(dispWord(word)) for word in queries)
 
     tprint("Search results:")
     for word in queries:
         dword = dispWord(word)
-        if not anyFound and word in fD:
+        if word in fD:
             anyFound = True
-        if not anyNotValidated and (word not in fD or not fD[word]):
+            if fD[word]:
+                msg = ": Validated"
+            else:
+                anyNotValidated = True
+                msg = ": Present, not validated"
+        else:
             anyNotValidated = True
-        msg = (
-            ": Not found"
-            if word not in fD
-            else ": Validated"
-            if fD[word]
-            else ": Present, not validated"
-        )
+            msg = ": Not found"
         tprint(dword + (padding - len(dword)) * " " + msg)
     return anyFound, anyNotValidated
 
@@ -97,17 +95,15 @@ def dispWord(word, forGit=False):
         "red" if word not in fD else "yellow" if not fD[word] else "green"
     )
     icon = (
-        "❌ "
+        "❌ " # Not found
         if word not in fD
-        else "🟡 "
+        else "🟡 " # Present, not validated
         if not fD[word]
-        else "🌸 "
+        else "🌸 " # Validated pangram
         if len(set(word)) == 7
-        else "✅ "
+        else "✅ " # Validated non-pangram
     )
-    if forGit:
-        return icon + word.upper()
-    return icon + colorBold(color, word.upper())
+    return icon + word.upper() if forGit else colorBold(color, word.upper())
 
 def dispWords(words, forGit=False):
     return "\n ".join(dispWord(word, forGit) for word in words)
