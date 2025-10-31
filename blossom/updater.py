@@ -67,31 +67,20 @@ def loadSettings():
 
 def searchWords(queries=None, fast=False):
     fD = fullDictionary()
-    wordsToValidate = []
-    wordsToRemove = []
-    showValidate = False
-    showRemove = False
-    opts = ["done"]
+    anyFound = False
+    anyNotValidated = False
     tprint = print if fast else _tprint
     if not queries:
-        response = input("Enter words to search (comma or space separated):\n > ")
-        queries = [w.strip() for w in response.replace(',', ' ').split() if w.strip()]
-    queries = set(queries)
-    if not queries:
-        return [], []
+        return False, False
     padding = 5 + max(len(dispWord(word)) for word in queries)
 
     tprint("Search results:")
     for word in queries:
-        if not showRemove and word in fD:
-            showRemove = True
-            opts.insert(0, "remove")
-            if not fD[word]:
-                opts.insert(0, "validate all")
-        if not showValidate and word not in fD:
-            showValidate = True
-            opts.insert(0, "validate all")
         dword = dispWord(word)
+        if not anyFound and word in fD:
+            anyFound = True
+        if not anyNotValidated and (word not in fD or not fD[word]):
+            anyNotValidated = True
         msg = (
             ": Not found"
             if word not in fD
@@ -100,14 +89,7 @@ def searchWords(queries=None, fast=False):
             else ": Present, not validated"
         )
         tprint(dword + (padding - len(dword)) * " " + msg)
-    match getResponseMenu("What would you like to do?", opts):
-        case "validate all":
-            wordsToValidate = [x for x in queries if x not in fD or not fD[x]]
-        case "remove":
-            wordsToRemove = selectMultiple("Remove which?", queries)
-        case "done":
-            pass
-    return wordsToValidate, wordsToRemove
+    return anyFound, anyNotValidated
 
 def dispWord(word, forGit=False):
     fD = fullDictionary()
@@ -183,24 +165,23 @@ def setSettings(fast=False):
 
 # ========================== Git functions ==========================
 
-def pushData(data):
+def pushData(data, fast=False, verifyFirst=False):
+    tprint = print if fast else _tprint
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     summary = f"auto: submitted at {timestamp}"
     body = formatData(data, forGit=True)
-    files = ["data/settings.json", "data/wordlist.json", "data/scores.json"]
+    files = ["data/wordlist.json", "data/scores.json"]
 
     if not pending(data):
-        print("Nothing to submit.")
+        tprint("Nothing to submit.")
         return
-    if data["gameScores"]:
-        body += f"Game scores: {formatScores(data['gameScores'])}\n"
-    if data["wordScoreRecord"]:
-        body += f"Word score record: {formatWordScore(data['wordScoreRecord'])}\n"
-    if data["wordsToValidate"]:
-        body += f"Words validated: {dispWords(data['wordsToValidate'], forGit=True)}\n"
-    if data["wordsToRemove"]:
-        body += f"Words removed: {dispWords(data['wordsToRemove'], forGit=True)}\n"
 
+    if verifyFirst and getResponseMenu(
+        f"Submit the following?\n{formatData(data, forGit=False)}",
+        ["[y] yes", "[n] no"]
+        ) == "[n] no":
+        tprint("Nothing submitted.")
+        return
     
     subprocess.run(
         ["git", "add", *files],
@@ -237,27 +218,29 @@ def pushData(data):
     print("Data submitted.")
     return
 
+# ========================== Format, approve, update data ==========================
+
 def formatData(data, forGit=False):
     formatted = ""
-    if data["gameScores"]:
-        formatted += f"Game scores: {formatScores(data['gameScores'])}\n"
-    if data["wordScoreRecord"]:
-        formatted += f"Word score record: {formatWordScore(data['wordScoreRecord'])}\n"
-    if data["wordsToValidate"]:
-        formatted += f"Words validated: {dispWords(data['wordsToValidate'], forGit=forGit)}\n"
-    if data["wordsToRemove"]:
-        formatted += f"Words removed: {dispWords(data['wordsToRemove'], forGit=forGit)}\n"
+    if "gameScores" in data and data["gameScores"]:
+        formatted += f"Game scores:\n {formatScores(data['gameScores'])}\n"
+    if "wordScoreRecord" in data and data["wordScoreRecord"]:
+        formatted += f"Word score record:\n {formatWordScore(data['wordScoreRecord'])}\n"
+    if "wordsToValidate" in data and data["wordsToValidate"]:
+        formatted += f"Words {"validated" if forGit else "to validate"}:\n {dispWords(data['wordsToValidate'], forGit=forGit)}\n"
+    if "wordsToRemove" in data and data["wordsToRemove"]:
+        formatted += f"Words {"removed" if forGit else "to remove"}:\n {dispWords(data['wordsToRemove'], forGit=forGit)}\n"
     return formatted
 
 
-def approveData(data, fast=False):
-    tprint = print if fast else _tprint
+def approveData(data, fast=False, showFirst=True):
     if not pending(data):
-        tprint("Nothing to update.")
         return data
+    tprint = print if fast else _tprint
     approved = {}
-    tprint("To be updated:")
-    tprint(formatData(data, forGit=False))
+    if showFirst:
+        tprint("To be updated:")
+        tprint(formatData(data, forGit=False))
     match getResponseMenu("What do you want to update?", ["[a] all", "[n] none", "[s] some"]):
         case "[a] all":
             approved = data
@@ -272,10 +255,12 @@ def approveData(data, fast=False):
 
 def updateData(dataToUpdate, fast=False):
     tprint = print if fast else _tprint
-    approved = approveData(dataToUpdate, fast=fast)
+    if not pending(dataToUpdate):
+        tprint("Nothing to update.")
+        return
     for d in metadata:
-        if d in approved:
-            metadata[d]["update"](approved[d])
+        if d in dataToUpdate and dataToUpdate[d]:
+            metadata[d]["update"](dataToUpdate[d])
     tprint("Updated.")
     return
 

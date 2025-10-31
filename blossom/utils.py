@@ -108,21 +108,32 @@ def formatWordScore(word, specialLetter, score, forGit=False):
     return f"{word.upper()}, special letter {specialLetter.upper()}, {score} points"
 
 def formatSettings():
+    # TODO
     return
 
 def blankData():
     return {
-        "wordScoreRecord": [],
+        "wordScoreRecord": {},
         "gameScores": [],
-        "wordsToRemove": [],
-        "wordsToValidate": []
+        "wordsToRemove": set(),
+        "wordsToValidate": set()
     }
+
+def fixData(data, prefer = "remove"):
+    if prefer == "remove":
+        data["wordsToValidate"] -= data["wordsToRemove"]
+    elif prefer == "validate":
+        data["wordsToRemove"] -= data["wordsToValidate"]
+    return data
+
 def pending(data):
     return any(v for v in data.values())
 
-def mergeInto(data1, data2):
-    for k, v in data2.items():
-        if k in data1:
-            data1[k].extend(v)
-        else:
-            data1[k] = v
+def mergeData(data1, data2):
+    if data2["wordScoreRecord"] and data2["wordScoreRecord"]["score"] > data1["wordScoreRecord"]["score"]:
+        data1["wordScoreRecord"] = data2["wordScoreRecord"]
+    data1["gameScores"].extend(data2["gameScores"])
+    data1["wordsToRemove"].update(data2["wordsToRemove"])
+    data1["wordsToValidate"].update(data2["wordsToValidate"])
+    fixData(data1)
+    return
