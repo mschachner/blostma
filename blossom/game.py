@@ -154,10 +154,10 @@ def playBlossom(bank=None, fast=False, choice=None, queries=None):
                             break
                         match getResponseMenu("Is that valid?", ["[y] yes", "[n] no", "[q] quit"]):
                             case "[y] yes":
-                                newData["wordsToValidate"].append(word)
+                                newData["wordsToValidate"].add(word)
                                 break
                             case "[n] no":
-                                newData["wordsToRemove"].append(word)
+                                newData["wordsToRemove"].add(word)
                                 prefix = "Okay, then instead "
                             case "[q] quit":
                                 return
