@@ -366,6 +366,11 @@
       "date": "2025-10-10"
     },
     {
+      "bank": "RCEIJOS",
+      "score": 379,
+      "date": "2025-11-02"
+    },
+    {
       "bank": "GADINRW",
       "score": 371,
       "date": "2025-09-25"
@@ -419,11 +424,6 @@
       "bank": "IFGNRTU",
       "score": 354,
       "date": "2025-09-21"
-    },
-    {
-      "bank": "RCEIJOS",
-      "score": 354,
-      "date": "2025-11-02"
     },
     {
       "bank": "ECDIKLN",
