@@ -176,6 +176,11 @@
       "date": "2025-09-11"
     },
     {
+      "bank": "AEFLSTU",
+      "score": 451,
+      "date": "2025-11-05"
+    },
+    {
       "bank": "TELORSU",
       "score": 449,
       "date": "2025-08-24"
@@ -194,11 +199,6 @@
       "bank": "LACEGIN",
       "score": 445,
       "date": "2025-10-20"
-    },
-    {
-      "bank": "AEFLSTU",
-      "score": 445,
-      "date": "2025-11-05"
     },
     {
       "bank": "ADEHKNS",
