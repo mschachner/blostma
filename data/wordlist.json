@@ -80342,7 +80342,7 @@
   "interjoin": false,
   "interkinesis": false,
   "interkinetic": false,
-  "interknit": false,
+  "interknit": true,
   "interknitted": false,
   "interknitting": false,
   "interknot": false,
