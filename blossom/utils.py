@@ -36,17 +36,18 @@ def _tprint(*objects, sep=" ", end="\n", file=sys.stdout, flush=False):
         else:
             time.sleep(base)
 
-def getResponseBy(msg, cond, invalidMsg, firstChoice = None):
+def getResponseBy(msg, cond, invalidMsg, firstChoice = None, fast=False):
+    tprint = print if fast else _tprint
     if firstChoice:
         if cond(firstChoice):
             return firstChoice
         else:
-            print(invalidMsg)
+            tprint(invalidMsg)
     while True:
         attempt = input(msg + "\n > ")
         if cond(attempt):
             return attempt
-        print(invalidMsg)
+        tprint(invalidMsg)
 
 def getResponse(msg, valids):
     return getResponseBy(msg, lambda r: r in valids, f"Valid responses: {', '.join(valids)}.")
@@ -94,26 +95,13 @@ def plural(l):
 def colorBold(color, text):
     return f"{STYLES['bold' + color]}{text}{STYLES['reset']}"
 
-def formatScore(score, forGit=False):
-    if not forGit:
-        specialLetter = colorBold("yellow", score["bank"][0].upper())
-        restOfBank = colorBold("pink", score["bank"][1:].upper())
-        return f"{specialLetter + restOfBank} | {score["score"]} points, {score["date"]}"
-    return f"{score["bank"].upper()} | {score["score"]} points, {score["date"]}"
-
-def formatScores(scores, forGit=False):
-    return "\n ".join(formatScore(score, forGit) for score in scores)
-
-def formatWordScore(word, specialLetter, score, forGit=False):
-    return f"{word.upper()}, special letter {specialLetter.upper()}, {score} points"
-
 def formatSettings():
     # TODO
     return
 
 def blankData():
     return {
-        "wordScoreRecord": {},
+        "wordScores": [],
         "gameScores": [],
         "wordsToRemove": set(),
         "wordsToValidate": set()
@@ -130,8 +118,8 @@ def pending(data):
     return any(v for v in data.values())
 
 def mergeData(data1, data2):
-    if data2["wordScoreRecord"] and data2["wordScoreRecord"]["score"] > data1["wordScoreRecord"]["score"]:
-        data1["wordScoreRecord"] = data2["wordScoreRecord"]
+    if data2["wordScores"]:
+        data1["wordScores"].extend(data2["wordScores"])
     data1["gameScores"].extend(data2["gameScores"])
     data1["wordsToRemove"].update(data2["wordsToRemove"])
     data1["wordsToValidate"].update(data2["wordsToValidate"])

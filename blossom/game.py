@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 from .utils import _tprint, condMsg, getResponseBy, getResponseMenu, sevenUniques, pending, scoreWord, advanceSL, blankData, mergeData, selectMultiple
-from .updater import wordHighScore, settings, loadDict, approveData, updateData, showStats, searchWords, dispWord, showRank, setSettings, pushData
+from .updater import updateData, showStats, searchWords, showRank, setSettings, pushData, getDictionary, formatWord, wordStatus, getWordScores
 
 def blossomBetter(bank, dictionary, prevPlayed, round, sL, score):
     allPlays = []
@@ -30,6 +30,42 @@ def blossomBetter(bank, dictionary, prevPlayed, round, sL, score):
     print(f"Expected score: {expectedScore} points.")
     return chosenPlays[sL][0]
 
+
+def blossomSearch(queries, dataToSubmit, fast=False):
+    dataToUpdate = blankData()
+    if not queries:
+        queries = getResponseBy(
+            "Enter words to search (comma or space separated):",
+            lambda w: True,
+            None,
+            fast=fast
+            )
+        queries = [w.strip() for w in queries.replace(',', ' ').split() if w.strip()]
+    queries = set(queries)
+    searchWords(queries=queries, fast=fast)
+    match getResponseMenu(
+        "Any changes?",
+        ["[v] validate all", "[r] remove all", "[s] select words", "[d] done"]
+        ):
+        case "[v] validate all":
+            dataToUpdate["wordsToValidate"] = queries
+        case "[r] remove all":
+            dataToUpdate["wordsToRemove"] = queries
+        case "[s] select words":
+            words = selectMultiple("Which words?", queries)
+            match getResponseMenu(
+                "What would you like to do?",
+                ["[v] validate", "[r] remove", "[d] done"]
+                ):
+                case "[v] validate":
+                    dataToUpdate["wordsToValidate"] = words
+                case "[r] remove":
+                    dataToUpdate["wordsToRemove"] = queries - words
+                case "[d] done":
+                    return
+    updateData(dataToUpdate)
+    mergeData(dataToSubmit, dataToUpdate)
+    return
 
 def playBlossom(bank=None, fast=False, choice=None, queries=None):
     os.system("clear")
@@ -60,49 +96,12 @@ def playBlossom(bank=None, fast=False, choice=None, queries=None):
             case "search":
                 choice = None
                 menued = True
-                editMenued = False
-                if not queries:
-                    response = input("Enter words to search (comma or space separated):\n > ")
-                    queries = [w.strip() for w in response.replace(',', ' ').split() if w.strip()]
-                queries = set(queries)
-                anyFound, anyNotValidated = searchWords(queries=queries)
-                options = ["[d] done"]
-                if anyFound:
-                    options.insert(0, "[r] remove")
-                if anyNotValidated:
-                    options.insert(0, "[v] validate")
-                updates = {
-                    "gameScores": [],
-                    "wordScoreRecord": {},
-                    "wordsToValidate": set(),
-                    "wordsToRemove": set()
-                }
-                done = False
-                while not done:
-                    editMode = getResponseMenu(
-                        "What would you like to do?" if not editMenued else "What would you like to do next?",
-                        options
-                        )
-                    match editMode:
-                        case "[v] validate":
-                            editMenued = True
-                            updates["wordsToValidate"] = set(selectMultiple("Validate which?", queries))
-                            updates["wordsToRemove"] -= updates["wordsToValidate"]
-                        case "[r] remove":
-                            editMenued = True
-                            updates["wordsToRemove"] = set(selectMultiple("Remove which?", queries))
-                            updates["wordsToValidate"] -= updates["wordsToRemove"]
-                        case "[d] done":
-                            done = True
-                approveData(updates, fast=fast, showFirst=True)
-                updateData(updates, fast=fast)
-                mergeData(dataToSubmit, updates)
+                blossomSearch(queries, dataToSubmit, fast=fast)
                 queries = None
-                continue
             case "stats":
                 choice = None
                 menued = True
-                showStats(fast=fast, topCount=settings["numScores"])
+                showStats(fast=fast, topCount=10)
                 continue
             case "settings":
                 choice = None
@@ -140,7 +139,8 @@ def playBlossom(bank=None, fast=False, choice=None, queries=None):
                 tprint("Okay, let's play!")
                 tprint(f"Bank: {bank.upper()}.")
                 bank = bank[0] + "".join(sorted(list(bank[1:])))
-                dictionary = loadDict(bank)
+                dictionary = getDictionary(bank)
+                wordScoreRecord = max(getWordScores(), key=lambda x: x["score"])["score"]
                 newData = blankData()
                 for round in range(12):
                     prefix = ""
@@ -149,8 +149,9 @@ def playBlossom(bank=None, fast=False, choice=None, queries=None):
                     while True:
                         word = blossomBetter(bank, dictionary, prevPlayed, round, sL, score)
                         prevPlayed.append(word)
-                        tprint(f"{prefix}I play: {dispWord(word)}{condMsg(dictionary[word], ', a validated word!')}")
-                        if dictionary[word]:
+                        status = wordStatus(word)
+                        tprint(f"{prefix}I play: {formatWord(word, status=status)}{condMsg(status == 'validated', ', a validated word!')}")
+                        if status == 'validated':
                             break
                         match getResponseMenu("Is that valid?", ["[y] yes", "[n] no", "[q] quit"]):
                             case "[y] yes":
@@ -162,17 +163,18 @@ def playBlossom(bank=None, fast=False, choice=None, queries=None):
                             case "[q] quit":
                                 return
                     wordScore = scoreWord(bank, sL, word)
-                    if wordScore > wordHighScore["score"]:
+                    if wordScore > wordScoreRecord:
                         tprint("That's a new word high score!")
-                        newData["wordScoreRecord"] = {"word": word, "specialLetter": sL, "score": wordScore}
+                        wordScoreRecord = wordScore
                     score += wordScore
                     tprint(
                         f"{condMsg(not dictionary[word], 'Great! ')}We scored {wordScore} {condMsg(round != 0, 'additional ')}points{condMsg(round > 0, f', for a total of {score} points')}."
                         )
-                newData["gameScores"].append({"bank": bank.upper(), "score": score, "date": timestamp})
-                bank = None
+                    newData["wordScores"].append({"word": word, "specialLetter": sL, "score": wordScore})
                 tprint(f"\n🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸\n\nGame over! We scored {score} points.")
-                showRank(score)
-                updateData(newData, fast=fast)
+                showRank(score, fast=fast)
+                newData["gameScores"].append({"bank": bank.upper(), "score": score, "date": timestamp})
+                updateData(newData)
                 mergeData(dataToSubmit, newData)
                 newData = blankData()
+                bank = None
