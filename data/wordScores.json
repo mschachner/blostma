@@ -25,6 +25,11 @@
     "score": 53
   },
   {
+    "word": "conditioning",
+    "specialLetter": "i",
+    "score": 49
+  },
+  {
     "word": "consenescences",
     "specialLetter": "c",
     "score": 48
@@ -40,7 +45,22 @@
     "score": 42
   },
   {
+    "word": "inconcoction",
+    "specialLetter": "c",
+    "score": 42
+  },
+  {
+    "word": "gonococcic",
+    "specialLetter": "c",
+    "score": 41
+  },
+  {
     "word": "inconvenience",
+    "specialLetter": "i",
+    "score": 40
+  },
+  {
+    "word": "indigotic",
     "specialLetter": "i",
     "score": 40
   },
@@ -55,6 +75,11 @@
     "score": 39
   },
   {
+    "word": "intinction",
+    "specialLetter": "n",
+    "score": 36
+  },
+  {
     "word": "quadruped",
     "specialLetter": "d",
     "score": 35
@@ -65,8 +90,23 @@
     "score": 35
   },
   {
+    "word": "notodontoid",
+    "specialLetter": "d",
+    "score": 34
+  },
+  {
     "word": "concessive",
     "specialLetter": "v",
+    "score": 33
+  },
+  {
+    "word": "doggoning",
+    "specialLetter": "g",
+    "score": 33
+  },
+  {
+    "word": "condoning",
+    "specialLetter": "n",
     "score": 33
   },
   {
@@ -77,6 +117,16 @@
   {
     "word": "reappeared",
     "specialLetter": "a",
+    "score": 31
+  },
+  {
+    "word": "gonotocont",
+    "specialLetter": "t",
+    "score": 31
+  },
+  {
+    "word": "notodontid",
+    "specialLetter": "d",
     "score": 31
   },
   {
@@ -95,8 +145,18 @@
     "score": 28
   },
   {
+    "word": "cottoning",
+    "specialLetter": "t",
+    "score": 28
+  },
+  {
     "word": "dreaded",
     "specialLetter": "d",
+    "score": 27
+  },
+  {
+    "word": "cogging",
+    "specialLetter": "g",
     "score": 27
   },
   {
