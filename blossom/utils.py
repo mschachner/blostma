@@ -1,40 +1,6 @@
-import sys
-import time
 import simple_term_menu
 
-STYLES = {
-    "reset": "\033[0m",
-    "boldred": "\033[1;31m",
-    "boldgreen": "\033[1;32m",
-    "boldyellow": "\033[1;33m",
-    "boldpink": "\033[1;35m",
-}
-
-def _tprint(*objects, sep=" ", end="\n", file=sys.stdout, flush=False):
-    text = sep.join(map(str, objects)) + end
-
-    # If not an interactive terminal, print fast.
-    if not getattr(file, "isatty", lambda: False)():
-        file.write(text)
-        if flush:
-            file.flush()
-        return
-
-    # Tuned speeds
-    cps = 150  # characters per second
-    punct_pause = 0.10  # pause after . ! ?
-    mid_pause = 0.10  # pause after , ; : – —
-    base = 1.0 / cps
-
-    for ch in text:
-        file.write(ch)
-        file.flush()
-        if ch in ".!?":
-            time.sleep(punct_pause)
-        elif ch in ",;:–—":
-            time.sleep(mid_pause)
-        else:
-            time.sleep(base)
+from .format import _tprint
 
 def getResponseBy(msg, cond, invalidMsg, firstChoice = None, fast=False):
     tprint = print if fast else _tprint
@@ -92,13 +58,6 @@ def condMsg(cond, msg, elseMsg=""):
 def plural(l):
     return condMsg(len(l) != 1, "s")
 
-def colorBold(color, text):
-    return f"{STYLES['bold' + color]}{text}{STYLES['reset']}"
-
-def formatSettings():
-    # TODO
-    return
-
 def blankData():
     return {
         "wordScores": [],
@@ -107,21 +66,18 @@ def blankData():
         "wordsToValidate": set()
     }
 
-def fixData(data, prefer = "remove"):
-    if prefer == "remove":
-        data["wordsToValidate"] -= data["wordsToRemove"]
-    elif prefer == "validate":
-        data["wordsToRemove"] -= data["wordsToValidate"]
-    return data
-
 def pending(data):
     return any(v for v in data.values())
 
-def mergeData(data1, data2):
+def mergeData(data1, data2, prefer = "remove"):
     if data2["wordScores"]:
         data1["wordScores"].extend(data2["wordScores"])
     data1["gameScores"].extend(data2["gameScores"])
     data1["wordsToRemove"].update(data2["wordsToRemove"])
     data1["wordsToValidate"].update(data2["wordsToValidate"])
-    fixData(data1)
-    return
+    # Fix data1 to not contain words that are both to validate and to remove.
+    if prefer == "remove":
+        data1["wordsToValidate"] -= data1["wordsToRemove"]
+    elif prefer == "validate":
+        data1["wordsToRemove"] -= data1["wordsToValidate"]
+    return data1

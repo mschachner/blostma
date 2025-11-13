@@ -94,23 +94,19 @@ def playBlossom(bank=None, fast=False, choice=None, queries=None):
             choice = getResponseMenu(msg, choices)
         match choice:
             case "search":
-                choice = None
-                menued = True
+                choice, menued = None, True
                 blossomSearch(queries, dataToSubmit, fast=fast)
                 queries = None
             case "stats":
-                choice = None
-                menued = True
+                choice, menued = None, True
                 showStats(fast=fast, topCount=10)
                 continue
             case "settings":
-                choice = None
-                menued = True
+                choice, menued = None, True
                 setSettings(fast=fast)
                 continue
             case "submit data":
-                choice = None
-                menued = True
+                choice, menued = None, True
                 pushData(dataToSubmit, fast=fast, verifyFirst=True)
                 dataToSubmit = blankData()
                 continue

@@ -2,9 +2,8 @@ import json
 import subprocess
 from datetime import datetime
 
-from .utils import getResponseMenu, getResponse, _tprint, colorBold
-
-# All effectful functions go in this file, as well as everything that accesses the data files.
+from .utils import getResponse
+from .format import formatWordPure, formatWordScorePure, formatGameScore, _tprint
 
 # ========================== Updater functions for the data files ==========================
 
@@ -36,10 +35,7 @@ def setDictionary(dictionary):
     with open("data/wordlist.json", "w", encoding="utf-8") as outfile:
         json.dump(dictionary, outfile, indent=2)
 
-
-
 # Add a list of game scores.
-
 def addGameScores(gameScoresToAdd):
     gameScores = getGameScores()
     for gameScoreToAdd in gameScoresToAdd:
@@ -60,7 +56,6 @@ def addGameScores(gameScoresToAdd):
     return
 
 # Add a list of word scores.
-
 def addWordScores(wordScoresToAdd):
     wordScores = getWordScores()
     for wordScoreToAdd in wordScoresToAdd:
@@ -72,7 +67,6 @@ def addWordScores(wordScoresToAdd):
     return
 
 # Validate or remove a list of words.
-
 def validateWords(words):
     dictionary = getDictionary()
     for word in words:
@@ -88,7 +82,6 @@ def removeWords(words):
     return
 
 # Update the data files with the given data.
-
 def updateData(dataToUpdate):
     if dataToUpdate["gameScores"]:
         addGameScores(dataToUpdate["gameScores"])
@@ -100,62 +93,9 @@ def updateData(dataToUpdate):
         removeWords(dataToUpdate["wordsToRemove"])
     return
 
-# ========================== Data formatting ==========================
-
-def formatGameScore(gameScore, style="terminal"):
-    match style:
-        case "terminal":
-            specialLetter = colorBold("yellow", gameScore["bank"][0].upper())
-            restOfBank = colorBold("pink", gameScore["bank"][1:].upper())
-            return f"{specialLetter + restOfBank} | {gameScore["score"]} points, {gameScore["date"]}"
-        case "git":
-            return f"{gameScore["bank"].upper()} | {gameScore["score"]} points, {gameScore["date"]}"
-        case _:
-            raise ValueError(f"Invalid style: {style}")
-
-def formatWord(word, style="terminal", status=None, padding=0):
-    if not status:
-        status = wordStatus(word)
-    match status:
-        case "not found":
-            color = "red"
-            icon = "❌ "
-            status = f": {padding * ' '}Not found"
-        case "present, not validated":
-            color = "yellow"
-            icon = "🟡 "
-            status = f": {padding * ' '}Present, not validated"
-        case "validated":
-            color = "green"
-            icon = "🌸 " if len(set(word)) == 7 else "✅ "
-            status = f": {padding * ' '}Validated"
-    match style:
-        case "git":
-            return icon + word.upper()
-        case "terminal":
-            return icon + colorBold(color, word.upper())
-        case "search":
-            return icon + colorBold(color, word.upper()) + status
-
-def formatWordScore(wordScore, style="terminal"):
-    return formatWord(wordScore["word"], style) + f", {wordScore["specialLetter"].upper()}, {wordScore["score"]} points"
-
-def formatData(data, style="terminal"):
-    body = ""
-    if data["gameScores"]:
-        body += "Game scores:\n" + "\n".join(formatGameScore(sc, style).rstrip() for sc in data["gameScores"]) + "\n"
-    if data["wordScores"]:
-        body += "Word scores:\n" + "\n".join(formatWordScore(ws, style).rstrip() for ws in data["wordScores"]) + "\n"
-    if data["wordsToValidate"]:
-        body += "Validated words:\n" if style == "git" else "Words to validate:\n"
-        body += "\n".join(formatWord(word, style, status="validated").rstrip() for word in data["wordsToValidate"]) + "\n"
-    if data["wordsToRemove"]:
-        body += "Removed words:\n" if style == "git" else "Words to remove:\n"
-        body += "\n".join(formatWord(word, style).rstrip() for word in data["wordsToRemove"])
-    return body
-            
 # ========================== Functions accessing the data files ==========================
 
+# Get word validation status(es)
 def wordStatuses(words):
     dictionary = getDictionary()
     statuses = {}
@@ -170,6 +110,17 @@ def wordStatuses(words):
 
 def wordStatus(word):
     return wordStatuses([word])[word]
+
+# Impure versions of formatWord and formatWordScore (get status if not provided)
+def formatWord(word, style="terminal", status=None, padding=0):
+    if not status:
+        status = wordStatus(word)
+    return formatWordPure(word, status, style, padding)
+
+def formatWordScore(wordScore, style="terminal", status=None):
+    if not status:
+        status = wordStatus(wordScore["word"])
+    return formatWordScorePure(wordScore, style, status)
 
 def searchWords(queries=None, fast=False):
     tprint = print if fast else _tprint
@@ -230,6 +181,21 @@ def setSettings(fast=False):
     print("Settings")
 
 # ========================== Git ==========================
+
+# Summary formatting (also used for terminal display)
+def formatData(data, style="terminal"):
+    body = ""
+    if data["gameScores"]:
+        body += "Game scores:\n" + "\n".join(formatGameScore(sc, style).rstrip() for sc in data["gameScores"]) + "\n"
+    if data["wordScores"]:
+        body += "Word scores:\n" + "\n".join(formatWordScore(ws, style).rstrip() for ws in data["wordScores"]) + "\n"
+    if data["wordsToValidate"]:
+        body += "Validated words:\n" if style == "git" else "Words to validate:\n"
+        body += "\n".join(formatWord(word, style, status="validated").rstrip() for word in data["wordsToValidate"]) + "\n"
+    if data["wordsToRemove"]:
+        body += "Removed words:\n" if style == "git" else "Words to remove:\n"
+        body += "\n".join(formatWord(word, style).rstrip() for word in data["wordsToRemove"])
+    return body
 
 def pushData(data,fast=False, verifyFirst=False):
     tprint = print if fast else _tprint

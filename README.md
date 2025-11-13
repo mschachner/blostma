@@ -1,7 +1,7 @@
-Blossom AI
+Blossom
 ==========
 
-Blossom AI is a command-line companion for Merriam-Webster's [Blossom word game](https://www.merriam-webster.com/games/blossom-word-game). It automates play with a look-ahead strategy, keeps long-term records, and helps curate the underlying word list.
+[Blossom](https://www.merriam-webster.com/games/blossom-word-game) is a word game published by Merriam-Webster. This is a command-line companion which automates play with a look-ahead strategy, keeps long-term records, and helps curate the underlying word list. It achieves a median score of ~425 points across 100 banks.
 
 Features
 --------
@@ -50,8 +50,9 @@ Data files
 All persistent data lives in the `data/` directory:
 
 - `data/wordlist.json` – Known words and their validation status.
-- `data/scores.json` – Overall scores, high-score metadata, and ranked history.
-- `data/settings.json` – User-configurable options (edited through the in-app settings menu).
+- `data/gameScores.json` - Overall game scores and ranked history.
+- `data/wordScores.json` - Individual word scores.
+- `data/settings.json` – User-configurable options (still in development).
 
 Changes you make while playing or editing accumulate in memory until you select **Submit data**. At that point Blossom AI will preview the pending updates, apply them to the JSON files, and (if approved) commit and push the results.
 
@@ -61,7 +62,8 @@ Project layout
 - `blossom/cli.py` – Argument parsing and menu routing.
 - `blossom/game.py` – Core gameplay loop and scoring logic.
 - `blossom/updater.py` – Word list editing, statistics reporting, and Git integration.
-- `blossom/utils.py` – Shared helpers for prompts, scoring, and formatting.
+- `blossom/format.py` - Formatting helpers.
+- `blossom/utils.py` – Other helpers for prompts and scoring.
 - `blossom.py` – Minimal entry point that launches the CLI.
 
 Happy blossoming!
