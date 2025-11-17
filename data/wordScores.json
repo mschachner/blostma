@@ -40,6 +40,31 @@
     "score": 47
   },
   {
+    "word": "entrepreneur",
+    "specialLetter": "e",
+    "score": 47
+  },
+  {
+    "word": "terribilita",
+    "specialLetter": "i",
+    "score": 46
+  },
+  {
+    "word": "interrupter",
+    "specialLetter": "r",
+    "score": 46
+  },
+  {
+    "word": "titratable",
+    "specialLetter": "t",
+    "score": 43
+  },
+  {
+    "word": "irritabler",
+    "specialLetter": "r",
+    "score": 43
+  },
+  {
     "word": "incisiveness",
     "specialLetter": "i",
     "score": 42
@@ -50,8 +75,48 @@
     "score": 42
   },
   {
+    "word": "terebratella",
+    "specialLetter": "e",
+    "score": 42
+  },
+  {
     "word": "gonococcic",
     "specialLetter": "c",
+    "score": 41
+  },
+  {
+    "word": "trailerable",
+    "specialLetter": "e",
+    "score": 41
+  },
+  {
+    "word": "tirralirra",
+    "specialLetter": "r",
+    "score": 41
+  },
+  {
+    "word": "tattletale",
+    "specialLetter": "t",
+    "score": 41
+  },
+  {
+    "word": "bilateralia",
+    "specialLetter": "i",
+    "score": 41
+  },
+  {
+    "word": "wigwagging",
+    "specialLetter": "g",
+    "score": 41
+  },
+  {
+    "word": "turpentiner",
+    "specialLetter": "n",
+    "score": 41
+  },
+  {
+    "word": "peppertree",
+    "specialLetter": "e",
     "score": 41
   },
   {
@@ -75,8 +140,78 @@
     "score": 39
   },
   {
+    "word": "rattlertree",
+    "specialLetter": "e",
+    "score": 39
+  },
+  {
+    "word": "anagramming",
+    "specialLetter": "a",
+    "score": 39
+  },
+  {
+    "word": "interpreter",
+    "specialLetter": "e",
+    "score": 39
+  },
+  {
+    "word": "reinterpret",
+    "specialLetter": "r",
+    "score": 39
+  },
+  {
+    "word": "interpreter",
+    "specialLetter": "r",
+    "score": 39
+  },
+  {
+    "word": "wirehaired",
+    "specialLetter": "e",
+    "score": 38
+  },
+  {
+    "word": "arbitrable",
+    "specialLetter": "b",
+    "score": 38
+  },
+  {
+    "word": "tabellaria",
+    "specialLetter": "l",
+    "score": 38
+  },
+  {
+    "word": "trilabiate",
+    "specialLetter": "i",
+    "score": 38
+  },
+  {
+    "word": "turpentine",
+    "specialLetter": "n",
+    "score": 38
+  },
+  {
     "word": "intinction",
     "specialLetter": "n",
+    "score": 36
+  },
+  {
+    "word": "hardheaded",
+    "specialLetter": "d",
+    "score": 36
+  },
+  {
+    "word": "ingraining",
+    "specialLetter": "i",
+    "score": 36
+  },
+  {
+    "word": "grammarian",
+    "specialLetter": "a",
+    "score": 36
+  },
+  {
+    "word": "peppertree",
+    "specialLetter": "p",
     "score": 36
   },
   {
@@ -90,8 +225,43 @@
     "score": 35
   },
   {
+    "word": "diddered",
+    "specialLetter": "d",
+    "score": 35
+  },
+  {
+    "word": "deerweed",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "bilateral",
+    "specialLetter": "l",
+    "score": 35
+  },
+  {
+    "word": "irritable",
+    "specialLetter": "r",
+    "score": 35
+  },
+  {
+    "word": "bertiella",
+    "specialLetter": "l",
+    "score": 35
+  },
+  {
+    "word": "ganggang",
+    "specialLetter": "g",
+    "score": 35
+  },
+  {
     "word": "notodontoid",
     "specialLetter": "d",
+    "score": 34
+  },
+  {
+    "word": "periprinter",
+    "specialLetter": "i",
     "score": 34
   },
   {
@@ -107,6 +277,41 @@
   {
     "word": "condoning",
     "specialLetter": "n",
+    "score": 33
+  },
+  {
+    "word": "babbitter",
+    "specialLetter": "b",
+    "score": 33
+  },
+  {
+    "word": "imagining",
+    "specialLetter": "i",
+    "score": 33
+  },
+  {
+    "word": "pituitrin",
+    "specialLetter": "i",
+    "score": 33
+  },
+  {
+    "word": "trinitrin",
+    "specialLetter": "i",
+    "score": 33
+  },
+  {
+    "word": "penninite",
+    "specialLetter": "n",
+    "score": 33
+  },
+  {
+    "word": "puppeteer",
+    "specialLetter": "p",
+    "score": 33
+  },
+  {
+    "word": "unprettier",
+    "specialLetter": "p",
     "score": 33
   },
   {
@@ -130,6 +335,21 @@
     "score": 31
   },
   {
+    "word": "drearihead",
+    "specialLetter": "a",
+    "score": 31
+  },
+  {
+    "word": "wiredrawer",
+    "specialLetter": "w",
+    "score": 31
+  },
+  {
+    "word": "arraigning",
+    "specialLetter": "r",
+    "score": 31
+  },
+  {
     "word": "preparer",
     "specialLetter": "r",
     "score": 30
@@ -137,6 +357,21 @@
   {
     "word": "peppered",
     "specialLetter": "p",
+    "score": 30
+  },
+  {
+    "word": "hardwired",
+    "specialLetter": "h",
+    "score": 30
+  },
+  {
+    "word": "aradidae",
+    "specialLetter": "a",
+    "score": 30
+  },
+  {
+    "word": "interrupt",
+    "specialLetter": "u",
     "score": 30
   },
   {
@@ -150,6 +385,21 @@
     "score": 28
   },
   {
+    "word": "hardihead",
+    "specialLetter": "h",
+    "score": 28
+  },
+  {
+    "word": "arranging",
+    "specialLetter": "r",
+    "score": 28
+  },
+  {
+    "word": "nutriture",
+    "specialLetter": "u",
+    "score": 28
+  },
+  {
     "word": "dreaded",
     "specialLetter": "d",
     "score": 27
@@ -157,6 +407,21 @@
   {
     "word": "cogging",
     "specialLetter": "g",
+    "score": 27
+  },
+  {
+    "word": "hairweed",
+    "specialLetter": "i",
+    "score": 27
+  },
+  {
+    "word": "rawhided",
+    "specialLetter": "i",
+    "score": 27
+  },
+  {
+    "word": "rawhider",
+    "specialLetter": "w",
     "score": 27
   },
   {
@@ -173,6 +438,26 @@
     "word": "perruque",
     "specialLetter": "u",
     "score": 25
+  },
+  {
+    "word": "grimming",
+    "specialLetter": "m",
+    "score": 25
+  },
+  {
+    "word": "warming",
+    "specialLetter": "m",
+    "score": 24
+  },
+  {
+    "word": "waganging",
+    "specialLetter": "w",
+    "score": 23
+  },
+  {
+    "word": "wannigan",
+    "specialLetter": "w",
+    "score": 20
   },
   {
     "word": "quadded",
