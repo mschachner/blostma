@@ -49,8 +49,8 @@ def formatWordPure(word, status, style="terminal", padding=0):
         case "search":
             return icon + colorBold(color, word.upper()) + status
 
-def formatWordScorePure(wordScore, style="terminal"):
-    return formatWordPure(wordScore["word"], status="validated", style=style) + f", {wordScore["specialLetter"].upper()}, {wordScore["score"]} points"
+def formatWordScorePure(wordScore, style="terminal", status="validated"):
+    return formatWordPure(wordScore["word"], status, style=style) + f", {wordScore["specialLetter"].upper()}, {wordScore["score"]} points"
 
 def formatSettings():
     # TODO

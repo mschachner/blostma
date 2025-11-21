@@ -32,6 +32,7 @@ def blossomBetter(bank, dictionary, prevPlayed, round, sL, score):
 
 
 def blossomSearch(queries, dataToSubmit, fast=False):
+    tprint = print if fast else _tprint
     dataToUpdate = blankData()
     if not queries:
         queries = getResponseBy(
@@ -42,6 +43,9 @@ def blossomSearch(queries, dataToSubmit, fast=False):
             )
         queries = [w.strip() for w in queries.replace(',', ' ').split() if w.strip()]
     queries = set(queries)
+    if not queries:
+        tprint("Fine, don't search anything then. 🙄")
+        return
     searchWords(queries=queries, fast=fast)
     match getResponseMenu(
         "Any changes?",
