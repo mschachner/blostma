@@ -40,6 +40,11 @@
     "score": 49
   },
   {
+    "word": "collaborator",
+    "specialLetter": "o",
+    "score": 49
+  },
+  {
     "word": "consenescences",
     "specialLetter": "c",
     "score": 48
@@ -57,6 +62,11 @@
   {
     "word": "weanednesses",
     "specialLetter": "e",
+    "score": 47
+  },
+  {
+    "word": "corroborator",
+    "specialLetter": "o",
     "score": 47
   },
   {
@@ -485,6 +495,11 @@
     "score": 34
   },
   {
+    "word": "tobaccoroot",
+    "specialLetter": "c",
+    "score": 34
+  },
+  {
     "word": "concessive",
     "specialLetter": "v",
     "score": 33
@@ -572,6 +587,21 @@
   {
     "word": "restorers",
     "specialLetter": "r",
+    "score": 33
+  },
+  {
+    "word": "barrabora",
+    "specialLetter": "r",
+    "score": 33
+  },
+  {
+    "word": "coccoloba",
+    "specialLetter": "c",
+    "score": 33
+  },
+  {
+    "word": "attractor",
+    "specialLetter": "t",
     "score": 33
   },
   {
@@ -700,6 +730,31 @@
     "score": 30
   },
   {
+    "word": "trabacolo",
+    "specialLetter": "b",
+    "score": 30
+  },
+  {
+    "word": "callaloo",
+    "specialLetter": "l",
+    "score": 30
+  },
+  {
+    "word": "collocal",
+    "specialLetter": "l",
+    "score": 30
+  },
+  {
+    "word": "barrator",
+    "specialLetter": "r",
+    "score": 30
+  },
+  {
+    "word": "trabacola",
+    "specialLetter": "b",
+    "score": 30
+  },
+  {
     "word": "puerperae",
     "specialLetter": "r",
     "score": 28
@@ -817,6 +872,11 @@
   {
     "word": "grimming",
     "specialLetter": "m",
+    "score": 25
+  },
+  {
+    "word": "babracot",
+    "specialLetter": "b",
     "score": 25
   },
   {
