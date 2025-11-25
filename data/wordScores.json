@@ -120,6 +120,11 @@
     "score": 43
   },
   {
+    "word": "reexported",
+    "specialLetter": "e",
+    "score": 43
+  },
+  {
     "word": "incisiveness",
     "specialLetter": "i",
     "score": 42
@@ -405,6 +410,16 @@
     "score": 36
   },
   {
+    "word": "pepperroot",
+    "specialLetter": "p",
+    "score": 36
+  },
+  {
+    "word": "preordered",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
     "word": "quadruped",
     "specialLetter": "d",
     "score": 35
@@ -472,6 +487,11 @@
   {
     "word": "torotoro",
     "specialLetter": "o",
+    "score": 35
+  },
+  {
+    "word": "doddered",
+    "specialLetter": "d",
     "score": 35
   },
   {
@@ -602,6 +622,21 @@
   {
     "word": "attractor",
     "specialLetter": "t",
+    "score": 33
+  },
+  {
+    "word": "propretor",
+    "specialLetter": "r",
+    "score": 33
+  },
+  {
+    "word": "protopope",
+    "specialLetter": "p",
+    "score": 33
+  },
+  {
+    "word": "reordered",
+    "specialLetter": "r",
     "score": 33
   },
   {
@@ -755,6 +790,21 @@
     "score": 30
   },
   {
+    "word": "tottered",
+    "specialLetter": "t",
+    "score": 30
+  },
+  {
+    "word": "dodderer",
+    "specialLetter": "d",
+    "score": 30
+  },
+  {
+    "word": "totterer",
+    "specialLetter": "t",
+    "score": 30
+  },
+  {
     "word": "puerperae",
     "specialLetter": "r",
     "score": 28
@@ -855,6 +905,11 @@
     "score": 27
   },
   {
+    "word": "exported",
+    "specialLetter": "x",
+    "score": 27
+  },
+  {
     "word": "pauraque",
     "specialLetter": "u",
     "score": 25
@@ -908,6 +963,11 @@
     "word": "oysterers",
     "specialLetter": "y",
     "score": 23
+  },
+  {
+    "word": "xeroxed",
+    "specialLetter": "x",
+    "score": 22
   },
   {
     "word": "wannigan",
