@@ -115,6 +115,11 @@
     "score": 44
   },
   {
+    "word": "intimidating",
+    "specialLetter": "n",
+    "score": 44
+  },
+  {
     "word": "titratable",
     "specialLetter": "t",
     "score": 43
@@ -240,6 +245,11 @@
     "score": 41
   },
   {
+    "word": "dimidiating",
+    "specialLetter": "d",
+    "score": 41
+  },
+  {
     "word": "inconvenience",
     "specialLetter": "i",
     "score": 40
@@ -302,6 +312,11 @@
   {
     "word": "sterrasters",
     "specialLetter": "r",
+    "score": 39
+  },
+  {
+    "word": "maintaining",
+    "specialLetter": "n",
     "score": 39
   },
   {
@@ -385,6 +400,11 @@
     "score": 38
   },
   {
+    "word": "indigitating",
+    "specialLetter": "g",
+    "score": 37
+  },
+  {
     "word": "intinction",
     "specialLetter": "n",
     "score": 36
@@ -447,6 +467,11 @@
   {
     "word": "sterraster",
     "specialLetter": "r",
+    "score": 36
+  },
+  {
+    "word": "attainting",
+    "specialLetter": "t",
     "score": 36
   },
   {
@@ -532,6 +557,26 @@
   {
     "word": "keratitis",
     "specialLetter": "i",
+    "score": 35
+  },
+  {
+    "word": "amidating",
+    "specialLetter": "a",
+    "score": 35
+  },
+  {
+    "word": "mandating",
+    "specialLetter": "a",
+    "score": 35
+  },
+  {
+    "word": "admitting",
+    "specialLetter": "t",
+    "score": 35
+  },
+  {
+    "word": "mitnagdim",
+    "specialLetter": "m",
     "score": 35
   },
   {
@@ -707,6 +752,16 @@
   {
     "word": "diddled",
     "specialLetter": "d",
+    "score": 32
+  },
+  {
+    "word": "gagging",
+    "specialLetter": "g",
+    "score": 32
+  },
+  {
+    "word": "gigging",
+    "specialLetter": "g",
     "score": 32
   },
   {
@@ -920,6 +975,11 @@
     "score": 28
   },
   {
+    "word": "immitting",
+    "specialLetter": "m",
+    "score": 28
+  },
+  {
     "word": "dreaded",
     "specialLetter": "d",
     "score": 27
@@ -968,6 +1028,16 @@
     "word": "exported",
     "specialLetter": "x",
     "score": 27
+  },
+  {
+    "word": "indagating",
+    "specialLetter": "d",
+    "score": 26
+  },
+  {
+    "word": "intimating",
+    "specialLetter": "m",
+    "score": 26
   },
   {
     "word": "pauraque",
