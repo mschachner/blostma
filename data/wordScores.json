@@ -15,7 +15,22 @@
     "score": 60
   },
   {
+    "word": "intersessions",
+    "specialLetter": "s",
+    "score": 57
+  },
+  {
     "word": "renewednesses",
+    "specialLetter": "e",
+    "score": 55
+  },
+  {
+    "word": "enterostenosis",
+    "specialLetter": "e",
+    "score": 55
+  },
+  {
+    "word": "interiornesses",
     "specialLetter": "e",
     "score": 55
   },
@@ -60,6 +75,16 @@
     "score": 49
   },
   {
+    "word": "entosternite",
+    "specialLetter": "t",
+    "score": 49
+  },
+  {
+    "word": "retentionist",
+    "specialLetter": "t",
+    "score": 49
+  },
+  {
     "word": "consenescences",
     "specialLetter": "c",
     "score": 48
@@ -92,6 +117,11 @@
   {
     "word": "tangantangan",
     "specialLetter": "n",
+    "score": 47
+  },
+  {
+    "word": "otiosenesses",
+    "specialLetter": "s",
     "score": 47
   },
   {
@@ -130,6 +160,11 @@
     "score": 46
   },
   {
+    "word": "seniorities",
+    "specialLetter": "i",
+    "score": 46
+  },
+  {
     "word": "siserskites",
     "specialLetter": "s",
     "score": 44
@@ -157,6 +192,21 @@
   {
     "word": "negativating",
     "specialLetter": "g",
+    "score": 44
+  },
+  {
+    "word": "interiorness",
+    "specialLetter": "n",
+    "score": 44
+  },
+  {
+    "word": "intersession",
+    "specialLetter": "i",
+    "score": 44
+  },
+  {
+    "word": "orientnesses",
+    "specialLetter": "n",
     "score": 44
   },
   {
@@ -317,6 +367,16 @@
   {
     "word": "initiating",
     "specialLetter": "i",
+    "score": 41
+  },
+  {
+    "word": "nonresister",
+    "specialLetter": "r",
+    "score": 41
+  },
+  {
+    "word": "reinsertion",
+    "specialLetter": "r",
     "score": 41
   },
   {
