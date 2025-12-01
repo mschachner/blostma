@@ -2,8 +2,8 @@ import json
 import subprocess
 from datetime import datetime
 
-from .utils import getResponse
-from .format import formatWordPure, formatWordScorePure, formatGameScore, _tprint
+from .utils import getResponseMenu
+from .format import formatWordPure, formatWordScorePure, formatGameScore, formatStatsGameScore, formatWordScores, _tprint
 
 # ========================== Updater functions for the data files ==========================
 
@@ -141,7 +141,7 @@ def showRank(score, fast=False):
         tprint("That's a new high score!")
     return
 
-def showStats(fast=False, topCount=10):
+def showStats(fast=False, topCount=10, bottomCount=4, showMedian=True):
     d, gameScores, wordScores = getDictionary(), getGameScores(), getWordScores()
     tprint = print if fast else _tprint
     longestWord = max((word for word in d if d[word]), key=len)
@@ -161,24 +161,11 @@ def showStats(fast=False, topCount=10):
     tprint(
         f"{'Highest word score:':<{pad}} {formatWordScore(wordScores[0], style="terminal")}"
     )
-    medianIndex = len(gameScores)//2
-    tprint("Top scores:")
-    pad = max(len(formatGameScore(sc)) for sc in gameScores)
-    for i in range(min(topCount, len(gameScores))):
-        note = "" if i != medianIndex else " (median)"
-        sc = gameScores[i]   
-        tprint(
-            f"{i+1}.{'  ' if i < 9 else ' '}{formatGameScore(sc).rjust(pad)}{note}"
-        )
-    if topCount < medianIndex:
-        tprint("⋮")
-        tprint(f"{medianIndex+1}.{'  ' if medianIndex < 9 else ' '}{formatGameScore(gameScores[medianIndex]).rjust(pad)} (median)")
-        tprint("⋮")
-    tprint(f"{len(gameScores)}. {formatGameScore(gameScores[-1]).rjust(pad)} (lowest)")
+    tprint(f"Top scores:\n{formatStatsGameScore(gameScores, topCount=topCount, bottomCount=bottomCount, showMedian=showMedian)}")
 
 def setSettings(fast=False):
     tprint = print if fast else _tprint
-    print("Settings")
+    tprint("Settings")
 
 # ========================== Git ==========================
 
@@ -188,7 +175,7 @@ def formatData(data, style="terminal"):
     if data["gameScores"]:
         body += "Game scores:\n" + "\n".join(formatGameScore(sc, style).rstrip() for sc in data["gameScores"]) + "\n"
     if data["wordScores"]:
-        body += "Word scores:\n" + "\n".join(formatWordScore(ws, style).rstrip() for ws in data["wordScores"]) + "\n"
+        body += "Word scores:\n" + formatWordScores(data["wordScores"], style) + "\n"
     if data["wordsToValidate"]:
         body += "Validated words:\n" if style == "git" else "Words to validate:\n"
         body += "\n".join(formatWord(word, style, status="validated").rstrip() for word in data["wordsToValidate"]) + "\n"
@@ -205,9 +192,9 @@ def pushData(data,fast=False, verifyFirst=False):
     files = ["data/wordlist.json", "data/gameScores.json", "data/wordScores.json"]
 
     if verifyFirst:
-        tprint("Submit the following?")
+        tprint("Data to submit:")
         tprint(formatData(data, style="terminal").rstrip("\n"))
-        if getResponse("Confirm submission (y/n)?", ["y", "n"]) == "n":
+        if getResponseMenu("Submit the above?", ["[y] yes", "[n] no"]) != "[y] yes":
             tprint("Nothing submitted.")
             return
     

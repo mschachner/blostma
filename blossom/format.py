@@ -49,12 +49,40 @@ def formatWordPure(word, status, style="terminal", padding=0):
         case "search":
             return icon + colorBold(color, word.upper()) + status
 
-def formatWordScorePure(wordScore, style="terminal", status="validated"):
-    return formatWordPure(wordScore["word"], status, style=style) + f", {wordScore["specialLetter"].upper()}, {wordScore["score"]} points"
+def formatWordScorePure(wordScore, style="terminal", status="validated", padding=0):
+    pad = " " * (max(len(wordScore["word"]), padding) - len(wordScore["word"]))
+    return formatWordPure(wordScore["word"], status, style=style) + f", {pad}{wordScore["specialLetter"].upper()}, {wordScore["score"]} points"
+
+def formatWordScores(wordScores, style="terminal"):
+    scores = ""
+    padding = max(len(wordScore["word"]) for wordScore in wordScores) if style == "terminal" else 0
+    for wordScore in wordScores:
+        scores += f"{formatWordScorePure(wordScore, style=style, padding=padding)}\n"
+    return scores.rstrip()
 
 def formatSettings():
     # TODO
     return
+
+def formatStatsGameScore(gameScores, topCount=10, bottomCount=1, showMedian=True):
+    stats = ""
+    numScores = len(gameScores)
+    medianIndex = 1 + numScores//2
+    for index in range(1, numScores + 1):
+        pad = " " * (4 - len(str(index)))
+        paddedIndex = f"{index}.{pad}"
+        formattedScore = formatGameScore(gameScores[index-1])
+        if index == medianIndex and showMedian:
+            note = " (median)"
+        elif index == numScores:
+            note = " (lowest)"
+        else:
+            note = ""
+        if any([index <= topCount, index > numScores - bottomCount, (showMedian and index == medianIndex)]):
+            stats += f"{paddedIndex}{formattedScore}{note}\n"
+        elif index == topCount + 1 or (showMedian and index == medianIndex + 1):
+            stats += "⋮\n"
+    return stats.rstrip()
 
 # ========================== Printing functions ==========================
 

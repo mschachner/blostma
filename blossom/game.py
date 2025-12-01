@@ -76,6 +76,7 @@ def playBlossom(bank=None, fast=False, choice=None, queries=None):
     dataToSubmit = blankData()
     timestamp = datetime.now().strftime("%Y-%m-%d")
     menued = False
+    played = False
     tprint = print if fast else _tprint
     print(
             r"""
@@ -90,11 +91,13 @@ def playBlossom(bank=None, fast=False, choice=None, queries=None):
     while True:
         if not choice:
             msg = "What do you want to do?" if not menued else "What do you want to do next?"
-            choices = [
-                "play", "search", "stats", "settings", "quit"
-                ] if not pending(dataToSubmit) else [
-                "play", "search", "stats", "settings", "submit data","quit"
-                ]
+            choices = ["search", "stats", "settings", "quit"]
+            if pending(dataToSubmit):
+                choices.insert(2, "submit data")
+            if not played:
+                choices = ["play", *choices]
+            else:
+                choices = ["play again", "play with new bank", *choices]
             choice = getResponseMenu(msg, choices)
         match choice:
             case "search":
@@ -121,21 +124,25 @@ def playBlossom(bank=None, fast=False, choice=None, queries=None):
                     pushData(dataToSubmit, fast=fast, verifyFirst=False)
                 tprint("Quitting.")
                 return
-            case "play":
-                choice = None
+            case "play" | "play again" | "play with new bank":
                 menued = True
+                played = True
                 prevPlayed = []
                 score = 0
-                match getResponseBy(
-                    "What's the bank? (Center letter first)",
-                    lambda b: sevenUniques(b) or b == "quit",
-                    "Please enter seven unique letters, or \"quit\".",
-                    firstChoice = bank
-                ).lower():
-                    case "quit":
-                        return
-                    case bk:
-                        bank = bk
+                if choice == "play again":
+                    bank = lastBank
+                else:
+                    match getResponseBy(
+                        "What's the bank? (Center letter first)",
+                        lambda b: sevenUniques(b) or b == "quit",
+                        "Please enter seven unique letters, or \"quit\".",
+                        firstChoice = bank
+                    ).lower():
+                        case "quit":
+                            return
+                        case bk:
+                            bank = bk
+                choice = None
                 tprint("Okay, let's play!")
                 tprint(f"Bank: {bank.upper()}.")
                 bank = bank[0] + "".join(sorted(list(bank[1:])))
@@ -172,9 +179,10 @@ def playBlossom(bank=None, fast=False, choice=None, queries=None):
                         )
                     newData["wordScores"].append({"word": word, "specialLetter": sL, "score": wordScore})
                 tprint(f"\n🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸\n\nGame over! We scored {score} points.")
-                showRank(score, fast=fast)
                 newData["gameScores"].append({"bank": bank.upper(), "score": score, "date": timestamp})
                 updateData(newData)
                 mergeData(dataToSubmit, newData)
+                showRank(score, fast=fast)
                 newData = blankData()
+                lastBank = bank
                 bank = None
