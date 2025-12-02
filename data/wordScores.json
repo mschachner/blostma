@@ -120,6 +120,11 @@
     "score": 49
   },
   {
+    "word": "intromitting",
+    "specialLetter": "i",
+    "score": 49
+  },
+  {
     "word": "consenescences",
     "specialLetter": "c",
     "score": 48
@@ -650,6 +655,11 @@
     "score": 38
   },
   {
+    "word": "monitoring",
+    "specialLetter": "i",
+    "score": 38
+  },
+  {
     "word": "indigitating",
     "specialLetter": "g",
     "score": 37
@@ -732,6 +742,11 @@
   {
     "word": "intituling",
     "specialLetter": "i",
+    "score": 36
+  },
+  {
+    "word": "nonrioting",
+    "specialLetter": "n",
     "score": 36
   },
   {
@@ -862,6 +877,11 @@
   {
     "word": "nickelled",
     "specialLetter": "l",
+    "score": 35
+  },
+  {
+    "word": "riroriro",
+    "specialLetter": "r",
     "score": 35
   },
   {
@@ -1061,6 +1081,11 @@
   },
   {
     "word": "rareripes",
+    "specialLetter": "r",
+    "score": 33
+  },
+  {
+    "word": "mirroring",
     "specialLetter": "r",
     "score": 33
   },
@@ -1275,6 +1300,21 @@
     "score": 30
   },
   {
+    "word": "trotting",
+    "specialLetter": "t",
+    "score": 30
+  },
+  {
+    "word": "intoning",
+    "specialLetter": "n",
+    "score": 30
+  },
+  {
+    "word": "trottoir",
+    "specialLetter": "t",
+    "score": 30
+  },
+  {
     "word": "puerperae",
     "specialLetter": "r",
     "score": 28
@@ -1435,6 +1475,21 @@
     "score": 27
   },
   {
+    "word": "gonging",
+    "specialLetter": "g",
+    "score": 27
+  },
+  {
+    "word": "motoring",
+    "specialLetter": "m",
+    "score": 27
+  },
+  {
+    "word": "gorging",
+    "specialLetter": "g",
+    "score": 27
+  },
+  {
     "word": "indagating",
     "specialLetter": "d",
     "score": 26
@@ -1502,6 +1557,11 @@
   {
     "word": "oysterers",
     "specialLetter": "y",
+    "score": 23
+  },
+  {
+    "word": "mononitro",
+    "specialLetter": "m",
     "score": 23
   },
   {
