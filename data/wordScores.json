@@ -450,6 +450,11 @@
     "score": 41
   },
   {
+    "word": "ophiopogon",
+    "specialLetter": "o",
+    "score": 41
+  },
+  {
     "word": "inconvenience",
     "specialLetter": "i",
     "score": 40
@@ -750,6 +755,11 @@
     "score": 36
   },
   {
+    "word": "spongiosis",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
     "word": "quadruped",
     "specialLetter": "d",
     "score": 35
@@ -882,6 +892,11 @@
   {
     "word": "riroriro",
     "specialLetter": "r",
+    "score": 35
+  },
+  {
+    "word": "siphoning",
+    "specialLetter": "i",
     "score": 35
   },
   {
@@ -1090,6 +1105,26 @@
     "score": 33
   },
   {
+    "word": "inshining",
+    "specialLetter": "i",
+    "score": 33
+  },
+  {
+    "word": "singsongs",
+    "specialLetter": "s",
+    "score": 33
+  },
+  {
+    "word": "pinioning",
+    "specialLetter": "i",
+    "score": 33
+  },
+  {
+    "word": "sponsions",
+    "specialLetter": "s",
+    "score": 33
+  },
+  {
     "word": "convives",
     "specialLetter": "v",
     "score": 32
@@ -1112,6 +1147,16 @@
   {
     "word": "gigging",
     "specialLetter": "g",
+    "score": 32
+  },
+  {
+    "word": "shopping",
+    "specialLetter": "p",
+    "score": 32
+  },
+  {
+    "word": "hoppings",
+    "specialLetter": "p",
     "score": 32
   },
   {
@@ -1315,6 +1360,26 @@
     "score": 30
   },
   {
+    "word": "siphoning",
+    "specialLetter": "h",
+    "score": 30
+  },
+  {
+    "word": "gossoons",
+    "specialLetter": "o",
+    "score": 30
+  },
+  {
+    "word": "noggings",
+    "specialLetter": "g",
+    "score": 30
+  },
+  {
+    "word": "pogonion",
+    "specialLetter": "o",
+    "score": 30
+  },
+  {
     "word": "puerperae",
     "specialLetter": "r",
     "score": 28
@@ -1412,6 +1477,21 @@
   {
     "word": "kennelled",
     "specialLetter": "n",
+    "score": 28
+  },
+  {
+    "word": "shippings",
+    "specialLetter": "p",
+    "score": 28
+  },
+  {
+    "word": "phishings",
+    "specialLetter": "h",
+    "score": 28
+  },
+  {
+    "word": "shooshing",
+    "specialLetter": "h",
     "score": 28
   },
   {
@@ -1572,6 +1652,11 @@
   {
     "word": "wannigan",
     "specialLetter": "w",
+    "score": 20
+  },
+  {
+    "word": "shinning",
+    "specialLetter": "h",
     "score": 20
   },
   {
