@@ -21,6 +21,10 @@ def getDictionary(bank=None):
         return {word: dictionary[word] for word in dictionary if any(c == bank[0] for c in word) and all(c in bank for c in word)}
     return dictionary
 
+def getSettings():
+    with open("data/settings.json", "r") as infile:
+        return json.load(infile)
+
 # Setters (includes sorting)
 def setGameScores(gameScores):
     gameScores.sort(key=lambda x: x["score"], reverse=True)
@@ -34,6 +38,9 @@ def setDictionary(dictionary):
     dictionary = dict(sorted(dictionary.items(), key=lambda item: item[0]))
     with open("data/wordlist.json", "w", encoding="utf-8") as outfile:
         json.dump(dictionary, outfile, indent=2)
+def setSettings(settings):
+    with open("data/settings.json", "w") as outfile:
+        json.dump(settings, outfile, indent=2)
 
 # Add a list of game scores.
 def addGameScores(gameScoresToAdd):
@@ -141,9 +148,9 @@ def showRank(score, fast=False):
         tprint("That's a new high score!")
     return
 
-def showStats(fast=False, topCount=10, bottomCount=4, showMedian=True):
+def showStats(settings=None):
     d, gameScores, wordScores = getDictionary(), getGameScores(), getWordScores()
-    tprint = print if fast else _tprint
+    tprint = print if settings["fast"] else _tprint
     longestWord = max((word for word in d if d[word]), key=len)
     totalWords = len(d)
     validatedWords = sum(1 for word in d if d[word])
@@ -161,11 +168,16 @@ def showStats(fast=False, topCount=10, bottomCount=4, showMedian=True):
     tprint(
         f"{'Highest word score:':<{pad}} {formatWordScore(wordScores[0], style="terminal")}"
     )
-    tprint(f"Top scores:\n{formatStatsGameScore(gameScores, topCount=topCount, bottomCount=bottomCount, showMedian=showMedian)}")
+    tprint(f"Top scores:\n{formatStatsGameScore(gameScores, topCount=settings["numScores"], bottomCount=settings["numScores"], showMedian=True)}")
+    return
 
-def setSettings(fast=False):
-    tprint = print if fast else _tprint
+def updateSettings():
+    settings = getSettings()
+    tprint = print if settings["fast"] else _tprint
     tprint("Settings")
+    settings["fast"] = getResponseMenu("Fast mode?", ["[y] yes", "[n] no"]) == "[y] yes"
+    settings["numScores"] = int(getResponseMenu("Number of top and bottom scores to show?", ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]))
+    return settings
 
 # ========================== Git ==========================
 

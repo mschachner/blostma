@@ -1,8 +1,7 @@
 import argparse
 
 from .game import playBlossom
-from .updater import showStats, searchWords, updateData
-from .utils import sevenUniques
+from .updater import showStats, getSettings
 
 
 def main():
@@ -22,19 +21,21 @@ def main():
     searchParser.add_argument("-f", "--fast", action="store_true", help="Search fast")
 
     args = parser.parse_args()
+    settings = getSettings()
     match args.choice:
         case "play":
+            settings["fast"] = args.fast if args.fast else settings["fast"]
             playBlossom(
                 bank=args.bank,
                 choice=args.choice,
-                fast=args.fast if args.fast else False,
+                settings=settings,
                 queries=args.queries if args.choice == "search" else None
             )
         case "stats":
-            showStats(fast=args.fast if args.fast else False)
+            showStats(settings=settings)
         case "search":
             playBlossom(
                 choice=args.choice,
-                fast=args.fast if args.fast else False,
+                settings=settings,
                 queries=args.queries
             )

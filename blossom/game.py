@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 from .utils import _tprint, condMsg, getResponseBy, getResponseMenu, sevenUniques, pending, scoreWord, advanceSL, blankData, mergeData, selectMultiple
-from .updater import updateData, showStats, searchWords, showRank, setSettings, pushData, getDictionary, formatWord, wordStatus, getWordScores
+from .updater import updateData, showStats, searchWords, showRank, getSettings, setSettings, pushData, getDictionary, formatWord, wordStatus, getWordScores
 
 def blossomBetter(bank, dictionary, prevPlayed, round, sL, score):
     allPlays = []
@@ -31,22 +31,22 @@ def blossomBetter(bank, dictionary, prevPlayed, round, sL, score):
     return chosenPlays[sL][0]
 
 
-def blossomSearch(queries, dataToSubmit, fast=False):
-    tprint = print if fast else _tprint
+def blossomSearch(queries, dataToSubmit, settings=None):
+    tprint = print if settings["fast"] else _tprint
     dataToUpdate = blankData()
     if not queries:
         queries = getResponseBy(
             "Enter words to search (comma or space separated):",
             lambda w: True,
             None,
-            fast=fast
+            fast=settings["fast"]
             )
         queries = [w.strip() for w in queries.replace(',', ' ').split() if w.strip()]
     queries = set(queries)
     if not queries:
         tprint("Fine, don't search anything then. 🙄")
         return
-    searchWords(queries=queries, fast=fast)
+    searchWords(queries=queries, settings=settings)
     match getResponseMenu(
         "Any changes?",
         ["[v] validate all", "[r] remove all", "[s] select words", "[d] done"]
@@ -71,13 +71,13 @@ def blossomSearch(queries, dataToSubmit, fast=False):
     mergeData(dataToSubmit, dataToUpdate)
     return
 
-def playBlossom(bank=None, fast=False, choice=None, queries=None):
+def playBlossom(bank=None, settings=None, choice=None, queries=None):
     os.system("clear")
     dataToSubmit = blankData()
     timestamp = datetime.now().strftime("%Y-%m-%d")
     menued = False
     played = False
-    tprint = print if fast else _tprint
+    tprint = print if settings["fast"] else _tprint
     print(
             r"""
 ,-----.  ,--.
@@ -102,26 +102,26 @@ def playBlossom(bank=None, fast=False, choice=None, queries=None):
         match choice:
             case "search":
                 choice, menued = None, True
-                blossomSearch(queries, dataToSubmit, fast=fast)
+                blossomSearch(queries, dataToSubmit, settings=settings)
                 queries = None
             case "stats":
                 choice, menued = None, True
-                showStats(fast=fast, topCount=10)
+                showStats(settings=settings)
                 continue
             case "settings":
                 choice, menued = None, True
-                setSettings(fast=fast)
+                setSettings()
                 continue
             case "submit data":
                 choice, menued = None, True
-                pushData(dataToSubmit, fast=fast, verifyFirst=True)
+                pushData(dataToSubmit, settings=settings, verifyFirst=True)
                 dataToSubmit = blankData()
                 continue
             case "quit":
                 if pending(dataToSubmit) and getResponseMenu(
                     "Submit all data first?", ["[s] submit data", "[q] quit without submitting"]
                     ) == "[s] submit data":
-                    pushData(dataToSubmit, fast=fast, verifyFirst=False)
+                    pushData(dataToSubmit, settings=settings, verifyFirst=False)
                 tprint("Quitting.")
                 return
             case "play" | "play again" | "play with new bank":
@@ -136,7 +136,8 @@ def playBlossom(bank=None, fast=False, choice=None, queries=None):
                         "What's the bank? (Center letter first)",
                         lambda b: sevenUniques(b) or b == "quit",
                         "Please enter seven unique letters, or \"quit\".",
-                        firstChoice = bank
+                        firstChoice = bank,
+                        fast=settings["fast"]
                     ).lower():
                         case "quit":
                             return
@@ -182,7 +183,7 @@ def playBlossom(bank=None, fast=False, choice=None, queries=None):
                 newData["gameScores"].append({"bank": bank.upper(), "score": score, "date": timestamp})
                 updateData(newData)
                 mergeData(dataToSubmit, newData)
-                showRank(score, fast=fast)
+                showRank(score, settings=settings)
                 newData = blankData()
                 lastBank = bank
                 bank = None
