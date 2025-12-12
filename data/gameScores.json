@@ -130,6 +130,11 @@
     "date": "2025-09-12"
   },
   {
+    "bank": "ICEKNST",
+    "score": 491,
+    "date": "2025-12-09"
+  },
+  {
     "bank": "SILMNOU",
     "score": 488,
     "date": "2025-11-09"
@@ -233,6 +238,11 @@
     "bank": "TELORSU",
     "score": 449,
     "date": "2025-08-24"
+  },
+  {
+    "bank": "EIPRSTX",
+    "score": 449,
+    "date": "2025-12-11"
   },
   {
     "bank": "RADEFHT",
@@ -383,6 +393,11 @@
     "bank": "GEIJLNS",
     "score": 409,
     "date": "2025-09-05"
+  },
+  {
+    "bank": "PELMOSY",
+    "score": 407,
+    "date": "2025-12-11"
   },
   {
     "bank": "EMNORSW",

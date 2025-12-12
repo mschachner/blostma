@@ -50,6 +50,11 @@
     "score": 54
   },
   {
+    "word": "stickinesses",
+    "specialLetter": "s",
+    "score": 54
+  },
+  {
     "word": "incisivenesses",
     "specialLetter": "s",
     "score": 53
@@ -78,6 +83,11 @@
     "word": "retentionists",
     "specialLetter": "t",
     "score": 52
+  },
+  {
+    "word": "intensenesses",
+    "specialLetter": "e",
+    "score": 50
   },
   {
     "word": "conditioning",
@@ -205,6 +215,11 @@
     "score": 47
   },
   {
+    "word": "kinnikinnick",
+    "specialLetter": "n",
+    "score": 47
+  },
+  {
     "word": "terribilita",
     "specialLetter": "i",
     "score": 46
@@ -325,6 +340,16 @@
     "score": 44
   },
   {
+    "word": "priestesses",
+    "specialLetter": "s",
+    "score": 44
+  },
+  {
+    "word": "stepsisters",
+    "specialLetter": "s",
+    "score": 44
+  },
+  {
     "word": "titratable",
     "specialLetter": "t",
     "score": 43
@@ -395,6 +420,11 @@
     "score": 43
   },
   {
+    "word": "possesses",
+    "specialLetter": "s",
+    "score": 43
+  },
+  {
     "word": "incisiveness",
     "specialLetter": "i",
     "score": 42
@@ -437,6 +467,11 @@
   {
     "word": "restaurateur",
     "specialLetter": "r",
+    "score": 42
+  },
+  {
+    "word": "intentnesses",
+    "specialLetter": "e",
     "score": 42
   },
   {
@@ -590,6 +625,11 @@
     "score": 40
   },
   {
+    "word": "employees",
+    "specialLetter": "e",
+    "score": 40
+  },
+  {
     "word": "preprepared",
     "specialLetter": "p",
     "score": 39
@@ -672,6 +712,26 @@
   {
     "word": "ecstasiates",
     "specialLetter": "s",
+    "score": 39
+  },
+  {
+    "word": "insentience",
+    "specialLetter": "n",
+    "score": 39
+  },
+  {
+    "word": "pompelmoose",
+    "specialLetter": "o",
+    "score": 39
+  },
+  {
+    "word": "sleeplessly",
+    "specialLetter": "e",
+    "score": 39
+  },
+  {
+    "word": "isepiptesis",
+    "specialLetter": "i",
     "score": 39
   },
   {
@@ -840,6 +900,11 @@
     "score": 38
   },
   {
+    "word": "kineticist",
+    "specialLetter": "t",
+    "score": 38
+  },
+  {
     "word": "indigitating",
     "specialLetter": "g",
     "score": 37
@@ -967,6 +1032,11 @@
   {
     "word": "susurruses",
     "specialLetter": "u",
+    "score": 36
+  },
+  {
+    "word": "opposeless",
+    "specialLetter": "s",
     "score": 36
   },
   {
@@ -1145,6 +1215,11 @@
     "score": 35
   },
   {
+    "word": "polysomes",
+    "specialLetter": "o",
+    "score": 35
+  },
+  {
     "word": "notodontoid",
     "specialLetter": "d",
     "score": 34
@@ -1192,6 +1267,36 @@
   {
     "word": "reappraises",
     "specialLetter": "p",
+    "score": 34
+  },
+  {
+    "word": "scientistic",
+    "specialLetter": "c",
+    "score": 34
+  },
+  {
+    "word": "kinkinesses",
+    "specialLetter": "k",
+    "score": 34
+  },
+  {
+    "word": "intensities",
+    "specialLetter": "t",
+    "score": 34
+  },
+  {
+    "word": "peristerite",
+    "specialLetter": "r",
+    "score": 34
+  },
+  {
+    "word": "peripteries",
+    "specialLetter": "i",
+    "score": 34
+  },
+  {
+    "word": "reexpresses",
+    "specialLetter": "r",
     "score": 34
   },
   {
@@ -1405,6 +1510,16 @@
     "score": 33
   },
   {
+    "word": "stickiness",
+    "specialLetter": "c",
+    "score": 33
+  },
+  {
+    "word": "lollypops",
+    "specialLetter": "l",
+    "score": 33
+  },
+  {
     "word": "convives",
     "specialLetter": "v",
     "score": 32
@@ -1447,6 +1562,16 @@
   {
     "word": "wofflers",
     "specialLetter": "f",
+    "score": 32
+  },
+  {
+    "word": "skinninesses",
+    "specialLetter": "k",
+    "score": 32
+  },
+  {
+    "word": "polysemy",
+    "specialLetter": "y",
     "score": 32
   },
   {
@@ -1527,6 +1652,11 @@
   {
     "word": "statuesque",
     "specialLetter": "u",
+    "score": 31
+  },
+  {
+    "word": "peopleless",
+    "specialLetter": "l",
     "score": 31
   },
   {
@@ -1727,6 +1857,16 @@
   {
     "word": "sequestra",
     "specialLetter": "q",
+    "score": 30
+  },
+  {
+    "word": "expertise",
+    "specialLetter": "x",
+    "score": 30
+  },
+  {
+    "word": "preexists",
+    "specialLetter": "x",
     "score": 30
   },
   {
@@ -1950,6 +2090,16 @@
     "score": 27
   },
   {
+    "word": "employes",
+    "specialLetter": "m",
+    "score": 27
+  },
+  {
+    "word": "polysome",
+    "specialLetter": "m",
+    "score": 27
+  },
+  {
     "word": "indagating",
     "specialLetter": "d",
     "score": 26
@@ -1992,6 +2142,11 @@
   {
     "word": "werewolf",
     "specialLetter": "w",
+    "score": 25
+  },
+  {
+    "word": "polymely",
+    "specialLetter": "y",
     "score": 25
   },
   {
