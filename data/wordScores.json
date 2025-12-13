@@ -615,6 +615,11 @@
     "score": 41
   },
   {
+    "word": "enlegended",
+    "specialLetter": "e",
+    "score": 41
+  },
+  {
     "word": "inconvenience",
     "specialLetter": "i",
     "score": 40
@@ -1040,6 +1045,16 @@
     "score": 36
   },
   {
+    "word": "needlebill",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "ineligible",
+    "specialLetter": "i",
+    "score": 36
+  },
+  {
     "word": "quadruped",
     "specialLetter": "d",
     "score": 35
@@ -1217,6 +1232,11 @@
   {
     "word": "polysomes",
     "specialLetter": "o",
+    "score": 35
+  },
+  {
+    "word": "libidibi",
+    "specialLetter": "i",
     "score": 35
   },
   {
@@ -1520,6 +1540,11 @@
     "score": 33
   },
   {
+    "word": "legginged",
+    "specialLetter": "g",
+    "score": 33
+  },
+  {
     "word": "convives",
     "specialLetter": "v",
     "score": 32
@@ -1572,6 +1597,11 @@
   {
     "word": "polysemy",
     "specialLetter": "y",
+    "score": 32
+  },
+  {
+    "word": "blending",
+    "specialLetter": "n",
     "score": 32
   },
   {
@@ -1657,6 +1687,11 @@
   {
     "word": "peopleless",
     "specialLetter": "l",
+    "score": 31
+  },
+  {
+    "word": "negligible",
+    "specialLetter": "e",
     "score": 31
   },
   {
@@ -1870,6 +1905,21 @@
     "score": 30
   },
   {
+    "word": "diddling",
+    "specialLetter": "d",
+    "score": 30
+  },
+  {
+    "word": "blebbing",
+    "specialLetter": "b",
+    "score": 30
+  },
+  {
+    "word": "debelling",
+    "specialLetter": "b",
+    "score": 30
+  },
+  {
     "word": "worsenesses",
     "specialLetter": "w",
     "score": 29
@@ -2010,6 +2060,16 @@
     "score": 28
   },
   {
+    "word": "engilding",
+    "specialLetter": "n",
+    "score": 28
+  },
+  {
+    "word": "beelining",
+    "specialLetter": "n",
+    "score": 28
+  },
+  {
     "word": "dreaded",
     "specialLetter": "d",
     "score": 27
@@ -2097,6 +2157,16 @@
   {
     "word": "polysome",
     "specialLetter": "m",
+    "score": 27
+  },
+  {
+    "word": "bielding",
+    "specialLetter": "b",
+    "score": 27
+  },
+  {
+    "word": "bleeding",
+    "specialLetter": "b",
     "score": 27
   },
   {
