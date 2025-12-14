@@ -270,6 +270,21 @@
     "score": 46
   },
   {
+    "word": "agrogeology",
+    "specialLetter": "g",
+    "score": 46
+  },
+  {
+    "word": "allergology",
+    "specialLetter": "l",
+    "score": 46
+  },
+  {
+    "word": "aerogeology",
+    "specialLetter": "o",
+    "score": 46
+  },
+  {
     "word": "restaurateurs",
     "specialLetter": "r",
     "score": 45
@@ -616,6 +631,11 @@
   },
   {
     "word": "enlegended",
+    "specialLetter": "e",
+    "score": 41
+  },
+  {
+    "word": "gallerygoer",
     "specialLetter": "e",
     "score": 41
   },
@@ -1545,6 +1565,11 @@
     "score": 33
   },
   {
+    "word": "arrearage",
+    "specialLetter": "r",
+    "score": 33
+  },
+  {
     "word": "convives",
     "specialLetter": "v",
     "score": 32
@@ -1602,6 +1627,21 @@
   {
     "word": "blending",
     "specialLetter": "n",
+    "score": 32
+  },
+  {
+    "word": "allegory",
+    "specialLetter": "l",
+    "score": 32
+  },
+  {
+    "word": "aerology",
+    "specialLetter": "o",
+    "score": 32
+  },
+  {
+    "word": "gargoyle",
+    "specialLetter": "g",
     "score": 32
   },
   {
@@ -1920,6 +1960,11 @@
     "score": 30
   },
   {
+    "word": "reallege",
+    "specialLetter": "e",
+    "score": 30
+  },
+  {
     "word": "worsenesses",
     "specialLetter": "w",
     "score": 29
@@ -2170,6 +2215,21 @@
     "score": 27
   },
   {
+    "word": "gargoyle",
+    "specialLetter": "y",
+    "score": 27
+  },
+  {
+    "word": "aggrege",
+    "specialLetter": "g",
+    "score": 27
+  },
+  {
+    "word": "areology",
+    "specialLetter": "r",
+    "score": 27
+  },
+  {
     "word": "indagating",
     "specialLetter": "d",
     "score": 26
@@ -2257,6 +2317,16 @@
   {
     "word": "xeroxed",
     "specialLetter": "x",
+    "score": 22
+  },
+  {
+    "word": "loyally",
+    "specialLetter": "y",
+    "score": 22
+  },
+  {
+    "word": "royally",
+    "specialLetter": "y",
     "score": 22
   },
   {
