@@ -715,6 +715,11 @@
     "score": 41
   },
   {
+    "word": "overpowered",
+    "specialLetter": "o",
+    "score": 41
+  },
+  {
     "word": "inconvenience",
     "specialLetter": "i",
     "score": 40
@@ -1185,6 +1190,21 @@
     "score": 36
   },
   {
+    "word": "pepperweed",
+    "specialLetter": "p",
+    "score": 36
+  },
+  {
+    "word": "preordered",
+    "specialLetter": "r",
+    "score": 36
+  },
+  {
+    "word": "pepperwood",
+    "specialLetter": "p",
+    "score": 36
+  },
+  {
     "word": "quadruped",
     "specialLetter": "d",
     "score": 35
@@ -1377,6 +1397,11 @@
   {
     "word": "thatching",
     "specialLetter": "h",
+    "score": 35
+  },
+  {
+    "word": "voodooed",
+    "specialLetter": "o",
     "score": 35
   },
   {
@@ -1890,6 +1915,16 @@
     "score": 31
   },
   {
+    "word": "overproved",
+    "specialLetter": "v",
+    "score": 31
+  },
+  {
+    "word": "overworded",
+    "specialLetter": "d",
+    "score": 31
+  },
+  {
     "word": "preparer",
     "specialLetter": "r",
     "score": 30
@@ -2135,6 +2170,11 @@
     "score": 30
   },
   {
+    "word": "powwowed",
+    "specialLetter": "w",
+    "score": 30
+  },
+  {
     "word": "worsenesses",
     "specialLetter": "w",
     "score": 29
@@ -2292,6 +2332,11 @@
   {
     "word": "unuttered",
     "specialLetter": "t",
+    "score": 28
+  },
+  {
+    "word": "overprove",
+    "specialLetter": "v",
     "score": 28
   },
   {
@@ -2492,6 +2537,11 @@
   {
     "word": "mononitro",
     "specialLetter": "m",
+    "score": 23
+  },
+  {
+    "word": "overpower",
+    "specialLetter": "w",
     "score": 23
   },
   {
