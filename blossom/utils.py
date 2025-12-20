@@ -2,8 +2,8 @@ import simple_term_menu
 
 from .format import _tprint
 
-def getResponseBy(msg, cond, invalidMsg, firstChoice = None, fast=False):
-    tprint = print if fast else _tprint
+def getResponseBy(msg, cond, invalidMsg, firstChoice = None, settings=None):
+    tprint = print if settings["fast"] else _tprint
     if firstChoice:
         if cond(firstChoice):
             return firstChoice
@@ -19,7 +19,13 @@ def getResponse(msg, valids):
     return getResponseBy(msg, lambda r: r in valids, f"Valid responses: {', '.join(valids)}.")
 
 def getResponseMenu(msg, options):
-    menu = simple_term_menu.TerminalMenu(options, title=msg, menu_cursor_style=(("fg_purple", "bold")), menu_cursor="🌸 > ")
+    menu = simple_term_menu.TerminalMenu(
+        options,
+        title=msg, 
+        menu_cursor_style=(("fg_purple", "bold")), 
+        menu_cursor="🌸 > ",
+        quit_keys=[]
+    )
     return options[menu.show()]
 
 def selectMultiple(msg, options):
@@ -31,6 +37,7 @@ def selectMultiple(msg, options):
         multi_select=True,
         multi_select_cursor_brackets_style=(("fg_gray", "bold")),
         multi_select_cursor="[🌸] ",
+        quit_keys=[]
     )
     return [list(options)[i] for i in menu.show()]
 

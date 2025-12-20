@@ -39,7 +39,7 @@ def blossomSearch(queries, dataToSubmit, settings=None):
             "Enter words to search (comma or space separated):",
             lambda w: True,
             None,
-            fast=settings["fast"]
+            settings=settings
             )
         queries = [w.strip() for w in queries.replace(',', ' ').split() if w.strip()]
     queries = set(queries)
@@ -137,7 +137,7 @@ def playBlossom(bank=None, settings=None, choice=None, queries=None):
                         lambda b: sevenUniques(b) or b == "quit",
                         "Please enter seven unique letters, or \"quit\".",
                         firstChoice = bank,
-                        fast=settings["fast"]
+                        settings=settings
                     ).lower():
                         case "quit":
                             return

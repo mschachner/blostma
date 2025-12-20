@@ -129,8 +129,8 @@ def formatWordScore(wordScore, style="terminal", status=None):
         status = wordStatus(wordScore["word"])
     return formatWordScorePure(wordScore, style, status)
 
-def searchWords(queries=None, fast=False):
-    tprint = print if fast else _tprint
+def searchWords(queries=None, settings=None):
+    tprint = print if settings["fast"] else _tprint
     if not queries:
         return
     tprint("Search results:")
@@ -139,9 +139,9 @@ def searchWords(queries=None, fast=False):
         tprint(formatWord(word, style="search", status=statuses[word]))
     return
 
-def showRank(score, fast=False):
+def showRank(score, settings=None):
     allScores = getGameScores()
-    tprint = print if fast else _tprint
+    tprint = print if settings["fast"] else _tprint
     rank = len([sc for sc in allScores if score < sc["score"]]) + 1
     tprint(f"Rank: {rank}/{len(allScores)}")
     if rank == 1:
@@ -196,8 +196,8 @@ def formatData(data, style="terminal"):
         body += "\n".join(formatWord(word, style).rstrip() for word in data["wordsToRemove"])
     return body
 
-def pushData(data,fast=False, verifyFirst=False):
-    tprint = print if fast else _tprint
+def pushData(data,settings=None, verifyFirst=False):
+    tprint = print if settings["fast"] else _tprint
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     summary = f"auto: submitted at {timestamp}"
     body = formatData(data, style="git")
