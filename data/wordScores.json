@@ -390,6 +390,21 @@
     "score": 46
   },
   {
+    "word": "attractable",
+    "specialLetter": "a",
+    "score": 46
+  },
+  {
+    "word": "recreatable",
+    "specialLetter": "e",
+    "score": 46
+  },
+  {
+    "word": "retraceable",
+    "specialLetter": "e",
+    "score": 46
+  },
+  {
     "word": "restaurateurs",
     "specialLetter": "r",
     "score": 45
@@ -790,6 +805,11 @@
     "score": 41
   },
   {
+    "word": "retractable",
+    "specialLetter": "a",
+    "score": 41
+  },
+  {
     "word": "inconvenience",
     "specialLetter": "i",
     "score": 40
@@ -1110,6 +1130,11 @@
     "score": 38
   },
   {
+    "word": "celebrater",
+    "specialLetter": "r",
+    "score": 38
+  },
+  {
     "word": "indigitating",
     "specialLetter": "g",
     "score": 37
@@ -1117,6 +1142,11 @@
   {
     "word": "restaurateur",
     "specialLetter": "a",
+    "score": 37
+  },
+  {
+    "word": "terebratella",
+    "specialLetter": "l",
     "score": 37
   },
   {
@@ -1272,6 +1302,11 @@
   {
     "word": "pepperwood",
     "specialLetter": "p",
+    "score": 36
+  },
+  {
+    "word": "clarabella",
+    "specialLetter": "l",
     "score": 36
   },
   {
@@ -1472,6 +1507,11 @@
   {
     "word": "voodooed",
     "specialLetter": "o",
+    "score": 35
+  },
+  {
+    "word": "tractable",
+    "specialLetter": "t",
     "score": 35
   },
   {
@@ -1795,6 +1835,11 @@
     "score": 33
   },
   {
+    "word": "barretter",
+    "specialLetter": "r",
+    "score": 33
+  },
+  {
     "word": "convives",
     "specialLetter": "v",
     "score": 32
@@ -1882,6 +1927,11 @@
   {
     "word": "hatching",
     "specialLetter": "h",
+    "score": 32
+  },
+  {
+    "word": "bractlet",
+    "specialLetter": "t",
     "score": 32
   },
   {
@@ -2242,6 +2292,16 @@
   {
     "word": "powwowed",
     "specialLetter": "w",
+    "score": 30
+  },
+  {
+    "word": "celebrate",
+    "specialLetter": "c",
+    "score": 30
+  },
+  {
+    "word": "erectable",
+    "specialLetter": "c",
     "score": 30
   },
   {
