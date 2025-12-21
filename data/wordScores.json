@@ -60,6 +60,11 @@
     "score": 55
   },
   {
+    "word": "incapacitation",
+    "specialLetter": "a",
+    "score": 55
+  },
+  {
     "word": "sissinesses",
     "specialLetter": "s",
     "score": 54
@@ -127,6 +132,11 @@
   {
     "word": "sententiaries",
     "specialLetter": "e",
+    "score": 52
+  },
+  {
+    "word": "antiapoptotic",
+    "specialLetter": "t",
     "score": 52
   },
   {
@@ -216,6 +226,16 @@
   },
   {
     "word": "ananastasia",
+    "specialLetter": "a",
+    "score": 49
+  },
+  {
+    "word": "anticipation",
+    "specialLetter": "i",
+    "score": 49
+  },
+  {
+    "word": "capacitation",
     "specialLetter": "a",
     "score": 49
   },
@@ -645,6 +665,11 @@
     "score": 42
   },
   {
+    "word": "inconcoction",
+    "specialLetter": "n",
+    "score": 42
+  },
+  {
     "word": "gonococcic",
     "specialLetter": "c",
     "score": 41
@@ -950,6 +975,11 @@
     "score": 39
   },
   {
+    "word": "connotation",
+    "specialLetter": "n",
+    "score": 39
+  },
+  {
     "word": "wirehaired",
     "specialLetter": "e",
     "score": 38
@@ -1135,6 +1165,21 @@
     "score": 38
   },
   {
+    "word": "coaptation",
+    "specialLetter": "o",
+    "score": 38
+  },
+  {
+    "word": "capitation",
+    "specialLetter": "i",
+    "score": 38
+  },
+  {
+    "word": "panopticon",
+    "specialLetter": "o",
+    "score": 38
+  },
+  {
     "word": "indigitating",
     "specialLetter": "g",
     "score": 37
@@ -1147,6 +1192,11 @@
   {
     "word": "terebratella",
     "specialLetter": "l",
+    "score": 37
+  },
+  {
+    "word": "incapacitant",
+    "specialLetter": "t",
     "score": 37
   },
   {
@@ -1307,6 +1357,11 @@
   {
     "word": "clarabella",
     "specialLetter": "l",
+    "score": 36
+  },
+  {
+    "word": "contactant",
+    "specialLetter": "t",
     "score": 36
   },
   {
@@ -1935,6 +1990,11 @@
     "score": 32
   },
   {
+    "word": "panoptic",
+    "specialLetter": "p",
+    "score": 32
+  },
+  {
     "word": "reappeared",
     "specialLetter": "a",
     "score": 31
@@ -2302,6 +2362,11 @@
   {
     "word": "erectable",
     "specialLetter": "c",
+    "score": 30
+  },
+  {
+    "word": "captation",
+    "specialLetter": "p",
     "score": 30
   },
   {
