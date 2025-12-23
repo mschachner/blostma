@@ -340,6 +340,11 @@
     "score": 47
   },
   {
+    "word": "lallygagging",
+    "specialLetter": "g",
+    "score": 47
+  },
+  {
     "word": "terribilita",
     "specialLetter": "i",
     "score": 46
@@ -1620,6 +1625,16 @@
     "score": 35
   },
   {
+    "word": "glaringly",
+    "specialLetter": "l",
+    "score": 35
+  },
+  {
+    "word": "railingly",
+    "specialLetter": "i",
+    "score": 35
+  },
+  {
     "word": "notodontoid",
     "specialLetter": "d",
     "score": 34
@@ -1950,6 +1965,11 @@
     "score": 33
   },
   {
+    "word": "gallingly",
+    "specialLetter": "l",
+    "score": 33
+  },
+  {
     "word": "convives",
     "specialLetter": "v",
     "score": 32
@@ -2157,6 +2177,16 @@
   {
     "word": "overworded",
     "specialLetter": "d",
+    "score": 31
+  },
+  {
+    "word": "arraigning",
+    "specialLetter": "n",
+    "score": 31
+  },
+  {
+    "word": "lagrangian",
+    "specialLetter": "n",
     "score": 31
   },
   {
@@ -2720,6 +2750,16 @@
     "score": 27
   },
   {
+    "word": "rallying",
+    "specialLetter": "y",
+    "score": 27
+  },
+  {
+    "word": "grayling",
+    "specialLetter": "r",
+    "score": 27
+  },
+  {
     "word": "indagating",
     "specialLetter": "d",
     "score": 26
@@ -2766,6 +2806,11 @@
   },
   {
     "word": "polymely",
+    "specialLetter": "y",
+    "score": 25
+  },
+  {
+    "word": "yariyari",
     "specialLetter": "y",
     "score": 25
   },
