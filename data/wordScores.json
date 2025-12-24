@@ -1410,6 +1410,16 @@
     "score": 36
   },
   {
+    "word": "refectorer",
+    "specialLetter": "r",
+    "score": 36
+  },
+  {
+    "word": "moortetter",
+    "specialLetter": "t",
+    "score": 36
+  },
+  {
     "word": "quadruped",
     "specialLetter": "d",
     "score": 35
@@ -1632,6 +1642,26 @@
   {
     "word": "railingly",
     "specialLetter": "i",
+    "score": 35
+  },
+  {
+    "word": "comforter",
+    "specialLetter": "o",
+    "score": 35
+  },
+  {
+    "word": "recomfort",
+    "specialLetter": "o",
+    "score": 35
+  },
+  {
+    "word": "referrer",
+    "specialLetter": "r",
+    "score": 35
+  },
+  {
+    "word": "mottetto",
+    "specialLetter": "t",
     "score": 35
   },
   {
@@ -2190,6 +2220,11 @@
     "score": 31
   },
   {
+    "word": "tromometer",
+    "specialLetter": "m",
+    "score": 31
+  },
+  {
     "word": "preparer",
     "specialLetter": "r",
     "score": 30
@@ -2465,6 +2500,11 @@
     "score": 30
   },
   {
+    "word": "focometer",
+    "specialLetter": "c",
+    "score": 30
+  },
+  {
     "word": "worsenesses",
     "specialLetter": "w",
     "score": 29
@@ -2635,6 +2675,16 @@
     "score": 28
   },
   {
+    "word": "correcter",
+    "specialLetter": "c",
+    "score": 28
+  },
+  {
+    "word": "mecometer",
+    "specialLetter": "m",
+    "score": 28
+  },
+  {
     "word": "dreaded",
     "specialLetter": "d",
     "score": 27
@@ -2757,6 +2807,16 @@
   {
     "word": "grayling",
     "specialLetter": "r",
+    "score": 27
+  },
+  {
+    "word": "feoffee",
+    "specialLetter": "f",
+    "score": 27
+  },
+  {
+    "word": "feoffer",
+    "specialLetter": "f",
     "score": 27
   },
   {
