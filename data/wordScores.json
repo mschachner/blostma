@@ -25,6 +25,11 @@
     "score": 63
   },
   {
+    "word": "secessionists",
+    "specialLetter": "s",
+    "score": 62
+  },
+  {
     "word": "insanitarinesses",
     "specialLetter": "i",
     "score": 61
@@ -38,6 +43,16 @@
     "word": "inconveniences",
     "specialLetter": "n",
     "score": 60
+  },
+  {
+    "word": "inconcinnities",
+    "specialLetter": "i",
+    "score": 60
+  },
+  {
+    "word": "inconsistencies",
+    "specialLetter": "i",
+    "score": 58
   },
   {
     "word": "intersessions",
@@ -75,6 +90,21 @@
     "score": 55
   },
   {
+    "word": "nonnecessities",
+    "specialLetter": "e",
+    "score": 55
+  },
+  {
+    "word": "nonconnections",
+    "specialLetter": "o",
+    "score": 55
+  },
+  {
+    "word": "inconsistences",
+    "specialLetter": "s",
+    "score": 55
+  },
+  {
     "word": "sissinesses",
     "specialLetter": "s",
     "score": 54
@@ -95,8 +125,18 @@
     "score": 54
   },
   {
+    "word": "secessionist",
+    "specialLetter": "s",
+    "score": 54
+  },
+  {
     "word": "incisivenesses",
     "specialLetter": "s",
+    "score": 53
+  },
+  {
+    "word": "consenescences",
+    "specialLetter": "e",
     "score": 53
   },
   {
@@ -167,6 +207,31 @@
   {
     "word": "ceaselessness",
     "specialLetter": "e",
+    "score": 50
+  },
+  {
+    "word": "inconsistences",
+    "specialLetter": "c",
+    "score": 50
+  },
+  {
+    "word": "incontinencies",
+    "specialLetter": "c",
+    "score": 50
+  },
+  {
+    "word": "connectionists",
+    "specialLetter": "c",
+    "score": 50
+  },
+  {
+    "word": "settecentisti",
+    "specialLetter": "t",
+    "score": 50
+  },
+  {
+    "word": "settecentists",
+    "specialLetter": "t",
     "score": 50
   },
   {
@@ -252,6 +317,11 @@
   {
     "word": "capacitation",
     "specialLetter": "a",
+    "score": 49
+  },
+  {
+    "word": "concinnities",
+    "specialLetter": "i",
     "score": 49
   },
   {
@@ -342,6 +412,21 @@
   {
     "word": "lallygagging",
     "specialLetter": "g",
+    "score": 47
+  },
+  {
+    "word": "isotonicities",
+    "specialLetter": "t",
+    "score": 47
+  },
+  {
+    "word": "connectionist",
+    "specialLetter": "o",
+    "score": 47
+  },
+  {
+    "word": "nonscientists",
+    "specialLetter": "t",
     "score": 47
   },
   {
@@ -460,6 +545,11 @@
     "score": 45
   },
   {
+    "word": "nonconnection",
+    "specialLetter": "o",
+    "score": 45
+  },
+  {
     "word": "siserskites",
     "specialLetter": "s",
     "score": 44
@@ -552,6 +642,16 @@
   {
     "word": "alkalescence",
     "specialLetter": "a",
+    "score": 44
+  },
+  {
+    "word": "inconsistent",
+    "specialLetter": "t",
+    "score": 44
+  },
+  {
+    "word": "nonscientist",
+    "specialLetter": "t",
     "score": 44
   },
   {
@@ -692,6 +792,11 @@
   {
     "word": "inconcoction",
     "specialLetter": "n",
+    "score": 42
+  },
+  {
+    "word": "consistencies",
+    "specialLetter": "o",
     "score": 42
   },
   {
