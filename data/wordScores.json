@@ -1525,6 +1525,16 @@
     "score": 36
   },
   {
+    "word": "nonrevenue",
+    "specialLetter": "n",
+    "score": 36
+  },
+  {
+    "word": "overrunner",
+    "specialLetter": "r",
+    "score": 36
+  },
+  {
     "word": "quadruped",
     "specialLetter": "d",
     "score": 35
@@ -2105,6 +2115,21 @@
     "score": 33
   },
   {
+    "word": "neutretto",
+    "specialLetter": "t",
+    "score": 33
+  },
+  {
+    "word": "nontenure",
+    "specialLetter": "n",
+    "score": 33
+  },
+  {
+    "word": "tournette",
+    "specialLetter": "t",
+    "score": 33
+  },
+  {
     "word": "convives",
     "specialLetter": "v",
     "score": 32
@@ -2202,6 +2227,11 @@
   {
     "word": "panoptic",
     "specialLetter": "p",
+    "score": 32
+  },
+  {
+    "word": "overturn",
+    "specialLetter": "r",
     "score": 32
   },
   {
@@ -2327,6 +2357,11 @@
   {
     "word": "tromometer",
     "specialLetter": "m",
+    "score": 31
+  },
+  {
+    "word": "unreverent",
+    "specialLetter": "r",
     "score": 31
   },
   {
@@ -2610,6 +2645,11 @@
     "score": 30
   },
   {
+    "word": "tenoroon",
+    "specialLetter": "o",
+    "score": 30
+  },
+  {
     "word": "worsenesses",
     "specialLetter": "w",
     "score": 29
@@ -2790,6 +2830,16 @@
     "score": 28
   },
   {
+    "word": "outrunner",
+    "specialLetter": "u",
+    "score": 28
+  },
+  {
+    "word": "ouverture",
+    "specialLetter": "u",
+    "score": 28
+  },
+  {
     "word": "dreaded",
     "specialLetter": "d",
     "score": 27
@@ -2925,6 +2975,16 @@
     "score": 27
   },
   {
+    "word": "overturn",
+    "specialLetter": "v",
+    "score": 27
+  },
+  {
+    "word": "turnover",
+    "specialLetter": "o",
+    "score": 27
+  },
+  {
     "word": "indagating",
     "specialLetter": "d",
     "score": 26
@@ -2932,6 +2992,11 @@
   {
     "word": "intimating",
     "specialLetter": "m",
+    "score": 26
+  },
+  {
+    "word": "unreverent",
+    "specialLetter": "v",
     "score": 26
   },
   {
@@ -2977,6 +3042,11 @@
   {
     "word": "yariyari",
     "specialLetter": "y",
+    "score": 25
+  },
+  {
+    "word": "nurturer",
+    "specialLetter": "u",
     "score": 25
   },
   {
@@ -3042,6 +3112,11 @@
   {
     "word": "shinning",
     "specialLetter": "h",
+    "score": 20
+  },
+  {
+    "word": "nonevent",
+    "specialLetter": "v",
     "score": 20
   },
   {
