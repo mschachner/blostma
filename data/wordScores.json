@@ -50,6 +50,11 @@
     "score": 60
   },
   {
+    "word": "senselessness",
+    "specialLetter": "s",
+    "score": 60
+  },
+  {
     "word": "inconsistencies",
     "specialLetter": "i",
     "score": 58
@@ -190,6 +195,11 @@
     "score": 52
   },
   {
+    "word": "unequalnesses",
+    "specialLetter": "e",
+    "score": 52
+  },
+  {
     "word": "insatiatenesses",
     "specialLetter": "e",
     "score": 51
@@ -232,6 +242,11 @@
   {
     "word": "settecentists",
     "specialLetter": "t",
+    "score": 50
+  },
+  {
+    "word": "uselessnesses",
+    "specialLetter": "e",
     "score": 50
   },
   {
@@ -547,6 +562,11 @@
   {
     "word": "nonconnection",
     "specialLetter": "o",
+    "score": 45
+  },
+  {
+    "word": "unusualnesses",
+    "specialLetter": "u",
     "score": 45
   },
   {
@@ -970,6 +990,11 @@
     "score": 41
   },
   {
+    "word": "unequalness",
+    "specialLetter": "n",
+    "score": 41
+  },
+  {
     "word": "inconvenience",
     "specialLetter": "i",
     "score": 40
@@ -991,6 +1016,11 @@
   },
   {
     "word": "senselessness",
+    "specialLetter": "n",
+    "score": 40
+  },
+  {
+    "word": "sensualnesses",
     "specialLetter": "n",
     "score": 40
   },
@@ -1117,6 +1147,11 @@
   {
     "word": "connotation",
     "specialLetter": "n",
+    "score": 39
+  },
+  {
+    "word": "unusualness",
+    "specialLetter": "u",
     "score": 39
   },
   {
@@ -1537,6 +1572,11 @@
   {
     "word": "overrunner",
     "specialLetter": "r",
+    "score": 36
+  },
+  {
+    "word": "equalnesses",
+    "specialLetter": "a",
     "score": 36
   },
   {
@@ -2675,6 +2715,16 @@
     "score": 30
   },
   {
+    "word": "squalenes",
+    "specialLetter": "q",
+    "score": 30
+  },
+  {
+    "word": "equalness",
+    "specialLetter": "a",
+    "score": 30
+  },
+  {
     "word": "worsenesses",
     "specialLetter": "w",
     "score": 29
@@ -3027,6 +3077,11 @@
   {
     "word": "nandina",
     "specialLetter": "n",
+    "score": 27
+  },
+  {
+    "word": "squalene",
+    "specialLetter": "q",
     "score": 27
   },
   {
