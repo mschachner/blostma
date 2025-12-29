@@ -340,6 +340,11 @@
     "score": 49
   },
   {
+    "word": "crackerjacks",
+    "specialLetter": "c",
+    "score": 49
+  },
+  {
     "word": "consenescences",
     "specialLetter": "c",
     "score": 48
@@ -1155,6 +1160,11 @@
     "score": 39
   },
   {
+    "word": "crackerjack",
+    "specialLetter": "c",
+    "score": 39
+  },
+  {
     "word": "wirehaired",
     "specialLetter": "e",
     "score": 38
@@ -1352,6 +1362,11 @@
   {
     "word": "panopticon",
     "specialLetter": "o",
+    "score": 38
+  },
+  {
+    "word": "carjackers",
+    "specialLetter": "a",
     "score": 38
   },
   {
@@ -2180,6 +2195,16 @@
     "score": 33
   },
   {
+    "word": "aceraceae",
+    "specialLetter": "a",
+    "score": 33
+  },
+  {
+    "word": "arecaceae",
+    "specialLetter": "a",
+    "score": 33
+  },
+  {
     "word": "convives",
     "specialLetter": "v",
     "score": 32
@@ -2920,6 +2945,16 @@
     "score": 28
   },
   {
+    "word": "caressers",
+    "specialLetter": "r",
+    "score": 28
+  },
+  {
+    "word": "carjacker",
+    "specialLetter": "r",
+    "score": 28
+  },
+  {
     "word": "dreaded",
     "specialLetter": "d",
     "score": 27
@@ -3085,6 +3120,11 @@
     "score": 27
   },
   {
+    "word": "arrears",
+    "specialLetter": "r",
+    "score": 27
+  },
+  {
     "word": "indagating",
     "specialLetter": "d",
     "score": 26
@@ -3180,6 +3220,11 @@
     "score": 24
   },
   {
+    "word": "jackers",
+    "specialLetter": "j",
+    "score": 24
+  },
+  {
     "word": "waganging",
     "specialLetter": "w",
     "score": 23
@@ -3210,6 +3255,11 @@
     "score": 23
   },
   {
+    "word": "jackasses",
+    "specialLetter": "j",
+    "score": 23
+  },
+  {
     "word": "xeroxed",
     "specialLetter": "x",
     "score": 22
@@ -3225,6 +3275,16 @@
     "score": 22
   },
   {
+    "word": "akeakes",
+    "specialLetter": "k",
+    "score": 22
+  },
+  {
+    "word": "reaccesses",
+    "specialLetter": "k",
+    "score": 21
+  },
+  {
     "word": "wannigan",
     "specialLetter": "w",
     "score": 20
@@ -3238,6 +3298,16 @@
     "word": "nonevent",
     "specialLetter": "v",
     "score": 20
+  },
+  {
+    "word": "crackers",
+    "specialLetter": "k",
+    "score": 20
+  },
+  {
+    "word": "kakke",
+    "specialLetter": "k",
+    "score": 19
   },
   {
     "word": "quadded",
