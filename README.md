@@ -1,7 +1,7 @@
 Blossom
 ==========
 
-[Blossom](https://www.merriam-webster.com/games/blossom-word-game) is a word game published by Merriam-Webster. This is a command-line companion which automates play with a look-ahead strategy, keeps long-term records, and helps curate the underlying word list. It achieves a median score of 422 points, having played roughly 120 banks.
+[Blossom](https://www.merriam-webster.com/games/blossom-word-game) is a word game published by Merriam-Webster. This is a command-line companion which automates play with a look-ahead strategy, keeps long-term records, and helps curate the underlying word list. It achieves a median score of 423 points, having played roughly 150 banks.
 
 Features
 --------
