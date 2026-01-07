@@ -150,6 +150,11 @@
     "score": 55
   },
   {
+    "word": "annuitisations",
+    "specialLetter": "n",
+    "score": 55
+  },
+  {
     "word": "sissinesses",
     "specialLetter": "s",
     "score": 54
@@ -172,6 +177,11 @@
   {
     "word": "secessionist",
     "specialLetter": "s",
+    "score": 54
+  },
+  {
+    "word": "antoninianus",
+    "specialLetter": "n",
     "score": 54
   },
   {
@@ -237,6 +247,11 @@
   {
     "word": "unequalnesses",
     "specialLetter": "e",
+    "score": 52
+  },
+  {
+    "word": "situationists",
+    "specialLetter": "i",
     "score": 52
   },
   {
@@ -700,6 +715,11 @@
     "score": 45
   },
   {
+    "word": "assassination",
+    "specialLetter": "a",
+    "score": 45
+  },
+  {
     "word": "siserskites",
     "specialLetter": "s",
     "score": 44
@@ -832,6 +852,11 @@
   {
     "word": "unionisation",
     "specialLetter": "i",
+    "score": 44
+  },
+  {
+    "word": "unionisation",
+    "specialLetter": "o",
     "score": 44
   },
   {
@@ -1021,6 +1046,11 @@
   },
   {
     "word": "situationists",
+    "specialLetter": "u",
+    "score": 42
+  },
+  {
+    "word": "annuitisation",
     "specialLetter": "u",
     "score": 42
   },
@@ -1422,6 +1452,11 @@
   {
     "word": "insinuations",
     "specialLetter": "a",
+    "score": 39
+  },
+  {
+    "word": "insinuations",
+    "specialLetter": "u",
     "score": 39
   },
   {
@@ -3340,6 +3375,16 @@
     "score": 30
   },
   {
+    "word": "pepperer",
+    "specialLetter": "p",
+    "score": 30
+  },
+  {
+    "word": "prepupae",
+    "specialLetter": "p",
+    "score": 30
+  },
+  {
     "word": "worsenesses",
     "specialLetter": "w",
     "score": 29
@@ -3590,6 +3635,11 @@
     "score": 28
   },
   {
+    "word": "puerperae",
+    "specialLetter": "p",
+    "score": 28
+  },
+  {
     "word": "dreaded",
     "specialLetter": "d",
     "score": 27
@@ -3775,6 +3825,21 @@
     "score": 27
   },
   {
+    "word": "quadded",
+    "specialLetter": "d",
+    "score": 27
+  },
+  {
+    "word": "prepped",
+    "specialLetter": "p",
+    "score": 27
+  },
+  {
+    "word": "prepupa",
+    "specialLetter": "p",
+    "score": 27
+  },
+  {
     "word": "indagating",
     "specialLetter": "d",
     "score": 26
@@ -3867,6 +3932,11 @@
   {
     "word": "headache",
     "specialLetter": "h",
+    "score": 25
+  },
+  {
+    "word": "appeared",
+    "specialLetter": "p",
     "score": 25
   },
   {

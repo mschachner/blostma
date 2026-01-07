@@ -10,6 +10,11 @@
     "date": "2025-11-29"
   },
   {
+    "bank": "TAINOSU",
+    "score": 592,
+    "date": "2026-01-07"
+  },
+  {
     "bank": "SAEINRT",
     "score": 590,
     "date": "2025-12-19"
@@ -730,6 +735,11 @@
     "date": "2025-09-30"
   },
   {
+    "bank": "EADPQRU",
+    "score": 356,
+    "date": "2026-01-07"
+  },
+  {
     "bank": "IFGNRTU",
     "score": 354,
     "date": "2025-09-21"
@@ -743,10 +753,5 @@
     "bank": "ABDEKRY",
     "score": 336,
     "date": "2025-10-09"
-  },
-  {
-    "bank": "EADPQRU",
-    "score": 329,
-    "date": "2025-10-07"
   }
 ]
