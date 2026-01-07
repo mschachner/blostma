@@ -1,7 +1,7 @@
 Blossom
 ==========
 
-[Blossom](https://www.merriam-webster.com/games/blossom-word-game) is a word game published by Merriam-Webster. This is a command-line companion which automates play with a look-ahead strategy, keeps long-term records, and helps curate the underlying word list. It achieves a median score of 423 points, having played roughly 150 banks.
+[Blossom](https://www.merriam-webster.com/games/blossom-word-game) is a word game published by Merriam-Webster. This is a command-line companion which automates play with a look-ahead strategy, keeps long-term records, and helps curate the underlying word list. It achieves a median score of 424 points, having played roughly 150 banks. Additionally, it implements an optional trick by which the user can manipulate the current special letter by refreshing the page before a word has finished scoring.
 
 Features
 --------
@@ -11,15 +11,16 @@ Features
 - **Word list management** – Search for one or more words, validate new discoveries, or flag mistakes. Changes accumulate locally until you submit them.
 - **Persistent records** – Store validated words, removal requests, high scores, and per-bank results in JSON files so you can track progress over time.
 - **Git-backed submissions** – When you choose to submit data, the tool stages the updated JSON files, creates a descriptive commit, and pushes to the `main` branch.
-- **Fast mode** – Skip the typewriter animation when you want instant feedback.
+- **Typewriter animation** – configurable.
+- **Refresh exploit** - Enable the use of an exploit in which the user refreshes the page before the word finishes scoring. This has the effect of scoring the word without advancing the special letter, giving the engine greater control over the special letter.
 
 Installation
 ------------
 
-Requirements are Python 3.10+ and the [`simple-term-menu`](https://pypi.org/project/simple-term-menu/) package.
+Requirements are Python 3.10+, [`scipy`](https://scipy.org/), and [`simple-term-menu`](https://pypi.org/project/simple-term-menu/).
 
 ```bash
-pip install simple-term-menu
+pip install simple-term-menu scipy
 ```
 
 Usage
@@ -36,11 +37,9 @@ You can also bypass the menu and run subcommands directly:
 ```bash
 python blossom.py play                  # prompt for a bank
 python blossom.py play resanto          # play using a provided bank (center letter first)
-python blossom.py play -f resanto       # play fast
 python blossom.py search                # interactive dictionary lookup/add
 python blossom.py search foo bar        # search specific words
 python blossom.py stats                 # show stats
-python blossom.py stats -f              # show stats without the typewriter effect
 python blossom.py --help                # show all options
 ```
 
