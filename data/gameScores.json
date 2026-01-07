@@ -15,11 +15,6 @@
     "date": "2025-12-19"
   },
   {
-    "bank": "TAINOSU",
-    "score": 586,
-    "date": "2025-09-17"
-  },
-  {
     "bank": "IENSTVY",
     "score": 571,
     "date": "2025-11-12"
@@ -320,6 +315,11 @@
     "date": "2025-11-17"
   },
   {
+    "bank": "EACPRTU",
+    "score": 440,
+    "date": "2026-01-07"
+  },
+  {
     "bank": "ADEHKNS",
     "score": 439,
     "date": "2025-08-16"
@@ -353,11 +353,6 @@
     "bank": "REFLOSW",
     "score": 430,
     "date": "2025-12-06"
-  },
-  {
-    "bank": "EACPRTU",
-    "score": 430,
-    "date": "2026-01-07"
   },
   {
     "bank": "AEOPRTV",
