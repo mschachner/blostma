@@ -475,6 +475,11 @@
     "score": 47
   },
   {
+    "word": "tetraacetate",
+    "specialLetter": "t",
+    "score": 47
+  },
+  {
     "word": "terribilita",
     "specialLetter": "i",
     "score": 46
@@ -727,6 +732,11 @@
   {
     "word": "antecedence",
     "specialLetter": "e",
+    "score": 44
+  },
+  {
+    "word": "rapateaceae",
+    "specialLetter": "a",
     "score": 44
   },
   {
@@ -1290,6 +1300,11 @@
     "score": 39
   },
   {
+    "word": "preparateur",
+    "specialLetter": "r",
+    "score": 39
+  },
+  {
     "word": "wirehaired",
     "specialLetter": "e",
     "score": 38
@@ -1517,6 +1532,11 @@
   {
     "word": "safranines",
     "specialLetter": "a",
+    "score": 38
+  },
+  {
+    "word": "recuperate",
+    "specialLetter": "r",
     "score": 38
   },
   {
@@ -1782,6 +1802,11 @@
   {
     "word": "resinifies",
     "specialLetter": "i",
+    "score": 36
+  },
+  {
+    "word": "terracette",
+    "specialLetter": "t",
     "score": 36
   },
   {
@@ -2535,6 +2560,21 @@
     "score": 33
   },
   {
+    "word": "recuperate",
+    "specialLetter": "c",
+    "score": 33
+  },
+  {
+    "word": "retreater",
+    "specialLetter": "r",
+    "score": 33
+  },
+  {
+    "word": "taccaceae",
+    "specialLetter": "c",
+    "score": 33
+  },
+  {
     "word": "convives",
     "specialLetter": "v",
     "score": 32
@@ -3150,6 +3190,11 @@
     "score": 30
   },
   {
+    "word": "recapture",
+    "specialLetter": "u",
+    "score": 30
+  },
+  {
     "word": "worsenesses",
     "specialLetter": "w",
     "score": 29
@@ -3391,6 +3436,11 @@
   },
   {
     "word": "guttulate",
+    "specialLetter": "u",
+    "score": 28
+  },
+  {
+    "word": "purpurate",
     "specialLetter": "u",
     "score": 28
   },
