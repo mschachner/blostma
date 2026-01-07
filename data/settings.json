@@ -1,4 +1,5 @@
 {
-    "fast": true,
-    "numScores": 10
+  "fast": true,
+  "allowRefresh": true,
+  "numScores": 10
 }

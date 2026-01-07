@@ -129,7 +129,8 @@ def formatWordScore(wordScore, style="terminal", status=None):
         status = wordStatus(wordScore["word"])
     return formatWordScorePure(wordScore, style, status)
 
-def searchWords(queries=None, settings=None):
+def searchWords(queries=None):
+    settings = getSettings()
     tprint = print if settings["fast"] else _tprint
     if not queries:
         return
@@ -139,7 +140,8 @@ def searchWords(queries=None, settings=None):
         tprint(formatWord(word, style="search", status=statuses[word]))
     return
 
-def showRank(score, settings=None):
+def showRank(score):
+    settings = getSettings()
     allScores = getGameScores()
     tprint = print if settings["fast"] else _tprint
     rank = len([sc for sc in allScores if score < sc["score"]]) + 1
@@ -148,7 +150,8 @@ def showRank(score, settings=None):
         tprint("That's a new high score!")
     return
 
-def showStats(settings=None):
+def showStats():
+    settings = getSettings()
     d, gameScores, wordScores = getDictionary(), getGameScores(), getWordScores()
     tprint = print if settings["fast"] else _tprint
     longestWord = max((word for word in d if d[word]), key=len)
@@ -175,9 +178,11 @@ def updateSettings():
     settings = getSettings()
     tprint = print if settings["fast"] else _tprint
     tprint("Settings")
+    settings["allowRefresh"] = getResponseMenu("Allow refresh exploit?", ["[y] yes", "[n] no"]) == "[y] yes"
     settings["fast"] = getResponseMenu("Fast mode?", ["[y] yes", "[n] no"]) == "[y] yes"
     settings["numScores"] = int(getResponseMenu("Number of top and bottom scores to show?", ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]))
-    return settings
+    setSettings(settings)
+    return
 
 # ========================== Git ==========================
 
@@ -196,7 +201,8 @@ def formatData(data, style="terminal"):
         body += "\n".join(formatWord(word, style).rstrip() for word in data["wordsToRemove"])
     return body
 
-def pushData(data,settings=None, verifyFirst=False):
+def pushData(data, verifyFirst=False):
+    settings = getSettings()
     tprint = print if settings["fast"] else _tprint
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     summary = f"auto: submitted at {timestamp}"

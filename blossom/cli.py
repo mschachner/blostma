@@ -21,21 +21,17 @@ def main():
     searchParser.add_argument("-f", "--fast", action="store_true", help="Search fast")
 
     args = parser.parse_args()
-    settings = getSettings()
     match args.choice:
         case "play":
-            settings["fast"] = args.fast if args.fast else settings["fast"]
             playBlossom(
                 bank=args.bank,
                 choice=args.choice,
-                settings=settings,
                 queries=args.queries if args.choice == "search" else None
             )
         case "stats":
-            showStats(settings=settings)
+            showStats()
         case "search":
             playBlossom(
                 choice=args.choice,
-                settings=settings,
                 queries=args.queries
             )
