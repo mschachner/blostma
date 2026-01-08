@@ -1,7 +1,7 @@
 Blossom
 ==========
 
-[Blossom](https://www.merriam-webster.com/games/blossom-word-game) is a word game published by Merriam-Webster. This is a command-line companion which automates play with a look-ahead strategy, keeps long-term records, and helps curate the underlying word list. It achieves a median score of 424 points, having played roughly 150 banks. Additionally, it implements an optional trick by which the user can manipulate the current special letter by refreshing the page before a word has finished scoring.
+[Blossom](https://www.merriam-webster.com/games/blossom-word-game) is a word game published by Merriam-Webster. This is a command-line companion which automates play with a look-ahead strategy, keeps long-term records, and helps curate the underlying word list. It achieves a median score of 454 points, having played roughly 150 banks.
 
 Features
 --------
@@ -60,6 +60,7 @@ Project layout
 
 - `blossom/cli.py` – Argument parsing and menu routing.
 - `blossom/game.py` – Core gameplay loop and scoring logic.
+- `blossom/engine.py` - Engine play.
 - `blossom/updater.py` – Word list editing, statistics reporting, and Git integration.
 - `blossom/format.py` - Formatting helpers.
 - `blossom/utils.py` – Other helpers for prompts and scoring.
