@@ -10,8 +10,23 @@
     "score": 71
   },
   {
+    "word": "insensitivenesses",
+    "specialLetter": "s",
+    "score": 67
+  },
+  {
     "word": "nonintrusionists",
     "specialLetter": "n",
+    "score": 66
+  },
+  {
+    "word": "spinelessnesses",
+    "specialLetter": "s",
+    "score": 66
+  },
+  {
+    "word": "ceaselessnesses",
+    "specialLetter": "s",
     "score": 66
   },
   {
@@ -27,6 +42,16 @@
   {
     "word": "bounteousnesses",
     "specialLetter": "s",
+    "score": 63
+  },
+  {
+    "word": "noselessnesses",
+    "specialLetter": "s",
+    "score": 63
+  },
+  {
+    "word": "interdetermined",
+    "specialLetter": "e",
     "score": 63
   },
   {
@@ -50,6 +75,31 @@
     "score": 61
   },
   {
+    "word": "sensitivenesses",
+    "specialLetter": "s",
+    "score": 61
+  },
+  {
+    "word": "sleeplessnesses",
+    "specialLetter": "e",
+    "score": 61
+  },
+  {
+    "word": "pennilessnesses",
+    "specialLetter": "s",
+    "score": 61
+  },
+  {
+    "word": "hardheadednesses",
+    "specialLetter": "s",
+    "score": 61
+  },
+  {
+    "word": "hardhandednesses",
+    "specialLetter": "s",
+    "score": 61
+  },
+  {
     "word": "inconveniences",
     "specialLetter": "n",
     "score": 60
@@ -61,6 +111,16 @@
   },
   {
     "word": "senselessness",
+    "specialLetter": "s",
+    "score": 60
+  },
+  {
+    "word": "sinlessnesses",
+    "specialLetter": "s",
+    "score": 60
+  },
+  {
+    "word": "classlessness",
     "specialLetter": "s",
     "score": 60
   },
@@ -95,6 +155,16 @@
     "score": 58
   },
   {
+    "word": "redheadednesses",
+    "specialLetter": "s",
+    "score": 58
+  },
+  {
+    "word": "lovelessnesses",
+    "specialLetter": "s",
+    "score": 58
+  },
+  {
     "word": "intersessions",
     "specialLetter": "s",
     "score": 57
@@ -123,6 +193,56 @@
     "word": "isotonicities",
     "specialLetter": "i",
     "score": 57
+  },
+  {
+    "word": "nonintrusions",
+    "specialLetter": "n",
+    "score": 57
+  },
+  {
+    "word": "innuntritions",
+    "specialLetter": "n",
+    "score": 57
+  },
+  {
+    "word": "precisenesses",
+    "specialLetter": "e",
+    "score": 57
+  },
+  {
+    "word": "featherheaded",
+    "specialLetter": "e",
+    "score": 57
+  },
+  {
+    "word": "intentivenesses",
+    "specialLetter": "e",
+    "score": 56
+  },
+  {
+    "word": "inventivenesses",
+    "specialLetter": "e",
+    "score": 56
+  },
+  {
+    "word": "intensivenesses",
+    "specialLetter": "s",
+    "score": 56
+  },
+  {
+    "word": "insensitiveness",
+    "specialLetter": "s",
+    "score": 56
+  },
+  {
+    "word": "condensednesses",
+    "specialLetter": "e",
+    "score": 56
+  },
+  {
+    "word": "condescendences",
+    "specialLetter": "e",
+    "score": 56
   },
   {
     "word": "renewednesses",
@@ -180,6 +300,21 @@
     "score": 55
   },
   {
+    "word": "sleeplessness",
+    "specialLetter": "s",
+    "score": 55
+  },
+  {
+    "word": "spinelessness",
+    "specialLetter": "s",
+    "score": 55
+  },
+  {
+    "word": "ceaselessness",
+    "specialLetter": "s",
+    "score": 55
+  },
+  {
     "word": "sissinesses",
     "specialLetter": "s",
     "score": 54
@@ -215,12 +350,32 @@
     "score": 54
   },
   {
+    "word": "creepinesses",
+    "specialLetter": "e",
+    "score": 54
+  },
+  {
+    "word": "redetermined",
+    "specialLetter": "e",
+    "score": 54
+  },
+  {
     "word": "incisivenesses",
     "specialLetter": "s",
     "score": 53
   },
   {
     "word": "consenescences",
+    "specialLetter": "e",
+    "score": 53
+  },
+  {
+    "word": "enterostenoses",
+    "specialLetter": "e",
+    "score": 53
+  },
+  {
+    "word": "condescendence",
     "specialLetter": "e",
     "score": 53
   },
@@ -285,12 +440,107 @@
     "score": 52
   },
   {
+    "word": "entosternites",
+    "specialLetter": "e",
+    "score": 52
+  },
+  {
+    "word": "annuitisation",
+    "specialLetter": "n",
+    "score": 52
+  },
+  {
+    "word": "situationists",
+    "specialLetter": "s",
+    "score": 52
+  },
+  {
+    "word": "nonnutritious",
+    "specialLetter": "n",
+    "score": 52
+  },
+  {
+    "word": "inclinational",
+    "specialLetter": "n",
+    "score": 52
+  },
+  {
+    "word": "incantational",
+    "specialLetter": "n",
+    "score": 52
+  },
+  {
+    "word": "collocational",
+    "specialLetter": "o",
+    "score": 52
+  },
+  {
+    "word": "connotational",
+    "specialLetter": "o",
+    "score": 52
+  },
+  {
+    "word": "resipiscences",
+    "specialLetter": "e",
+    "score": 52
+  },
+  {
+    "word": "percipiencies",
+    "specialLetter": "i",
+    "score": 52
+  },
+  {
+    "word": "redheadedness",
+    "specialLetter": "d",
+    "score": 52
+  },
+  {
+    "word": "nonautonomous",
+    "specialLetter": "n",
+    "score": 52
+  },
+  {
+    "word": "noselessness",
+    "specialLetter": "s",
+    "score": 52
+  },
+  {
+    "word": "conveniencies",
+    "specialLetter": "n",
+    "score": 52
+  },
+  {
+    "word": "bounteousness",
+    "specialLetter": "s",
+    "score": 52
+  },
+  {
     "word": "insatiatenesses",
     "specialLetter": "e",
     "score": 51
   },
   {
     "word": "interviewee",
+    "specialLetter": "e",
+    "score": 51
+  },
+  {
+    "word": "insensitivities",
+    "specialLetter": "s",
+    "score": 51
+  },
+  {
+    "word": "possessedly",
+    "specialLetter": "s",
+    "score": 51
+  },
+  {
+    "word": "freehearted",
+    "specialLetter": "e",
+    "score": 51
+  },
+  {
+    "word": "redetermine",
     "specialLetter": "e",
     "score": 51
   },
@@ -352,6 +602,71 @@
   {
     "word": "tenuousnesses",
     "specialLetter": "s",
+    "score": 50
+  },
+  {
+    "word": "earnestnesses",
+    "specialLetter": "e",
+    "score": 50
+  },
+  {
+    "word": "intensenesses",
+    "specialLetter": "s",
+    "score": 50
+  },
+  {
+    "word": "sensitiveness",
+    "specialLetter": "s",
+    "score": 50
+  },
+  {
+    "word": "pepperinesses",
+    "specialLetter": "e",
+    "score": 50
+  },
+  {
+    "word": "hardhandedness",
+    "specialLetter": "a",
+    "score": 50
+  },
+  {
+    "word": "hardheadedness",
+    "specialLetter": "h",
+    "score": 50
+  },
+  {
+    "word": "debasednesses",
+    "specialLetter": "e",
+    "score": 50
+  },
+  {
+    "word": "sinningnesses",
+    "specialLetter": "n",
+    "score": 50
+  },
+  {
+    "word": "inconvenience",
+    "specialLetter": "n",
+    "score": 50
+  },
+  {
+    "word": "concisenesses",
+    "specialLetter": "s",
+    "score": 50
+  },
+  {
+    "word": "clingingnesses",
+    "specialLetter": "g",
+    "score": 50
+  },
+  {
+    "word": "concrescences",
+    "specialLetter": "c",
+    "score": 50
+  },
+  {
+    "word": "consenescence",
+    "specialLetter": "e",
     "score": 50
   },
   {
@@ -485,8 +800,93 @@
     "score": 49
   },
   {
+    "word": "entosternite",
+    "specialLetter": "e",
+    "score": 49
+  },
+  {
+    "word": "orientnesses",
+    "specialLetter": "e",
+    "score": 49
+  },
+  {
+    "word": "entertainers",
+    "specialLetter": "e",
+    "score": 49
+  },
+  {
+    "word": "reastinesses",
+    "specialLetter": "e",
+    "score": 49
+  },
+  {
+    "word": "stainierites",
+    "specialLetter": "i",
+    "score": 49
+  },
+  {
+    "word": "innutritious",
+    "specialLetter": "i",
+    "score": 49
+  },
+  {
+    "word": "nutritionist",
+    "specialLetter": "i",
+    "score": 49
+  },
+  {
+    "word": "percipiences",
+    "specialLetter": "e",
+    "score": 49
+  },
+  {
+    "word": "resipiscence",
+    "specialLetter": "e",
+    "score": 49
+  },
+  {
+    "word": "recipiencies",
+    "specialLetter": "i",
+    "score": 49
+  },
+  {
+    "word": "catechetical",
+    "specialLetter": "c",
+    "score": 49
+  },
+  {
+    "word": "estheticisms",
+    "specialLetter": "s",
+    "score": 49
+  },
+  {
+    "word": "invagination",
+    "specialLetter": "i",
+    "score": 49
+  },
+  {
+    "word": "sinlessness",
+    "specialLetter": "s",
+    "score": 49
+  },
+  {
+    "word": "decrescendos",
+    "specialLetter": "e",
+    "score": 49
+  },
+  {
     "word": "consenescences",
     "specialLetter": "c",
+    "score": 48
+  },
+  {
+    "word": "sinisternesses",
+    "specialLetter": "e",
+    "score": 48
+  },
+  {
+    "word": "consenescences",
+    "specialLetter": "s",
     "score": 48
   },
   {
@@ -615,6 +1015,86 @@
     "score": 47
   },
   {
+    "word": "intersertions",
+    "specialLetter": "r",
+    "score": 47
+  },
+  {
+    "word": "insensitivity",
+    "specialLetter": "n",
+    "score": 47
+  },
+  {
+    "word": "intuitionist",
+    "specialLetter": "i",
+    "score": 47
+  },
+  {
+    "word": "nonunionists",
+    "specialLetter": "n",
+    "score": 47
+  },
+  {
+    "word": "incipiencies",
+    "specialLetter": "i",
+    "score": 47
+  },
+  {
+    "word": "noncanonical",
+    "specialLetter": "n",
+    "score": 47
+  },
+  {
+    "word": "coccidioidin",
+    "specialLetter": "i",
+    "score": 47
+  },
+  {
+    "word": "elaeagnaceae",
+    "specialLetter": "a",
+    "score": 47
+  },
+  {
+    "word": "corroborator",
+    "specialLetter": "r",
+    "score": 47
+  },
+  {
+    "word": "seismicities",
+    "specialLetter": "i",
+    "score": 47
+  },
+  {
+    "word": "singlenesses",
+    "specialLetter": "s",
+    "score": 47
+  },
+  {
+    "word": "brierberries",
+    "specialLetter": "r",
+    "score": 47
+  },
+  {
+    "word": "slovennesses",
+    "specialLetter": "s",
+    "score": 47
+  },
+  {
+    "word": "lovelessness",
+    "specialLetter": "s",
+    "score": 47
+  },
+  {
+    "word": "concrescence",
+    "specialLetter": "c",
+    "score": 47
+  },
+  {
+    "word": "intermittent",
+    "specialLetter": "t",
+    "score": 47
+  },
+  {
     "word": "terribilita",
     "specialLetter": "i",
     "score": 46
@@ -720,6 +1200,116 @@
     "score": 46
   },
   {
+    "word": "lactational",
+    "specialLetter": "a",
+    "score": 46
+  },
+  {
+    "word": "anallantoic",
+    "specialLetter": "a",
+    "score": 46
+  },
+  {
+    "word": "collational",
+    "specialLetter": "l",
+    "score": 46
+  },
+  {
+    "word": "inclination",
+    "specialLetter": "n",
+    "score": 46
+  },
+  {
+    "word": "lancination",
+    "specialLetter": "n",
+    "score": 46
+  },
+  {
+    "word": "collocation",
+    "specialLetter": "o",
+    "score": 46
+  },
+  {
+    "word": "preciseness",
+    "specialLetter": "e",
+    "score": 46
+  },
+  {
+    "word": "crepinesses",
+    "specialLetter": "e",
+    "score": 46
+  },
+  {
+    "word": "newsreaders",
+    "specialLetter": "e",
+    "score": 46
+  },
+  {
+    "word": "reinterview",
+    "specialLetter": "e",
+    "score": 46
+  },
+  {
+    "word": "gallinacean",
+    "specialLetter": "a",
+    "score": 46
+  },
+  {
+    "word": "appallingly",
+    "specialLetter": "l",
+    "score": 46
+  },
+  {
+    "word": "agrogeology",
+    "specialLetter": "o",
+    "score": 46
+  },
+  {
+    "word": "griffithite",
+    "specialLetter": "i",
+    "score": 46
+  },
+  {
+    "word": "recercelee",
+    "specialLetter": "e",
+    "score": 46
+  },
+  {
+    "word": "featherhead",
+    "specialLetter": "e",
+    "score": 46
+  },
+  {
+    "word": "stressless",
+    "specialLetter": "s",
+    "score": 46
+  },
+  {
+    "word": "thesauruses",
+    "specialLetter": "s",
+    "score": 46
+  },
+  {
+    "word": "lessnesses",
+    "specialLetter": "s",
+    "score": 46
+  },
+  {
+    "word": "crescendoed",
+    "specialLetter": "e",
+    "score": 46
+  },
+  {
+    "word": "decrescendo",
+    "specialLetter": "e",
+    "score": 46
+  },
+  {
+    "word": "intermitted",
+    "specialLetter": "t",
+    "score": 46
+  },
+  {
     "word": "restaurateurs",
     "specialLetter": "r",
     "score": 45
@@ -752,6 +1342,16 @@
   {
     "word": "assassination",
     "specialLetter": "a",
+    "score": 45
+  },
+  {
+    "word": "intensiveness",
+    "specialLetter": "s",
+    "score": 45
+  },
+  {
+    "word": "consenescence",
+    "specialLetter": "c",
     "score": 45
   },
   {
@@ -905,6 +1505,121 @@
     "score": 44
   },
   {
+    "word": "conciliation",
+    "specialLetter": "c",
+    "score": 44
+  },
+  {
+    "word": "densenesses",
+    "specialLetter": "s",
+    "score": 44
+  },
+  {
+    "word": "harshnesses",
+    "specialLetter": "s",
+    "score": 44
+  },
+  {
+    "word": "renewedness",
+    "specialLetter": "e",
+    "score": 44
+  },
+  {
+    "word": "hatchettite",
+    "specialLetter": "t",
+    "score": 44
+  },
+  {
+    "word": "intimidating",
+    "specialLetter": "t",
+    "score": 44
+  },
+  {
+    "word": "tobaccoroot",
+    "specialLetter": "o",
+    "score": 44
+  },
+  {
+    "word": "sinningness",
+    "specialLetter": "n",
+    "score": 44
+  },
+  {
+    "word": "worsenesses",
+    "specialLetter": "s",
+    "score": 44
+  },
+  {
+    "word": "trestletree",
+    "specialLetter": "e",
+    "score": 44
+  },
+  {
+    "word": "teleutosorus",
+    "specialLetter": "s",
+    "score": 44
+  },
+  {
+    "word": "amperemeter",
+    "specialLetter": "e",
+    "score": 44
+  },
+  {
+    "word": "permeameter",
+    "specialLetter": "e",
+    "score": 44
+  },
+  {
+    "word": "tattletales",
+    "specialLetter": "t",
+    "score": 44
+  },
+  {
+    "word": "cachinnating",
+    "specialLetter": "c",
+    "score": 44
+  },
+  {
+    "word": "deerberries",
+    "specialLetter": "e",
+    "score": 44
+  },
+  {
+    "word": "redisseises",
+    "specialLetter": "s",
+    "score": 44
+  },
+  {
+    "word": "sidedresses",
+    "specialLetter": "s",
+    "score": 44
+  },
+  {
+    "word": "loosenesses",
+    "specialLetter": "s",
+    "score": 44
+  },
+  {
+    "word": "noisinesses",
+    "specialLetter": "s",
+    "score": 44
+  },
+  {
+    "word": "clingingness",
+    "specialLetter": "i",
+    "score": 44
+  },
+  {
+    "word": "sleeknesses",
+    "specialLetter": "e",
+    "score": 44
+  },
+  {
+    "word": "indetermined",
+    "specialLetter": "d",
+    "score": 44
+  },
+  {
     "word": "titratable",
     "specialLetter": "t",
     "score": 43
@@ -1010,6 +1725,76 @@
     "score": 43
   },
   {
+    "word": "newsreader",
+    "specialLetter": "e",
+    "score": 43
+  },
+  {
+    "word": "unentangle",
+    "specialLetter": "n",
+    "score": 43
+  },
+  {
+    "word": "inelegance",
+    "specialLetter": "e",
+    "score": 43
+  },
+  {
+    "word": "unrepented",
+    "specialLetter": "e",
+    "score": 43
+  },
+  {
+    "word": "motherhood",
+    "specialLetter": "o",
+    "score": 43
+  },
+  {
+    "word": "deciphered",
+    "specialLetter": "e",
+    "score": 43
+  },
+  {
+    "word": "decipherer",
+    "specialLetter": "e",
+    "score": 43
+  },
+  {
+    "word": "celebrater",
+    "specialLetter": "e",
+    "score": 43
+  },
+  {
+    "word": "parametria",
+    "specialLetter": "a",
+    "score": 43
+  },
+  {
+    "word": "metepimera",
+    "specialLetter": "e",
+    "score": 43
+  },
+  {
+    "word": "peirameter",
+    "specialLetter": "e",
+    "score": 43
+  },
+  {
+    "word": "sulfatases",
+    "specialLetter": "s",
+    "score": 43
+  },
+  {
+    "word": "determined",
+    "specialLetter": "e",
+    "score": 43
+  },
+  {
+    "word": "intermedii",
+    "specialLetter": "i",
+    "score": 43
+  },
+  {
     "word": "incisiveness",
     "specialLetter": "i",
     "score": 42
@@ -1112,6 +1897,36 @@
   {
     "word": "bounteousness",
     "specialLetter": "b",
+    "score": 42
+  },
+  {
+    "word": "handednesses",
+    "specialLetter": "e",
+    "score": 42
+  },
+  {
+    "word": "intervenient",
+    "specialLetter": "e",
+    "score": 42
+  },
+  {
+    "word": "irrepressive",
+    "specialLetter": "r",
+    "score": 42
+  },
+  {
+    "word": "underrounded",
+    "specialLetter": "d",
+    "score": 42
+  },
+  {
+    "word": "neurodendron",
+    "specialLetter": "n",
+    "score": 42
+  },
+  {
+    "word": "condescended",
+    "specialLetter": "d",
     "score": 42
   },
   {
@@ -1315,6 +2130,161 @@
     "score": 41
   },
   {
+    "word": "penicillins",
+    "specialLetter": "l",
+    "score": 41
+  },
+  {
+    "word": "presciences",
+    "specialLetter": "c",
+    "score": 41
+  },
+  {
+    "word": "nannanders",
+    "specialLetter": "n",
+    "score": 41
+  },
+  {
+    "word": "handreaders",
+    "specialLetter": "r",
+    "score": 41
+  },
+  {
+    "word": "deactivated",
+    "specialLetter": "t",
+    "score": 41
+  },
+  {
+    "word": "alternately",
+    "specialLetter": "t",
+    "score": 41
+  },
+  {
+    "word": "pervaporate",
+    "specialLetter": "r",
+    "score": 41
+  },
+  {
+    "word": "millenarian",
+    "specialLetter": "n",
+    "score": 41
+  },
+  {
+    "word": "sanenesses",
+    "specialLetter": "s",
+    "score": 41
+  },
+  {
+    "word": "seednesses",
+    "specialLetter": "s",
+    "score": 41
+  },
+  {
+    "word": "turpentiner",
+    "specialLetter": "r",
+    "score": 41
+  },
+  {
+    "word": "pessimisms",
+    "specialLetter": "s",
+    "score": 41
+  },
+  {
+    "word": "deactivated",
+    "specialLetter": "d",
+    "score": 41
+  },
+  {
+    "word": "gigglingly",
+    "specialLetter": "g",
+    "score": 41
+  },
+  {
+    "word": "assessable",
+    "specialLetter": "s",
+    "score": 41
+  },
+  {
+    "word": "hemistiches",
+    "specialLetter": "h",
+    "score": 41
+  },
+  {
+    "word": "esthesises",
+    "specialLetter": "s",
+    "score": 41
+  },
+  {
+    "word": "hemstitches",
+    "specialLetter": "s",
+    "score": 41
+  },
+  {
+    "word": "schmeisses",
+    "specialLetter": "s",
+    "score": 41
+  },
+  {
+    "word": "chemisettes",
+    "specialLetter": "s",
+    "score": 41
+  },
+  {
+    "word": "estheticism",
+    "specialLetter": "s",
+    "score": 41
+  },
+  {
+    "word": "gallerygoer",
+    "specialLetter": "r",
+    "score": 41
+  },
+  {
+    "word": "serenesses",
+    "specialLetter": "s",
+    "score": 41
+  },
+  {
+    "word": "sorenesses",
+    "specialLetter": "s",
+    "score": 41
+  },
+  {
+    "word": "firefighter",
+    "specialLetter": "r",
+    "score": 41
+  },
+  {
+    "word": "araliaceae",
+    "specialLetter": "a",
+    "score": 41
+  },
+  {
+    "word": "delignified",
+    "specialLetter": "e",
+    "score": 41
+  },
+  {
+    "word": "initiation",
+    "specialLetter": "i",
+    "score": 41
+  },
+  {
+    "word": "parramatta",
+    "specialLetter": "a",
+    "score": 41
+  },
+  {
+    "word": "solenesses",
+    "specialLetter": "s",
+    "score": 41
+  },
+  {
+    "word": "tenemented",
+    "specialLetter": "e",
+    "score": 41
+  },
+  {
     "word": "inconvenience",
     "specialLetter": "i",
     "score": 40
@@ -1357,6 +2327,76 @@
   {
     "word": "spiritize",
     "specialLetter": "i",
+    "score": 40
+  },
+  {
+    "word": "assesses",
+    "specialLetter": "s",
+    "score": 40
+  },
+  {
+    "word": "pallingly",
+    "specialLetter": "l",
+    "score": 40
+  },
+  {
+    "word": "schemists",
+    "specialLetter": "s",
+    "score": 40
+  },
+  {
+    "word": "orthodome",
+    "specialLetter": "o",
+    "score": 40
+  },
+  {
+    "word": "defeature",
+    "specialLetter": "e",
+    "score": 40
+  },
+  {
+    "word": "feathered",
+    "specialLetter": "e",
+    "score": 40
+  },
+  {
+    "word": "celebrate",
+    "specialLetter": "e",
+    "score": 40
+  },
+  {
+    "word": "erectable",
+    "specialLetter": "e",
+    "score": 40
+  },
+  {
+    "word": "primitiae",
+    "specialLetter": "i",
+    "score": 40
+  },
+  {
+    "word": "restaurateurs",
+    "specialLetter": "a",
+    "score": 40
+  },
+  {
+    "word": "bedgeries",
+    "specialLetter": "e",
+    "score": 40
+  },
+  {
+    "word": "envelopes",
+    "specialLetter": "e",
+    "score": 40
+  },
+  {
+    "word": "sunbonnet",
+    "specialLetter": "n",
+    "score": 40
+  },
+  {
+    "word": "determine",
+    "specialLetter": "e",
     "score": 40
   },
   {
@@ -1532,6 +2572,191 @@
   {
     "word": "tenuousness",
     "specialLetter": "s",
+    "score": 39
+  },
+  {
+    "word": "peppinesses",
+    "specialLetter": "p",
+    "score": 39
+  },
+  {
+    "word": "antenatally",
+    "specialLetter": "a",
+    "score": 39
+  },
+  {
+    "word": "rattlertree",
+    "specialLetter": "r",
+    "score": 39
+  },
+  {
+    "word": "atelectatic",
+    "specialLetter": "t",
+    "score": 39
+  },
+  {
+    "word": "acatalectic",
+    "specialLetter": "c",
+    "score": 39
+  },
+  {
+    "word": "sleeplessly",
+    "specialLetter": "s",
+    "score": 39
+  },
+  {
+    "word": "debasedness",
+    "specialLetter": "s",
+    "score": 39
+  },
+  {
+    "word": "periprinter",
+    "specialLetter": "r",
+    "score": 39
+  },
+  {
+    "word": "irretentive",
+    "specialLetter": "e",
+    "score": 39
+  },
+  {
+    "word": "underfunded",
+    "specialLetter": "d",
+    "score": 39
+  },
+  {
+    "word": "sleazeballs",
+    "specialLetter": "l",
+    "score": 39
+  },
+  {
+    "word": "teetotaller",
+    "specialLetter": "t",
+    "score": 39
+  },
+  {
+    "word": "rattlertree",
+    "specialLetter": "t",
+    "score": 39
+  },
+  {
+    "word": "racetracker",
+    "specialLetter": "r",
+    "score": 39
+  },
+  {
+    "word": "legginesses",
+    "specialLetter": "e",
+    "score": 39
+  },
+  {
+    "word": "heterotherm",
+    "specialLetter": "e",
+    "score": 39
+  },
+  {
+    "word": "thermometer",
+    "specialLetter": "e",
+    "score": 39
+  },
+  {
+    "word": "thermomotor",
+    "specialLetter": "o",
+    "score": 39
+  },
+  {
+    "word": "antoniniani",
+    "specialLetter": "i",
+    "score": 39
+  },
+  {
+    "word": "harehearted",
+    "specialLetter": "e",
+    "score": 39
+  },
+  {
+    "word": "peripteries",
+    "specialLetter": "e",
+    "score": 39
+  },
+  {
+    "word": "isepiptesis",
+    "specialLetter": "s",
+    "score": 39
+  },
+  {
+    "word": "isepipteses",
+    "specialLetter": "s",
+    "score": 39
+  },
+  {
+    "word": "peppertrees",
+    "specialLetter": "p",
+    "score": 39
+  },
+  {
+    "word": "reexpresses",
+    "specialLetter": "s",
+    "score": 39
+  },
+  {
+    "word": "attemperate",
+    "specialLetter": "e",
+    "score": 39
+  },
+  {
+    "word": "sterrasters",
+    "specialLetter": "s",
+    "score": 39
+  },
+  {
+    "word": "tessellates",
+    "specialLetter": "e",
+    "score": 39
+  },
+  {
+    "word": "tuftaffetas",
+    "specialLetter": "t",
+    "score": 39
+  },
+  {
+    "word": "anacanthini",
+    "specialLetter": "a",
+    "score": 39
+  },
+  {
+    "word": "nictitating",
+    "specialLetter": "t",
+    "score": 39
+  },
+  {
+    "word": "sidedressed",
+    "specialLetter": "d",
+    "score": 39
+  },
+  {
+    "word": "birdberries",
+    "specialLetter": "r",
+    "score": 39
+  },
+  {
+    "word": "redisseised",
+    "specialLetter": "s",
+    "score": 39
+  },
+  {
+    "word": "clinginesses",
+    "specialLetter": "c",
+    "score": 39
+  },
+  {
+    "word": "negligencies",
+    "specialLetter": "l",
+    "score": 39
+  },
+  {
+    "word": "intendiment",
+    "specialLetter": "n",
     "score": 39
   },
   {
@@ -1770,6 +2995,241 @@
     "score": 38
   },
   {
+    "word": "dedicative",
+    "specialLetter": "i",
+    "score": 38
+  },
+  {
+    "word": "tittivate",
+    "specialLetter": "t",
+    "score": 38
+  },
+  {
+    "word": "viaticated",
+    "specialLetter": "t",
+    "score": 38
+  },
+  {
+    "word": "deactivate",
+    "specialLetter": "t",
+    "score": 38
+  },
+  {
+    "word": "flowerless",
+    "specialLetter": "s",
+    "score": 38
+  },
+  {
+    "word": "marmennill",
+    "specialLetter": "n",
+    "score": 38
+  },
+  {
+    "word": "deerweeds",
+    "specialLetter": "e",
+    "score": 38
+  },
+  {
+    "word": "sweeswees",
+    "specialLetter": "e",
+    "score": 38
+  },
+  {
+    "word": "handshakes",
+    "specialLetter": "h",
+    "score": 38
+  },
+  {
+    "word": "sadnesses",
+    "specialLetter": "s",
+    "score": 38
+  },
+  {
+    "word": "snakeheads",
+    "specialLetter": "s",
+    "score": 38
+  },
+  {
+    "word": "possessed",
+    "specialLetter": "s",
+    "score": 38
+  },
+  {
+    "word": "sandbagged",
+    "specialLetter": "g",
+    "score": 38
+  },
+  {
+    "word": "unprettier",
+    "specialLetter": "r",
+    "score": 38
+  },
+  {
+    "word": "cancelling",
+    "specialLetter": "c",
+    "score": 38
+  },
+  {
+    "word": "allegiance",
+    "specialLetter": "a",
+    "score": 38
+  },
+  {
+    "word": "seismisms",
+    "specialLetter": "s",
+    "score": 38
+  },
+  {
+    "word": "permissive",
+    "specialLetter": "s",
+    "score": 38
+  },
+  {
+    "word": "impressive",
+    "specialLetter": "s",
+    "score": 38
+  },
+  {
+    "word": "deactivate",
+    "specialLetter": "e",
+    "score": 38
+  },
+  {
+    "word": "viaticated",
+    "specialLetter": "i",
+    "score": 38
+  },
+  {
+    "word": "reentered",
+    "specialLetter": "e",
+    "score": 38
+  },
+  {
+    "word": "automatons",
+    "specialLetter": "a",
+    "score": 38
+  },
+  {
+    "word": "autonomous",
+    "specialLetter": "u",
+    "score": 38
+  },
+  {
+    "word": "labializes",
+    "specialLetter": "i",
+    "score": 38
+  },
+  {
+    "word": "sassabies",
+    "specialLetter": "s",
+    "score": 38
+  },
+  {
+    "word": "mistetches",
+    "specialLetter": "s",
+    "score": 38
+  },
+  {
+    "word": "overtravel",
+    "specialLetter": "r",
+    "score": 38
+  },
+  {
+    "word": "battercake",
+    "specialLetter": "t",
+    "score": 38
+  },
+  {
+    "word": "eisegeses",
+    "specialLetter": "e",
+    "score": 38
+  },
+  {
+    "word": "matamatas",
+    "specialLetter": "a",
+    "score": 38
+  },
+  {
+    "word": "deadnaming",
+    "specialLetter": "d",
+    "score": 38
+  },
+  {
+    "word": "endamaging",
+    "specialLetter": "g",
+    "score": 38
+  },
+  {
+    "word": "creepered",
+    "specialLetter": "e",
+    "score": 38
+  },
+  {
+    "word": "innovating",
+    "specialLetter": "i",
+    "score": 38
+  },
+  {
+    "word": "navigation",
+    "specialLetter": "i",
+    "score": 38
+  },
+  {
+    "word": "afterdeath",
+    "specialLetter": "e",
+    "score": 38
+  },
+  {
+    "word": "expertises",
+    "specialLetter": "s",
+    "score": 38
+  },
+  {
+    "word": "outsettler",
+    "specialLetter": "e",
+    "score": 38
+  },
+  {
+    "word": "resolutest",
+    "specialLetter": "s",
+    "score": 38
+  },
+  {
+    "word": "strossers",
+    "specialLetter": "s",
+    "score": 38
+  },
+  {
+    "word": "paramatta",
+    "specialLetter": "a",
+    "score": 38
+  },
+  {
+    "word": "perimetria",
+    "specialLetter": "i",
+    "score": 38
+  },
+  {
+    "word": "afflatuses",
+    "specialLetter": "f",
+    "score": 38
+  },
+  {
+    "word": "statuette",
+    "specialLetter": "t",
+    "score": 38
+  },
+  {
+    "word": "disseises",
+    "specialLetter": "s",
+    "score": 38
+  },
+  {
+    "word": "determiner",
+    "specialLetter": "r",
+    "score": 38
+  },
+  {
     "word": "indigitating",
     "specialLetter": "g",
     "score": 37
@@ -1807,6 +3267,26 @@
   {
     "word": "sniffinesses",
     "specialLetter": "f",
+    "score": 37
+  },
+  {
+    "word": "spinescences",
+    "specialLetter": "c",
+    "score": 37
+  },
+  {
+    "word": "tilletiaceae",
+    "specialLetter": "i",
+    "score": 37
+  },
+  {
+    "word": "peristerites",
+    "specialLetter": "r",
+    "score": 37
+  },
+  {
+    "word": "cancellanses",
+    "specialLetter": "n",
     "score": 37
   },
   {
@@ -2037,6 +3517,401 @@
   {
     "word": "terracette",
     "specialLetter": "t",
+    "score": 36
+  },
+  {
+    "word": "tarantella",
+    "specialLetter": "a",
+    "score": 36
+  },
+  {
+    "word": "retreatant",
+    "specialLetter": "t",
+    "score": 36
+  },
+  {
+    "word": "concoction",
+    "specialLetter": "c",
+    "score": 36
+  },
+  {
+    "word": "concocting",
+    "specialLetter": "c",
+    "score": 36
+  },
+  {
+    "word": "coinciding",
+    "specialLetter": "i",
+    "score": 36
+  },
+  {
+    "word": "intinction",
+    "specialLetter": "i",
+    "score": 36
+  },
+  {
+    "word": "preparator",
+    "specialLetter": "r",
+    "score": 36
+  },
+  {
+    "word": "propraetor",
+    "specialLetter": "r",
+    "score": 36
+  },
+  {
+    "word": "melanaemia",
+    "specialLetter": "a",
+    "score": 36
+  },
+  {
+    "word": "armillaria",
+    "specialLetter": "a",
+    "score": 36
+  },
+  {
+    "word": "laminarian",
+    "specialLetter": "a",
+    "score": 36
+  },
+  {
+    "word": "weanedness",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "telehealth",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "catalectic",
+    "specialLetter": "c",
+    "score": 36
+  },
+  {
+    "word": "catechetic",
+    "specialLetter": "c",
+    "score": 36
+  },
+  {
+    "word": "activistic",
+    "specialLetter": "i",
+    "score": 36
+  },
+  {
+    "word": "catastases",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "siseraries",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "danknesses",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "deadnesses",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "doddypolls",
+    "specialLetter": "d",
+    "score": 36
+  },
+  {
+    "word": "peopleless",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "bandannaed",
+    "specialLetter": "a",
+    "score": 36
+  },
+  {
+    "word": "agednesses",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "preterient",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "intervener",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "irreverent",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "negligence",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "reimmerses",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "repressive",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "perversive",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "mesmeriser",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "mesmerisms",
+    "specialLetter": "m",
+    "score": 36
+  },
+  {
+    "word": "mesmerises",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "undeterred",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "forefended",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "tantamount",
+    "specialLetter": "t",
+    "score": 36
+  },
+  {
+    "word": "nigglingly",
+    "specialLetter": "g",
+    "score": 36
+  },
+  {
+    "word": "ballabiles",
+    "specialLetter": "l",
+    "score": 36
+  },
+  {
+    "word": "sleazeball",
+    "specialLetter": "l",
+    "score": 36
+  },
+  {
+    "word": "babesiases",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "babesiasis",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "teetotaler",
+    "specialLetter": "t",
+    "score": 36
+  },
+  {
+    "word": "rattleroot",
+    "specialLetter": "t",
+    "score": 36
+  },
+  {
+    "word": "ebracteate",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "engineless",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "singleness",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "morenesses",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "moroseness",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "dermometer",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "motordrome",
+    "specialLetter": "o",
+    "score": 36
+  },
+  {
+    "word": "odorometer",
+    "specialLetter": "o",
+    "score": 36
+  },
+  {
+    "word": "amassettes",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "metastases",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "predecided",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "piperidide",
+    "specialLetter": "i",
+    "score": 36
+  },
+  {
+    "word": "deuterated",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "tuftaffeta",
+    "specialLetter": "f",
+    "score": 36
+  },
+  {
+    "word": "aftertreat",
+    "specialLetter": "t",
+    "score": 36
+  },
+  {
+    "word": "atterrated",
+    "specialLetter": "t",
+    "score": 36
+  },
+  {
+    "word": "tartarated",
+    "specialLetter": "t",
+    "score": 36
+  },
+  {
+    "word": "featurette",
+    "specialLetter": "t",
+    "score": 36
+  },
+  {
+    "word": "gracilaria",
+    "specialLetter": "a",
+    "score": 36
+  },
+  {
+    "word": "gaingiving",
+    "specialLetter": "g",
+    "score": 36
+  },
+  {
+    "word": "invination",
+    "specialLetter": "i",
+    "score": 36
+  },
+  {
+    "word": "invitation",
+    "specialLetter": "i",
+    "score": 36
+  },
+  {
+    "word": "titivating",
+    "specialLetter": "i",
+    "score": 36
+  },
+  {
+    "word": "tartarated",
+    "specialLetter": "a",
+    "score": 36
+  },
+  {
+    "word": "rethreaded",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "thereafter",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "terrorless",
+    "specialLetter": "r",
+    "score": 36
+  },
+  {
+    "word": "lusterless",
+    "specialLetter": "s",
+    "score": 36
+  },
+  {
+    "word": "retractable",
+    "specialLetter": "c",
+    "score": 36
+  },
+  {
+    "word": "cerebellar",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "talebearer",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "clarabella",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "peripeteia",
+    "specialLetter": "e",
+    "score": 36
+  },
+  {
+    "word": "estafettes",
+    "specialLetter": "t",
+    "score": 36
+  },
+  {
+    "word": "slacknesses",
+    "specialLetter": "k",
     "score": 36
   },
   {
@@ -2350,6 +4225,346 @@
     "score": 35
   },
   {
+    "word": "didactive",
+    "specialLetter": "d",
+    "score": 35
+  },
+  {
+    "word": "advective",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "addictive",
+    "specialLetter": "i",
+    "score": 35
+  },
+  {
+    "word": "activated",
+    "specialLetter": "t",
+    "score": 35
+  },
+  {
+    "word": "cavitated",
+    "specialLetter": "t",
+    "score": 35
+  },
+  {
+    "word": "dictative",
+    "specialLetter": "t",
+    "score": 35
+  },
+  {
+    "word": "eternally",
+    "specialLetter": "l",
+    "score": 35
+  },
+  {
+    "word": "enterally",
+    "specialLetter": "l",
+    "score": 35
+  },
+  {
+    "word": "ternately",
+    "specialLetter": "t",
+    "score": 35
+  },
+  {
+    "word": "conditing",
+    "specialLetter": "i",
+    "score": 35
+  },
+  {
+    "word": "evaporate",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "vaporetto",
+    "specialLetter": "t",
+    "score": 35
+  },
+  {
+    "word": "flowerers",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "reflowers",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "referees",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "sweeswee",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "alecithal",
+    "specialLetter": "l",
+    "score": 35
+  },
+  {
+    "word": "sissiest",
+    "specialLetter": "s",
+    "score": 35
+  },
+  {
+    "word": "vesicates",
+    "specialLetter": "s",
+    "score": 35
+  },
+  {
+    "word": "assessee",
+    "specialLetter": "s",
+    "score": 35
+  },
+  {
+    "word": "mandating",
+    "specialLetter": "n",
+    "score": 35
+  },
+  {
+    "word": "polyspeed",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "assessed",
+    "specialLetter": "s",
+    "score": 35
+  },
+  {
+    "word": "interview",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "canceling",
+    "specialLetter": "n",
+    "score": 35
+  },
+  {
+    "word": "angelical",
+    "specialLetter": "a",
+    "score": 35
+  },
+  {
+    "word": "englacial",
+    "specialLetter": "a",
+    "score": 35
+  },
+  {
+    "word": "galenical",
+    "specialLetter": "a",
+    "score": 35
+  },
+  {
+    "word": "guggling",
+    "specialLetter": "g",
+    "score": 35
+  },
+  {
+    "word": "glutition",
+    "specialLetter": "i",
+    "score": 35
+  },
+  {
+    "word": "outlining",
+    "specialLetter": "i",
+    "score": 35
+  },
+  {
+    "word": "activated",
+    "specialLetter": "a",
+    "score": 35
+  },
+  {
+    "word": "cavitated",
+    "specialLetter": "a",
+    "score": 35
+  },
+  {
+    "word": "avadavat",
+    "specialLetter": "a",
+    "score": 35
+  },
+  {
+    "word": "dictative",
+    "specialLetter": "i",
+    "score": 35
+  },
+  {
+    "word": "didactive",
+    "specialLetter": "i",
+    "score": 35
+  },
+  {
+    "word": "teetered",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "unerupted",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "foundered",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "refereed",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "refounded",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "refounder",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "unoffered",
+    "specialLetter": "f",
+    "score": 35
+  },
+  {
+    "word": "trabacolo",
+    "specialLetter": "o",
+    "score": 35
+  },
+  {
+    "word": "babelizes",
+    "specialLetter": "b",
+    "score": 35
+  },
+  {
+    "word": "lavalava",
+    "specialLetter": "a",
+    "score": 35
+  },
+  {
+    "word": "veratrole",
+    "specialLetter": "r",
+    "score": 35
+  },
+  {
+    "word": "overalert",
+    "specialLetter": "r",
+    "score": 35
+  },
+  {
+    "word": "revelator",
+    "specialLetter": "r",
+    "score": 35
+  },
+  {
+    "word": "polysomes",
+    "specialLetter": "s",
+    "score": 35
+  },
+  {
+    "word": "matamata",
+    "specialLetter": "a",
+    "score": 35
+  },
+  {
+    "word": "stampeded",
+    "specialLetter": "d",
+    "score": 35
+  },
+  {
+    "word": "esteemed",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "meseemed",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "stampedes",
+    "specialLetter": "s",
+    "score": 35
+  },
+  {
+    "word": "demanding",
+    "specialLetter": "d",
+    "score": 35
+  },
+  {
+    "word": "maddening",
+    "specialLetter": "d",
+    "score": 35
+  },
+  {
+    "word": "demeaning",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "piripiri",
+    "specialLetter": "i",
+    "score": 35
+  },
+  {
+    "word": "debelling",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "dufterdar",
+    "specialLetter": "r",
+    "score": 35
+  },
+  {
+    "word": "firefight",
+    "specialLetter": "f",
+    "score": 35
+  },
+  {
+    "word": "freighter",
+    "specialLetter": "r",
+    "score": 35
+  },
+  {
+    "word": "clergical",
+    "specialLetter": "c",
+    "score": 35
+  },
+  {
+    "word": "cercelee",
+    "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "tellurous",
+    "specialLetter": "l",
+    "score": 35
+  },
+  {
+    "word": "faultless",
+    "specialLetter": "l",
+    "score": 35
+  },
+  {
+    "word": "attaching",
+    "specialLetter": "t",
+    "score": 35
+  },
+  {
     "word": "notodontoid",
     "specialLetter": "d",
     "score": 34
@@ -2462,6 +4677,46 @@
   {
     "word": "fierinesses",
     "specialLetter": "i",
+    "score": 34
+  },
+  {
+    "word": "reappraises",
+    "specialLetter": "r",
+    "score": 34
+  },
+  {
+    "word": "nakednesses",
+    "specialLetter": "n",
+    "score": 34
+  },
+  {
+    "word": "outtonguing",
+    "specialLetter": "g",
+    "score": 34
+  },
+  {
+    "word": "underruffed",
+    "specialLetter": "f",
+    "score": 34
+  },
+  {
+    "word": "monostomous",
+    "specialLetter": "s",
+    "score": 34
+  },
+  {
+    "word": "monostomata",
+    "specialLetter": "t",
+    "score": 34
+  },
+  {
+    "word": "memeticists",
+    "specialLetter": "m",
+    "score": 34
+  },
+  {
+    "word": "backbreaker",
+    "specialLetter": "b",
     "score": 34
   },
   {
@@ -2825,6 +5080,301 @@
     "score": 33
   },
   {
+    "word": "debearded",
+    "specialLetter": "d",
+    "score": 33
+  },
+  {
+    "word": "rearrayed",
+    "specialLetter": "r",
+    "score": 33
+  },
+  {
+    "word": "bearberry",
+    "specialLetter": "r",
+    "score": 33
+  },
+  {
+    "word": "antennary",
+    "specialLetter": "n",
+    "score": 33
+  },
+  {
+    "word": "attenuate",
+    "specialLetter": "t",
+    "score": 33
+  },
+  {
+    "word": "guttulate",
+    "specialLetter": "t",
+    "score": 33
+  },
+  {
+    "word": "tantalate",
+    "specialLetter": "t",
+    "score": 33
+  },
+  {
+    "word": "indignant",
+    "specialLetter": "n",
+    "score": 33
+  },
+  {
+    "word": "mitannian",
+    "specialLetter": "n",
+    "score": 33
+  },
+  {
+    "word": "dinantian",
+    "specialLetter": "n",
+    "score": 33
+  },
+  {
+    "word": "spodosols",
+    "specialLetter": "o",
+    "score": 33
+  },
+  {
+    "word": "sleepless",
+    "specialLetter": "s",
+    "score": 33
+  },
+  {
+    "word": "speedless",
+    "specialLetter": "s",
+    "score": 33
+  },
+  {
+    "word": "bandannas",
+    "specialLetter": "n",
+    "score": 33
+  },
+  {
+    "word": "intervene",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "retentive",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "retriever",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "revertive",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "clinician",
+    "specialLetter": "i",
+    "score": 33
+  },
+  {
+    "word": "pippirees",
+    "specialLetter": "p",
+    "score": 33
+  },
+  {
+    "word": "intuition",
+    "specialLetter": "i",
+    "score": 33
+  },
+  {
+    "word": "intuiting",
+    "specialLetter": "i",
+    "score": 33
+  },
+  {
+    "word": "deterrent",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "perpended",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "prepended",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "reoffered",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "assonants",
+    "specialLetter": "s",
+    "score": 33
+  },
+  {
+    "word": "coralroot",
+    "specialLetter": "o",
+    "score": 33
+  },
+  {
+    "word": "tractator",
+    "specialLetter": "t",
+    "score": 33
+  },
+  {
+    "word": "laggingly",
+    "specialLetter": "g",
+    "score": 33
+  },
+  {
+    "word": "naggingly",
+    "specialLetter": "g",
+    "score": 33
+  },
+  {
+    "word": "leaseless",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "chemisette",
+    "specialLetter": "c",
+    "score": 33
+  },
+  {
+    "word": "annectent",
+    "specialLetter": "n",
+    "score": 33
+  },
+  {
+    "word": "attendant",
+    "specialLetter": "t",
+    "score": 33
+  },
+  {
+    "word": "cactaceae",
+    "specialLetter": "t",
+    "score": 33
+  },
+  {
+    "word": "overleave",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "barracker",
+    "specialLetter": "r",
+    "score": 33
+  },
+  {
+    "word": "rerebrace",
+    "specialLetter": "r",
+    "score": 33
+  },
+  {
+    "word": "eisegesis",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "negligees",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "syllepses",
+    "specialLetter": "s",
+    "score": 33
+  },
+  {
+    "word": "tempested",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "messmates",
+    "specialLetter": "s",
+    "score": 33
+  },
+  {
+    "word": "attempted",
+    "specialLetter": "t",
+    "score": 33
+  },
+  {
+    "word": "deadnamed",
+    "specialLetter": "d",
+    "score": 33
+  },
+  {
+    "word": "diamidine",
+    "specialLetter": "i",
+    "score": 33
+  },
+  {
+    "word": "predecide",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "recherche",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "defrauded",
+    "specialLetter": "d",
+    "score": 33
+  },
+  {
+    "word": "afterfeed",
+    "specialLetter": "e",
+    "score": 33
+  },
+  {
+    "word": "tartrated",
+    "specialLetter": "t",
+    "score": 33
+  },
+  {
+    "word": "fritterer",
+    "specialLetter": "r",
+    "score": 33
+  },
+  {
+    "word": "regretter",
+    "specialLetter": "r",
+    "score": 33
+  },
+  {
+    "word": "alliaceae",
+    "specialLetter": "a",
+    "score": 33
+  },
+  {
+    "word": "thesaurers",
+    "specialLetter": "h",
+    "score": 33
+  },
+  {
+    "word": "nictitant",
+    "specialLetter": "t",
+    "score": 33
+  },
+  {
+    "word": "bibberies",
+    "specialLetter": "b",
+    "score": 33
+  },
+  {
+    "word": "volvelles",
+    "specialLetter": "l",
+    "score": 33
+  },
+  {
     "word": "convives",
     "specialLetter": "v",
     "score": 32
@@ -2957,6 +5507,56 @@
   {
     "word": "ungulate",
     "specialLetter": "u",
+    "score": 32
+  },
+  {
+    "word": "kakkaks",
+    "specialLetter": "k",
+    "score": 32
+  },
+  {
+    "word": "ayapana",
+    "specialLetter": "a",
+    "score": 32
+  },
+  {
+    "word": "areology",
+    "specialLetter": "o",
+    "score": 32
+  },
+  {
+    "word": "possess",
+    "specialLetter": "s",
+    "score": 32
+  },
+  {
+    "word": "imagined",
+    "specialLetter": "i",
+    "score": 32
+  },
+  {
+    "word": "bleeding",
+    "specialLetter": "e",
+    "score": 32
+  },
+  {
+    "word": "bielding",
+    "specialLetter": "i",
+    "score": 32
+  },
+  {
+    "word": "claggier",
+    "specialLetter": "g",
+    "score": 32
+  },
+  {
+    "word": "fledging",
+    "specialLetter": "g",
+    "score": 32
+  },
+  {
+    "word": "chatting",
+    "specialLetter": "t",
     "score": 32
   },
   {
@@ -3117,6 +5717,71 @@
   {
     "word": "perpetuate",
     "specialLetter": "t",
+    "score": 31
+  },
+  {
+    "word": "chachalaca",
+    "specialLetter": "h",
+    "score": 31
+  },
+  {
+    "word": "monotomous",
+    "specialLetter": "m",
+    "score": 31
+  },
+  {
+    "word": "monotonous",
+    "specialLetter": "n",
+    "score": 31
+  },
+  {
+    "word": "astomatous",
+    "specialLetter": "t",
+    "score": 31
+  },
+  {
+    "word": "autotomous",
+    "specialLetter": "u",
+    "score": 31
+  },
+  {
+    "word": "automatous",
+    "specialLetter": "u",
+    "score": 31
+  },
+  {
+    "word": "selegiline",
+    "specialLetter": "i",
+    "score": 31
+  },
+  {
+    "word": "gingellies",
+    "specialLetter": "l",
+    "score": 31
+  },
+  {
+    "word": "homeotherm",
+    "specialLetter": "h",
+    "score": 31
+  },
+  {
+    "word": "anandamide",
+    "specialLetter": "d",
+    "score": 31
+  },
+  {
+    "word": "thereright",
+    "specialLetter": "h",
+    "score": 31
+  },
+  {
+    "word": "eggberries",
+    "specialLetter": "g",
+    "score": 31
+  },
+  {
+    "word": "opposeless",
+    "specialLetter": "p",
     "score": 31
   },
   {
@@ -3465,6 +6130,86 @@
     "score": 30
   },
   {
+    "word": "baedeker",
+    "specialLetter": "e",
+    "score": 30
+  },
+  {
+    "word": "beebread",
+    "specialLetter": "e",
+    "score": 30
+  },
+  {
+    "word": "debeaked",
+    "specialLetter": "e",
+    "score": 30
+  },
+  {
+    "word": "barberry",
+    "specialLetter": "r",
+    "score": 30
+  },
+  {
+    "word": "wanderers",
+    "specialLetter": "d",
+    "score": 30
+  },
+  {
+    "word": "yappingly",
+    "specialLetter": "i",
+    "score": 30
+  },
+  {
+    "word": "aloeroot",
+    "specialLetter": "o",
+    "score": 30
+  },
+  {
+    "word": "lollygag",
+    "specialLetter": "l",
+    "score": 30
+  },
+  {
+    "word": "lallygag",
+    "specialLetter": "l",
+    "score": 30
+  },
+  {
+    "word": "stepdames",
+    "specialLetter": "p",
+    "score": 30
+  },
+  {
+    "word": "alliaria",
+    "specialLetter": "a",
+    "score": 30
+  },
+  {
+    "word": "calcarea",
+    "specialLetter": "a",
+    "score": 30
+  },
+  {
+    "word": "calcaria",
+    "specialLetter": "a",
+    "score": 30
+  },
+  {
+    "word": "gigglier",
+    "specialLetter": "g",
+    "score": 30
+  },
+  {
+    "word": "niggling",
+    "specialLetter": "g",
+    "score": 30
+  },
+  {
+    "word": "unbonnets",
+    "specialLetter": "b",
+    "score": 30
+  },
+  {
     "word": "worsenesses",
     "specialLetter": "w",
     "score": 29
@@ -3472,6 +6217,11 @@
   {
     "word": "sleeknesses",
     "specialLetter": "k",
+    "score": 29
+  },
+  {
+    "word": "acanthaceae",
+    "specialLetter": "h",
     "score": 29
   },
   {
@@ -3720,6 +6470,51 @@
     "score": 28
   },
   {
+    "word": "knickline",
+    "specialLetter": "k",
+    "score": 28
+  },
+  {
+    "word": "enkindled",
+    "specialLetter": "n",
+    "score": 28
+  },
+  {
+    "word": "nickeline",
+    "specialLetter": "n",
+    "score": 28
+  },
+  {
+    "word": "incidence",
+    "specialLetter": "n",
+    "score": 28
+  },
+  {
+    "word": "basebands",
+    "specialLetter": "b",
+    "score": 28
+  },
+  {
+    "word": "backtrack",
+    "specialLetter": "k",
+    "score": 28
+  },
+  {
+    "word": "precipice",
+    "specialLetter": "c",
+    "score": 28
+  },
+  {
+    "word": "cirripede",
+    "specialLetter": "i",
+    "score": 28
+  },
+  {
+    "word": "eightieth",
+    "specialLetter": "t",
+    "score": 28
+  },
+  {
     "word": "dreaded",
     "specialLetter": "d",
     "score": 27
@@ -3920,6 +6715,46 @@
     "score": 27
   },
   {
+    "word": "daybreak",
+    "specialLetter": "b",
+    "score": 27
+  },
+  {
+    "word": "deadeye",
+    "specialLetter": "e",
+    "score": 27
+  },
+  {
+    "word": "arrayer",
+    "specialLetter": "r",
+    "score": 27
+  },
+  {
+    "word": "barrera",
+    "specialLetter": "r",
+    "score": 27
+  },
+  {
+    "word": "nickeled",
+    "specialLetter": "n",
+    "score": 27
+  },
+  {
+    "word": "mothered",
+    "specialLetter": "d",
+    "score": 27
+  },
+  {
+    "word": "ciphered",
+    "specialLetter": "h",
+    "score": 27
+  },
+  {
+    "word": "gregger",
+    "specialLetter": "g",
+    "score": 27
+  },
+  {
     "word": "indagating",
     "specialLetter": "d",
     "score": 26
@@ -3937,6 +6772,11 @@
   {
     "word": "catananche",
     "specialLetter": "h",
+    "score": 26
+  },
+  {
+    "word": "kakkak",
+    "specialLetter": "k",
     "score": 26
   },
   {
@@ -4037,6 +6877,11 @@
   {
     "word": "isepipteses",
     "specialLetter": "z",
+    "score": 24
+  },
+  {
+    "word": "jingles",
+    "specialLetter": "j",
     "score": 24
   },
   {

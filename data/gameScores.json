@@ -5,79 +5,84 @@
     "date": "2026-01-08"
   },
   {
-    "bank": "OEINRST",
-    "score": 615,
-    "date": "2025-11-29"
-  },
-  {
-    "bank": "TAINOSU",
-    "score": 592,
-    "date": "2026-01-07"
-  },
-  {
-    "bank": "SAEINRT",
-    "score": 590,
-    "date": "2025-12-19"
+    "bank": "NCEILPS",
+    "score": 653,
+    "date": "2026-01-08"
   },
   {
     "bank": "IENSTVY",
-    "score": 571,
-    "date": "2025-11-12"
+    "score": 649,
+    "date": "2026-01-08"
   },
   {
     "bank": "TINORSU",
-    "score": 571,
-    "date": "2025-12-16"
+    "score": 643,
+    "date": "2026-01-08"
   },
   {
-    "bank": "NCEILPS",
-    "score": 564,
-    "date": "2025-10-04"
-  },
-  {
-    "bank": "IACLNOT",
-    "score": 563,
-    "date": "2025-09-29"
-  },
-  {
-    "bank": "PCEINRS",
-    "score": 557,
-    "date": "2025-09-17"
-  },
-  {
-    "bank": "EADHNRS",
-    "score": 552,
-    "date": "2025-09-14"
-  },
-  {
-    "bank": "ECINOSV",
-    "score": 546,
-    "date": "2025-09-01"
-  },
-  {
-    "bank": "ECGILNS",
-    "score": 546,
-    "date": "2025-08-16"
+    "bank": "OEINRST",
+    "score": 627,
+    "date": "2026-01-08"
   },
   {
     "bank": "LACEKNS",
-    "score": 539,
-    "date": "2025-12-22"
+    "score": 625,
+    "date": "2026-01-08"
   },
   {
-    "bank": "TBENOSU",
-    "score": 537,
+    "bank": "TAINOSU",
+    "score": 622,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "SAEINRT",
+    "score": 615,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "ECGILNS",
+    "score": 609,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "ECINOSV",
+    "score": 600,
     "date": "2026-01-08"
   },
   {
     "bank": "NCDEORS",
-    "score": 533,
-    "date": "2025-10-16"
+    "score": 600,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "EADHNRS",
+    "score": 595,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "PCEINRS",
+    "score": 592,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "IACLNOT",
+    "score": 575,
+    "date": "2026-01-08"
   },
   {
     "bank": "MDEINRT",
-    "score": 529,
-    "date": "2025-08-16"
+    "score": 549,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "TBENOSU",
+    "score": 539,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "OELNPSV",
+    "score": 532,
+    "date": "2026-01-08"
   },
   {
     "bank": "NEGIOPS",
@@ -150,9 +155,24 @@
     "date": "2025-12-21"
   },
   {
+    "bank": "EAHRSTU",
+    "score": 499,
+    "date": "2026-01-08"
+  },
+  {
     "bank": "UCEIRST",
     "score": 495,
     "date": "2025-11-18"
+  },
+  {
+    "bank": "EIPRSTX",
+    "score": 495,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "PEIRSTZ",
+    "score": 494,
+    "date": "2026-01-08"
   },
   {
     "bank": "UBDENRS",
@@ -175,9 +195,29 @@
     "date": "2025-12-09"
   },
   {
+    "bank": "TAEIMPR",
+    "score": 490,
+    "date": "2026-01-08"
+  },
+  {
     "bank": "SILMNOU",
     "score": 488,
     "date": "2025-11-09"
+  },
+  {
+    "bank": "ECHIMST",
+    "score": 487,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "RADEFHT",
+    "score": 485,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "BACELRT",
+    "score": 483,
+    "date": "2026-01-08"
   },
   {
     "bank": "ABEILRT",
@@ -195,6 +235,11 @@
     "date": "2025-10-09"
   },
   {
+    "bank": "WADENRS",
+    "score": 481,
+    "date": "2026-01-08"
+  },
+  {
     "bank": "NAEFIRS",
     "score": 480,
     "date": "2026-01-06"
@@ -210,6 +255,11 @@
     "date": "2025-10-31"
   },
   {
+    "bank": "NAGIOTV",
+    "score": 479,
+    "date": "2026-01-08"
+  },
+  {
     "bank": "EKOPRST",
     "score": 478,
     "date": "2025-10-30"
@@ -220,9 +270,29 @@
     "date": "2025-11-28"
   },
   {
+    "bank": "AEFLSTU",
+    "score": 477,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "IBDEGRS",
+    "score": 476,
+    "date": "2026-01-08"
+  },
+  {
     "bank": "NCEIOTV",
     "score": 472,
     "date": "2025-11-08"
+  },
+  {
+    "bank": "TELORSU",
+    "score": 472,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "TEINPRU",
+    "score": 470,
+    "date": "2026-01-08"
   },
   {
     "bank": "RDEFISV",
@@ -240,9 +310,29 @@
     "date": "2025-08-24"
   },
   {
+    "bank": "OCDGINT",
+    "score": 465,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "NACGHIT",
+    "score": 465,
+    "date": "2026-01-08"
+  },
+  {
     "bank": "EAQRSTU",
     "score": 463,
     "date": "2025-12-08"
+  },
+  {
+    "bank": "TEINRVW",
+    "score": 463,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "IENRTVW",
+    "score": 463,
+    "date": "2026-01-08"
   },
   {
     "bank": "DABEGNS",
@@ -250,14 +340,19 @@
     "date": "2025-08-22"
   },
   {
-    "bank": "EAHRSTU",
-    "score": 461,
-    "date": "2025-10-21"
+    "bank": "ADEHKNS",
+    "score": 459,
+    "date": "2026-01-08"
   },
   {
-    "bank": "TAEIMPR",
+    "bank": "EMNORSW",
     "score": 459,
-    "date": "2025-11-11"
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "EAIPRSZ",
+    "score": 458,
+    "date": "2026-01-08"
   },
   {
     "bank": "EAIKRST",
@@ -265,64 +360,84 @@
     "date": "2025-11-25"
   },
   {
-    "bank": "OELNPSV",
-    "score": 453,
-    "date": "2025-10-03"
+    "bank": "MAEILNR",
+    "score": 456,
+    "date": "2026-01-08"
   },
   {
-    "bank": "IBDEGRS",
-    "score": 452,
-    "date": "2025-09-11"
-  },
-  {
-    "bank": "NACGHIT",
-    "score": 452,
-    "date": "2025-12-17"
-  },
-  {
-    "bank": "AEFLSTU",
-    "score": 451,
-    "date": "2025-11-05"
-  },
-  {
-    "bank": "BACELRT",
-    "score": 450,
-    "date": "2025-12-20"
-  },
-  {
-    "bank": "TELORSU",
-    "score": 449,
-    "date": "2025-08-24"
-  },
-  {
-    "bank": "EIPRSTX",
-    "score": 449,
-    "date": "2025-12-11"
-  },
-  {
-    "bank": "PEIRSTZ",
-    "score": 449,
-    "date": "2025-12-31"
-  },
-  {
-    "bank": "RADEFHT",
-    "score": 448,
-    "date": "2025-08-31"
-  },
-  {
-    "bank": "NAGIOTV",
-    "score": 448,
-    "date": "2025-10-26"
+    "bank": "ACEHILT",
+    "score": 456,
+    "date": "2026-01-08"
   },
   {
     "bank": "LACEGIN",
-    "score": 445,
-    "date": "2025-10-20"
+    "score": 456,
+    "date": "2026-01-08"
   },
   {
-    "bank": "TEINPRU",
+    "bank": "AEOPRTV",
+    "score": 455,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "DABEGNS",
+    "score": 454,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "REFLOSW",
+    "score": 451,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "ABEILSZ",
+    "score": 451,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "RDENPTU",
+    "score": 450,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "TACEISV",
+    "score": 447,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "NGILOTU",
+    "score": 447,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "PDELOSY",
+    "score": 446,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "IEMPRSV",
+    "score": 446,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "AEGLNTU",
+    "score": 445,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "EALNRTY",
     "score": 443,
-    "date": "2025-11-17"
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "GEIJLNS",
+    "score": 442,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "NAGILPY",
+    "score": 441,
+    "date": "2026-01-08"
   },
   {
     "bank": "EACPRTU",
@@ -330,219 +445,104 @@
     "date": "2026-01-07"
   },
   {
-    "bank": "ADEHKNS",
-    "score": 439,
-    "date": "2025-08-16"
-  },
-  {
-    "bank": "EAIPRSZ",
-    "score": 436,
-    "date": "2025-12-01"
-  },
-  {
-    "bank": "TACEISV",
-    "score": 436,
-    "date": "2025-12-05"
-  },
-  {
-    "bank": "ACEHILT",
-    "score": 435,
-    "date": "2025-11-01"
-  },
-  {
-    "bank": "WADENRS",
-    "score": 435,
-    "date": "2025-11-19"
-  },
-  {
-    "bank": "MAEILNR",
-    "score": 435,
-    "date": "2026-01-03"
-  },
-  {
-    "bank": "REFLOSW",
-    "score": 430,
-    "date": "2025-12-06"
-  },
-  {
-    "bank": "AEOPRTV",
-    "score": 429,
-    "date": "2025-11-20"
-  },
-  {
-    "bank": "OCDGINT",
-    "score": 425,
-    "date": "2025-11-13"
-  },
-  {
-    "bank": "EALNRTY",
-    "score": 424,
-    "date": "2025-08-15"
+    "bank": "ABCLORT",
+    "score": 438,
+    "date": "2026-01-08"
   },
   {
     "bank": "ACDEITV",
-    "score": 424,
-    "date": "2025-10-12"
-  },
-  {
-    "bank": "AEGLNTU",
-    "score": 424,
-    "date": "2026-01-05"
+    "score": 436,
+    "date": "2026-01-08"
   },
   {
     "bank": "IADGMNT",
-    "score": 423,
-    "date": "2025-11-26"
-  },
-  {
-    "bank": "PDELOSY",
-    "score": 422,
-    "date": "2025-09-16"
-  },
-  {
-    "bank": "DABEGNS",
-    "score": 421,
-    "date": "2025-09-26"
-  },
-  {
-    "bank": "TEINRVW",
-    "score": 421,
-    "date": "2025-10-13"
-  },
-  {
-    "bank": "IEMPRSV",
-    "score": 420,
-    "date": "2025-08-25"
-  },
-  {
-    "bank": "NGILOTU",
-    "score": 420,
-    "date": "2025-11-30"
-  },
-  {
-    "bank": "TACDEIV",
-    "score": 419,
-    "date": "2025-08-30"
-  },
-  {
-    "bank": "RDENPTU",
-    "score": 419,
-    "date": "2025-12-15"
-  },
-  {
-    "bank": "IENRTVW",
-    "score": 418,
-    "date": "2026-01-04"
+    "score": 436,
+    "date": "2026-01-08"
   },
   {
     "bank": "RDEFNOU",
-    "score": 417,
-    "date": "2025-09-23"
+    "score": 436,
+    "date": "2026-01-08"
   },
   {
-    "bank": "OAMNSTU",
-    "score": 417,
-    "date": "2025-10-17"
-  },
-  {
-    "bank": "ABCLORT",
-    "score": 417,
-    "date": "2025-11-23"
-  },
-  {
-    "bank": "NAGILPY",
-    "score": 415,
-    "date": "2025-08-27"
-  },
-  {
-    "bank": "ABEILSZ",
-    "score": 414,
-    "date": "2025-09-19"
-  },
-  {
-    "bank": "ECHIMST",
-    "score": 413,
-    "date": "2025-10-14"
-  },
-  {
-    "bank": "ACDEHNT",
-    "score": 412,
-    "date": "2026-01-01"
+    "bank": "TACDEIV",
+    "score": 433,
+    "date": "2026-01-08"
   },
   {
     "bank": "LAEORTV",
-    "score": 411,
-    "date": "2025-08-16"
-  },
-  {
-    "bank": "ABCEKRT",
-    "score": 411,
-    "date": "2025-09-15"
-  },
-  {
-    "bank": "GEIJLNS",
-    "score": 409,
-    "date": "2025-09-05"
-  },
-  {
-    "bank": "AEGLORY",
-    "score": 409,
-    "date": "2025-12-14"
-  },
-  {
-    "bank": "PELMOSY",
-    "score": 407,
-    "date": "2025-12-11"
-  },
-  {
-    "bank": "EMNORSW",
-    "score": 404,
-    "date": "2025-12-04"
+    "score": 432,
+    "date": "2026-01-08"
   },
   {
     "bank": "TDEHMOR",
-    "score": 400,
-    "date": "2025-10-06"
+    "score": 432,
+    "date": "2026-01-08"
   },
   {
-    "bank": "MADEPST",
-    "score": 400,
-    "date": "2025-10-24"
+    "bank": "AEGLORY",
+    "score": 430,
+    "date": "2026-01-08"
   },
   {
-    "bank": "ADEGIMN",
-    "score": 399,
-    "date": "2025-09-10"
+    "bank": "PELMOSY",
+    "score": 426,
+    "date": "2026-01-08"
   },
   {
-    "bank": "RCDEHIP",
-    "score": 398,
-    "date": "2025-10-30"
+    "bank": "ACDEHNT",
+    "score": 425,
+    "date": "2026-01-08"
   },
   {
-    "bank": "LBDEGIN",
-    "score": 398,
-    "date": "2025-12-13"
+    "bank": "ABCEKRT",
+    "score": 423,
+    "date": "2026-01-08"
   },
   {
     "bank": "ADEFRTU",
-    "score": 397,
-    "date": "2025-08-16"
+    "score": 423,
+    "date": "2026-01-08"
   },
   {
-    "bank": "EFGHIRT",
-    "score": 397,
-    "date": "2025-11-06"
+    "bank": "OAMNSTU",
+    "score": 420,
+    "date": "2026-01-08"
   },
   {
-    "bank": "LACEGIR",
-    "score": 396,
-    "date": "2025-09-07"
+    "bank": "RCDEHIP",
+    "score": 415,
+    "date": "2026-01-08"
   },
   {
     "bank": "IDEFGLN",
-    "score": 396,
-    "date": "2025-11-21"
+    "score": 415,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "MADEPST",
+    "score": 414,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "ADEGIMN",
+    "score": 410,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "EFGHIRT",
+    "score": 410,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "LBDEGIN",
+    "score": 409,
+    "date": "2026-01-08"
+  },
+  {
+    "bank": "LACEGIR",
+    "score": 408,
+    "date": "2026-01-08"
   },
   {
     "bank": "DACEIMT",
@@ -750,13 +750,13 @@
     "date": "2025-09-21"
   },
   {
-    "bank": "ECDIKLN",
-    "score": 348,
-    "date": "2025-08-29"
+    "bank": "ABDEKRY",
+    "score": 353,
+    "date": "2026-01-08"
   },
   {
-    "bank": "ABDEKRY",
-    "score": 336,
-    "date": "2025-10-09"
+    "bank": "ECDIKLN",
+    "score": 351,
+    "date": "2026-01-08"
   }
 ]
