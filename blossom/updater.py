@@ -2,7 +2,7 @@ import json
 import subprocess
 from datetime import datetime
 
-from .utils import getResponseMenu
+from .utils import getResponseMenu, getResponseBy
 from .format import formatWordPure, formatWordScorePure, formatGameScore, formatStatsGameScore, formatWordScores, _tprint
 
 # ========================== Updater functions for the data files ==========================
@@ -176,11 +176,25 @@ def showStats():
 
 def updateSettings():
     settings = getSettings()
-    tprint = print if settings["fast"] else _tprint
-    tprint("Settings")
-    settings["allowRefresh"] = getResponseMenu("Allow refresh exploit?", ["[y] yes", "[n] no"]) == "[y] yes"
-    settings["fast"] = getResponseMenu("Fast mode?", ["[y] yes", "[n] no"]) == "[y] yes"
-    settings["numScores"] = int(getResponseMenu("Number of top and bottom scores to show?", ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]))
+    while True:
+        options = [
+            f"Fast mode: {"Enabled" if settings["fast"] else "Disabled"}",
+            f"Allow refresh exploit: {"Enabled" if settings["allowRefresh"] else "Disabled"}",
+            f"Number of top/bottom scores to show: {settings["numScores"]}",
+            "Back"]
+        match options.index(getResponseMenu("Settings",options)):
+            case 0:
+                settings["fast"] = getResponseMenu("Fast mode?", ["[y] yes", "[n] no"]) == "[y] yes"
+                continue
+            case 1:
+                settings["allowRefresh"] = getResponseMenu("Allow refresh exploit?", ["[y] yes", "[n] no"]) == "[y] yes"
+            case 2:
+                settings["numScores"] = int(getResponseBy(
+                    "How many top and bottom scores should be shown?",
+                    lambda x: 1 <= int(x) and int(x) <= 10,
+                    "Please enter an integer between 1 and 10, inclusive."))
+            case 3:
+                break
     setSettings(settings)
     return
 
