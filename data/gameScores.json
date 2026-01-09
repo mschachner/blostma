@@ -465,6 +465,11 @@
     "date": "2026-01-08"
   },
   {
+    "bank": "DEHNRTU",
+    "score": 436,
+    "date": "2026-01-09"
+  },
+  {
     "bank": "TACDEIV",
     "score": 433,
     "date": "2026-01-08"
@@ -483,11 +488,6 @@
     "bank": "AEGLORY",
     "score": 430,
     "date": "2026-01-08"
-  },
-  {
-    "bank": "DEHNRTU",
-    "score": 430,
-    "date": "2026-01-09"
   },
   {
     "bank": "PELMOSY",
