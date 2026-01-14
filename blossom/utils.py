@@ -19,7 +19,6 @@ def getResponse(msg, valids, fast = False):
     return getResponseBy(msg, lambda r: r in valids, f"Valid responses: {', '.join(valids)}.", fast=fast)
 
 def getResponseMenu(msg, options, fast = False):
-    tprint = print if fast else _tprint
     menu = simple_term_menu.TerminalMenu(
         options,
         title=msg, 
@@ -30,7 +29,6 @@ def getResponseMenu(msg, options, fast = False):
     return options[menu.show()]
 
 def selectMultiple(msg, options, fast = False):
-    tprint = print if fast else _tprint
     menu = simple_term_menu.TerminalMenu(
         options,
         title=msg,
@@ -49,17 +47,6 @@ def selectMultipleMD(msg, options):
 
 def sevenUniques(s):
     return len(s) == 7 and len(set(s)) == 7 and s.isalpha()
-
-def scoreWord(bank, sL, word):
-    baseScore = 2 * len(word) - 6 if len(word) < 7 else 3 * len(word) - 9
-    specialLetterScore = 5 * word.count(sL)
-    pangramScore = 7 if all(c in word for c in bank) else 0
-    return baseScore + specialLetterScore + pangramScore
-
-def advanceSL(bank, sL, lastWord=None):
-    if not lastWord or sL in lastWord:
-        return bank[(bank.index(sL) % 6) + 1]
-    return sL
 
 def condMsg(cond, msg, elseMsg=""):
     return msg if cond else elseMsg

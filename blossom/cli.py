@@ -1,12 +1,12 @@
 import argparse
 
 from .game import playBlossom
-from .updater import showStats, getSettings
+from .updater import Blossom
 
 
 def main():
     parser = argparse.ArgumentParser()
-    subparsers = parser.add_subparsers(dest="choice", required=True)
+    subparsers = parser.add_subparsers(dest="choice", required=False)
 
     playParser = subparsers.add_parser(
         "play", help="Play Blossom with optionally specified bank"
@@ -22,16 +22,16 @@ def main():
 
     args = parser.parse_args()
     match args.choice:
-        case "play":
-            playBlossom(
-                bank=args.bank,
-                choice=args.choice,
-                queries=args.queries if args.choice == "search" else None
-            )
         case "stats":
-            showStats()
+            Blossom().showStats()
         case "search":
             playBlossom(
-                choice=args.choice,
+                choice="search",
                 queries=args.queries
             )
+        case _:
+            playBlossom(
+                bk=args.bank if 'bank' in args else None,
+                choice=args.choice
+            )
+

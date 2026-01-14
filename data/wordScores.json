@@ -2790,6 +2790,11 @@
     "score": 39
   },
   {
+    "word": "rememberers",
+    "specialLetter": "r",
+    "score": 39
+  },
+  {
     "word": "wirehaired",
     "specialLetter": "e",
     "score": 38
@@ -3267,6 +3272,11 @@
   {
     "word": "appointing",
     "specialLetter": "p",
+    "score": 38
+  },
+  {
+    "word": "successes",
+    "specialLetter": "s",
     "score": 38
   },
   {
@@ -3955,6 +3965,11 @@
     "score": 36
   },
   {
+    "word": "rememberer",
+    "specialLetter": "r",
+    "score": 36
+  },
+  {
     "word": "quadruped",
     "specialLetter": "d",
     "score": 35
@@ -4622,6 +4637,16 @@
   {
     "word": "thunderer",
     "specialLetter": "e",
+    "score": 35
+  },
+  {
+    "word": "cucumbers",
+    "specialLetter": "c",
+    "score": 35
+  },
+  {
+    "word": "cerebrums",
+    "specialLetter": "r",
     "score": 35
   },
   {
@@ -5445,6 +5470,16 @@
     "score": 33
   },
   {
+    "word": "submerses",
+    "specialLetter": "s",
+    "score": 33
+  },
+  {
+    "word": "murmurers",
+    "specialLetter": "r",
+    "score": 33
+  },
+  {
     "word": "convives",
     "specialLetter": "v",
     "score": 32
@@ -5875,6 +5910,11 @@
     "score": 31
   },
   {
+    "word": "bressummer",
+    "specialLetter": "m",
+    "score": 31
+  },
+  {
     "word": "preparer",
     "specialLetter": "r",
     "score": 30
@@ -6300,6 +6340,16 @@
     "score": 30
   },
   {
+    "word": "cerebrums",
+    "specialLetter": "b",
+    "score": 30
+  },
+  {
+    "word": "cuscuses",
+    "specialLetter": "s",
+    "score": 30
+  },
+  {
     "word": "worsenesses",
     "specialLetter": "w",
     "score": 29
@@ -6602,6 +6652,21 @@
   {
     "word": "eightieth",
     "specialLetter": "t",
+    "score": 28
+  },
+  {
+    "word": "murmurers",
+    "specialLetter": "u",
+    "score": 28
+  },
+  {
+    "word": "scrubbers",
+    "specialLetter": "u",
+    "score": 28
+  },
+  {
+    "word": "scrubbers",
+    "specialLetter": "b",
     "score": 28
   },
   {
@@ -6947,6 +7012,11 @@
   {
     "word": "appeared",
     "specialLetter": "p",
+    "score": 25
+  },
+  {
+    "word": "cucumber",
+    "specialLetter": "u",
     "score": 25
   },
   {
