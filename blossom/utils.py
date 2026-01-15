@@ -1,34 +1,16 @@
 import simple_term_menu
 
-from .format import _tprint
-
-def getResponseBy(msg, cond, invalidMsg, firstChoice = None, fast = False):
-    tprint = print if fast else _tprint
-    if firstChoice:
-        if cond(firstChoice):
-            return firstChoice
-        else:
-            tprint(invalidMsg)
-    while True:
-        attempt = input(msg + "\n > ")
-        if cond(attempt):
-            return attempt
-        tprint(invalidMsg)
-
-def getResponse(msg, valids, fast = False):
-    return getResponseBy(msg, lambda r: r in valids, f"Valid responses: {', '.join(valids)}.", fast=fast)
-
-def getResponseMenu(msg, options, fast = False):
-    menu = simple_term_menu.TerminalMenu(
+def menu(msg, options):
+    m = simple_term_menu.TerminalMenu(
         options,
         title=msg, 
         menu_cursor_style=(("fg_purple", "bold")), 
         menu_cursor="🌸 > ",
         quit_keys=[]
     )
-    return options[menu.show()]
+    return options[m.show()]
 
-def selectMultiple(msg, options, fast = False):
+def selectMultiple(msg, options):
     menu = simple_term_menu.TerminalMenu(
         options,
         title=msg,
@@ -54,6 +36,12 @@ def condMsg(cond, msg, elseMsg=""):
 def plural(l):
     return condMsg(len(l) != 1, "s")
 
+def binaryStrings(N):
+    if N == 0:
+        return [""]
+    return [b + "0" for b in binaryStrings(N-1)] + [b + "1" for b in binaryStrings(N-1)]
+ 
+
 def blankData():
     return {
         "wordScores": [],
@@ -61,9 +49,6 @@ def blankData():
         "wordsToRemove": set(),
         "wordsToValidate": set()
     }
-
-def pending(data):
-    return any(v for v in data.values())
 
 def mergeData(data1, data2, prefer = "remove"):
     if data2["wordScores"]:

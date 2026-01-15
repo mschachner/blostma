@@ -1,7 +1,8 @@
 import argparse
 
-from .game import playBlossom
-from .updater import Blossom
+from .blossom import Blossom
+from .session import Session
+
 
 
 def main():
@@ -21,17 +22,24 @@ def main():
     searchParser.add_argument("-f", "--fast", action="store_true", help="Search fast")
 
     args = parser.parse_args()
+
+    blossom = Blossom()
+    session = Session(blossom)
+
     match args.choice:
         case "stats":
-            Blossom().showStats()
+            session.mode = "stats"
         case "search":
-            playBlossom(
-                choice="search",
-                queries=args.queries
-            )
+            session.mode = "search"
+            session.queries = args.queries
+        case "settings":
+            session.mode = "settings"
         case _:
-            playBlossom(
-                bk=args.bank if 'bank' in args else None,
-                choice=args.choice
-            )
+            if "bank" in args:
+                session.played = True
+                session.lastBank = args.bank
+                session.mode = "play"
+            else:
+                session.mode = "menu"
+    session.run()
 

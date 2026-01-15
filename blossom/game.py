@@ -1,177 +1,200 @@
-import os
-from datetime import datetime
+from scipy.optimize import linear_sum_assignment
 
-from .utils import condMsg, getResponseBy, getResponseMenu, sevenUniques, selectMultiple
-from .updater import Blossom, Session, pushDataFiles
+import time
+import threading
+import sys
+
 from .format import _tprint
-from .engine import Game
+from .utils import binaryStrings
+from .blossom import Blossom
+from .utils import menu, condMsg
 
 
-def blossomSearch(queries, blossom, session):
+class Game:
+    def __init__(self,session):
+        self.session = session
+        self.legalWords = list(session.blossom.wordlist.keys())
+        self.bank = session.lastBank if session.lastBank else None
+        self.specialLetter = None
+        self.prevPlayed = []
+        self.score = 0
+        self.round = 0
+        self.refreshed = False
+        self.strategy = None
 
-    if not queries: # User can provide queries as an argument
-        queries = getResponseBy(
-            "Enter words to search (comma or space separated):",
-            lambda w: True, # Always pass...
-            None,           # ... so no need for a retry message.
-            fast=blossom.settings["fast"]
-            )
-        queries = [w.strip() for w in queries.replace(',', ' ').split() if w.strip()]
-    queries = set(queries)
-    if not queries:
-        print("Fine, don't search anything then. 🙄")
+    def sortBank(self):
+        self.bank = self.bank[0] + "".join(sorted(list(self.bank[1:])))
+        self.specialLetter = self.bank[1]
+        self.legalWords = [w for w in self.legalWords if self.bank[0] in w and all(c in self.bank for c in w)]
         return
-    # searchWords does the interacting with data files
-    blossom.searchWords(queries=queries)
-    match getResponseMenu(
-        "Any changes?",
-        ["[v] validate all", "[r] remove all", "[s] select words", "[d] done"]
-        , fast=blossom.settings["fast"]
-        ):
-        case "[v] validate all":
-            session.data["wordsToValidate"] = queries
-        case "[r] remove all":
-            session.data["wordsToRemove"] = queries
-        case "[s] select words":
-            words = selectMultiple("Which words?", queries, fast=blossom.settings["fast"])
-            match getResponseMenu(
-                "What would you like to do?",
-                ["[v] validate", "[r] remove", "[d] done"]
-                , fast=blossom.settings["fast"]
-                ):
-                case "[v] validate":
-                    session.data["wordsToValidate"] = set(words)
-                case "[r] remove":
-                    session.data["wordsToRemove"] = set(queries) - set(words)
-                case "[d] done":
-                    return
-    blossom.updateDataFromSession(session) # Add the new data to the data files
-    return
 
-def playBlossom(bk=None, choice=None, queries=None):
-    blossom = Blossom()
-    session = Session()
-    os.system("clear")
-    tprint = print if blossom.settings["fast"] else _tprint
-    print(
-            r"""
-,-----.  ,--.
-|  |) /_ |  | ,---.  ,---.  ,---.  ,---. ,--,--,--.
-|  .-.  \|  || .-. |(  .-' (  .-' | .-. ||        |
-|  '--' /|  |' '-' '.-'  `).-'  `)' '-' '|  |  |  |
-`------' `--' `---' `----' `----'  `---' `--`--`--'
-🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
-            """
-        )
-    while True:
-        if not choice:
-            msg = "What do you want to do?" if not session.menued else "What do you want to do next?"
-            choices = ["Search for words", "Stats", "Settings", "Quit"]
-            if session.pending():
-                choices.insert(2, "submit data")
-            if not session.played:
-                choices = ["Play", *choices]
-            else:
-                choices = ["Play again", "Play with new bank", *choices]
-            choice = getResponseMenu(msg, choices, fast=blossom.settings["fast"])
-        match choice:
-            case "Search":
-                choice= None
-                session.menued = True
-                blossomSearch(queries, blossom, session)
-                queries = None
-                continue
-            case "Stats":
-                choice = None
-                session.menued = True
-                blossom.showStats()
-                continue
-            case "Settings":
-                choice = None
-                session.menued = True
-                blossom.updateSettings()
-                continue
-            case "Submit data":
-                choice = None
-                session.menued = True
-                pushDataFiles(blossom, session, verifyFirst=True)
-                session.clearData()
-                continue
-            case "Quit":
-                if session.pending() and getResponseMenu(
-                    "Submit all data first?", ["[s] Submit data", "[q] Quit without submitting"]
-                    , fast=blossom.settings["fast"]
-                    ) == "[s] Submit data":
-                    pushDataFiles(blossom, session, verifyFirst=False)
-                tprint("Quitting.")
-                return
-            case "Play" | "Play again" | "Play with new bank":
-                session.menued = True
-                session.played = True
-                game = Game(blossom, session, bk)
-                if choice == "play again":
-                    game.bank = session.lastBank
+    def advanceSL(self):
+        self.specialLetter = self.bank[(self.bank.index(self.specialLetter) % 6) + 1]
+        return
+
+    def scoreWord(self, word, specialLetter=None):
+        if specialLetter is None:
+            specialLetter = self.specialLetter
+        baseScore = 2 * len(word) - 6 if len(word) < 7 else 3 * len(word) - 9
+        specialLetterScore = 5 * word.count(specialLetter)
+        pangramScore = 7 if all(c in word for c in self.bank) else 0
+        return baseScore + specialLetterScore + pangramScore
+
+    def playWord(self):
+        self.refreshed = False
+        enginePlay= self.strategy["words"].pop(0)
+        self.strategy["score"] -= enginePlay["score"]
+        self.prevPlayed.append(enginePlay["word"])
+        return enginePlay
+
+    def chooseStrategy(self):
+        s = self.session
+        b = s.blossom
+
+        def _gamePath(binaryString):
+            petals = self.bank[1:]
+            path = []
+            pos = petals.index(self.specialLetter)
+            for bit in binaryString:
+                if bit == "0":
+                    path.append((petals[pos], "any" if b.settings["allowRefresh"] else "non-advancing"))
                 else:
-                    match getResponseBy(
-                        "What's the bank? (Center letter first)",
-                        lambda b: sevenUniques(b) or b == "quit",
-                        "Please enter seven unique letters, or \"quit\".",
-                        firstChoice = bk,
-                        fast=blossom.settings["fast"]
-                    ).lower():
-                        case "quit":
-                            return
-                        case userEnteredBank:
-                            game.bank = userEnteredBank
-                choice = None
-                session.lastBank = game.bank
-                tprint("Okay, let's play!")
-                tprint(f"Bank: {game.bank.upper()}.")
-                if blossom.settings["allowRefresh"]:
-                    tprint("Playing with refresh exploit.")
+                    path.append((petals[pos], "advancing"))
+                    pos = (pos+1) % 6
+            path.append((petals[pos], "any"))
+            return path
+        
+        def _scoreMatrix(path):
+            matrix = [[0 for _ in range(len(self.legalWords))] for _ in range(len(path))]
+            for i in range(len(path)):
+                for j in range(len(self.legalWords)):
+                    w = self.legalWords[j]
+                    if (any([
+                        path[i][1] == "advancing" and path[i][0] not in w,
+                        path[i][1] == "non-advancing" and path[i][0] in w,
+                        w in self.prevPlayed,
+                    ])):
+                        matrix[i][j] = 0
+                    else:
+                        matrix[i][j] = self.scoreWord(w, specialLetter=path[i][0])
+            return matrix
+
+        def _choosePath(binaryString):
+            path = _gamePath(binaryString)
+            matrix = _scoreMatrix(path)
+            row_indices, col_indices = linear_sum_assignment(matrix, maximize=True)
+            words = []
+            for i in range(len(path)):
+                if path[i][1] == "any" and path[i][0] in self.legalWords[col_indices[i]] and i < len(path) - 1:
+                    words.append({
+                        "word": self.legalWords[col_indices[i]],
+                        "score": matrix[i][col_indices[i]],
+                        "refresh": True
+                    })
                 else:
-                    tprint("Playing without refresh exploit.")
-                game.sortBank()
-                game.chooseStrategy()
-                wordScoreRecord = blossom.wordScoreRecord()
-                while (game.round < 12):
+                    words.append({
+                        "word": self.legalWords[col_indices[i]],
+                        "score": matrix[i][col_indices[i]],
+                        "refresh": False
+                    })
+            return {
+                "words": words,
+                "score": sum(matrix[i][j] for i, j in zip(row_indices, col_indices)),
+            }
+
+        
+        # Print the base message without a newline, then animate dots each second.
+        b.tprint("🤔 Thinking...", end="", flush=True)
+        stop_event = threading.Event()
+
+        def _animate_dots():
+            while not stop_event.is_set():
+                time.sleep(1)
+                sys.stdout.write(".")
+                sys.stdout.flush()
+
+        dot_thread = threading.Thread(target=_animate_dots, daemon=True)
+        dot_thread.start()
+        start_time = time.time()
+        bestPath = {
+            "words": [],
+            "score": 0
+        }
+        for binaryString in binaryStrings(11-self.round):
+            strategy = _choosePath(binaryString)
+            if strategy["score"] > bestPath["score"]:
+                bestPath = strategy
+        end_time = time.time()
+        # Stop animation and move to the next line before printing the summary.
+        stop_event.set()
+        dot_thread.join(timeout=0.1)
+        b.tprint("")
+        b.tprint(f"Thought for {end_time - start_time:.2f} seconds.")
+        self.strategy = bestPath
+        return
+
+    def expectedScore(self):
+        return self.score + self.strategy["score"]
+
+    def play(self):
+        s = self.session
+        b = s.blossom
+        if not self.bank:
+            self.bank = s.lastBank if s.lastBank else s.promptForBank()
+            s.lastBank = self.bank
+        b.tprint("Okay, let's play!")
+        b.tprint(f"Bank: {self.bank.upper()}.")
+        if b.settings["allowRefresh"]:
+            b.tprint("Playing with refresh exploit.")
+        else:
+            b.tprint("Playing without refresh exploit.")
+        self.sortBank()
+        self.chooseStrategy()
+        wordScoreRecord = b.wordScoreRecord()
+        while (self.round < 12):
+            prefix = ""
+            if (self.round > 0 and not self.refreshed):
+                self.advanceSL()
+            b.tprint(f"---\nRound {self.round+1}. Special letter: {self.specialLetter.upper()}.\n")
+            while True:
+                b.tprint("Expected score: ", self.expectedScore(), "points.")
+                enginePlay = self.playWord()
+                word = enginePlay["word"]
+                status = b.wordStatus(word)
+                b.tprint(f"{prefix}I play: {b.formatWord(word, status=status)}{condMsg(status == 'validated', ', a validated word!')}")
+                if enginePlay["refresh"]:
+                    self.refreshed = True
+                    b.tprint("REFRESH!")
+                if status == 'validated':
                     prefix = ""
-                    if (game.round > 0 and not game.refreshed):
-                        game.advanceSL()
-                    tprint(f"---\nRound {game.round+1}. Special letter: {game.specialLetter.upper()}.\n")
-                    while True:
-                        tprint("Expected score: ", game.expectedScore(), "points.")
-                        enginePlay = game.playWord()
-                        word = enginePlay["word"]
-                        status = blossom.wordStatus(word)
-                        tprint(f"{prefix}I play: {blossom.formatWord(word, status=status)}{condMsg(status == 'validated', ', a validated word!')}")
-                        if enginePlay["refresh"]:
-                            game.refreshed = True
-                            tprint("REFRESH!")
-                        if status == 'validated':
-                            break
-                        match getResponseMenu("Is that valid?", ["[y] Yes", "[n] No", "[q] Quit game"], fast=blossom.settings["fast"]):
-                            case "[y] Yes":
-                                session.data["wordsToValidate"].add(word)
-                                break
-                            case "[n] No":
-                                game.chooseStrategy()
-                                session.data["wordsToRemove"].add(word)
-                                prefix = "Okay, then instead "
-                            case "[q] Quit game":
-                                return
-                    if enginePlay["score"] > wordScoreRecord:
-                        tprint("That's a new word high score!")
-                        wordScoreRecord = enginePlay["score"]
-                    game.score += enginePlay["score"]
-                    tprint(
-                        f"{condMsg(not blossom.wordlist[word], 'Great! ')}We scored {enginePlay["score"]} {condMsg(game.round != 0, 'additional ')}points{condMsg(game.round > 0, f', for a total of {game.score} points')}."
-                        )
-                    blossom.addWordScores([{"word": word, "specialLetter": game.specialLetter, "score": enginePlay["score"]}])
-                    game.round += 1
-                tprint(f"\n🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸\n\nGame over! We scored {game.score} points.")
-                blossom.addGameScores(
-                    [{"bank": game.bank.upper(), "score": game.score}]
-                    )
-                blossom.showRank(game.score)
-                session.clearData()
+                    break
+                match menu("Is that valid?", ["[y] Yes", "[n] No", "[q] Quit game"]):
+                    case "[y] Yes":
+                        b.validateWord(word)
+                        prefix = "Great! "
+                        s.data["validated"].add(word)
+                        break
+                    case "[n] No":
+                        b.removeWord(word)
+                        s.data["removed"].add(word)
+                        self.chooseStrategy()
+                        prefix = "Okay, then instead "
+                    case "[q] Quit game":
+                        return
+            if enginePlay["score"] > wordScoreRecord:
+                b.tprint("That's a new word high score!")
+                wordScoreRecord = enginePlay["score"]
+            self.score += enginePlay["score"]
+            b.tprint(
+                f"{prefix}We scored {enginePlay["score"]} {condMsg(self.round != 0, 'additional ')}points{condMsg(self.round > 0, f', for a total of {self.score} points')}."
+                )
+            s.data["wordScores"].append({"word": word, "specialLetter": self.specialLetter, "score": enginePlay["score"]})
+            b.addWordScore({"word": word, "specialLetter": self.specialLetter, "score": enginePlay["score"]})
+            self.round += 1
+        b.tprint(f"\n🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸\n\nGame over! We scored {self.score} points.")
+        s.data["gameScores"].append({"bank": self.bank.upper(), "score": self.score})
+        b.addGameScore({"bank": self.bank.upper(), "score": self.score, "date": s.timestamp})
+        b.showRank(self.score)
+        if b.settings["autosave"]:
+            b.write()
+        s.clearData()
