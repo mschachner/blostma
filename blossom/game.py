@@ -4,9 +4,7 @@ import time
 import threading
 import sys
 
-from .format import _tprint
 from .utils import binaryStrings
-from .blossom import Blossom
 from .utils import menu, condMsg
 
 

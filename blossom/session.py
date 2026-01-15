@@ -2,7 +2,7 @@ import subprocess
 from datetime import datetime
 import os
 
-from .utils import menu, sevenUniques, condMsg
+from .utils import menu, sevenUniques
 from .game import Game
 from .format import formatGameScore, formatWordScores
 
@@ -120,10 +120,6 @@ class Session:
         )
         self.queries = response.split(",") if "," in response else response.split(" ")
 
-
-
-    
-    
 
     def save(self):
         match menu("Save locally or push to GitHub?", ["[l] local", "[g] GitHub", "[c] cancel"]):

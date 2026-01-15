@@ -55,6 +55,11 @@
     "score": 63
   },
   {
+    "word": "constitutionist",
+    "specialLetter": "t",
+    "score": 63
+  },
+  {
     "word": "secessionists",
     "specialLetter": "s",
     "score": 62
@@ -96,6 +101,11 @@
   },
   {
     "word": "hardhandednesses",
+    "specialLetter": "s",
+    "score": 61
+  },
+  {
+    "word": "constitutionists",
     "specialLetter": "s",
     "score": 61
   },
@@ -212,6 +222,11 @@
   {
     "word": "featherheaded",
     "specialLetter": "e",
+    "score": 57
+  },
+  {
+    "word": "noncontinuous",
+    "specialLetter": "n",
     "score": 57
   },
   {
@@ -517,6 +532,11 @@
   {
     "word": "bounteousness",
     "specialLetter": "s",
+    "score": 52
+  },
+  {
+    "word": "constitutions",
+    "specialLetter": "t",
     "score": 52
   },
   {
@@ -900,6 +920,21 @@
     "score": 49
   },
   {
+    "word": "incontinuous",
+    "specialLetter": "n",
+    "score": 49
+  },
+  {
+    "word": "uncontinuous",
+    "specialLetter": "n",
+    "score": 49
+  },
+  {
+    "word": "constitution",
+    "specialLetter": "t",
+    "score": 49
+  },
+  {
     "word": "consenescences",
     "specialLetter": "c",
     "score": 48
@@ -1152,6 +1187,16 @@
   {
     "word": "inconsistence",
     "specialLetter": "c",
+    "score": 47
+  },
+  {
+    "word": "inconcinnous",
+    "specialLetter": "n",
+    "score": 47
+  },
+  {
+    "word": "constitutions",
+    "specialLetter": "s",
     "score": 47
   },
   {
@@ -1416,6 +1461,11 @@
   },
   {
     "word": "consenescence",
+    "specialLetter": "c",
+    "score": 45
+  },
+  {
+    "word": "inconcoctions",
     "specialLetter": "c",
     "score": 45
   },
@@ -1687,6 +1737,11 @@
   {
     "word": "antoninianus",
     "specialLetter": "a",
+    "score": 44
+  },
+  {
+    "word": "nonunionist",
+    "specialLetter": "n",
     "score": 44
   },
   {
