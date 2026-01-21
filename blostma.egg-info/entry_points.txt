@@ -1,0 +1,2 @@
+[console_scripts]
+blostma = blostma.cli:main

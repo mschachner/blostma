@@ -3,9 +3,8 @@ import argparse
 from .blossom import Blossom
 from .session import Session
 
-
-
 def main():
+    print("running blostma.cli.main")
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(dest="choice", required=False)
 
@@ -16,6 +15,10 @@ def main():
     
     searchParser = subparsers.add_parser("search", help="Search for words")
     searchParser.add_argument("queries", nargs="*", help="Words to be searched")
+
+    statsParser = subparsers.add_parser("stats", help="Show stats")
+    settingsParser = subparsers.add_parser("settings", help="Update settings")
+    quitParser = subparsers.add_parser("quit", help="Quit")
 
     args = parser.parse_args()
 
@@ -39,3 +42,5 @@ def main():
                 session.mode = "menu"
     session.run()
 
+if __name__ == "__main__":
+    main()

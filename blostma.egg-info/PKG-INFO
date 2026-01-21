@@ -1,0 +1,79 @@
+Metadata-Version: 2.4
+Name: blostma
+Version: 0.1.0
+Summary: A CLI companion for Merriam-Webster's Blossom word game
+Author: Mark Schachner
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: scipy
+Requires-Dist: simple-term-menu
+
+Blossom
+==========
+
+[Blossom](https://www.merriam-webster.com/games/blossom-word-game) is a word game published by Merriam-Webster. [Blostma](https://en.wiktionary.org/wiki/blostma#Old_English) is a command-line companion which automates play with a look-ahead strategy, keeps long-term records, and helps curate the underlying word list. It achieves a median score of 454 points, having played roughly 150 banks.
+
+Features
+--------
+
+- **Interactive control loop** – Choose to play, search the dictionary, review statistics, adjust settings, or submit data from a single terminal menu.
+- **Automated gameplay** – Given a seven-letter bank, select the best-scoring words for each round, announce scores with a typewriter effect, and track personal bests.
+- **Word list management** – Search for one or more words, validate new discoveries, or flag mistakes. Changes accumulate locally until you submit them.
+- **Persistent records** – Store validated words, removal requests, high scores, and per-bank results in JSON files so you can track progress over time.
+- **Typewriter animation** – configurable.
+- **Refresh exploit** - Enable the use of an exploit in which the user refreshes the page before the word finishes scoring. This has the effect of scoring the word without advancing the special letter, giving the engine greater control over the special letter.
+
+Installation
+------------
+
+Requirements are Python 3.10+, [`scipy`](https://scipy.org/), and [`simple-term-menu`](https://pypi.org/project/simple-term-menu/).
+
+```bash
+pip install simple-term-menu scipy
+```
+
+Usage
+-----
+
+Run the CLI script to open the interactive menu:
+
+```bash
+python blostma.py
+```
+
+You can also bypass the menu and run subcommands directly:
+
+```bash
+python blostma.py play                  # prompt for a bank
+python blostma.py play ienstvx          # play using a provided bank (center letter first)
+python blostma.py search                # interactive dictionary lookup/add
+python blostma.py search foo bar        # search specific words
+python blostma.py stats                 # show stats
+python blostma.py --help                # show all options
+```
+
+Data files
+----------
+
+The repo contains a directory `sample_data/` with the persistent data files:
+
+- `wordlist.json` – Known words and their validation status.
+- `gameScores.json` - Overall game scores and ranked history.
+- `wordScores.json` - Individual word scores.
+- `settings.json` – User-configurable options.
+
+Before playing you should rename this directory to `data`.
+
+Changes you make while playing or editing accumulate in memory.
+
+Project layout
+--------------
+
+- `blostma.py` – Argument parsing and menu routing.
+- `blostma/blossom.py` - Handles information that persists between sessions.
+- `blostma/format.py` - Formatting helpers.
+- `blostma/game.py` – Core gameplay loop and scoring logic.
+- `blostma/session.py` - Handles game sessions.
+- `blostma/utils.py` – Other helpers for prompts and scoring.
+
+Happy blossoming!

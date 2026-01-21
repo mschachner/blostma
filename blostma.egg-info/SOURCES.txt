@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+blostma.egg-info/PKG-INFO
+blostma.egg-info/SOURCES.txt
+blostma.egg-info/dependency_links.txt
+blostma.egg-info/entry_points.txt
+blostma.egg-info/requires.txt
+blostma.egg-info/top_level.txt

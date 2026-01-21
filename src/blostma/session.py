@@ -62,8 +62,8 @@ class Session:
         return body
 
     def mainMenu(self): 
-        self.menued = True
         msg = "What do you want to do?" if not self.menued else "What do you want to do next?"
+        self.menued = True
         choices = ["Search for words", "Stats", "Settings", "Quit"]
         if self.pending():
             choices.insert(2, "Save data")
