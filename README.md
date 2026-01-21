@@ -1,4 +1,4 @@
-Blossom
+Blostma
 ==========
 
 [Blossom](https://www.merriam-webster.com/games/blossom-word-game) is a word game published by Merriam-Webster. [Blostma](https://en.wiktionary.org/wiki/blostma#Old_English) is a command-line companion which automates play with a look-ahead strategy, keeps long-term records, and helps curate the underlying word list. It achieves a median score of 454 points, having played roughly 160 banks.
