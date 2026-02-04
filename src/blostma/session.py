@@ -4,17 +4,18 @@ import os
 
 from .utils import menu, sevenUniques
 from .game import Game
-from .format import formatGameScore, formatWordScores
+from .format import formatGameScore, formatWordScores, colorBold
 
 
-BLOSSOM_LOGO = r"""
-,-----.  ,--.
-|  |) /_ |  | ,---.  ,---.  ,---.  ,---. ,--,--,--.
-|  .-.  \|  || .-. |(  .-' (  .-' | .-. ||        |
-|  '--' /|  |' '-' '.-'  `).-'  `)' '-' '|  |  |  |
-`------' `--' `---' `----' `----'  `---' `--`--`--'
-🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
-            """
+BLOSSOM_LOGO = f"""
+                                              
+ ▄▄▄▄    ▄▄                                  
+█🌸▀▀█▄  ██                ██                  
+██▄▄██▀ 🌸█  ▄███▄ ▄█🌸▀▀ ▀██▀  █🌸█▄███▄   ▀▀█▄ 
+██  🌸█▄ ██  ██🌸█ ▀███▄   ██    ██ ██ 🌸█ ▄█▀██ 
+▀█████▀  ██  ▀███▀ ▄▄▄🌸   ██🌸  ██ ██  ██ ▀█🌸█
+🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃
+{colorBold("pink", "A command-line companion for Merriam-Webster's Blossom")}"""
 
 # The Session class holds all information that persists between games but not between sessions.
 
@@ -35,9 +36,6 @@ class Session:
         self.refreshed = False # Whether the user has just used the refresh exploit.
         self.lastBank = None # The bank of the last game played.
 
-    def pending(self):
-        return any(self.data[key] for key in self.data)
-    
     def clearData(self):
         self.data = {
             "wordScores": [],
@@ -62,11 +60,9 @@ class Session:
         return body
 
     def mainMenu(self): 
-        msg = "What do you want to do?" if not self.menued else "What do you want to do next?"
+        msg = "" if not self.menued else "What do you want to do next?"
         self.menued = True
         choices = ["Search for words", "Stats", "Settings", "Quit"]
-        if self.pending():
-            choices.insert(2, "Save data")
         if not self.played:
             choices = ["Play", *choices]
         else:
@@ -81,9 +77,6 @@ class Session:
             case "Settings":
                 self.mode = "settings"
                 return
-            case "Save data":
-                self.mode = "save"
-                return
             case "Play" | "play" | "Play with new bank":
                 self.played = True
                 self.mode = "play"
@@ -95,13 +88,8 @@ class Session:
                 return
             case "Quit":
                 self.mode = "quit"
-                if self.pending():
-                    match menu("Save data before quitting?", ["[y] yes", "[n] no"]):
-                        case "[y] yes":
-                            self.save()
-                            return
-                        case "[n] no":
-                            return
+                self.blossom.write()
+                return
 
     
     def promptForBank(self):
@@ -117,48 +105,10 @@ class Session:
             "Enter words to search (comma or space separated):",
             lambda w: True, # Always pass...
             None,           # ... so no need for a retry message.
-        )
+        ).strip()
         self.queries = response.split(",") if "," in response else response.split(" ")
+        self.queries = [q for q in self.queries if q]
 
-
-    def save(self):
-        match menu("Save locally or push to GitHub?", ["[l] local", "[g] GitHub", "[c] cancel"]):
-            case "[l] local":
-                self.blossom.write()
-            case "[g] GitHub":
-                self.blossom.write()
-                self.pushToGitHub()
-            case "[c] cancel":
-                print("Data not saved.")
-                return
-        return
-
-    def pushToGitHub(self):
-        summary = f"auto: submitted at {self.timestamp}"
-        body = self.formatData("git")
-        self.blossom.write()
-
-        commit = subprocess.run(
-            ["git", "commit", "-m", summary, "-m", body],
-            check=False,
-            capture_output=True,
-            text=True,
-        )
-        if commit.returncode != 0:
-            print((commit.stderr or "git commit failed.").strip())
-            raise subprocess.CalledProcessError(commit.returncode, commit.args, output=commit.stdout, stderr=commit.stderr)
-
-        push = subprocess.run(
-            ["git", "push", "origin", "main"],
-            check=False,
-            capture_output=True,
-            text=True,
-        )
-        if push.returncode != 0:
-            print((push.stderr or "git push failed.").strip())
-            raise subprocess.CalledProcessError(push.returncode, push.args, output=push.stdout, stderr=push.stderr)
-        print("Data submitted.")
-        return
 
     def run(self):
         os.system("clear")
