@@ -1,14 +1,20 @@
-Blostma
-==========
+```
+ ▄▄▄▄    ▄▄                                  
+█🌸▀▀█▄  ██                ██                  
+██▄▄██▀ 🌸█  ▄███▄ ▄█🌸▀▀ ▀██▀  █🌸█▄███▄   ▀▀█▄ 
+██  🌸█▄ ██  ██🌸█ ▀███▄   ██    ██ ██ 🌸█ ▄█▀██ 
+▀█████▀  ██  ▀███▀ ▄▄▄🌸   ██🌸  ██ ██  ██ ▀█🌸█
+🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃
+```
 
 [Blossom](https://www.merriam-webster.com/games/blossom-word-game) is a word game published by Merriam-Webster. [Blostma](https://en.wiktionary.org/wiki/blostma#Old_English) is a command-line companion which automates play with a look-ahead strategy, keeps long-term records, and helps curate the underlying word list. It achieves a median score of 454 points, having played roughly 160 banks.
 
 Features
 --------
 
-- **Interactive control loop** – Choose to play, search the dictionary, review statistics, adjust settings, or submit data from a single terminal menu.
+- **Interactive control loop** – Choose to play, search the dictionary, review statistics, or adjust settings from a single terminal menu.
 - **Automated gameplay** – Given a seven-letter bank, select the best-scoring words for each round, announce scores with a typewriter effect, and track personal bests.
-- **Word list management** – Search for one or more words, validate new discoveries, or flag mistakes. Changes accumulate locally until you submit them.
+- **Word list management** – Search for one or more words, validate new discoveries, or flag mistakes.
 - **Persistent records** – Store validated words, removal requests, high scores, and per-bank results in JSON files so you can track progress over time.
 - **Typewriter animation** – configurable.
 - **Refresh exploit** - Enable the use of an exploit in which the user refreshes the page before the word finishes scoring. This has the effect of scoring the word without advancing the special letter, giving the engine greater control over the special letter.
