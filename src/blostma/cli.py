@@ -4,7 +4,6 @@ from .blossom import Blossom
 from .session import Session
 
 def main():
-    print("running blostma.cli.main")
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(dest="choice", required=False)
 

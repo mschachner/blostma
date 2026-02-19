@@ -135,11 +135,6 @@ class Session:
                     self.mode = "menu"
                     b.updateSettings()
                     continue
-                case "save":
-                    self.mode = "menu"
-                    self.save()
-                    self.clearData()
-                    continue
                 case "play":
                     self.mode = "menu"
                     Game(self).play()

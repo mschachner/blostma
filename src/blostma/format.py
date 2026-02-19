@@ -60,10 +60,6 @@ def formatWordScores(wordScores, style="terminal"):
         scores += f"{formatWordScorePure(wordScore, style=style, padding=padding)}\n"
     return scores.rstrip()
 
-def formatSettings():
-    # TODO
-    return
-
 def formatStatsGameScore(gameScores, topCount=10, bottomCount=1, showMedian=True):
     stats = ""
     numScores = len(gameScores)
