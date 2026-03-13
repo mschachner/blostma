@@ -98,7 +98,7 @@ class Session:
             lambda bk: sevenUniques(bk),
             "Please enter seven unique letters.",
             default = self.lastBank
-        )
+        ).upper()
 
     def promptForQueries(self):
         response = self.blossom.getResponseBy(

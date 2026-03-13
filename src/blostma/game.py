@@ -141,7 +141,8 @@ class Game:
             self.bank = s.lastBank if s.lastBank else s.promptForBank()
             s.lastBank = self.bank
         b.tprint("Okay, let's play!")
-        b.tprint(f"Bank: {self.bank.upper()}.")
+        b.tprint(f"Bank: {self.bank}.")
+        latestPlayDate = b.getLatestPlayDate(self.bank)
         if b.settings["allowRefresh"]:
             b.tprint("Playing with refresh exploit.")
         else:
@@ -190,8 +191,12 @@ class Game:
             b.addWordScore({"word": word, "specialLetter": self.specialLetter, "score": enginePlay["score"]})
             self.round += 1
         b.tprint(f"\n🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸\n\nGame over! We scored {self.score} points.")
-        s.data["gameScores"].append({"bank": self.bank.upper(), "score": self.score})
-        b.addGameScore({"bank": self.bank.upper(), "score": self.score, "date": s.timestamp})
+        s.data["gameScores"].append({"bank": self.bank, "score": self.score})
+        b.addGameScore({"bank": self.bank, "score": self.score, "date": s.timestamp})
+        if latestPlayDate:
+            b.tprint(f"Bank last played on {latestPlayDate}.")
+        else:
+            b.tprint("New bank!")
         b.showRank(self.score)
         if b.settings["autosave"]:
             b.write()

@@ -1,5 +1,6 @@
 import json
 import sys
+from datetime import datetime
 
 from .format import formatWordPure, formatWordScorePure, formatStatsGameScore, _tprint
 from .utils import menu
@@ -121,6 +122,17 @@ class Blossom:
         if rank == 1:
             self.tprint("That's a new high score!")
         return
+
+    # Find most recent play of a particular bank, if one exists.
+    def getLatestPlayDate(self, bank):
+        try:
+            lastPlay = max(
+            (gameScore for gameScore in self.gameScores if gameScore["bank"] == bank), 
+            key=lambda x: datetime.strptime(x["date"], "%Y-%m-%d").timestamp()
+            )
+        except ValueError:
+            return None
+        return lastPlay["date"]
 
     # Search for words in the current state of the BlossomInfo object.
     def search(self, session):
