@@ -125,14 +125,16 @@ class Blossom:
 
     # Find most recent play of a particular bank, if one exists.
     def getLatestPlayDate(self, bank):
-        try:
-            lastPlay = max(
-            (gameScore for gameScore in self.gameScores if gameScore["bank"] == bank), 
-            key=lambda x: datetime.strptime(x["date"], "%Y-%m-%d").timestamp()
+        playdates = []
+        for letter in bank:
+            remaining = bank.replace(letter, "")
+            normalizedBank = letter + "".join(sorted(list(remaining)))
+            playdates.extend(
+                [gameScore["date"] for gameScore in self.gameScores if gameScore["bank"] == normalizedBank]
             )
-        except ValueError:
+        if not playdates:
             return None
-        return lastPlay["date"]
+        return max(playdates)
 
     # Search for words in the current state of the BlossomInfo object.
     def search(self, session):

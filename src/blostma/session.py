@@ -102,11 +102,11 @@ class Session:
 
     def promptForQueries(self):
         response = self.blossom.getResponseBy(
-            "Enter words to search (comma or space separated):",
+            "Enter words to search (space separated):",
             lambda w: True, # Always pass...
             None,           # ... so no need for a retry message.
         ).strip()
-        self.queries = response.split(",") if "," in response else response.split(" ")
+        self.queries = [q.upper() for q in response.split(" ")]
         self.queries = [q for q in self.queries if q]
 
 
